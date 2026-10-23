@@ -1,0 +1,46 @@
+{
+  "consulted": "2026-10-23",
+  "sources": [
+    [
+      "sklearn",
+      "https://scikit-learn.org/stable/modules/classification_threshold.html",
+      "1.9.1; seleção de limiar, não calibração probabilística"
+    ],
+    [
+      "sklearn_linear",
+      "https://scikit-learn.org/stable/modules/linear_model.html",
+      "1.9.1; regressão logística"
+    ],
+    [
+      "OWASP_SQL",
+      "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html",
+      "documento vivo"
+    ],
+    [
+      "OWASP_SSRF",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "documento vivo"
+    ],
+    [
+      "OWASP_prompt",
+      "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+      "documento vivo"
+    ],
+    [
+      "Python_subprocess",
+      "https://docs.python.org/3.12/library/subprocess.html",
+      "série 3.12; segurança e encerramento"
+    ],
+    [
+      "OWASP_logging",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+      "documento vivo"
+    ],
+    [
+      "OWASP_consumption",
+      "https://genai.owasp.org/llmrisk/llm102025-unbounded-consumption/",
+      "lista LLM Top 10 2025, LLM10"
+    ]
+  ],
+  "execution_claim": "As fontes orientam mecanismos; resultados pertencem às bancadas próprias."
+}

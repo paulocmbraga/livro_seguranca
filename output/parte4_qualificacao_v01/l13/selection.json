@@ -1,0 +1,49 @@
+{
+  "threshold": 0.45,
+  "criterion": "min(2*FN+FP), maior limiar em empate",
+  "calibration": [
+    {
+      "threshold": 0.25,
+      "tp": 6,
+      "fp": 5,
+      "tn": 1,
+      "fn": 0
+    },
+    {
+      "threshold": 0.35,
+      "tp": 6,
+      "fp": 4,
+      "tn": 2,
+      "fn": 0
+    },
+    {
+      "threshold": 0.45,
+      "tp": 6,
+      "fp": 2,
+      "tn": 4,
+      "fn": 0
+    },
+    {
+      "threshold": 0.55,
+      "tp": 5,
+      "fp": 1,
+      "tn": 5,
+      "fn": 1
+    },
+    {
+      "threshold": 0.65,
+      "tp": 5,
+      "fp": 1,
+      "tn": 5,
+      "fn": 1
+    },
+    {
+      "threshold": 0.75,
+      "tp": 0,
+      "fp": 0,
+      "tn": 6,
+      "fn": 6
+    }
+  ],
+  "train_seconds": 0.023482699994929135
+}

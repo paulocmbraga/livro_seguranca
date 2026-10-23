@@ -2,21 +2,21 @@
 
 Materiais dos alunos. Autor: **Paulo Cesar Braga**.
 
-Esta entrega integra o piloto à **Parte III, capítulos 9 a 12**, preservando todos os materiais anteriores. O projeto tem 36 capítulos; os capítulos 1–12 estão redigidos, e o restante permanece em desenvolvimento.
+Esta entrega acrescenta a **Parte IV, capítulos 13 a 16**, preservando as anteriores. O projeto prevê 36 capítulos; os capítulos 1–16 estão redigidos. Os demais continuam em desenvolvimento.
 
-Comece pelo [guia da Parte III](PARTE_III.md). Os guias [Parte II](PARTE_II.md), [Parte I](PARTE_I.md) e [L00/M1](COMECE_AQUI.md) continuam disponíveis.
+Comece pelo [roteiro da Parte IV](PARTE_IV.md). Permanecem disponíveis os guias [Parte III](PARTE_III.md), [Parte II](PARTE_II.md), [Parte I](PARTE_I.md) e [L00/M1](COMECE_AQUI.md).
 
-| Laboratório | Evidência da entrega |
+| Laboratório | Evidência nova |
 |---|---|
-| L09 ampliado | 8 casos novos; 32 gerações em Q4/Q8 e interfaces livre/enumerada; 128 trajetórias reais e 32 preparadas |
-| L10 | SQLite FTS5 e FAISS reais; 20 observações, 10 exposições reconciliadas; cache, revogação e limpeza |
-| L11 | Texto/HTML/PNG, Tesseract e LLM textual; 7 gerações, uma adaptação, 13 recibos em 14 decisões |
-| L12 | SQLite persistente entre sessões; 16 etapas, 3 recibos HTTP; promoção, escopo, expiração e derivados |
+| L13 | Classificador treinado; seleção de limiar; 64 trajetórias HTTP em quatro políticas; 30 recibos |
+| L14 | 22 casos em SQLite, subprocessos, navegador, filesystem e HTTP; quatro capturas de tela |
+| L15 | Oito envios HTTP; matriz de cópias, minimização, projeção e limpeza local |
+| L16 | Corrida de 20 reservas, 48 decisões de admissão, 16 chamadas de carga e dois workers realmente encerrados |
 
-A suíte nova tem 34 testes. O pacote cumulativo é validado com as 153 regressões anteriores, totalizando 187 testes. Os testes não repetem automaticamente inferência ou OCR: as campanhas reais são executadas separadamente, com respostas e versões preservadas em `output/parte3_v02`.
+O pacote cumulativo passou em **234 testes**, sendo 47 novos. A suíte nova executa novamente os quatro laboratórios e aplica mutações sobre as capturas. As oito capturas da Parte IV (referência e repetição) foram reconciliadas. Verificar capturas não significa repetir inferência histórica ou OCR das partes anteriores.
 
-Os resultados incluem falhas deliberadas e erros de integração. O modelo pequeno propõe recursos inexistentes na interface livre; esses erros não são bloqueios defensivos. A comparação enumerada foi escolhida após observar tais falhas e é exploratória sobre casos conhecidos. Q4/Q8 são quantizações da mesma família. O L11 usa OCR seguido de modelo textual, sem visão multimodal nativa. L10 usa vetores lexicais normalizados, sem embeddings neurais. L12 usa propostas preparadas.
+L13 treina regressão logística sobre TF-IDF; é um corpus pequeno e conhecido pelo autor, sem avaliação independente. Não há nova geração de LLM nesta parte. L14 testa consumidores reais com saídas preparadas. L15 e L16 usam receptores HTTP locais com comportamento preparado, sem fornecedor externo ou faturamento real. Quantidades de custo no L16 são sintéticas.
 
-Aqui ficam apenas código, testes, guias, materiais sintéticos, locks e capturas selecionadas. Livro, PDF, EPUB, capas, fontes, arquivos KDP, executáveis e pesos permanecem fora deste repositório. Os 148 arquivos históricos além do README e manifesto geral permanecem byte a byte; esses dois arquivos versionados conservam sua história no Git.
+O repositório contém código, testes, guias, materiais sintéticos, locks e capturas. Os 275 arquivos históricos além de README e manifesto geral permanecem byte a byte. Os dois arquivos atualizados conservam sua história no Git. Livro, PDF, EPUB, fontes, capas, KDP, pesos e executáveis ficam fora do pacote público.
 
-Use diretórios novos ao executar. `run` produz uma captura; `verify` confere evidência existente. Não recalcule hashes de arquivos históricos para ocultar alterações. A validação é local e autoral; a reprodução independente continua pendente.
+Execute em diretórios novos. `run` cria evidência; `verify` reconcilia uma captura existente. Não recalcule hashes históricos para ocultar divergências. A validação ocorreu no mesmo computador; reprodução independente permanece pendente.

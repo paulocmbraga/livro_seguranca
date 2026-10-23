@@ -1,0 +1,33 @@
+{
+  "version": "ParteIV-1.0",
+  "utc": "2026-10-23T03:35:28.149976+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/l09/__init__.py": "a6bd371112b9fa2fa49f17c983e522bb13bd7471eea72061c8e57c8034e7854b",
+    "laboratorios/l09/__main__.py": "23ddda102afb341724339d3cf51a0e6d7ddd452290630039856df3b22e0d889d",
+    "laboratorios/l09/campaign.py": "a7ff1d4d15faaa4aef59aaf434d09cfc6a540a6a7da7517ee951f747e0326df8",
+    "laboratorios/l09/core.py": "d86d85ead26f054c25516b64561cd04da9747abbee3878a3201e671abe178e6f",
+    "laboratorios/l09/fixtures.py": "cd3cfadcb17c6248bba4bfc9e0319942025e5a20d92f3b80d9ffe6c20edb6134",
+    "laboratorios/l09/llm.py": "4a4db238cb12c77633f8d4ef80b24e347abec97ebe20f189906af4899fe8410f",
+    "laboratorios/l09/services.py": "8c0f1a91b095c9cac17d3242b37cd83b620d7ce9523787df4f52ab0279c55d84",
+    "laboratorios/parte4/__init__.py": "13670449bfabf9f435c11a85db4f59ca6f1d79b946c0814ecb04fd86e5196a31",
+    "laboratorios/parte4/__main__.py": "eb2dd83ba61584310463dfef907f9e21d70764135ead303bd97c3b2ddd30d091",
+    "laboratorios/parte4/budget.py": "58079cbcd19d5c1cec81becaf88c278a8f636c7e478db1b2fed3de48ebdd787a",
+    "laboratorios/parte4/common.py": "4d5162eea2983c12f51cc25013739b5b7db305fb5f0e42cac71a006c3215271f",
+    "laboratorios/parte4/consumers.py": "69973e1c033366a570a26cc9443d2dc9ad7ea77bc6944405d072cff763601b1d",
+    "laboratorios/parte4/guardrails.py": "8cb43acb3e45d24cb29c7ca61eb09f454ccb93c84b756aadbd3fcf42c0991f17",
+    "laboratorios/parte4/privacy.py": "ea5cb531ad1db76837d25d320cd7f0ac6ffbfde90a3be76ddaee5d1cf7f4aff0",
+    "materiais/parte4/detector.json": "962971380bf92abc3bf67ee110046e9ceb1445108fd36d2ea05bdda5ec7c8895",
+    "materiais/parte4/escopo.json": "87663e9586da700f57c2ab81c9d0b5e9dfcbf70bfeb0c2497ea9186b4e7ea563",
+    "materiais/parte4/referencias.lock.json": "5ada7ac76a7ca95c100c4f5d70dd54aaeab2b95f242a86984130f5cad54da273",
+    "materiais/parte4/requirements.lock.txt": "7d94b6cf7022dfced0dda97932f85bd3cda8e2b359e5d1d3b8c77a803b3969ff"
+  },
+  "artifacts_sha256": {
+    "components.json": "5f48ef4aff6be5b08fe0ca0b001d5584206ee49821e550a3a3c8dca81a343200",
+    "local.sqlite": "1760dfeb531b6c916b48f08ffbcc36c3be51b3961165effc9c668956462ef47f",
+    "provider.sqlite": "5bc69b22b725c36aee8858adf0a56d4ce728adedd03bcfcb7d9ffd85a2d8d165",
+    "provider_before_cleanup.json": "7f502a9f665a0be6279de93164b92e2e988af23557836b6e0ea1b6c86ede70f5",
+    "results.json": "cb76adc845f07ceeb0782b2d42e7d637d9d87c8925265b1aae05109ad4620728"
+  }
+}

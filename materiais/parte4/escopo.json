@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "data": "synthetic only",
+  "network": "loopback HTTP; browser requests aborted",
+  "llm_inference": false,
+  "L13": "32 train, 12 calibration, 16 author-known evaluation; actual logistic-regression training and scoring, prepared tool actions and review decisions",
+  "L14": "SQLite, Windows command interpreter, files, Edge Chromium renderer and HTTP receiver; no filesystem-racing adversary or arbitrary DNS/Internet tests",
+  "L15": "HTTP provider stub computes amount+5 and echoes payload; no neural inference or legal compliance claim; exports preserve synthetic evidence after operational cleanup",
+  "L16": "20 reservation contenders; 24 admission requests twice; 2 real child terminations after remote start; unit costs simulated, no currency or LLM token measurements",
+  "independent_reproduction": false
+}

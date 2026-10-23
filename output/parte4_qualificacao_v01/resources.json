@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "lab": "L13",
+      "seconds": 7.305069800000638,
+      "sampled_peak_tree_rss_mib": 194.51953125,
+      "samples": 67,
+      "returncode": 0
+    },
+    {
+      "lab": "L14",
+      "seconds": 4.221351900021546,
+      "sampled_peak_tree_rss_mib": 616.66796875,
+      "samples": 38,
+      "returncode": 0
+    },
+    {
+      "lab": "L15",
+      "seconds": 1.1934905999805778,
+      "sampled_peak_tree_rss_mib": 35.94921875,
+      "samples": 11,
+      "returncode": 0
+    },
+    {
+      "lab": "L16",
+      "seconds": 4.780516300001182,
+      "sampled_peak_tree_rss_mib": 74.19140625,
+      "samples": 44,
+      "returncode": 0
+    }
+  ],
+  "sample_interval_seconds": 0.1,
+  "sequential_same_host": true,
+  "limits": "Soma RSS dos processos próprios vivos; pode contar páginas compartilhadas mais de uma vez e perder picos. Inclui imports e encerramento. Não inclui instalação/download nem RAM total do host. Custos do L16 são sintéticos."
+}

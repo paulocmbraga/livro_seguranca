@@ -1,0 +1,242 @@
+[
+  {
+    "case": "negative_R01",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R02",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R03",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R04",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R05",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R06",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R07",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R08",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R09",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R10",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R11",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R12",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R13",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R14",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R15",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "negative_R16",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R09",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R10",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R11",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R12",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R13",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R14",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R15",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "signal_R16",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "block_R13",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "block_R14",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "block_R16",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "review_R13",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "review_R14",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "review_R16",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  }
+]

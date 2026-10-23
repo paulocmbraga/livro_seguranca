@@ -1,0 +1,40 @@
+{
+  "version": "ParteIV-1.0",
+  "utc": "2026-10-23T03:35:31.993491+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/l09/__init__.py": "a6bd371112b9fa2fa49f17c983e522bb13bd7471eea72061c8e57c8034e7854b",
+    "laboratorios/l09/__main__.py": "23ddda102afb341724339d3cf51a0e6d7ddd452290630039856df3b22e0d889d",
+    "laboratorios/l09/campaign.py": "a7ff1d4d15faaa4aef59aaf434d09cfc6a540a6a7da7517ee951f747e0326df8",
+    "laboratorios/l09/core.py": "d86d85ead26f054c25516b64561cd04da9747abbee3878a3201e671abe178e6f",
+    "laboratorios/l09/fixtures.py": "cd3cfadcb17c6248bba4bfc9e0319942025e5a20d92f3b80d9ffe6c20edb6134",
+    "laboratorios/l09/llm.py": "4a4db238cb12c77633f8d4ef80b24e347abec97ebe20f189906af4899fe8410f",
+    "laboratorios/l09/services.py": "8c0f1a91b095c9cac17d3242b37cd83b620d7ce9523787df4f52ab0279c55d84",
+    "laboratorios/parte4/__init__.py": "13670449bfabf9f435c11a85db4f59ca6f1d79b946c0814ecb04fd86e5196a31",
+    "laboratorios/parte4/__main__.py": "eb2dd83ba61584310463dfef907f9e21d70764135ead303bd97c3b2ddd30d091",
+    "laboratorios/parte4/budget.py": "58079cbcd19d5c1cec81becaf88c278a8f636c7e478db1b2fed3de48ebdd787a",
+    "laboratorios/parte4/common.py": "4d5162eea2983c12f51cc25013739b5b7db305fb5f0e42cac71a006c3215271f",
+    "laboratorios/parte4/consumers.py": "69973e1c033366a570a26cc9443d2dc9ad7ea77bc6944405d072cff763601b1d",
+    "laboratorios/parte4/guardrails.py": "8cb43acb3e45d24cb29c7ca61eb09f454ccb93c84b756aadbd3fcf42c0991f17",
+    "laboratorios/parte4/privacy.py": "ea5cb531ad1db76837d25d320cd7f0ac6ffbfde90a3be76ddaee5d1cf7f4aff0",
+    "materiais/parte4/detector.json": "962971380bf92abc3bf67ee110046e9ceb1445108fd36d2ea05bdda5ec7c8895",
+    "materiais/parte4/escopo.json": "87663e9586da700f57c2ab81c9d0b5e9dfcbf70bfeb0c2497ea9186b4e7ea563",
+    "materiais/parte4/referencias.lock.json": "5ada7ac76a7ca95c100c4f5d70dd54aaeab2b95f242a86984130f5cad54da273",
+    "materiais/parte4/requirements.lock.txt": "7d94b6cf7022dfced0dda97932f85bd3cda8e2b359e5d1d3b8c77a803b3969ff"
+  },
+  "artifacts_sha256": {
+    "fair/budget.sqlite": "418e12a478fbb96a95f83b26b14cbe800d30bdca6dc8e75e5a1fea9e43e45c55",
+    "fair/remote/provider.sqlite": "3aa4ea4f701af21afb1dc66263eb3975dd7cbe824cb610f5d88c66c2f1618447",
+    "fifo/budget.sqlite": "14b82d9416b95ad14ec086b19c10203a0e13677dc5c115b465e0b2cbe2bdcb8e",
+    "fifo/remote/provider.sqlite": "93031c580de42ef6469abc31f537ac2c9097a6d7f76934bfba7ec9762cedf1a5",
+    "race.sqlite": "4587b881d060ccd28390cf06aa178b5bff2a7b11f406d5db1cb1ff3c1a0ab383",
+    "results.json": "a51a0471e2954f8c1789ebce5ca2c869ab9cd9ff20fc2d39ac668e758e40bbcc",
+    "strict_cancel/budget.sqlite": "2481675ec68abf70ecf1f6202c52f629f0628f7ad3b45601d8101f2cf1272220",
+    "strict_cancel/remote/provider.sqlite": "42fbd19dd01e020105d5e421b412df14dc0c8867962224447fd7161bdcc1ae01",
+    "strict_cancel/result.json": "8377dda380ae417b35bcfe333ebb99ead7c747fb616e98600c34f85d4defaf04",
+    "weak_cancel/budget.sqlite": "f87f53d2c17894e2e34e8087062aff1ea7a1d2cb5fb3eb88d4e2927d0fd0785d",
+    "weak_cancel/remote/provider.sqlite": "50b3e96009485ce0195d46d8bdf5da27bab5dbd1ab88a997d256bf22e9421683",
+    "weak_cancel/result.json": "2e5dd33edb8269ae31a7e00ac2d2b9d9f030868a51fc9da4de4acce0266fd716"
+  }
+}

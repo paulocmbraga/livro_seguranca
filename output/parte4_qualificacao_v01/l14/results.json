@@ -1,0 +1,196 @@
+{
+  "lab": "L14",
+  "rows": [
+    {
+      "consumer": "sql",
+      "strict": false,
+      "hostile": false,
+      "ids": [
+        "a"
+      ],
+      "text": [
+        "ALPHA_CANARY"
+      ]
+    },
+    {
+      "consumer": "sql",
+      "strict": true,
+      "hostile": false,
+      "ids": [
+        "a"
+      ],
+      "text": [
+        "ALPHA_CANARY"
+      ]
+    },
+    {
+      "consumer": "sql",
+      "strict": false,
+      "hostile": true,
+      "ids": [
+        "a",
+        "b"
+      ],
+      "text": [
+        "ALPHA_CANARY",
+        "BETA_CANARY"
+      ]
+    },
+    {
+      "consumer": "sql",
+      "strict": true,
+      "hostile": true,
+      "ids": [],
+      "text": []
+    },
+    {
+      "consumer": "path",
+      "strict": false,
+      "hostile": false,
+      "status": "read",
+      "content": "PUBLIC_FILE_L14"
+    },
+    {
+      "consumer": "path",
+      "strict": true,
+      "hostile": false,
+      "status": "read",
+      "content": "PUBLIC_FILE_L14"
+    },
+    {
+      "consumer": "path",
+      "strict": false,
+      "hostile": true,
+      "status": "read",
+      "content": "PRIVATE_FILE_L14"
+    },
+    {
+      "consumer": "path",
+      "strict": true,
+      "hostile": true,
+      "status": "denied",
+      "content": ""
+    },
+    {
+      "consumer": "url",
+      "strict": false,
+      "hostile": false,
+      "status": 200,
+      "body": "PUBLIC_DOC_L14"
+    },
+    {
+      "consumer": "url",
+      "strict": true,
+      "hostile": false,
+      "status": 200,
+      "body": "PUBLIC_DOC_L14"
+    },
+    {
+      "consumer": "url",
+      "strict": false,
+      "hostile": true,
+      "status": 200,
+      "body": "INTERNAL_CANARY_L14"
+    },
+    {
+      "consumer": "url",
+      "strict": true,
+      "hostile": true,
+      "status": "denied",
+      "body": ""
+    },
+    {
+      "consumer": "redirect",
+      "strict": false,
+      "hostile": true,
+      "status": 200,
+      "body": "INTERNAL_CANARY_L14"
+    },
+    {
+      "consumer": "redirect",
+      "strict": true,
+      "hostile": true,
+      "status": 302,
+      "body": ""
+    },
+    {
+      "consumer": "command",
+      "strict": false,
+      "hostile": false,
+      "returncode": 0,
+      "stdout": "cliente",
+      "effect": null
+    },
+    {
+      "consumer": "command",
+      "strict": true,
+      "hostile": false,
+      "returncode": 0,
+      "stdout": "cliente",
+      "effect": null
+    },
+    {
+      "consumer": "command",
+      "strict": false,
+      "hostile": true,
+      "returncode": 0,
+      "stdout": "cliente",
+      "effect": "COMMAND_CANARY_L14"
+    },
+    {
+      "consumer": "command",
+      "strict": true,
+      "hostile": true,
+      "returncode": 0,
+      "stdout": "cliente & echo COMMAND_CANARY_L14 > injected.txt",
+      "effect": null
+    },
+    {
+      "consumer": "html",
+      "strict": false,
+      "hostile": false,
+      "effect": null,
+      "text": "Contrato A & B",
+      "script_nodes": 0
+    },
+    {
+      "consumer": "html",
+      "strict": true,
+      "hostile": false,
+      "effect": null,
+      "text": "Contrato A & B <rascunho>",
+      "script_nodes": 0
+    },
+    {
+      "consumer": "html",
+      "strict": false,
+      "hostile": true,
+      "effect": "EXECUTED_L14",
+      "text": "Contrato",
+      "script_nodes": 1
+    },
+    {
+      "consumer": "html",
+      "strict": true,
+      "hostile": true,
+      "effect": null,
+      "text": "<script>window.lab_effect=\"EXECUTED_L14\"</script>Contrato",
+      "script_nodes": 0
+    }
+  ],
+  "url_requests": [
+    "/public",
+    "/public",
+    "/internal",
+    "/redirect",
+    "/internal",
+    "/redirect"
+  ],
+  "browser": {
+    "version": "155.0.4283.62",
+    "executable_sha256": "c2451a012ff88e82449834de5b526ebb42b5a3fc25958d795910d2b172c975b6",
+    "network_requests_aborted": true,
+    "headless": true
+  },
+  "llm_generation": false
+}

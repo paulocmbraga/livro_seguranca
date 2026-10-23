@@ -1,0 +1,309 @@
+{
+  "lab": "L15",
+  "rows": [
+    {
+      "id": "late_basic",
+      "profile": "late",
+      "hidden_note": false,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 0
+        },
+        "gateway": {
+          "email": 1,
+          "note": 0
+        },
+        "provider": {
+          "email": 1,
+          "note": 0
+        },
+        "cache": {
+          "email": 1,
+          "note": 0
+        },
+        "tool": {
+          "email": 1,
+          "note": 0
+        },
+        "audit": {
+          "email": 2,
+          "note": 0
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    },
+    {
+      "id": "late_note",
+      "profile": "late",
+      "hidden_note": true,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 1
+        },
+        "gateway": {
+          "email": 1,
+          "note": 1
+        },
+        "provider": {
+          "email": 1,
+          "note": 1
+        },
+        "cache": {
+          "email": 1,
+          "note": 1
+        },
+        "tool": {
+          "email": 1,
+          "note": 1
+        },
+        "audit": {
+          "email": 2,
+          "note": 2
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    },
+    {
+      "id": "redact_basic",
+      "profile": "redact",
+      "hidden_note": false,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 0
+        },
+        "gateway": {
+          "email": 0,
+          "note": 0
+        },
+        "provider": {
+          "email": 0,
+          "note": 0
+        },
+        "cache": {
+          "email": 0,
+          "note": 0
+        },
+        "tool": {
+          "email": 0,
+          "note": 0
+        },
+        "audit": {
+          "email": 1,
+          "note": 0
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    },
+    {
+      "id": "redact_note",
+      "profile": "redact",
+      "hidden_note": true,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 1
+        },
+        "gateway": {
+          "email": 0,
+          "note": 1
+        },
+        "provider": {
+          "email": 0,
+          "note": 1
+        },
+        "cache": {
+          "email": 0,
+          "note": 1
+        },
+        "tool": {
+          "email": 0,
+          "note": 1
+        },
+        "audit": {
+          "email": 1,
+          "note": 2
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    },
+    {
+      "id": "tokenize_basic",
+      "profile": "tokenize",
+      "hidden_note": false,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 0
+        },
+        "gateway": {
+          "email": 0,
+          "note": 0
+        },
+        "provider": {
+          "email": 0,
+          "note": 0
+        },
+        "cache": {
+          "email": 0,
+          "note": 0
+        },
+        "tool": {
+          "email": 0,
+          "note": 0
+        },
+        "audit": {
+          "email": 1,
+          "note": 0
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    },
+    {
+      "id": "tokenize_note",
+      "profile": "tokenize",
+      "hidden_note": true,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 1
+        },
+        "gateway": {
+          "email": 0,
+          "note": 1
+        },
+        "provider": {
+          "email": 0,
+          "note": 1
+        },
+        "cache": {
+          "email": 0,
+          "note": 1
+        },
+        "tool": {
+          "email": 0,
+          "note": 1
+        },
+        "audit": {
+          "email": 1,
+          "note": 2
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    },
+    {
+      "id": "minimize_basic",
+      "profile": "minimize",
+      "hidden_note": false,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 0
+        },
+        "gateway": {
+          "email": 0,
+          "note": 0
+        },
+        "provider": {
+          "email": 0,
+          "note": 0
+        },
+        "cache": {
+          "email": 0,
+          "note": 0
+        },
+        "tool": {
+          "email": 0,
+          "note": 0
+        },
+        "audit": {
+          "email": 0,
+          "note": 0
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    },
+    {
+      "id": "minimize_note",
+      "profile": "minimize",
+      "hidden_note": true,
+      "utility_total": 55,
+      "exposure": {
+        "context": {
+          "email": 1,
+          "note": 1
+        },
+        "gateway": {
+          "email": 0,
+          "note": 0
+        },
+        "provider": {
+          "email": 0,
+          "note": 0
+        },
+        "cache": {
+          "email": 0,
+          "note": 0
+        },
+        "tool": {
+          "email": 0,
+          "note": 0
+        },
+        "audit": {
+          "email": 0,
+          "note": 0
+        },
+        "user": {
+          "email": 0,
+          "note": 0
+        }
+      }
+    }
+  ],
+  "denied_route": true,
+  "provider_calls": 8,
+  "before_cleanup": {
+    "cache": 8,
+    "audit": 8,
+    "vault": 1
+  },
+  "after_cleanup": {
+    "cache": 0,
+    "audit": 8,
+    "vault": 0
+  },
+  "provider_after_cleanup": 0,
+  "synthetic_evidence_retained": true,
+  "provider_is_local_stub": true,
+  "llm_generation": false
+}

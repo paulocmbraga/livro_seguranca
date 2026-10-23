@@ -1,0 +1,606 @@
+{
+  "lab": "L16",
+  "race_admitted": 5,
+  "race": {
+    "jobs": [
+      {
+        "id": "race_0",
+        "tenant": "alpha",
+        "ceiling": 4,
+        "state": "reserved",
+        "charged": 0
+      },
+      {
+        "id": "race_10",
+        "tenant": "alpha",
+        "ceiling": 4,
+        "state": "reserved",
+        "charged": 0
+      },
+      {
+        "id": "race_3",
+        "tenant": "alpha",
+        "ceiling": 4,
+        "state": "reserved",
+        "charged": 0
+      },
+      {
+        "id": "race_4",
+        "tenant": "alpha",
+        "ceiling": 4,
+        "state": "reserved",
+        "charged": 0
+      },
+      {
+        "id": "race_9",
+        "tenant": "alpha",
+        "ceiling": 4,
+        "state": "reserved",
+        "charged": 0
+      }
+    ],
+    "charged": 0,
+    "held": 20
+  },
+  "load": [
+    {
+      "fair": false,
+      "admitted": [
+        {
+          "id": "A00",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A01",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A02",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A03",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A04",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A05",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A06",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A07",
+          "tenant": "alpha"
+        }
+      ],
+      "rejected": [
+        {
+          "id": "A08",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A09",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A10",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A11",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A12",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A13",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A14",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A15",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A16",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A17",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A18",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A19",
+          "tenant": "alpha"
+        },
+        {
+          "id": "B00",
+          "tenant": "beta"
+        },
+        {
+          "id": "B01",
+          "tenant": "beta"
+        },
+        {
+          "id": "B02",
+          "tenant": "beta"
+        },
+        {
+          "id": "B03",
+          "tenant": "beta"
+        }
+      ],
+      "completed": [
+        "A00",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "receipts": [
+        {
+          "job": "A00",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A01",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A02",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A03",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A04",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A05",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A06",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A07",
+          "tenant": "alpha",
+          "charged": 3
+        }
+      ],
+      "peak_active": 2,
+      "seconds": 0.9911017999984324,
+      "settled": {
+        "jobs": [
+          {
+            "id": "A00",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A01",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A02",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A03",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A04",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A05",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A06",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A07",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          }
+        ],
+        "charged": 24,
+        "held": 0
+      }
+    },
+    {
+      "fair": true,
+      "admitted": [
+        {
+          "id": "A00",
+          "tenant": "alpha"
+        },
+        {
+          "id": "B00",
+          "tenant": "beta"
+        },
+        {
+          "id": "A01",
+          "tenant": "alpha"
+        },
+        {
+          "id": "B01",
+          "tenant": "beta"
+        },
+        {
+          "id": "A02",
+          "tenant": "alpha"
+        },
+        {
+          "id": "B02",
+          "tenant": "beta"
+        },
+        {
+          "id": "A03",
+          "tenant": "alpha"
+        },
+        {
+          "id": "B03",
+          "tenant": "beta"
+        }
+      ],
+      "rejected": [
+        {
+          "id": "A04",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A05",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A06",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A07",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A08",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A09",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A10",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A11",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A12",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A13",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A14",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A15",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A16",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A17",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A18",
+          "tenant": "alpha"
+        },
+        {
+          "id": "A19",
+          "tenant": "alpha"
+        }
+      ],
+      "completed": [
+        "A00",
+        "B00",
+        "A01",
+        "B01",
+        "A02",
+        "B02",
+        "A03",
+        "B03"
+      ],
+      "receipts": [
+        {
+          "job": "A00",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A01",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A02",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "A03",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "B00",
+          "tenant": "beta",
+          "charged": 3
+        },
+        {
+          "job": "B01",
+          "tenant": "beta",
+          "charged": 3
+        },
+        {
+          "job": "B02",
+          "tenant": "beta",
+          "charged": 3
+        },
+        {
+          "job": "B03",
+          "tenant": "beta",
+          "charged": 3
+        }
+      ],
+      "peak_active": 2,
+      "seconds": 0.9946719000581652,
+      "settled": {
+        "jobs": [
+          {
+            "id": "A00",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A01",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A02",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "A03",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "B00",
+            "tenant": "beta",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "B01",
+            "tenant": "beta",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "B02",
+            "tenant": "beta",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "B03",
+            "tenant": "beta",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          }
+        ],
+        "charged": 24,
+        "held": 0
+      }
+    }
+  ],
+  "cancellations": [
+    {
+      "strict": false,
+      "worker_pid": 11644,
+      "worker_exit": 1,
+      "worker_stopped": true,
+      "after_cancel": {
+        "jobs": [
+          {
+            "id": "first",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "cancelled",
+            "charged": 0
+          }
+        ],
+        "charged": 0,
+        "held": 0
+      },
+      "second_admitted": true,
+      "receipts": [
+        {
+          "job": "first",
+          "tenant": "alpha",
+          "charged": 3
+        },
+        {
+          "job": "second",
+          "tenant": "alpha",
+          "charged": 3
+        }
+      ],
+      "settled": {
+        "jobs": [
+          {
+            "id": "first",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          },
+          {
+            "id": "second",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          }
+        ],
+        "charged": 6,
+        "held": 0
+      }
+    },
+    {
+      "strict": true,
+      "worker_pid": 17604,
+      "worker_exit": 1,
+      "worker_stopped": true,
+      "after_cancel": {
+        "jobs": [
+          {
+            "id": "first",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "unknown",
+            "charged": 0
+          }
+        ],
+        "charged": 0,
+        "held": 4
+      },
+      "second_admitted": false,
+      "receipts": [
+        {
+          "job": "first",
+          "tenant": "alpha",
+          "charged": 3
+        }
+      ],
+      "settled": {
+        "jobs": [
+          {
+            "id": "first",
+            "tenant": "alpha",
+            "ceiling": 4,
+            "state": "settled",
+            "charged": 3
+          }
+        ],
+        "charged": 3,
+        "held": 0
+      }
+    }
+  ],
+  "units": "synthetic, not currency or measured LLM tokens",
+  "input_checks": [
+    {
+      "bytes": 8,
+      "steps": 3,
+      "accepted": true,
+      "ceiling": 4
+    },
+    {
+      "bytes": 257,
+      "steps": 1,
+      "accepted": false,
+      "error": "input bytes"
+    },
+    {
+      "bytes": 8,
+      "steps": 4,
+      "accepted": false,
+      "error": "steps"
+    },
+    {
+      "bytes": 8,
+      "steps": true,
+      "accepted": false,
+      "error": "steps"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "strict": true,
+  "worker_pid": 17604,
+  "worker_exit": 1,
+  "worker_stopped": true,
+  "after_cancel": {
+    "jobs": [
+      {
+        "id": "first",
+        "tenant": "alpha",
+        "ceiling": 4,
+        "state": "unknown",
+        "charged": 0
+      }
+    ],
+    "charged": 0,
+    "held": 4
+  },
+  "second_admitted": false,
+  "receipts": [
+    {
+      "job": "first",
+      "tenant": "alpha",
+      "charged": 3
+    }
+  ],
+  "settled": {
+    "jobs": [
+      {
+        "id": "first",
+        "tenant": "alpha",
+        "ceiling": 4,
+        "state": "settled",
+        "charged": 3
+      }
+    ],
+    "charged": 3,
+    "held": 0
+  }
+}

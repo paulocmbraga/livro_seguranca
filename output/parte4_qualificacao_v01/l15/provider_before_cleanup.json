@@ -1,0 +1,150 @@
+[
+  {
+    "id": "late_basic",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50,
+      "email": "canary-l15@example.test",
+      "customer_ref": "LOCAL_C17",
+      "note": "standard"
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      }
+    }
+  },
+  {
+    "id": "late_note",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50,
+      "email": "canary-l15@example.test",
+      "customer_ref": "LOCAL_C17",
+      "note": "PRIVATE_NOTE_CANARY_L15"
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      }
+    }
+  },
+  {
+    "id": "redact_basic",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50,
+      "email": "[EMAIL]",
+      "customer_ref": "LOCAL_C17",
+      "note": "standard"
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      }
+    }
+  },
+  {
+    "id": "redact_note",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50,
+      "email": "[EMAIL]",
+      "customer_ref": "LOCAL_C17",
+      "note": "PRIVATE_NOTE_CANARY_L15"
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      }
+    }
+  },
+  {
+    "id": "tokenize_basic",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50,
+      "email": "TOKEN_L15_CUSTOMER",
+      "customer_ref": "LOCAL_C17",
+      "note": "standard"
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      }
+    }
+  },
+  {
+    "id": "tokenize_note",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50,
+      "email": "TOKEN_L15_CUSTOMER",
+      "customer_ref": "LOCAL_C17",
+      "note": "PRIVATE_NOTE_CANARY_L15"
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      }
+    }
+  },
+  {
+    "id": "minimize_basic",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50
+      }
+    }
+  },
+  {
+    "id": "minimize_note",
+    "payload": {
+      "topic": "invoice",
+      "amount": 50
+    },
+    "response": {
+      "total": 55,
+      "echo": {
+        "topic": "invoice",
+        "amount": 50
+      }
+    }
+  }
+]
