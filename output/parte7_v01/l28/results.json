@@ -1,0 +1,314 @@
+{
+  "base": "python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2",
+  "candidates": {
+    "v1": {
+      "candidate": {
+        "artifact": "e8910026ccb44cad1916136e8bd296585f277395f7fc5ac7641747508a31f5c2",
+        "image": "sha256:3f7fb325e76606036c3d7d15fe4929b17a1f8d0241bc498fbe0c5b43c403540d",
+        "source_files": {
+          "config.json": "cd4f69e0dbbccb2343e275e20d5478d487465c3401faead020c11e6eee97aff2",
+          "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+          "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+        }
+      },
+      "evidence": {
+        "artifact": "e8910026ccb44cad1916136e8bd296585f277395f7fc5ac7641747508a31f5c2",
+        "image": "sha256:3f7fb325e76606036c3d7d15fe4929b17a1f8d0241bc498fbe0c5b43c403540d",
+        "checks": {
+          "functional_success": true,
+          "functional_probability": true,
+          "tenant_isolation": true,
+          "unauthenticated": true,
+          "admin_closed": true
+        }
+      },
+      "accepted": true,
+      "reason": "eligible",
+      "bundle_reproduced": true
+    },
+    "v2": {
+      "candidate": {
+        "artifact": "af3b3a77483d746ceca0a7eb38b961542a1926f00f7a6dad9fa57618a910312c",
+        "image": "sha256:e2ed5dcb3c9b7a7b0d35590015030c3237cb6d06e9a69121944dbd3676105799",
+        "source_files": {
+          "config.json": "072e021c854e7c3dc89dd6b72892873fa267aed87861f669b6928e3137b0e173",
+          "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+          "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+        }
+      },
+      "evidence": {
+        "artifact": "af3b3a77483d746ceca0a7eb38b961542a1926f00f7a6dad9fa57618a910312c",
+        "image": "sha256:e2ed5dcb3c9b7a7b0d35590015030c3237cb6d06e9a69121944dbd3676105799",
+        "checks": {
+          "functional_success": true,
+          "functional_probability": true,
+          "tenant_isolation": true,
+          "unauthenticated": true,
+          "admin_closed": true
+        }
+      },
+      "accepted": true,
+      "reason": "eligible",
+      "bundle_reproduced": true
+    },
+    "regression": {
+      "candidate": {
+        "artifact": "fb39615786fb57a1e4fecd15f92cbee0981ccb2a0e171f0303138e471067a19f",
+        "image": "sha256:ef862e6604eec70b83323b5a8c7a996fc82a7598508d206091e56a3589d0c37c",
+        "source_files": {
+          "config.json": "39db9b97607d6bed64183f58267bf14cf15be83039e74fc1b2e572b3d4db5e71",
+          "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+          "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+        }
+      },
+      "evidence": {
+        "artifact": "fb39615786fb57a1e4fecd15f92cbee0981ccb2a0e171f0303138e471067a19f",
+        "image": "sha256:ef862e6604eec70b83323b5a8c7a996fc82a7598508d206091e56a3589d0c37c",
+        "checks": {
+          "functional_success": true,
+          "functional_probability": true,
+          "tenant_isolation": false,
+          "unauthenticated": true,
+          "admin_closed": false
+        }
+      },
+      "accepted": false,
+      "reason": "security_or_functional_failure",
+      "bundle_reproduced": true
+    }
+  },
+  "mismatched_evidence": [
+    false,
+    "evidence_binding"
+  ],
+  "deployments": [
+    {
+      "requested": "v1",
+      "smoke": {
+        "image": "sha256:3f7fb325e76606036c3d7d15fe4929b17a1f8d0241bc498fbe0c5b43c403540d",
+        "health": {
+          "status": 200,
+          "body": {
+            "release": "v1",
+            "strict": true,
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8"
+          }
+        },
+        "alpha": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 1,
+            "cached": false
+          }
+        },
+        "beta": {
+          "status": 200,
+          "body": {
+            "tenant": "beta",
+            "score": 0.425557483188341,
+            "marker": "DADO_BETA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 2,
+            "cached": false
+          }
+        },
+        "anonymous": {
+          "status": 401,
+          "body": {
+            "error": "identity"
+          }
+        },
+        "pass": true,
+        "override": null
+      },
+      "active_after_smoke": {
+        "release": "v1",
+        "artifact": "e8910026ccb44cad1916136e8bd296585f277395f7fc5ac7641747508a31f5c2",
+        "image": "sha256:3f7fb325e76606036c3d7d15fe4929b17a1f8d0241bc498fbe0c5b43c403540d",
+        "source_files": {
+          "config.json": "cd4f69e0dbbccb2343e275e20d5478d487465c3401faead020c11e6eee97aff2",
+          "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+          "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+        }
+      }
+    },
+    {
+      "requested": "v2",
+      "smoke": {
+        "image": "sha256:e2ed5dcb3c9b7a7b0d35590015030c3237cb6d06e9a69121944dbd3676105799",
+        "health": {
+          "status": 200,
+          "body": {
+            "release": "v2",
+            "strict": true,
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8"
+          }
+        },
+        "alpha": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 1,
+            "cached": false
+          }
+        },
+        "beta": {
+          "status": 200,
+          "body": {
+            "tenant": "beta",
+            "score": 0.425557483188341,
+            "marker": "DADO_BETA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 2,
+            "cached": false
+          }
+        },
+        "anonymous": {
+          "status": 401,
+          "body": {
+            "error": "identity"
+          }
+        },
+        "pass": true,
+        "override": null
+      },
+      "active_after_smoke": {
+        "release": "v2",
+        "artifact": "af3b3a77483d746ceca0a7eb38b961542a1926f00f7a6dad9fa57618a910312c",
+        "image": "sha256:e2ed5dcb3c9b7a7b0d35590015030c3237cb6d06e9a69121944dbd3676105799",
+        "source_files": {
+          "config.json": "072e021c854e7c3dc89dd6b72892873fa267aed87861f669b6928e3137b0e173",
+          "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+          "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+        }
+      }
+    },
+    {
+      "requested": "v2",
+      "smoke": {
+        "image": "sha256:e2ed5dcb3c9b7a7b0d35590015030c3237cb6d06e9a69121944dbd3676105799",
+        "health": {
+          "status": 200,
+          "body": {
+            "release": "v2",
+            "strict": false,
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8"
+          }
+        },
+        "alpha": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 1,
+            "cached": false
+          }
+        },
+        "beta": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 1,
+            "cached": true
+          }
+        },
+        "anonymous": {
+          "status": 401,
+          "body": {
+            "error": "identity"
+          }
+        },
+        "pass": false,
+        "override": "weak"
+      },
+      "active_after_smoke": {
+        "release": "v2",
+        "artifact": "af3b3a77483d746ceca0a7eb38b961542a1926f00f7a6dad9fa57618a910312c",
+        "image": "sha256:e2ed5dcb3c9b7a7b0d35590015030c3237cb6d06e9a69121944dbd3676105799",
+        "source_files": {
+          "config.json": "072e021c854e7c3dc89dd6b72892873fa267aed87861f669b6928e3137b0e173",
+          "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+          "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+        }
+      }
+    },
+    {
+      "requested": "v1",
+      "smoke": {
+        "image": "sha256:3f7fb325e76606036c3d7d15fe4929b17a1f8d0241bc498fbe0c5b43c403540d",
+        "health": {
+          "status": 200,
+          "body": {
+            "release": "v1",
+            "strict": true,
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8"
+          }
+        },
+        "alpha": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 1,
+            "cached": false
+          }
+        },
+        "beta": {
+          "status": 200,
+          "body": {
+            "tenant": "beta",
+            "score": 0.425557483188341,
+            "marker": "DADO_BETA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 2,
+            "cached": false
+          }
+        },
+        "anonymous": {
+          "status": 401,
+          "body": {
+            "error": "identity"
+          }
+        },
+        "pass": true,
+        "override": null
+      },
+      "active_after_smoke": {
+        "release": "v1",
+        "artifact": "e8910026ccb44cad1916136e8bd296585f277395f7fc5ac7641747508a31f5c2",
+        "image": "sha256:3f7fb325e76606036c3d7d15fe4929b17a1f8d0241bc498fbe0c5b43c403540d",
+        "source_files": {
+          "config.json": "cd4f69e0dbbccb2343e275e20d5478d487465c3401faead020c11e6eee97aff2",
+          "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+          "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+        }
+      }
+    }
+  ],
+  "rollback": {
+    "release": "v1",
+    "artifact": "e8910026ccb44cad1916136e8bd296585f277395f7fc5ac7641747508a31f5c2",
+    "image": "sha256:3f7fb325e76606036c3d7d15fe4929b17a1f8d0241bc498fbe0c5b43c403540d",
+    "source_files": {
+      "config.json": "cd4f69e0dbbccb2343e275e20d5478d487465c3401faead020c11e6eee97aff2",
+      "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+      "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+    }
+  },
+  "remote_ci_executed": false,
+  "runtime_fault": "PROFILE=weak injetado pelo controlador depois da promoção; não atravessa o gate como candidato válido."
+}

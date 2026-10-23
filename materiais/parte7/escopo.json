@@ -1,0 +1,60 @@
+{
+  "version": "ParteVII-1.0",
+  "data": "Somente dados sintéticos públicos",
+  "L25": {
+    "dimensions": 80,
+    "train": 160,
+    "calibration": [
+      80,
+      80
+    ],
+    "evaluation": [
+      80,
+      80
+    ],
+    "utility": 240,
+    "epsilons": [
+      0.5,
+      2,
+      8
+    ],
+    "delta": 0,
+    "noise_seed": null
+  },
+  "L26": {
+    "seed": 2601,
+    "threads": 2,
+    "model": "GRU própria de próximo token, gramática sintética",
+    "steps": [
+      400,
+      400,
+      400,
+      800
+    ],
+    "rank": 4,
+    "evaluation": 48,
+    "canaries": 8
+  },
+  "L27": {
+    "profiles": [
+      "weak",
+      "strict"
+    ],
+    "Docker": true,
+    "network": "Duas redes internas por perfil, gateway publicado apenas em loopback",
+    "TLS": "certificado efêmero, confiança explícita e nome verificados; sem mTLS"
+  },
+  "L28": {
+    "images": 3,
+    "smokes": 4,
+    "pipeline": "Local; sem execução de CI remota",
+    "rollback": "v1 conferido por HTTP"
+  },
+  "limits": [
+    "Reprodução independente pendente",
+    "Controlador e host confiáveis",
+    "Sem LLM pré-treinado, dados privados ou API paga",
+    "Bancada de serving usa modelo linear numérico fixo; treinamento real está nos L25/L26",
+    "Sem carga concorrente, orquestrador cloud ou PKI de produção"
+  ]
+}

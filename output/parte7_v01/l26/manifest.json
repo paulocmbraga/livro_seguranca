@@ -1,0 +1,47 @@
+{
+  "version": "ParteVII-1.0",
+  "utc": "2026-10-23T14:57:57.328961+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.5.2",
+    "diffprivlib": "0.6.6",
+    "torch": "2.14.1+cpu",
+    "cryptography": "50.0.2"
+  },
+  "source_sha256": {
+    "laboratorios/parte7/__init__.py": "0215d25ea82f7f1b7d4f779de964ceeb431d341c1f3eb6449ec5772340b6da80",
+    "laboratorios/parte7/__main__.py": "fb5f89e29bab484a7c9584c7eb010ce393b65d1038a45aec250e4c75d5b7658c",
+    "laboratorios/parte7/adaptation.py": "7877247ab17d07021afd522725f444ae01c00a33720b9fdb6c9dc886f7be81b7",
+    "laboratorios/parte7/common.py": "5a3d8ef1125c5e88710f3dc1532ab9c7da0b394fe8e3c4d93ba1e183863b0583",
+    "laboratorios/parte7/deployment.py": "81c229436a6c6ad1ee324c87ffaf1023930953ee3dd4e93aa70d6d68d541d677",
+    "laboratorios/parte7/privacy.py": "5244cf01fa178285c0a46d9ac9a111c3df07587b68c5385996c5fec31682a4d0",
+    "laboratorios/parte7/release.py": "cd6936ab1366e77c17e36a842e9100abc66321a9ba5af30298ae3284ff5d4751",
+    "laboratorios/parte7/runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67",
+    "materiais/parte7/escopo.json": "7d5c545b166ad47da09af1c19e470904177205edd97e7c25d448ad7a145233b4",
+    "materiais/parte7/referencias.lock.json": "cfdb4abcf1bb412c11f648fd82dd0925233b417b19474f344a6b1ea4942dcb24",
+    "materiais/parte7/requirements.lock.txt": "09e1f572f4cc3c17acef6d45f24d7c5eef1b73224bfaf8fa9644612b574fe090",
+    "materiais/parte7/torch-cpu.lock.txt": "e2edadb76c79f2297773f05b03dcdbde6750a11d4822b4a37018044396da9c4d"
+  },
+  "artifacts_sha256": {
+    "adapter.json": "853af73a5142c453307530bb6c57aca9d82e9efeaee43d8a44ca61108c80ea4e",
+    "adapter_model.json": "8a074feef871eccec417b126d8df66874fa323f72e249e3c45a186361cd2370a",
+    "adapter_step_100.json": "2cc99883e4dc3f8a626b875fb67168fdd7c7d15b6ce5007acffc63f1671c880b",
+    "adapter_step_800.json": "8a074feef871eccec417b126d8df66874fa323f72e249e3c45a186361cd2370a",
+    "base_model.json": "298bd21feec5867f450838b44b751f7df03dfb2405e68490cc88790353181933",
+    "base_step_100.json": "853ef2331d62859c62bb5a9b4f7d84400fd5f2da23c7ac4676169598df659531",
+    "base_step_400.json": "298bd21feec5867f450838b44b751f7df03dfb2405e68490cc88790353181933",
+    "contract.json": "36d64fd0ec679e2d53313b1a7d59ca7bc305bf25f6107cf1366dc4cfff18f0a5",
+    "curated_model.json": "fd584e1f163ae65e1b0c89588b70950b3c66698e56b9039ad83febe734a61ffe",
+    "curated_step_100.json": "fac0cc2b60e2bafef6f8b1458477fc04744cbee7ffb92878f55e971b2a6d946d",
+    "curated_step_400.json": "fd584e1f163ae65e1b0c89588b70950b3c66698e56b9039ad83febe734a61ffe",
+    "data.json": "89502be395c1225eec2e8fc7bc76a854ab83cf295f473e6b7dad4bf88813259c",
+    "results.json": "5223a1f215be3f51f35e27512661d844b5aee3884acee1596ce81a2f21e692a7",
+    "training.json": "2b0b917a3e25bcf872060b71f84e7bb5a025fd4bacc5858bd3ca53037cb87dd6",
+    "unsafe_model.json": "a83d2c407722fb3fba8230931218642d474932ab4226a1e7b40a9dbb56c4b63b",
+    "unsafe_step_100.json": "1ddd0ceb25a0bd799243d29ffe260f7b730ca0a4fbbbe5b441b38470271c6909",
+    "unsafe_step_400.json": "a83d2c407722fb3fba8230931218642d474932ab4226a1e7b40a9dbb56c4b63b"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "release": "v1",
+  "artifact": "e8910026ccb44cad1916136e8bd296585f277395f7fc5ac7641747508a31f5c2",
+  "image": "sha256:bcc9b585fa61cefd922b6a7fe626851686c2e032de1f48cbaf0c689320384b94",
+  "source_files": {
+    "config.json": "cd4f69e0dbbccb2343e275e20d5478d487465c3401faead020c11e6eee97aff2",
+    "Dockerfile": "be9549cbc761bac37a04455bce4e31cf908fd039493ece7c51138404e402883b",
+    "runtime.py": "f73ab90df8be02502fb74a1c34881c6384024d0bb3f17c972e6688d9f48e6e67"
+  }
+}

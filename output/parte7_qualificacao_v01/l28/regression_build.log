@@ -1,0 +1,46 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 204B done
+#1 DONE 0.4s
+
+#2 [internal] load metadata for docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.4s
+
+#4 [internal] load build context
+#4 transferring context: 327B done
+#4 DONE 0.7s
+
+#5 [1/3] FROM docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2 1.0s done
+#5 DONE 1.1s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY . /app/
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:f6aa207253bdcbce096cb37d50975028e5790faf02069224b693d75a3b42f3a3
+#8 exporting manifest sha256:f6aa207253bdcbce096cb37d50975028e5790faf02069224b693d75a3b42f3a3 0.2s done
+#8 exporting config sha256:a35b06bc2be510ce8e028745a2f28046e9a84828c7b9c08f0e1ba27028ec3b82
+#8 exporting config sha256:a35b06bc2be510ce8e028745a2f28046e9a84828c7b9c08f0e1ba27028ec3b82 0.2s done
+#8 exporting attestation manifest sha256:83483ecd37e173ac380a87c68f0bcabebf9f9263fdd5c40e035b25d4c63bfd9b
+#8 exporting attestation manifest sha256:83483ecd37e173ac380a87c68f0bcabebf9f9263fdd5c40e035b25d4c63bfd9b 0.7s done
+#8 exporting manifest list sha256:204732c918012040635ff983029a5affc24a993310f540553c870b00334a5b1b
+#8 exporting manifest list sha256:204732c918012040635ff983029a5affc24a993310f540553c870b00334a5b1b 0.9s done
+#8 naming to docker.io/library/book-l28-9270b926f3-regression:local
+#8 naming to docker.io/library/book-l28-9270b926f3-regression:local 0.1s done
+#8 unpacking to docker.io/library/book-l28-9270b926f3-regression:local
+#8 unpacking to docker.io/library/book-l28-9270b926f3-regression:local 0.7s done
+#8 DONE 3.5s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/w6wp0i3871ue30sapjxsq6u0r

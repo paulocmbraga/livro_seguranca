@@ -1,0 +1,29 @@
+{
+  "spent": [
+    [
+      0.5,
+      0
+    ],
+    [
+      2.0,
+      0
+    ],
+    [
+      8.0,
+      0
+    ]
+  ],
+  "total": [
+    10.5,
+    0
+  ],
+  "ceiling": [
+    10.5,
+    0
+  ],
+  "slack": 0,
+  "extra_fit_blocked": true,
+  "seed_noise": null,
+  "public_norm": 8.94427190999916,
+  "scope": "Somente cada treinamento DP. Corpus, baseline não privado e escores são sintéticos públicos; o pacote inteiro não é uma publicação DP de dados confidenciais."
+}

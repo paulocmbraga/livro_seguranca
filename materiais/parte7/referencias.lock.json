@@ -1,0 +1,41 @@
+{
+  "consulted": "2026-10-23",
+  "sources": [
+    {
+      "id": "DP",
+      "version": "diffprivlib 0.6.6, modelos e contador",
+      "url": "https://diffprivlib.readthedocs.io/en/latest/modules/models.html"
+    },
+    {
+      "id": "ACCOUNTANT",
+      "version": "BudgetAccountant 0.6.6",
+      "url": "https://diffprivlib.readthedocs.io/en/latest/modules/accountant.html"
+    },
+    {
+      "id": "MEMBERSHIP",
+      "version": "Shokri et al., IEEE S&P 2017; arXiv v2",
+      "url": "https://arxiv.org/abs/1610.05820v2"
+    },
+    {
+      "id": "ADAPTATION",
+      "version": "Qi et al., arXiv:2310.03693v1",
+      "url": "https://arxiv.org/abs/2310.03693v1"
+    },
+    {
+      "id": "TORCH",
+      "version": "PyTorch 2.14, reproducibility",
+      "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html"
+    },
+    {
+      "id": "DOCKER",
+      "version": "Docker Engine bridge; daemon local 29.8.2",
+      "url": "https://docs.docker.com/engine/network/drivers/bridge/"
+    },
+    {
+      "id": "SSDF",
+      "version": "NIST SP 800-218, versão 1.1, fevereiro 2022",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/final"
+    }
+  ],
+  "limits": "Referências conceituais; experimentos próprios, não reproduções integrais dos artigos ou certificação."
+}

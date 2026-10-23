@@ -2,21 +2,19 @@
 
 Materiais dos alunos. Autor: **Paulo Cesar Braga**.
 
-Esta entrega acrescenta a **Parte VI, capítulos 21 a 24**, preservando as anteriores. O projeto prevê 36 capítulos; os capítulos 1–24 estão redigidos. Os demais continuam em desenvolvimento.
-
-Comece pelo [roteiro da Parte VI](PARTE_VI.md). Permanecem disponíveis [Parte V](PARTE_V.md), [Parte IV](PARTE_IV.md), [Parte III](PARTE_III.md), [Parte II](PARTE_II.md), [Parte I](PARTE_I.md) e [L00/M1](COMECE_AQUI.md).
+Esta entrega acrescenta a **Parte VII, capítulos 25–28**, preservando as anteriores. Estão redigidos os capítulos 1–28 dos 36 previstos. Comece pelo [roteiro da Parte VII](PARTE_VII.md). Permanecem disponíveis [Parte VI](PARTE_VI.md), [Parte V](PARTE_V.md), [Parte IV](PARTE_IV.md), [Parte III](PARTE_III.md), [Parte II](PARTE_II.md), [Parte I](PARTE_I.md) e [L00/M1](COMECE_AQUI.md).
 
 | Laboratório | Evidência nova |
 |---|---|
-| L21 | Store HTTP, partições, seleção de árvores e promoção vinculada; 11 chamadas |
-| L22 | 48 modelos ajustados; orçamento, pares com gatilho, filtro e adaptação |
-| L23 | 48 condições, 5.760 variantes válidas; mascaramento de gradiente e utilidade |
-| L24 | API de modelo próprio; 12 substitutos, 1.048 chamadas, 736 inferências |
+| L25 | Ataque de pertencimento, três ajustes diffprivlib e contador de orçamento |
+| L26 | GRU própria, quatro treinamentos, 2.000 passos, adaptação total e baixo posto |
+| L27 | Dois perfis Docker, rede, TLS, identidade, cache por tenant e cota |
+| L28 | Três imagens, gates, quatro smokes HTTP e reversão observada |
 
-O pacote cumulativo passou em **327 testes**, sendo 43 novos, e 53 trabalhos de teste/reconciliação. A suíte nova executa novamente os quatro laboratórios. Referência final: `output/parte6_v02`; repetição: `output/parte6_qualificacao_v01`. Verificar capturas históricas não significa repetir inferência, OCR ou todos os runtimes anteriores.
+O pacote cumulativo passou em **370 testes**, sendo 43 novos, e **62 trabalhos de teste/reconciliação**. A Parte VII foi executada duas vezes no mesmo computador: referência `output/parte7_v01` e repetição `output/parte7_qualificacao_v01`. A suíte nova testa componentes e contraprovas; as duas capturas registram os treinamentos e deployments completos. Reconciliar capturas antigas não equivale a repetir todos os runtimes anteriores.
 
-Os modelos tabulares são treinados de verdade; dados e cenários são sintéticos. L21 preserva um resultado em que a contaminação piora a acurácia, sem torná-la válida. L22 mede gatilho, utilidade e falsos positivos. L23 inclui ataques alternativos e o custo limpo da defesa. L24 mede fidelidade fora das consultas e prejuízo legítimo causado pela cota. Não há certificado de robustez, recuperação de pesos da vítima, API paga ou avaliação de modelos de terceiros.
+Use o ambiente isolado descrito no roteiro. O diffprivlib 0.6.6 precisou de scikit-learn 1.5.2 e SciPy 1.15.3 nesta qualificação; o ambiente anterior não foi substituído. A versão de PyTorch CPU é fixada em arquivo separado. L27/L28 exigem Docker e uma imagem-base por digest. Sem GPU, API paga, LLM pré-treinado ou dados reais confidenciais.
 
-O repositório contém código, testes, guias, materiais, locks, capturas e pequenos modelos numéricos em JSON para auditoria. Os **472 arquivos históricos além de README e manifesto geral** permanecem byte a byte. Os dois documentos atualizados conservam sua história no Git. Livro, PDF, EPUB, fontes, capas, dados de KDP, pesos de LLM e executáveis ficam fora do pacote público.
+Os 689 arquivos históricos, além de README e manifesto geral, permanecem byte a byte. Esses dois documentos conservam sua história no Git. O pacote inclui código, testes, guias, locks, capturas, pequenos modelos próprios em JSON e bundles de código dos exercícios. Livro, PDF, EPUB, fontes, capas, KDP, pesos de LLM, executáveis e chaves TLS ficam fora.
 
-Execute em diretórios novos. `run` cria evidência; `verify` reconcilia uma captura existente. Não use `python -O` nem recalcule hashes históricos para ocultar divergências. A validação ocorreu no mesmo computador; reprodução independente e revisão do autor permanecem pendentes. Os guias detalham dependências e limites de cada parte.
+`run` cria nova evidência; `verify` reconcilia a captura. Não use `python -O`, não sobrescreva resultados e não recalcule hashes históricos para esconder divergências. O pacote sintético inteiro não tem uma garantia DP de dados privados. A GRU não demonstra segurança de LLMs em linguagem natural. A implantação é local, com controlador confiável e sem CI remota. Reprodução independente e revisão do autor permanecem pendentes.

@@ -1,0 +1,1 @@
+{"lab": "L28", "verified": true, "images_built": 3, "gate_checks": 15, "runtime_smokes": 4, "regression_blocked": true, "evidence_swap_blocked": true, "rollback_verified": true, "remote_ci": false}

@@ -1,0 +1,374 @@
+{
+  "base": "python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2",
+  "docker_version": "29.8.2",
+  "profiles": {
+    "weak": {
+      "backend_ip": "172.29.0.2",
+      "backend_networks": [
+        "book-l27-e253481915-weak-front"
+      ],
+      "gateway_networks": [
+        "book-l27-e253481915-weak-back",
+        "book-l27-e253481915-weak-front"
+      ],
+      "gateway_ports": {
+        "8443/tcp": []
+      },
+      "backend_ports": {},
+      "read_only": true,
+      "user": "10001:10001",
+      "checks": {
+        "direct": {
+          "status": 200,
+          "body": {
+            "tenant": "beta",
+            "score": 0.425557483188341,
+            "marker": "DADO_BETA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 1
+          }
+        },
+        "service_without_identity": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 2
+          }
+        },
+        "service_positive": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 3
+          }
+        },
+        "tls_untrusted": {
+          "status": 0,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
+        },
+        "tls_wrong_name": {
+          "status": 0,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '172.29.0.3'. (_ssl.c:1010)>"
+        },
+        "alpha": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 4,
+            "cached": false
+          }
+        },
+        "beta": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 4,
+            "cached": true
+          }
+        },
+        "admin": {
+          "status": 200,
+          "body": {
+            "admin": true
+          }
+        },
+        "anonymous": {
+          "status": 401,
+          "body": {
+            "error": "identity"
+          }
+        },
+        "batch": {
+          "status": 400,
+          "body": {
+            "error": "batch_unsupported"
+          }
+        },
+        "quota": [
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 4,
+              "cached": true
+            }
+          },
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 4,
+              "cached": true
+            }
+          },
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 4,
+              "cached": true
+            }
+          },
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 4,
+              "cached": true
+            }
+          },
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 4,
+              "cached": true
+            }
+          }
+        ],
+        "beta_after_alpha_quota": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 4,
+            "cached": true
+          }
+        }
+      },
+      "receipts": [
+        {
+          "tenant": "beta",
+          "score": 0.425557483188341,
+          "marker": "DADO_BETA",
+          "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+          "receipt": 1
+        },
+        {
+          "tenant": "alpha",
+          "score": 0.6899744811276125,
+          "marker": "DADO_ALPHA",
+          "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+          "receipt": 2
+        },
+        {
+          "tenant": "alpha",
+          "score": 0.6899744811276125,
+          "marker": "DADO_ALPHA",
+          "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+          "receipt": 3
+        },
+        {
+          "tenant": "alpha",
+          "score": 0.6899744811276125,
+          "marker": "DADO_ALPHA",
+          "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+          "receipt": 4
+        }
+      ]
+    },
+    "strict": {
+      "backend_ip": "192.168.0.2",
+      "backend_networks": [
+        "book-l27-e253481915-strict-back"
+      ],
+      "gateway_networks": [
+        "book-l27-e253481915-strict-back",
+        "book-l27-e253481915-strict-front"
+      ],
+      "gateway_ports": {
+        "8443/tcp": []
+      },
+      "backend_ports": {},
+      "read_only": true,
+      "user": "10001:10001",
+      "checks": {
+        "direct": {
+          "status": 0,
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        "service_without_identity": {
+          "status": 401,
+          "body": {
+            "error": "service_identity"
+          }
+        },
+        "service_positive": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 1
+          }
+        },
+        "tls_untrusted": {
+          "status": 0,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
+        },
+        "tls_wrong_name": {
+          "status": 0,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '172.31.0.2'. (_ssl.c:1010)>"
+        },
+        "alpha": {
+          "status": 200,
+          "body": {
+            "tenant": "alpha",
+            "score": 0.6899744811276125,
+            "marker": "DADO_ALPHA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 2,
+            "cached": false
+          }
+        },
+        "beta": {
+          "status": 200,
+          "body": {
+            "tenant": "beta",
+            "score": 0.425557483188341,
+            "marker": "DADO_BETA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 3,
+            "cached": false
+          }
+        },
+        "admin": {
+          "status": 403,
+          "body": {
+            "error": "admin_disabled"
+          }
+        },
+        "anonymous": {
+          "status": 401,
+          "body": {
+            "error": "identity"
+          }
+        },
+        "batch": {
+          "status": 400,
+          "body": {
+            "error": "batch_unsupported"
+          }
+        },
+        "quota": [
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 2,
+              "cached": true
+            }
+          },
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 2,
+              "cached": true
+            }
+          },
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 2,
+              "cached": true
+            }
+          },
+          {
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.6899744811276125,
+              "marker": "DADO_ALPHA",
+              "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+              "receipt": 2,
+              "cached": true
+            }
+          },
+          {
+            "status": 429,
+            "body": {
+              "error": "quota"
+            }
+          }
+        ],
+        "beta_after_alpha_quota": {
+          "status": 200,
+          "body": {
+            "tenant": "beta",
+            "score": 0.425557483188341,
+            "marker": "DADO_BETA",
+            "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+            "receipt": 3,
+            "cached": true
+          }
+        }
+      },
+      "receipts": [
+        {
+          "tenant": "alpha",
+          "score": 0.6899744811276125,
+          "marker": "DADO_ALPHA",
+          "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+          "receipt": 1
+        },
+        {
+          "tenant": "alpha",
+          "score": 0.6899744811276125,
+          "marker": "DADO_ALPHA",
+          "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+          "receipt": 2
+        },
+        {
+          "tenant": "beta",
+          "score": 0.425557483188341,
+          "marker": "DADO_BETA",
+          "model": "9355a9b91eecbdf83ce51a0f23d7e1c715c474d079a6c4e76610acf37de9bdd8",
+          "receipt": 3
+        }
+      ]
+    }
+  },
+  "certificate_fingerprint": "ea1f42140069923d1f9a486ecc403caf38b66911215c9bbb6828d257685b3901",
+  "image_id": "sha256:60d6606e619cabfff907eb2eac30efb00193f9d57d636eb51025becc71247ffa"
+}
