@@ -1,0 +1,2102 @@
+{
+  "train-000": {
+    "split": "train",
+    "group": "train-subject-000",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f73217d035f0b0e6060b792f4f274761b4dde385f61c03f83c10f30a3d02b9a6"
+  },
+  "train-001": {
+    "split": "train",
+    "group": "train-subject-001",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a5596a321120cfb845a9996cdb6901e1bf1977d6b931b58cc06b025226ea937e"
+  },
+  "train-002": {
+    "split": "train",
+    "group": "train-subject-002",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "667924131dd1ff0668441f684a834972c59fe5fb00e651d313e8876dec9109d6"
+  },
+  "train-003": {
+    "split": "train",
+    "group": "train-subject-003",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e0f55f23c191173020a5f974eaaccf86bc36222971169432535044f62fb6872d"
+  },
+  "train-004": {
+    "split": "train",
+    "group": "train-subject-004",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "befb77076133a2176cbf8468ecbe183edd2b4bc500f0a204fa89a622fbc24107"
+  },
+  "train-005": {
+    "split": "train",
+    "group": "train-subject-005",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "cfd807339c840cd6be188abf368a977da539d4c7a5f63f26d45aee4b5edabf6b"
+  },
+  "train-006": {
+    "split": "train",
+    "group": "train-subject-006",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "24e59839cea92fd3b0d788714b26abfe4584c1f2a03e9993904b40bc671b3571"
+  },
+  "train-007": {
+    "split": "train",
+    "group": "train-subject-007",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "91a388f36c3e684cad7dca3723380d34c3f31ed52e451e14f93c9cf46548372e"
+  },
+  "train-008": {
+    "split": "train",
+    "group": "train-subject-008",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "4d4655f39ba3d741ad6ff92bc21b1086fb3e5245f4ce957c7ff7cb65677b8faa"
+  },
+  "train-009": {
+    "split": "train",
+    "group": "train-subject-009",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "16d837ccb6d475e69f126c7ec6933f8bd12b854c7504f345face97867cbd16b1"
+  },
+  "train-010": {
+    "split": "train",
+    "group": "train-subject-010",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "eda43e19e9d5c65baed39f800c7050a61216808a52770aaa20eebeae5f05ef06"
+  },
+  "train-011": {
+    "split": "train",
+    "group": "train-subject-011",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d500754d1198661ec21378802c3fa5616adee3af93a8ce82960d56d41d8c4754"
+  },
+  "train-012": {
+    "split": "train",
+    "group": "train-subject-012",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "017386b791320320391e2bc8b592bce28496f909be9d93cf158e1085482e57d8"
+  },
+  "train-013": {
+    "split": "train",
+    "group": "train-subject-013",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "fb48419e108bf978892aa692ea9cda7e0a7b5314751f7603c499522db5b39df7"
+  },
+  "train-014": {
+    "split": "train",
+    "group": "train-subject-014",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "78bfd5d43ef2469358ad5c93405fdcb09ac7a2dbbb1e57010cca7bafdb5c7440"
+  },
+  "train-015": {
+    "split": "train",
+    "group": "train-subject-015",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "1e1fa05cbfa13226d4521f1a121e79aad1c8c76adfb58b7201d041b385092c8c"
+  },
+  "train-016": {
+    "split": "train",
+    "group": "train-subject-016",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "046b7782acca7f6105e33589ba9e7b71eec7e1396a722ed512ab2179b4b069fe"
+  },
+  "train-017": {
+    "split": "train",
+    "group": "train-subject-017",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "bc9580dba18242f584046f65575e41d8d3a87ff797bd29b71c53ecfe703eec01"
+  },
+  "train-018": {
+    "split": "train",
+    "group": "train-subject-018",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3f6352b1c75dc745a8227dcc4449af8f21212fcc19b6a044f58a086e0b06e04a"
+  },
+  "train-019": {
+    "split": "train",
+    "group": "train-subject-019",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "673bd4418349c0f3bfbbac2e25bcd2ea0af78be379156bd6a8e9f62e7b3ed430"
+  },
+  "train-020": {
+    "split": "train",
+    "group": "train-subject-020",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "2d2b6478395a3878c985358b61ea5b67eba73ca8a5875d8d0662a8262b0fd9db"
+  },
+  "train-021": {
+    "split": "train",
+    "group": "train-subject-021",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b0b0781eb8d1ca8a0aa8c49b27c8a819419b8043029d2bfa8666da06c9b6d5b1"
+  },
+  "train-022": {
+    "split": "train",
+    "group": "train-subject-022",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "2a5fecc5863886aa76ec52f2be69bb4ac50e9f2ce958f5c06dfede552d93f8b2"
+  },
+  "train-023": {
+    "split": "train",
+    "group": "train-subject-023",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f926f89c50d9aba1112754d4646fd865a0998a465974e43ff5956231e3a5c951"
+  },
+  "train-024": {
+    "split": "train",
+    "group": "train-subject-024",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "8f6c9a46457d9210e777c5fce57ac2e003ef3d2d6fdab8d124fee1fb7a944080"
+  },
+  "train-025": {
+    "split": "train",
+    "group": "train-subject-025",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "47622c79f714a6326a1483a7424f53c28d8daaad94cf42222be76863eb6fdafd"
+  },
+  "train-026": {
+    "split": "train",
+    "group": "train-subject-026",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "01d794012dae593465f48b46fdde3ad70cef90fca239bddfdf437ebc0ee9b7c5"
+  },
+  "train-027": {
+    "split": "train",
+    "group": "train-subject-027",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "334397c7cb08a8085f6a301d6842c2986914f47e528015665efd110145b9422d"
+  },
+  "train-028": {
+    "split": "train",
+    "group": "train-subject-028",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "189a0429c6cbf25e3b7dbb82d553f66ffd9d0a3531ddeda7092780c9c8428f31"
+  },
+  "train-029": {
+    "split": "train",
+    "group": "train-subject-029",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ebdb0d5d32a1157c8eb211e268d3b4af2ed10f09e634bc9b4f8ca8cdc00970cb"
+  },
+  "train-030": {
+    "split": "train",
+    "group": "train-subject-030",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ee1703a31f809bf76b8d7d328efc0f23fb87052e5825397019e33ac0b93dbdba"
+  },
+  "train-031": {
+    "split": "train",
+    "group": "train-subject-031",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "7a6da9c0dddfda9559cc6b67d94f5b18d548ca57da9299620855447c7a9d80dd"
+  },
+  "train-032": {
+    "split": "train",
+    "group": "train-subject-032",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "7a143bd98820014919c4acb68264386388c162f94997f483b98a0a9d9406d99c"
+  },
+  "train-033": {
+    "split": "train",
+    "group": "train-subject-033",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "64321a384679fff64a078874a6301ac48b521007d1e3458cbe9ae85f6c4e6b17"
+  },
+  "train-034": {
+    "split": "train",
+    "group": "train-subject-034",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6e0eeb7dd9cb2bc2c7843339a00dab7c4481755dd10c092f6de7ca7a83b26060"
+  },
+  "train-035": {
+    "split": "train",
+    "group": "train-subject-035",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b3c65ac9ef721a36fbfa47e7f99f783fd5da4d77063af87ddcf068d17b4a4ac6"
+  },
+  "train-036": {
+    "split": "train",
+    "group": "train-subject-036",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e9e7fd55d081249fdbb639e2a4d4a8f75f218cb992df1e4b83c86979989860f1"
+  },
+  "train-037": {
+    "split": "train",
+    "group": "train-subject-037",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d13edc0f8064a3e10fad4ce8ce32838501cf75e43303b34579f9f2f543ea3c5d"
+  },
+  "train-038": {
+    "split": "train",
+    "group": "train-subject-038",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6a2512153b63405e6e0a983653d9e4933625aee9a6cc4953a61a62fe12f6a746"
+  },
+  "train-039": {
+    "split": "train",
+    "group": "train-subject-039",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "84837f78d4c22283b97ed981f9884da90ca9b10d0ff2a9ed90d35d26d4c4ea5d"
+  },
+  "train-040": {
+    "split": "train",
+    "group": "train-subject-040",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3b77b70be2d70b95a012d835aab7fc9ade8ec4738939a8770e133b8ecf71ac55"
+  },
+  "train-041": {
+    "split": "train",
+    "group": "train-subject-041",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "65d28089fc6181b43f8d1f101065dac408869197c775cd3dd7b52e9d473672d3"
+  },
+  "train-042": {
+    "split": "train",
+    "group": "train-subject-042",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e6e48a499752caae395f188a9b714b052e4d4b6b603df733129c267a9650ccb8"
+  },
+  "train-043": {
+    "split": "train",
+    "group": "train-subject-043",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "26832250c64587a722f071faab6d6724a0dacdc4f94cbec7d3f3d9008ea893b6"
+  },
+  "train-044": {
+    "split": "train",
+    "group": "train-subject-044",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "fc37c5128a7dc487d97ad5519ab34666a92c70e08299578ba37d0174d4c3bf02"
+  },
+  "train-045": {
+    "split": "train",
+    "group": "train-subject-045",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d4b0f9ccba51308adbc3e91ed9fbf21ef9116cf3a2a3ceb18866fc2f517e2f1c"
+  },
+  "train-046": {
+    "split": "train",
+    "group": "train-subject-046",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "cc6a1039abee4aa10db1d7fc0ba1d5b603e4aa12137e9a05e5325debc2241d56"
+  },
+  "train-047": {
+    "split": "train",
+    "group": "train-subject-047",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e73ac5f41b1d89abd5b3b7c73edade456b29f536cd299b971d45d6f0e804aa15"
+  },
+  "train-048": {
+    "split": "train",
+    "group": "train-subject-048",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "42a9507661f93730c177f5e91a1d3e0bea1c4467bee4e49158dc9b31fa57ba0f"
+  },
+  "train-049": {
+    "split": "train",
+    "group": "train-subject-049",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ff1169d649331f63d21789393ec09edc4f31a0b6f1d5db41c4e96e3713aec3b5"
+  },
+  "train-050": {
+    "split": "train",
+    "group": "train-subject-050",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "9973e0bf68055a914839343d5b75d25df9415c5c0732193fe5affc03fc13577f"
+  },
+  "train-051": {
+    "split": "train",
+    "group": "train-subject-051",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "80df00a7a5b63296c97f09aaf709e09c30c7ca9fb9f20226304602fdcf3ed4f1"
+  },
+  "train-052": {
+    "split": "train",
+    "group": "train-subject-052",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "08bb23ac6f9343431478200a3d5bab5dfdd8a88853388d865ab94ccddc2b8f89"
+  },
+  "train-053": {
+    "split": "train",
+    "group": "train-subject-053",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "447181fed7fddd2fe4f4553a06f2a3a2ca5d567ba7ca76afe367cd74906b432b"
+  },
+  "train-054": {
+    "split": "train",
+    "group": "train-subject-054",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a6c596fcf932b41c7bb9fd07fb81b11fab3077698ce78624693c86d1a05b6a0f"
+  },
+  "train-055": {
+    "split": "train",
+    "group": "train-subject-055",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "61b6231464b396b9c533a933ed23e1c63231377a6f9571d90b808ba7e864e731"
+  },
+  "train-056": {
+    "split": "train",
+    "group": "train-subject-056",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "2cc66979d21606a9583b80429d0e70ec115c8d872a4db0795a549e8bcea691e4"
+  },
+  "train-057": {
+    "split": "train",
+    "group": "train-subject-057",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "01e092f38615181b543313cb49ab32163daf4b4d0a359392d804f96578e21aa3"
+  },
+  "train-058": {
+    "split": "train",
+    "group": "train-subject-058",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d1dc2bf6382a83bd9f3ad198cd0ddbfce3150fa3a5faa60928fcd31124932340"
+  },
+  "train-059": {
+    "split": "train",
+    "group": "train-subject-059",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "8904443f6d3fff9ab43c99170f8e76ff58b52a41b53715355c48c39cceb2d8db"
+  },
+  "train-060": {
+    "split": "train",
+    "group": "train-subject-060",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ea25bf9db5f3d88bf544d6058bec8bdffe6f6a4f2bb8c30da34fe8dfd38e94bb"
+  },
+  "train-061": {
+    "split": "train",
+    "group": "train-subject-061",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "aff3c722be2ca0191648afe699d1e667a5b9a49be32afd86d263d1778604e3fb"
+  },
+  "train-062": {
+    "split": "train",
+    "group": "train-subject-062",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "51f9d63c12b301fdbd0f99bf8e9be268c8ae6df5d67806bdc675852c68b263ed"
+  },
+  "train-063": {
+    "split": "train",
+    "group": "train-subject-063",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "20191ba257f83dd572de5902ad212cd714772a0ac46d912710433725cbe5d7b0"
+  },
+  "train-064": {
+    "split": "train",
+    "group": "train-subject-064",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3b91bf93924f22b07b2b0a6796f59568cb67048e075fd54aab782bf20225a14d"
+  },
+  "train-065": {
+    "split": "train",
+    "group": "train-subject-065",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3f4964e83c1b1086be7d0106be85e28b18f8b3d0a2d9f62b53f8c441469b3b98"
+  },
+  "train-066": {
+    "split": "train",
+    "group": "train-subject-066",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3d6e6d170854af031fcc662dc39e8c3813ff80eaeb7aaf3115d9acf41e70db7b"
+  },
+  "train-067": {
+    "split": "train",
+    "group": "train-subject-067",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "54e1fadfd4fc0964a8a6c0a410e70b334327aa099e1596095b0a76d97aac3c9b"
+  },
+  "train-068": {
+    "split": "train",
+    "group": "train-subject-068",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ad90f17bb7128e1673bfcd23931f155532860a51edcd9cb3aa537a7eb2d1e4f8"
+  },
+  "train-069": {
+    "split": "train",
+    "group": "train-subject-069",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f3aae63561e53768b357431789ac9940efe88a4dcbdab7bb6406b2d40a2e0c6b"
+  },
+  "train-070": {
+    "split": "train",
+    "group": "train-subject-070",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "bbe2054b00a92f55fcf62aa36ba0e4f8ea2eaaade331b4a4e495b72cd083365b"
+  },
+  "train-071": {
+    "split": "train",
+    "group": "train-subject-071",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "23953adf8cfdff286f4e9133009dc4892c0aff417f1e4eb207bd23e7e5ce4f80"
+  },
+  "train-072": {
+    "split": "train",
+    "group": "train-subject-072",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a099c58728853e2812ad3726532b940f6f7a7938dbdb7441294bb625d3b463a9"
+  },
+  "train-073": {
+    "split": "train",
+    "group": "train-subject-073",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "7ddff20ce640df0cb94ecb44652d191063d6e42acbfdd2c54ebf09f1068b3c54"
+  },
+  "train-074": {
+    "split": "train",
+    "group": "train-subject-074",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "bfef03dd8552f1ad74094b62447bb6b69bf4c35eeb0e0a9d3e1d321e52fcbbf2"
+  },
+  "train-075": {
+    "split": "train",
+    "group": "train-subject-075",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "81f93b7cc068b74de3724f90e939a326f95134891cbddfaf1838f4a5450d7ed1"
+  },
+  "train-076": {
+    "split": "train",
+    "group": "train-subject-076",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "4351bfe4c70fca05540dc08d5a75eba81f1634fef8de7434219f785677f8f74e"
+  },
+  "train-077": {
+    "split": "train",
+    "group": "train-subject-077",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ce19bbff7a9dee6881c7fe59681ec856278ff94268b64adea86776f8811ea65c"
+  },
+  "train-078": {
+    "split": "train",
+    "group": "train-subject-078",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f72db47c0da8a79342ad53fb03021ecf1bc483be8e87cafc41f480bdec8dac78"
+  },
+  "train-079": {
+    "split": "train",
+    "group": "train-subject-079",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "9056d8b4e37585ec3eb7c84d5baf7bb87afa57a706f4aeac15cc7e0b9df3415f"
+  },
+  "train-080": {
+    "split": "train",
+    "group": "train-subject-080",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e2569068f40827e5a5f74837a4c881ea7e1badaddc281772e95dbcb482585244"
+  },
+  "train-081": {
+    "split": "train",
+    "group": "train-subject-081",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "2725ae313ab73ad0a90de2c276d38ab1010a3102d127bda03289b21d7fa702a1"
+  },
+  "train-082": {
+    "split": "train",
+    "group": "train-subject-082",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a7432ab12d53fb0f68276a3cd538ba053d6f233b175aebc8e757649936285792"
+  },
+  "train-083": {
+    "split": "train",
+    "group": "train-subject-083",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e1ecf2401dac8ce86137fc72b4b2c97844d4e9ae88226ec513b1b871f4ea8d8f"
+  },
+  "train-084": {
+    "split": "train",
+    "group": "train-subject-084",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "5968536d9309026c3c3c364a64ab46c24e4b1ace1f8374d7190f21aad06a8d7e"
+  },
+  "train-085": {
+    "split": "train",
+    "group": "train-subject-085",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "5465302a6f325854eab566e6f2af5fe91d3111cc25878d95a493cbda6449c8e0"
+  },
+  "train-086": {
+    "split": "train",
+    "group": "train-subject-086",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d5a459a339a4f798e7093d461bcd75fcecfc0b7458458a0268c0ff35fc6c1290"
+  },
+  "train-087": {
+    "split": "train",
+    "group": "train-subject-087",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "0e2a2fdfc5dd5eb13094a3ca5e0a5b53cdec44fb8e73d5f69cdc9c144a565b33"
+  },
+  "train-088": {
+    "split": "train",
+    "group": "train-subject-088",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "104bf75bf50dce53624a1f299c05829e1e03bb88c1d3965a79448e142390e626"
+  },
+  "train-089": {
+    "split": "train",
+    "group": "train-subject-089",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6cf39af1ab00691129bf37417e2ba7ca614d0cfc57f4de0b54e900527285c4c6"
+  },
+  "train-090": {
+    "split": "train",
+    "group": "train-subject-090",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b2cbc21fc59d1e331a6c7f24c6fa275f2da122e988c256ed29d9ed168778716e"
+  },
+  "train-091": {
+    "split": "train",
+    "group": "train-subject-091",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "7036dcf4e0357309c6f0e8a5c2a14f725cc5aa693cca43728f54a9da257dd58c"
+  },
+  "train-092": {
+    "split": "train",
+    "group": "train-subject-092",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "2c0ec25466203d03cf230ede15b1ac6af1e2dcba5bc2e45ce9f2c2ee99906f61"
+  },
+  "train-093": {
+    "split": "train",
+    "group": "train-subject-093",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "94ed1a3ad83a37a1efcba92ecb711a96047055d66f5e4dfe069c7c42fc4531b1"
+  },
+  "train-094": {
+    "split": "train",
+    "group": "train-subject-094",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "326cdb0838eca56a8edf9ea1b6707e41556efce8b142ac03a3c74e75f0dcd2c0"
+  },
+  "train-095": {
+    "split": "train",
+    "group": "train-subject-095",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "dec01c10eb8f737349f49f4df315f3da29b9ed3ba5edca05357c09443cda85cf"
+  },
+  "train-096": {
+    "split": "train",
+    "group": "train-subject-096",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "c8f94c83b2ec5a8925abb38b812b5cea1023fd39f312493a71fe8521f5fcef18"
+  },
+  "train-097": {
+    "split": "train",
+    "group": "train-subject-097",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e3ade31bda107d0e03aa5912a9fe6bdabaeabefb2737a465eb0d0f4fdecaeefe"
+  },
+  "train-098": {
+    "split": "train",
+    "group": "train-subject-098",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e740fc5460199f8bde3ce6a91329c9417355ad27609a0e855f2ea67b86beb4c0"
+  },
+  "train-099": {
+    "split": "train",
+    "group": "train-subject-099",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "71436490968a093dd50d49836e4e6fe5a27225bf50d5273f36a5401de091dc23"
+  },
+  "train-100": {
+    "split": "train",
+    "group": "train-subject-100",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "cf70f8f0be3583036953d74ed8d2a19a8a08e248aac5e4c2fccb0cf4b6557185"
+  },
+  "train-101": {
+    "split": "train",
+    "group": "train-subject-101",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "15f28e3adaa9b6ae98ffdd705f38f83689fed1a230b847088d912314e6b41a5f"
+  },
+  "train-102": {
+    "split": "train",
+    "group": "train-subject-102",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e9191172bde638bbfb857b94e0caf0632bf8c38995dc342ff28c8dd6034793c4"
+  },
+  "train-103": {
+    "split": "train",
+    "group": "train-subject-103",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "4554a85c7c45bdc636843bf551564711058ecdc5fd79051730785bc2df696dcb"
+  },
+  "train-104": {
+    "split": "train",
+    "group": "train-subject-104",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b49d5cfb716a8023063e699c9ffe6c6481d14c72bebd2c2768f5430dae407442"
+  },
+  "train-105": {
+    "split": "train",
+    "group": "train-subject-105",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "421b1357bde424b7627f3691ae463242322a8b0989a1fbe5be55cd5857774bf8"
+  },
+  "train-106": {
+    "split": "train",
+    "group": "train-subject-106",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e5182f374d2683f2605f29e2536cd2bd64f84dd861274515555bdb4bff939c52"
+  },
+  "train-107": {
+    "split": "train",
+    "group": "train-subject-107",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "4ae136cebac5486eef76ea911a1a91abd42377bda3a9e99dc4326cf1ddf549d7"
+  },
+  "train-108": {
+    "split": "train",
+    "group": "train-subject-108",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "23797ca100a4b1bc7d6043bed2a981428369ec644f1f769ec0d69995421546d8"
+  },
+  "train-109": {
+    "split": "train",
+    "group": "train-subject-109",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3f1c6a9b3daeb12a936a11a12160848e5b8f852a7fad1ab14979516b21998d77"
+  },
+  "train-110": {
+    "split": "train",
+    "group": "train-subject-110",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6327cfa38949c121f061965967526423c57debf7445e7f4fa5903e623eb7d6bb"
+  },
+  "train-111": {
+    "split": "train",
+    "group": "train-subject-111",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "7608bc9cd4f981632a4b9b2acd5d35861b8f7f12f8cbfc45f3a3fc116349c70f"
+  },
+  "train-112": {
+    "split": "train",
+    "group": "train-subject-112",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ccfbca231037a7500f49dcc83bd2c62381477161fd172000700459d4c3e3f83e"
+  },
+  "train-113": {
+    "split": "train",
+    "group": "train-subject-113",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "85e2bdd5cf009752a82d21f55fabca80c2e49a9680353c3ecae45d908e38230c"
+  },
+  "train-114": {
+    "split": "train",
+    "group": "train-subject-114",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a61af6b2b07ed2d9fdd4897eafca0d9415e378137236c9fbbe5ba97b5b2004d1"
+  },
+  "train-115": {
+    "split": "train",
+    "group": "train-subject-115",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f309023c2ae8c3eabb844a7449975b22668652a06c1195870637550ac5751d0d"
+  },
+  "train-116": {
+    "split": "train",
+    "group": "train-subject-116",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3f94f8c8c9ac5069d23c391c1fbf33a2f9ec0db753238b1e03cc595e97d21bed"
+  },
+  "train-117": {
+    "split": "train",
+    "group": "train-subject-117",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b73891154fd7c708f5fc9bcafb9854038774787225a26337289707490b389662"
+  },
+  "train-118": {
+    "split": "train",
+    "group": "train-subject-118",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6ece6f6904216a16dcdf2d6e5fdf0da05679c1a20a15af21942d49b21607d6d2"
+  },
+  "train-119": {
+    "split": "train",
+    "group": "train-subject-119",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "edd936768fdbd3c3887b0e724ba964315f4fc3e9cb11c0c8914fd9a4e966e8f1"
+  },
+  "train-120": {
+    "split": "train",
+    "group": "train-subject-120",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "de8fd07f3fa8f6f1a9407439a492e2f0b01ae5ac7631325ea50bc457e96b8b21"
+  },
+  "train-121": {
+    "split": "train",
+    "group": "train-subject-121",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e1bafa7d206a100ba4e7189deeebb6ef7c2d15503d5ebd495bfbe71a9ba4662c"
+  },
+  "train-122": {
+    "split": "train",
+    "group": "train-subject-122",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "790a3ffd3390a336503ca6585efb996a6f747af8ff8741574e0b6d3f6f737957"
+  },
+  "train-123": {
+    "split": "train",
+    "group": "train-subject-123",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "504d333de6b633ebb929e6970f781c76e34d8880a34eebd7ef301228f33dc534"
+  },
+  "train-124": {
+    "split": "train",
+    "group": "train-subject-124",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3241fd65c8753a3512f764b13f085400a0553f88b3b1574ed5ddb3142a9de44f"
+  },
+  "train-125": {
+    "split": "train",
+    "group": "train-subject-125",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "4e8193d628093a5f892090d424848a2b1606c63e5d5c4eb532d5dd431079ae0d"
+  },
+  "train-126": {
+    "split": "train",
+    "group": "train-subject-126",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "201cc40686ede57159e223ea5f78c114564c9448f6995057018f6ae081237f4d"
+  },
+  "train-127": {
+    "split": "train",
+    "group": "train-subject-127",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e8951a6057f16e84dbb730b684f2a97e0d839ad24d2cec6606d486b34223dcf0"
+  },
+  "train-128": {
+    "split": "train",
+    "group": "train-subject-128",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "fe3a6a3b80020cbe85337ec88e46d87fc41ead1d6c692d32d9f0972b878d8a1a"
+  },
+  "train-129": {
+    "split": "train",
+    "group": "train-subject-129",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "93df2bf1e5e10df4e844f999034d16fe1edda52717259300b56009b73b5a5445"
+  },
+  "train-130": {
+    "split": "train",
+    "group": "train-subject-130",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "abdc90d240e4f5614be2573e7fdf3b6adf560b3b89d35819f3e8931905edaa89"
+  },
+  "train-131": {
+    "split": "train",
+    "group": "train-subject-131",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "cc09657c8ac527301c2381f19e9d9829e537a2b483328dde20a1ee6e25837af4"
+  },
+  "train-132": {
+    "split": "train",
+    "group": "train-subject-132",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "804134e3e9ec42da4afab9f4f763bd886643fa848f154e9b131d85808eb610f7"
+  },
+  "train-133": {
+    "split": "train",
+    "group": "train-subject-133",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "1e3bad7618fd9c49b05fc3588944e4f6412e55893cdfc49105829c84e47062ba"
+  },
+  "train-134": {
+    "split": "train",
+    "group": "train-subject-134",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "da490268d73a3b403a83ffdf3c1e764550549615b4f4dcb75a73ea3af328861c"
+  },
+  "train-135": {
+    "split": "train",
+    "group": "train-subject-135",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6749ddbe4a0fe483693713fd37e56b1378dcb877d4717a0b380ec41c2e643543"
+  },
+  "train-136": {
+    "split": "train",
+    "group": "train-subject-136",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "5186494e60bd0122bc05c6e10dd36971a0c83fee9d9d9545dbf4aeed9771885b"
+  },
+  "train-137": {
+    "split": "train",
+    "group": "train-subject-137",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "566b00c72a733d17e04fdab49a747bec00d90b27b0a88a3637a7957a3570fbb0"
+  },
+  "train-138": {
+    "split": "train",
+    "group": "train-subject-138",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3a793e81961131f7080d3fbff945037b27453477148a8edd143058603ba88e9d"
+  },
+  "train-139": {
+    "split": "train",
+    "group": "train-subject-139",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6f5a18d356c198895cea8fd308ae5c30a2a5ab1c6a5485b47da2cf5a371542d3"
+  },
+  "train-140": {
+    "split": "train",
+    "group": "train-subject-140",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "44ad096a7465a63e78e2f76b821f3f18b57a66058a46e30df35e3310118723fa"
+  },
+  "train-141": {
+    "split": "train",
+    "group": "train-subject-141",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "2f08895c946dcef80dc1509f769c98253c470e4271c7e756f3e238eca1500010"
+  },
+  "train-142": {
+    "split": "train",
+    "group": "train-subject-142",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e0fd198370e395c86560897b91d4e7683fcdcac3168f43fe3bc32717424cf8be"
+  },
+  "train-143": {
+    "split": "train",
+    "group": "train-subject-143",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "8abbc01d6d514b88bf376edab680b200f09b8cf8b1e7a8561cad351ae4622ec2"
+  },
+  "train-144": {
+    "split": "train",
+    "group": "train-subject-144",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "10a67a0bed0e92b7e47fb8c5184d4160735c3a266ce646950e131e4b278544fb"
+  },
+  "train-145": {
+    "split": "train",
+    "group": "train-subject-145",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b79cfc8d4e5c8888cb0d0d80c1bc18d068cfd0299061d44ad9fc15e39965c5ff"
+  },
+  "train-146": {
+    "split": "train",
+    "group": "train-subject-146",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "eab09c6db84442f56d48f7d4321b9c0755465e27c8ae122df95f941722566abd"
+  },
+  "train-147": {
+    "split": "train",
+    "group": "train-subject-147",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "be0034db3e47f0257358d7b7a194a93fff785b7ca3e030a9012df5ece06305ed"
+  },
+  "train-148": {
+    "split": "train",
+    "group": "train-subject-148",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "7945490c4cc7644af74aba68768734297e7ae94b363eeed2bb130442c55e6fe7"
+  },
+  "train-149": {
+    "split": "train",
+    "group": "train-subject-149",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "9645a92f47e3a7a61105809e3014cf9ef09d20f6e702f8c1ba5cd38733368b41"
+  },
+  "train-150": {
+    "split": "train",
+    "group": "train-subject-150",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "37cf6ba18b26ae814dda1f650ee6a0acf0dd9827b965d64db1ea9a3d38e75320"
+  },
+  "train-151": {
+    "split": "train",
+    "group": "train-subject-151",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "fd6a28d8a70cf7357a887da04cb47ee2b330c0b4f05bd9b031c75a5df98db70f"
+  },
+  "train-152": {
+    "split": "train",
+    "group": "train-subject-152",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "453f169d35d4f244fb6e645d6437539b4edf3b10412392cb753735a95dd92dec"
+  },
+  "train-153": {
+    "split": "train",
+    "group": "train-subject-153",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "1156f753b7ccd2f940aaa0259fd61265e6e6d6b8e67a1c4e1fb1fcb21275f948"
+  },
+  "train-154": {
+    "split": "train",
+    "group": "train-subject-154",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6ea6d1da5f5104852038423e870618e16ed94851aef202747005669fd2b9329a"
+  },
+  "train-155": {
+    "split": "train",
+    "group": "train-subject-155",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "155ffe495bed4a6e10020dadf0e92f9d7f56de33614e2ddc5cbf1f1de5f28a9c"
+  },
+  "train-156": {
+    "split": "train",
+    "group": "train-subject-156",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "be04f5cb7c29493328ee48d767c63dbb21ff2ed75f04135204927dbecd341524"
+  },
+  "train-157": {
+    "split": "train",
+    "group": "train-subject-157",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "db653981e74bf8169acbc4088d70d95ab2b7c12589cc184f2de0af5c0def5fdc"
+  },
+  "train-158": {
+    "split": "train",
+    "group": "train-subject-158",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "fba6ef685472dc39e89a5d7976df5ba1b7a92f0620039daf80f6f0160fca0166"
+  },
+  "train-159": {
+    "split": "train",
+    "group": "train-subject-159",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "1dec9726636bbd27d1d9a804f4b24e857719d844da76fbdc35bfd8f41b2f9d4b"
+  },
+  "calibration-000": {
+    "split": "calibration",
+    "group": "calibration-subject-000",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "8f1f7213b730c13ec2f3d153f917411c7535a41098bf5c1d4298896ad854acc4"
+  },
+  "calibration-001": {
+    "split": "calibration",
+    "group": "calibration-subject-001",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "02e7263829bcae572dd3f3eff29b56f24ce72e783e9ecd57bd5d7e3101c73f97"
+  },
+  "calibration-002": {
+    "split": "calibration",
+    "group": "calibration-subject-002",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "cc0b652e592dcfa85b88ddade6f55f93a6ee270bcfab03aebbe7194f59dbe67d"
+  },
+  "calibration-003": {
+    "split": "calibration",
+    "group": "calibration-subject-003",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "0d98d36fd53d440dc7d511e1dfb84f225e644fe8d70086e17560c35fed26dab0"
+  },
+  "calibration-004": {
+    "split": "calibration",
+    "group": "calibration-subject-004",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6c0f98e0b0b7401d36d64063e2ed17e8b60d88d702e55aa5b37338952192f8ba"
+  },
+  "calibration-005": {
+    "split": "calibration",
+    "group": "calibration-subject-005",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f6860f8d715b933fb5cf47fbd43ee461ecea3e06efea50c03269942d6ad77d69"
+  },
+  "calibration-006": {
+    "split": "calibration",
+    "group": "calibration-subject-006",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e6e56685b49062c0f14b4178e4962147c8a1c7933b038cace5fb4005b6fb5978"
+  },
+  "calibration-007": {
+    "split": "calibration",
+    "group": "calibration-subject-007",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d85a82a84c6d4584ef7964c84b6d5710946e7c1ec968c03c33a0e4f7b9e91fee"
+  },
+  "calibration-008": {
+    "split": "calibration",
+    "group": "calibration-subject-008",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a8587017d434ed77047c8b8fc91e4caff0d9009432477c4179c345f9966099f3"
+  },
+  "calibration-009": {
+    "split": "calibration",
+    "group": "calibration-subject-009",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "36beeceeca7dca6b325ed7f5478128bb09bad1c0832c902bf5f30b1b3df02ed1"
+  },
+  "calibration-010": {
+    "split": "calibration",
+    "group": "calibration-subject-010",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "db6f4e4e10750b4efd44e86243efede3cf1d958359af69ab326125c019513cbe"
+  },
+  "calibration-011": {
+    "split": "calibration",
+    "group": "calibration-subject-011",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "56bad4e9f94033c183901aa63af01656bfe142711f2a6f561f33bb18bc11fc94"
+  },
+  "calibration-012": {
+    "split": "calibration",
+    "group": "calibration-subject-012",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "154b5f43c0ad39e7c78c995f636c6b7c39d359dae0bd2508d1463aa59281c3e2"
+  },
+  "calibration-013": {
+    "split": "calibration",
+    "group": "calibration-subject-013",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "1b0e0d93356ee947d3aadb81de8fa9682b6bf8ee45a0f9ec48ad118588f6b22b"
+  },
+  "calibration-014": {
+    "split": "calibration",
+    "group": "calibration-subject-014",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3c998efbac3483108769e0c9c419d93fa9c3542644d139a4ad231e3d39369076"
+  },
+  "calibration-015": {
+    "split": "calibration",
+    "group": "calibration-subject-015",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "9f21b43a59aac077481f459c0f84aa026f63fd97e161b42ce18bd2c15307134c"
+  },
+  "calibration-016": {
+    "split": "calibration",
+    "group": "calibration-subject-016",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "177a6211da52538586ec382dfb840f4043c84da9899675d174122f8a8dd3a668"
+  },
+  "calibration-017": {
+    "split": "calibration",
+    "group": "calibration-subject-017",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "93b2634c1785888d80bef257a16f1f4c81d9969c5847e7cb22e1bddfa64a9909"
+  },
+  "calibration-018": {
+    "split": "calibration",
+    "group": "calibration-subject-018",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "3a21cd4c7f4ed462b7febe8b94446a0090c2e056ace836263bd86f5e61ec2e1f"
+  },
+  "calibration-019": {
+    "split": "calibration",
+    "group": "calibration-subject-019",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "5750d950c4e57ddd528f191cac8837ab752372f85794fe6c0f50bf47bfb59ca3"
+  },
+  "calibration-020": {
+    "split": "calibration",
+    "group": "calibration-subject-020",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "961d6bdc4af9db88c6b6fddcb625260f1711f5d8928991473155623a3429208a"
+  },
+  "calibration-021": {
+    "split": "calibration",
+    "group": "calibration-subject-021",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "375c8bb6124ec7f18a952cab4aad011f1318fdacba307abaa53ec4ecce77a71a"
+  },
+  "calibration-022": {
+    "split": "calibration",
+    "group": "calibration-subject-022",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "2b44061bc4e93560952575df01b96149335d48bb7162838c33f0be5a64a7c68f"
+  },
+  "calibration-023": {
+    "split": "calibration",
+    "group": "calibration-subject-023",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b3d53c48c1adda8f29ebf78c72a415214482d4ae50b895e120ebf1a8311b04e0"
+  },
+  "calibration-024": {
+    "split": "calibration",
+    "group": "calibration-subject-024",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "64cb308a548d9e997bcef3c6b77312150e304c4a28eb6290592e05a0f85e7606"
+  },
+  "calibration-025": {
+    "split": "calibration",
+    "group": "calibration-subject-025",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "67c5632053bcd3a2bd2465b9fc3fc3a719457dc888db8e3dcffd05c1532626ac"
+  },
+  "calibration-026": {
+    "split": "calibration",
+    "group": "calibration-subject-026",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "0d657f61daf52e0a70fbbf61a92e62494e545b5b34b2b067eadc1b01c486973e"
+  },
+  "calibration-027": {
+    "split": "calibration",
+    "group": "calibration-subject-027",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a759f5b6d6d476b21b092c4fd3ca522c334177d1a333481e2ca81df981e1bb03"
+  },
+  "calibration-028": {
+    "split": "calibration",
+    "group": "calibration-subject-028",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "930684a04efd78527f550cb798aaa1eff0970b3ab6bd3cdff500135143e247d4"
+  },
+  "calibration-029": {
+    "split": "calibration",
+    "group": "calibration-subject-029",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e924cfcb76dd68fc8a789586d7048c69287686167c6a7cf7e601550114c813ae"
+  },
+  "calibration-030": {
+    "split": "calibration",
+    "group": "calibration-subject-030",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "5c1e2ee8141cbc8cfa016ec6345791502a60d03f502843c013b5055ade72a709"
+  },
+  "calibration-031": {
+    "split": "calibration",
+    "group": "calibration-subject-031",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d78b842fb0f56a4d13c91b59b5aabb17db52e56d933320c50a6fcdcd374343c3"
+  },
+  "calibration-032": {
+    "split": "calibration",
+    "group": "calibration-subject-032",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "72f0c04af2c11be93db4a350f7855562c3f86ad96a3fb1c494d8c5cb5a6c48f1"
+  },
+  "calibration-033": {
+    "split": "calibration",
+    "group": "calibration-subject-033",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b3b1d1b54b60e3195f8afc99b408bcbe3fb864eea71c1bce91b35bb9d126f987"
+  },
+  "calibration-034": {
+    "split": "calibration",
+    "group": "calibration-subject-034",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "349baf051cab4a885b9d33d1c053eef6e4fccb02e121cef70116312a22079b94"
+  },
+  "calibration-035": {
+    "split": "calibration",
+    "group": "calibration-subject-035",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "013095863aa06172e8acfbf27c852f13976adc026830931786e1a24837fb5986"
+  },
+  "calibration-036": {
+    "split": "calibration",
+    "group": "calibration-subject-036",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "b62f9448583b61417f52517d258e5d0fb57ae77510eb7e08f5f1c076684a3492"
+  },
+  "calibration-037": {
+    "split": "calibration",
+    "group": "calibration-subject-037",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "12cdebf816ca565f82d2ae221aa7f4b577fbf08bf58a23bfd6ca1e87cd674967"
+  },
+  "calibration-038": {
+    "split": "calibration",
+    "group": "calibration-subject-038",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "9cdb796446768b76440273a3b33939b8f257d3bef085ae5c4aec1f2434fe6029"
+  },
+  "calibration-039": {
+    "split": "calibration",
+    "group": "calibration-subject-039",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "7986c4aae6ac7ef82b119bc64dff9a77868098d0d6bfd5d9da2bc70948d9b273"
+  },
+  "calibration-040": {
+    "split": "calibration",
+    "group": "calibration-subject-040",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "237d23470bb8c91b6f36768acce59823950bf77c7e287145d7586b3c433e3dd7"
+  },
+  "calibration-041": {
+    "split": "calibration",
+    "group": "calibration-subject-041",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "102ae4bc311ac0a1a338a314198b3b3e6294a9fd58ef548378a0721b7f64f51a"
+  },
+  "calibration-042": {
+    "split": "calibration",
+    "group": "calibration-subject-042",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "ae5e807233993cbabac8870f98dea8221fc4109a0e38ed83256f0c1df14e13ba"
+  },
+  "calibration-043": {
+    "split": "calibration",
+    "group": "calibration-subject-043",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "47cfe26dc4cd76f4b10f2f4aa23b130c35be480e138310e5ae7c9494806292ab"
+  },
+  "calibration-044": {
+    "split": "calibration",
+    "group": "calibration-subject-044",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "0e34522104613cff4adaca8266a7f99fc7d3a8be54867cd86d8131a40fa9196a"
+  },
+  "calibration-045": {
+    "split": "calibration",
+    "group": "calibration-subject-045",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "bd9215ebdc2c6776b377a166338dc4712bcbfcf83a61f1756bb3d76b676cf44a"
+  },
+  "calibration-046": {
+    "split": "calibration",
+    "group": "calibration-subject-046",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "a0b4ad428111ae351a23f6632afc16f68de6422505a1e5df816dcf8c90617e9a"
+  },
+  "calibration-047": {
+    "split": "calibration",
+    "group": "calibration-subject-047",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "faf4caca822ee35159cde9179bd4e108064f237442a8ef6b391f10bc7570e9d8"
+  },
+  "calibration-048": {
+    "split": "calibration",
+    "group": "calibration-subject-048",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "c4fdb86b3e076236849caab2433f45d38807be2e3dfad82232be2f43f93fc57a"
+  },
+  "calibration-049": {
+    "split": "calibration",
+    "group": "calibration-subject-049",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "45deb0cac9a4eb7d7393aa9c5d1953b6f74ae079a561b76841af42e4e7941eb7"
+  },
+  "calibration-050": {
+    "split": "calibration",
+    "group": "calibration-subject-050",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f724ac497542cc08b02a7596a007b305ede9ad7037ae579c0079687e3abfc544"
+  },
+  "calibration-051": {
+    "split": "calibration",
+    "group": "calibration-subject-051",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "e9e4d7c28dd31b572c0d0878bb78c307c004f687029a775cfb4a6ec38306e73a"
+  },
+  "calibration-052": {
+    "split": "calibration",
+    "group": "calibration-subject-052",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f03aaa3741e622b66b20b0fd82626b08fe4ffb411dfcaf8a1956527105823b4a"
+  },
+  "calibration-053": {
+    "split": "calibration",
+    "group": "calibration-subject-053",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6b0bd825c5d93e862e33d2638a2f832185e433ad6ff15537aa26e1603c9ac0cd"
+  },
+  "calibration-054": {
+    "split": "calibration",
+    "group": "calibration-subject-054",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "6e720651ddcc815f5fd5c215a6b3b922e2366ef785ba62806718ea1ece324fbc"
+  },
+  "calibration-055": {
+    "split": "calibration",
+    "group": "calibration-subject-055",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "596166f63dbc9559e4b0ee2cc0bb6c92003489b4530e4834f7d7a8365b62fd3b"
+  },
+  "calibration-056": {
+    "split": "calibration",
+    "group": "calibration-subject-056",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "8f9345c4872590693e86c958a7d2336c9077051b3f333d61d25e2f9c6bd5257a"
+  },
+  "calibration-057": {
+    "split": "calibration",
+    "group": "calibration-subject-057",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "f545abfde02806ab81bf04552d1fbff0b596813d7947d244674f362352022277"
+  },
+  "calibration-058": {
+    "split": "calibration",
+    "group": "calibration-subject-058",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "15a984bcd595f02a060e666be5d472998eadffad4a698d81cfb8acc27ed43e0f"
+  },
+  "calibration-059": {
+    "split": "calibration",
+    "group": "calibration-subject-059",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": true,
+    "digest": "d4efa76ed4d387433f0924c62243f8f79f3a38bcb01e71af446637411423c883"
+  },
+  "test-000": {
+    "split": "test",
+    "group": "test-subject-000",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "bbdd588684c08b1ec661b2f5b81540b0dbc8c621a1955af886c2eea2a8152534"
+  },
+  "test-001": {
+    "split": "test",
+    "group": "test-subject-001",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "4771152761377283147bf541cb74c076a5c389a499b610ec7d49a305547f9b3b"
+  },
+  "test-002": {
+    "split": "test",
+    "group": "test-subject-002",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "9b3bb4eea4a4c7f4b9fb48be665bfa178f5d8be5c77d47d488ad0b6a026355f5"
+  },
+  "test-003": {
+    "split": "test",
+    "group": "test-subject-003",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "d7448c18c3ce7ceb5ed06ca791200d48a1a5b63c1d973e94410e6f87acc6bd59"
+  },
+  "test-004": {
+    "split": "test",
+    "group": "test-subject-004",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "e902c53b4305b3631f83d3998f126e77265994e972c73f35998821d6516a3f6c"
+  },
+  "test-005": {
+    "split": "test",
+    "group": "test-subject-005",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "0d1a7f323e36f7b6d48626b8713733fd7c138ae92bf95452d7d78b495c446dc6"
+  },
+  "test-006": {
+    "split": "test",
+    "group": "test-subject-006",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "771e0c4582fb25a3d1001debde07d0c9e928728f7e18372f7ab29fad7fb120d7"
+  },
+  "test-007": {
+    "split": "test",
+    "group": "test-subject-007",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "0d3f625f1ce2d47b5a2951fe41ca9c8f85f3ff14007a92633434672fa1958f0e"
+  },
+  "test-008": {
+    "split": "test",
+    "group": "test-subject-008",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "252c4651cd54a32e272b0139d1ea7941bb0823409af186928364c727b173dfe3"
+  },
+  "test-009": {
+    "split": "test",
+    "group": "test-subject-009",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "3de56544d6d0d283c07abd8abf9e05a5ab9b1a7502f23013220115c25ef0e640"
+  },
+  "test-010": {
+    "split": "test",
+    "group": "test-subject-010",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "940f3b2816d1a262653d1532345831e3b6362d97312ac11f74384cc4ac80bf8c"
+  },
+  "test-011": {
+    "split": "test",
+    "group": "test-subject-011",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "33984834d5f1b04403c09f9f6814c59b6057b433c5535b31d7f075f594f82353"
+  },
+  "test-012": {
+    "split": "test",
+    "group": "test-subject-012",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "0bfdcdf03fdc899dcf9fadb40ad08dcfbcf0fba8102d7e4103886fb1c60d708f"
+  },
+  "test-013": {
+    "split": "test",
+    "group": "test-subject-013",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "afcc469777ce868ecfb8c83fe6ec90f987e189c0d725702aae527f882b825c3f"
+  },
+  "test-014": {
+    "split": "test",
+    "group": "test-subject-014",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "72ab523e23fc552c536c0853ba9e71909669005bfaa89d6cab1e1f4577a3b0fa"
+  },
+  "test-015": {
+    "split": "test",
+    "group": "test-subject-015",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "54e605a12d978c49982254e638a72c5c2bd860909039456a310c2e01abd486e3"
+  },
+  "test-016": {
+    "split": "test",
+    "group": "test-subject-016",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "e33462951cf07f5a4b5d82eb030973f0d099216ccb4bf5371848850bc71c3f17"
+  },
+  "test-017": {
+    "split": "test",
+    "group": "test-subject-017",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "092dadadb9ad810a9beede33edb2580dc5b3ab152629526d8ec6f8088e65253f"
+  },
+  "test-018": {
+    "split": "test",
+    "group": "test-subject-018",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "a9b1b2be931241edaf91f0df1ca693c251239762173b9bcbad46b4c24c203ac6"
+  },
+  "test-019": {
+    "split": "test",
+    "group": "test-subject-019",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "db2228db5054e50400969034803ffa877f9d81f3f2b9d4dc969116a5dbc87062"
+  },
+  "test-020": {
+    "split": "test",
+    "group": "test-subject-020",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "ce495e52741f1351697b75a24007b870dcd09965a52ca41193bd764a7ee671f8"
+  },
+  "test-021": {
+    "split": "test",
+    "group": "test-subject-021",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "85152c6ea1a247bd1b43d39832a81f9ce9f5dfdecf0796322e2d6b5690ae262f"
+  },
+  "test-022": {
+    "split": "test",
+    "group": "test-subject-022",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "72c40b610ec40ae7447a25dcce2fe77735f3d853a30d4e96e352f043dd9b9d17"
+  },
+  "test-023": {
+    "split": "test",
+    "group": "test-subject-023",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "6b4b92536ccd282391a3d5fd24f0aa6817260d3e11699df45a8f0eb205400a7b"
+  },
+  "test-024": {
+    "split": "test",
+    "group": "test-subject-024",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "96f43b37dc4782fe32486dd702764a4689630feac1f77ebe619446497a4a570b"
+  },
+  "test-025": {
+    "split": "test",
+    "group": "test-subject-025",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "ef7f7f9ba1dd071c1e4e9b0368d14d6158f5139d58109be0bf8fb2268987b448"
+  },
+  "test-026": {
+    "split": "test",
+    "group": "test-subject-026",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "b351b0ae568d32c197ebe12e892fe1900e015601146b7d55dcd3522b32f6113a"
+  },
+  "test-027": {
+    "split": "test",
+    "group": "test-subject-027",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "df839a9226bcc73361e96a0c77b5cec9c6a9bcbecbca7049856257eab284d4de"
+  },
+  "test-028": {
+    "split": "test",
+    "group": "test-subject-028",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "4b6e671e4b961ba10b58917fa69c3f22dfc510e172cb2c2358bde190938442f0"
+  },
+  "test-029": {
+    "split": "test",
+    "group": "test-subject-029",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "7873cdeb1ed441bc2601dc3d3029514b299c3078b7936a99ee62db8f60fb064f"
+  },
+  "test-030": {
+    "split": "test",
+    "group": "test-subject-030",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "d02def3236872c7bad9ee2876986d266183cb1c7b30232aed8addd86bbba3272"
+  },
+  "test-031": {
+    "split": "test",
+    "group": "test-subject-031",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "8c95339f0a3a1e0a5460ee0fa0a43843708116845f7dfdc3546731563b28dbcb"
+  },
+  "test-032": {
+    "split": "test",
+    "group": "test-subject-032",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "4442d742eaef7bf22eb0d558fdf55881d2854723ff798c394ee602d6194ccdd3"
+  },
+  "test-033": {
+    "split": "test",
+    "group": "test-subject-033",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "9d0d3c5ababe737cafd7ab4569549ff6a1948ccdda44e4a469d15e5ed34da571"
+  },
+  "test-034": {
+    "split": "test",
+    "group": "test-subject-034",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "5f0b1877a360b203de57168e94b24c78c8bc741bb25928297a93ae4df5d38e06"
+  },
+  "test-035": {
+    "split": "test",
+    "group": "test-subject-035",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "1b6c630875542d8ad721aa0b19aac5072bb2f6a4e369279d554d4a30ce072049"
+  },
+  "test-036": {
+    "split": "test",
+    "group": "test-subject-036",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "4b3e89961ec89945671614922ef9c4d3c9a824258c79060d44eb1164121d5685"
+  },
+  "test-037": {
+    "split": "test",
+    "group": "test-subject-037",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "41c4f53a1a7d1c49c689dd43d3f56adeaea3f9f7d17eff1bfd54ba6a847af965"
+  },
+  "test-038": {
+    "split": "test",
+    "group": "test-subject-038",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "5c6b5c2165c243befa756867c336a5fc406eaed4d5c8e1c4872035306c05f743"
+  },
+  "test-039": {
+    "split": "test",
+    "group": "test-subject-039",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "e4d6f36b954281565f02d027fde89b4f4ee214f3609c17f53b6572e65563c9cd"
+  },
+  "test-040": {
+    "split": "test",
+    "group": "test-subject-040",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "1245d89a0f6e659c8b443e6d7f339a185c9cfdc58247b71095758000c0daf429"
+  },
+  "test-041": {
+    "split": "test",
+    "group": "test-subject-041",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "7df6f136430b82deba1e17a63bf36810ce2a00d74dc9d042faf2d87e4482157d"
+  },
+  "test-042": {
+    "split": "test",
+    "group": "test-subject-042",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "0fb127539691b8940f11936f939f9289fa20f6bfec806891d3415e364a39e111"
+  },
+  "test-043": {
+    "split": "test",
+    "group": "test-subject-043",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "ba103f2616f0af1b0c6808de86318d559fcc9ae31071a4e12d1b793aa5ad03dd"
+  },
+  "test-044": {
+    "split": "test",
+    "group": "test-subject-044",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "f19cdae7c423c7e852d6e83db5b1d544c51cc12b9c3934b75ff04faa8d4a6d6c"
+  },
+  "test-045": {
+    "split": "test",
+    "group": "test-subject-045",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "fc0ee61e961fa3c46e43fa862571de1cbe3b9457bca9f0e549ce3d65de835724"
+  },
+  "test-046": {
+    "split": "test",
+    "group": "test-subject-046",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "4626f2c565e5942d4345c8dc63871168d6eb99e52b1f227b12fd6c5cbee4b1f7"
+  },
+  "test-047": {
+    "split": "test",
+    "group": "test-subject-047",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "fcd45a71ca7f95e6bded07cbe1f5659d7d2422e6d1bbe197c389d90aa0efd0d8"
+  },
+  "test-048": {
+    "split": "test",
+    "group": "test-subject-048",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "0a1301ec751bd2f63b2ba8dddcd88b4446bccd8e55e35d0bb749b08f539fb673"
+  },
+  "test-049": {
+    "split": "test",
+    "group": "test-subject-049",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "1d9f3c72f5f57a0a6d34b43085b6176765ec5b3cbeb6b14c6b086395a4636f16"
+  },
+  "test-050": {
+    "split": "test",
+    "group": "test-subject-050",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "ccdc1accb32797c8861611d595cb9722b7fb4952df669a724dc247314eeda776"
+  },
+  "test-051": {
+    "split": "test",
+    "group": "test-subject-051",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "de67352562128d9c84595815b7d16cdd422c309463ee3d6291e245b0cdb1a33d"
+  },
+  "test-052": {
+    "split": "test",
+    "group": "test-subject-052",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "a64ec637773e61699c5aa23353ac6a934538696764fb8cc53f4196d9bc68686f"
+  },
+  "test-053": {
+    "split": "test",
+    "group": "test-subject-053",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "4a990d2390d15e411e04c6684eb9d670a84b0d075c244d4da9180b12ec9a2c55"
+  },
+  "test-054": {
+    "split": "test",
+    "group": "test-subject-054",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "506807b6916108181bc9ddbec7fea0c3532b65e3392f61723cd040bc71aa492c"
+  },
+  "test-055": {
+    "split": "test",
+    "group": "test-subject-055",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "7b9168ca634b10e1f519d4bd68ce07d69f7cc38866a9ced4222b06c235f6e3f3"
+  },
+  "test-056": {
+    "split": "test",
+    "group": "test-subject-056",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "41bdefbc4ab23b3c69b2e6ae982068d087d946b012b97a1cebd37eeede819957"
+  },
+  "test-057": {
+    "split": "test",
+    "group": "test-subject-057",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "5553383808a016d2311b6d3abb9127c043fea65fa88c16bade029faccfe067d3"
+  },
+  "test-058": {
+    "split": "test",
+    "group": "test-subject-058",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "f3c4e6270ee4bbea1f2e907791f14c71dd5a0bfea56b28554a309749d02396d2"
+  },
+  "test-059": {
+    "split": "test",
+    "group": "test-subject-059",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "fc0dbf4bbcec550ed3e9b162841cc96c0e96b23bf6014207b21423ecd9115dec"
+  },
+  "test-060": {
+    "split": "test",
+    "group": "test-subject-060",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "f5d185b4d5355ba95a6fc8e3fc8f8f81fede2a3ba51da9daea2944bf2428d21e"
+  },
+  "test-061": {
+    "split": "test",
+    "group": "test-subject-061",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "11c3d68b4fa49ec081b7fb7ca84ed66c9f20957446aa9e84c0b9665708513ec8"
+  },
+  "test-062": {
+    "split": "test",
+    "group": "test-subject-062",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "03bfb19f84e93da839996fdaa7d5cabec9688da812f9d739f9b411d3d113604d"
+  },
+  "test-063": {
+    "split": "test",
+    "group": "test-subject-063",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "8d7a6ca920234d167d7c51b9862bc0e465e3d5d2e9a2332d26866d11bcfd9cb1"
+  },
+  "test-064": {
+    "split": "test",
+    "group": "test-subject-064",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "b391b5d9539ade5d06d2c15778184be51f6df2d925767378faa21355a3c02702"
+  },
+  "test-065": {
+    "split": "test",
+    "group": "test-subject-065",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "bc75a9a3cca75246e68f3a46e44d03f4c11be29da47663a3d287798628120d86"
+  },
+  "test-066": {
+    "split": "test",
+    "group": "test-subject-066",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "854b3ed5f9d7405620ce90dd33b6d71316c4210083b12ced0aa357ea4000bc93"
+  },
+  "test-067": {
+    "split": "test",
+    "group": "test-subject-067",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "c0164013e31082ead12e4c70c2e9a059614d58c912a9a3aedf51f134af64eeb1"
+  },
+  "test-068": {
+    "split": "test",
+    "group": "test-subject-068",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "ad90e13328da119d45ca89267eaf18a5ae3f9665f8fb2d1cf6d1f11940f07a96"
+  },
+  "test-069": {
+    "split": "test",
+    "group": "test-subject-069",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "0551c4c686903fc94049386adb895228a8ed71e133247d8c727f6e34ec7e2235"
+  },
+  "test-070": {
+    "split": "test",
+    "group": "test-subject-070",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "cb4a2cdf5f0984e5f372fdd95c12fbb52b9a270abe15474ea8f067fbc4d223f8"
+  },
+  "test-071": {
+    "split": "test",
+    "group": "test-subject-071",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "208306e5e1637b6a8c41c382ca442ac905277924bf5ac712358a845133b86de1"
+  },
+  "test-072": {
+    "split": "test",
+    "group": "test-subject-072",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "49aa21fef26b040a9d5eadd234e86af0b1222bf386165160a655c05d24837f76"
+  },
+  "test-073": {
+    "split": "test",
+    "group": "test-subject-073",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "1af93b454f8b907ef82d7ef7c4b4ab2e21bbda8b5aecceddd14cf649829268c9"
+  },
+  "test-074": {
+    "split": "test",
+    "group": "test-subject-074",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "8919b2dcf598ce64246dc69adc7ac05686600deec66cfed027b617fdf5a04397"
+  },
+  "test-075": {
+    "split": "test",
+    "group": "test-subject-075",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "858467bf800bcbadefd5a0f72366ccd8419c3f0f36928395338f7b5c1bac01dc"
+  },
+  "test-076": {
+    "split": "test",
+    "group": "test-subject-076",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "a6671b2bf6655481d5a9f7df7973cf2e4d014fd221b3b42876168dc17ced7895"
+  },
+  "test-077": {
+    "split": "test",
+    "group": "test-subject-077",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "8efbd43990d050c0f2679fea0472fad4145315e8c29d50cc802302173492d826"
+  },
+  "test-078": {
+    "split": "test",
+    "group": "test-subject-078",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "a3e62332c31c3359f2efc81490b85ec760a44dd37053a5856fb284734628f74c"
+  },
+  "test-079": {
+    "split": "test",
+    "group": "test-subject-079",
+    "origin": "coleta_autorizada_v1",
+    "training_allowed": false,
+    "digest": "09fe39068e11603faf43e0005bcd3c03c9faf6eed82ef9bd062d4ec7604c1ebc"
+  }
+}

@@ -1,0 +1,1 @@
+{"lab": "L21", "verified": true, "http_requests": 11, "records": 300, "clean": {"n": 80, "correct": 72, "accuracy": 0.9}, "leaky": {"n": 80, "correct": 42, "accuracy": 0.525}, "clean_test_overlap": 0, "leaky_test_overlap": 80}

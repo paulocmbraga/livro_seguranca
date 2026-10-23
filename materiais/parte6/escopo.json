@@ -1,0 +1,10 @@
+{
+  "version": "ParteVI-1.0",
+  "author": "Paulo Cesar Braga",
+  "data": "Sintéticos, gerados localmente com seeds identificados; nenhuma informação pessoal real.",
+  "L21": {"seed": 211, "splits": [160, 60, 80], "depths": [2, 4, 8, null], "selection": "Acurácia na calibração; menor complexidade em empate; teste não seleciona candidato."},
+  "L22": {"seeds": [11, 23, 37], "budgets_records": [4, 16, 32], "train": 400, "evaluation": 160, "C": 10, "defense": "Quarentena de marcador no índice 4; adaptação usa índice 5; desenho conhecido, sem reserva independente."},
+  "L23": {"seeds": [231, 232, 233], "sizes": [400, 120, 200], "linf": [0, 0.05, 0.15, 0.3], "mutable_features": [0, 1], "augmentation_epsilon": 0.15, "quantization_step": 0.1, "oracle": "Escores e rótulos verdadeiros para escolher candidatos; transferência inclui seleção no alvo entre original e proposta."},
+  "L24": {"seeds": [241, 242, 243, 244], "sizes": [600, 128, 400, 8], "budgets": [16, 64, 128], "quota_per_organization": 32, "target": "Floresta própria de 25 árvores, profundidade 6", "endpoint": "Somente 127.0.0.1, portas efêmeras"},
+  "limits": ["Treino e inferência reais de modelos pequenos; sem LLM ou GPU", "Campanhas autorais, conhecidas e executadas no mesmo computador", "Permissões no serviço não isolam o controlador ou o administrador do host", "Nenhuma chamada a modelo ou API de terceiro", "Custos em unidades de inferência, sem moeda ou faturamento", "Revisão e reprodução independentes pendentes"]
+}

@@ -1,0 +1,36 @@
+{
+  "version": "ParteVI-1.0",
+  "utc": "2026-10-23T14:03:08.311800+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "source_sha256": {
+    "laboratorios/parte6/__init__.py": "b5620c5798a7df571b7f490b0b62e4801d1cbf41ddb9fd96620b336acea34870",
+    "laboratorios/parte6/__main__.py": "035e5df6899255b8b9eaa0aef0fa8718530f4b79b6d3b731f77e6a7bb07cfec8",
+    "laboratorios/parte6/common.py": "2667ec7fa83d376d96501e370349a18cd94294316afef0bdbfd3cec2156494bb",
+    "laboratorios/parte6/evasion.py": "54ee4121b18ce69c44c1c438fb3583258351c135f94198e9f49c8981cc196ef6",
+    "laboratorios/parte6/extraction.py": "248e903288a63e88d6f5e613cb18298bf9b918e93cdf476de3f4f7f9709e67ca",
+    "laboratorios/parte6/pipeline.py": "3abfd2f8d3927c596a58e55c088ade1744d922c856be6433575307e1f1c4c320",
+    "laboratorios/parte6/poisoning.py": "4dedc246a24a22f2c01d158a35e5f3d7a6f0a847ec2eddb3902068e60bfb5411",
+    "materiais/parte6/escopo.json": "825e5618b15e9f8f8c6231279079e968df0ef9742c477496b7d8e1177c9eff8e",
+    "materiais/parte6/referencias.lock.json": "4e99a94b5962574300f69f97110337f3689a1a57427d3c611ecc6d7838894acb",
+    "materiais/parte6/requirements.lock.txt": "0e6ce16c1d0a9f92291df8a60f3bd20e3399ad79221550a66f57ff5db9eb9831"
+  },
+  "artifacts_sha256": {
+    "candidate_models.json": "6d289794a9f001c9befa150ab334f68e78a61988f4b3e05b254de265c08d86aa",
+    "clean_model.json": "06de25fdd349e6f11606946345d38c877df932d5bcb465708c406356471fc2c3",
+    "data.json": "ad70cd7e8bba08666a5d3bf90c108ecfda5ab7306ad524bb8f756cc2cc8657a3",
+    "data_manifest.json": "e85d80c949db27ac196589d636470e7977fc3725b0959e1626df34da7567bbf1",
+    "events.json": "2af38f34ead6ceb8d1c8c8911392d73ca1172a5ab493eaa3e72e1ade4ce08733",
+    "leaky_model.json": "9672e7321438fa4e1fbed3a33065ff9c0f7a8d74e985fc46bf44fe185fce8727",
+    "predictions.json": "3ec49f7951fb78f66c21ac9376cea58e18080037e70b32cc90a677ad7a7b1188",
+    "results.json": "974c6d875d0b2b1a338d672b8ce5e328371d1466ab0b91883e48d2334040a4c0",
+    "selection.json": "d3aecd98c19f2e31f107aafe2cda1faa6b51b8237421f7c808e7fb21aed4dcc2",
+    "strict.sqlite": "f3ce18f8c5fff8c785fe23ad8482df261bab1f36e9358d90ea92498dd48985b9",
+    "weak.sqlite": "35ff50f3000a4a403fa8714d352c23f74b588b0bb6c1e616ae628895c759524e"
+  }
+}

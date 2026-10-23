@@ -1,0 +1,13 @@
+{
+  "consulted": "2026-10-23",
+  "sources": [
+    {"id": "NIST", "title": "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations", "version": "NIST AI 100-2e2025, março 2025; página informa correção de abril e nota de errata potencial de junho", "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final"},
+    {"id": "SKLEARN", "title": "Common pitfalls and recommended practices", "version": "1.9.1", "url": "https://scikit-learn.org/stable/common_pitfalls.html"},
+    {"id": "BADNETS", "title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain", "version": "arXiv:1708.06733", "url": "https://arxiv.org/abs/1708.06733"},
+    {"id": "FGSM", "title": "Explaining and Harnessing Adversarial Examples", "version": "arXiv:1412.6572v3", "url": "https://arxiv.org/abs/1412.6572v3"},
+    {"id": "MASKING", "title": "Obfuscated Gradients Give a False Sense of Security", "version": "arXiv:1802.00420v4", "url": "https://arxiv.org/abs/1802.00420v4"},
+    {"id": "ROBUST", "title": "Towards Deep Learning Models Resistant to Adversarial Attacks", "version": "arXiv:1706.06083v4", "url": "https://arxiv.org/abs/1706.06083v4"},
+    {"id": "EXTRACTION", "title": "Stealing Machine Learning Models via Prediction APIs", "version": "USENIX Security 2016", "url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/tramer"}
+  ],
+  "interpretation": "Referências de conceitos e métodos. Os laboratórios são próprios e não reproduções integrais dos artigos nem certificação NIST. Versões instaladas constam do lock de dependências."
+}

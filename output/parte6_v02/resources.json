@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "lab": "L21",
+      "seconds": 3.728394399979152,
+      "sampled_peak_tree_rss_mib": 127.98046875,
+      "samples": 34,
+      "returncode": 0
+    },
+    {
+      "lab": "L22",
+      "seconds": 3.8347988000605255,
+      "sampled_peak_tree_rss_mib": 127.125,
+      "samples": 35,
+      "returncode": 0
+    },
+    {
+      "lab": "L23",
+      "seconds": 2.9540347000584006,
+      "sampled_peak_tree_rss_mib": 124.9765625,
+      "samples": 27,
+      "returncode": 0
+    },
+    {
+      "lab": "L24",
+      "seconds": 32.795810899930075,
+      "sampled_peak_tree_rss_mib": 133.46875,
+      "samples": 301,
+      "returncode": 0
+    }
+  ],
+  "sample_interval_seconds": 0.1,
+  "sequential_same_host": true,
+  "limits": "Soma RSS dos processos próprios vivos; pode contar páginas compartilhadas mais de uma vez e perder picos. Inclui imports e encerramento. Não inclui instalação/download nem RAM total do host. Treinamento e inferência de modelos tabulares locais, sem API paga ou LLM; instalação e download não incluídos."
+}

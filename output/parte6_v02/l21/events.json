@@ -1,0 +1,12 @@
+[
+  {
+    "step": 1,
+    "event": "selection_frozen",
+    "digest": "0d8f8b64e0afaa43fc0c5eec8890f2b84a76dfe0a3d6bd2b7be7a25c11f54bba"
+  },
+  {
+    "step": 2,
+    "event": "test_opened",
+    "identity": "evaluator"
+  }
+]

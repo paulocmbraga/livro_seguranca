@@ -1,0 +1,29 @@
+{
+  "version": "ParteVI-1.0",
+  "utc": "2026-10-23T14:03:15.132582+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "source_sha256": {
+    "laboratorios/parte6/__init__.py": "b5620c5798a7df571b7f490b0b62e4801d1cbf41ddb9fd96620b336acea34870",
+    "laboratorios/parte6/__main__.py": "035e5df6899255b8b9eaa0aef0fa8718530f4b79b6d3b731f77e6a7bb07cfec8",
+    "laboratorios/parte6/common.py": "2667ec7fa83d376d96501e370349a18cd94294316afef0bdbfd3cec2156494bb",
+    "laboratorios/parte6/evasion.py": "54ee4121b18ce69c44c1c438fb3583258351c135f94198e9f49c8981cc196ef6",
+    "laboratorios/parte6/extraction.py": "248e903288a63e88d6f5e613cb18298bf9b918e93cdf476de3f4f7f9709e67ca",
+    "laboratorios/parte6/pipeline.py": "3abfd2f8d3927c596a58e55c088ade1744d922c856be6433575307e1f1c4c320",
+    "laboratorios/parte6/poisoning.py": "4dedc246a24a22f2c01d158a35e5f3d7a6f0a847ec2eddb3902068e60bfb5411",
+    "materiais/parte6/escopo.json": "825e5618b15e9f8f8c6231279079e968df0ef9742c477496b7d8e1177c9eff8e",
+    "materiais/parte6/referencias.lock.json": "4e99a94b5962574300f69f97110337f3689a1a57427d3c611ecc6d7838894acb",
+    "materiais/parte6/requirements.lock.txt": "0e6ce16c1d0a9f92291df8a60f3bd20e3399ad79221550a66f57ff5db9eb9831"
+  },
+  "artifacts_sha256": {
+    "data.json": "32b649a80c7292fa82fdc76d5c13d758bc4c0e8dfe176f9f09945a62788e2f6d",
+    "models.json": "aef3d5ac28a8729b26fa2e7f62e9564b84b0167c41b85f62a865577f9f51aed4",
+    "results.json": "b25ba10ef8c61439280d11c3eb123cd90bc370d1ff8ee903b3c099f91ff910a7",
+    "training_plan.json": "d7b0fc5cccfd64c1eb1d8d0598c551142d5e1d9782eeffe7ddb681505e01a57e"
+  }
+}

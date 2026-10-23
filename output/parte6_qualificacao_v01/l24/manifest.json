@@ -1,0 +1,53 @@
+{
+  "version": "ParteVI-1.0",
+  "utc": "2026-10-23T14:07:34.612570+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "source_sha256": {
+    "laboratorios/parte6/__init__.py": "b5620c5798a7df571b7f490b0b62e4801d1cbf41ddb9fd96620b336acea34870",
+    "laboratorios/parte6/__main__.py": "035e5df6899255b8b9eaa0aef0fa8718530f4b79b6d3b731f77e6a7bb07cfec8",
+    "laboratorios/parte6/common.py": "2667ec7fa83d376d96501e370349a18cd94294316afef0bdbfd3cec2156494bb",
+    "laboratorios/parte6/evasion.py": "54ee4121b18ce69c44c1c438fb3583258351c135f94198e9f49c8981cc196ef6",
+    "laboratorios/parte6/extraction.py": "248e903288a63e88d6f5e613cb18298bf9b918e93cdf476de3f4f7f9709e67ca",
+    "laboratorios/parte6/pipeline.py": "3abfd2f8d3927c596a58e55c088ade1744d922c856be6433575307e1f1c4c320",
+    "laboratorios/parte6/poisoning.py": "4dedc246a24a22f2c01d158a35e5f3d7a6f0a847ec2eddb3902068e60bfb5411",
+    "materiais/parte6/escopo.json": "825e5618b15e9f8f8c6231279079e968df0ef9742c477496b7d8e1177c9eff8e",
+    "materiais/parte6/referencias.lock.json": "4e99a94b5962574300f69f97110337f3689a1a57427d3c611ecc6d7838894acb",
+    "materiais/parte6/requirements.lock.txt": "0e6ce16c1d0a9f92291df8a60f3bd20e3399ad79221550a66f57ff5db9eb9831"
+  },
+  "artifacts_sha256": {
+    "data.json": "9b0849971a3cd37ea08614dc40c9a77c0de31ac254df33fddcef325c5ed26b8f",
+    "labels_128.sqlite": "504b631aa3c00feb362650d6ba35050f35d9ce775389634272f5d98fd266e2f9",
+    "labels_128_surrogate.json": "c002f89b18a200c0393b53504a457504d5e14e7672930d74c67af85dceca47ea",
+    "labels_16.sqlite": "955510391ca2231c4ec0fa04980a5e071e50442ab1c314737d331e1f59b275e8",
+    "labels_16_surrogate.json": "ffb5354e806f1c27935e602952dc02479797d46ccf3ebaca2a23bf89370b1b4f",
+    "labels_64.sqlite": "de618e5982273b2a896b29d66afe03447dc64a365b1ed574ba3ba45ed685ae6b",
+    "labels_64_surrogate.json": "bd48dbdcce23de5465ad9dd29f15f606df6dd5048d4c49170746fb76591742cc",
+    "limited_labels_128.sqlite": "177dc951eaaf5e37b4264825d41ca8f963a76592ded6e29d946c3f305d79d435",
+    "limited_labels_128_surrogate.json": "a8d7dd681eced5ae485ded561d4f7e520c45a1ee3225284becaf577fe4767c90",
+    "limited_labels_16.sqlite": "955510391ca2231c4ec0fa04980a5e071e50442ab1c314737d331e1f59b275e8",
+    "limited_labels_16_surrogate.json": "ffb5354e806f1c27935e602952dc02479797d46ccf3ebaca2a23bf89370b1b4f",
+    "limited_labels_64.sqlite": "48ad49eed0afbf94d0184f3fd801bbf81ad49ea86e49001a270459eb9bc97490",
+    "limited_labels_64_surrogate.json": "a8d7dd681eced5ae485ded561d4f7e520c45a1ee3225284becaf577fe4767c90",
+    "limited_scores_128.sqlite": "35c468f5386994d0e5ef5abed655a015ecd4455e97fc767ffa877166a0b283d8",
+    "limited_scores_128_surrogate.json": "cf897f35731ea44938a98cdd2e14ffd7af9c5bb0bc639b72bd07b6fadc259c6c",
+    "limited_scores_16.sqlite": "43062cc670191570774bda34a032706d839c2f4f697fe401f76d18d55b8c728f",
+    "limited_scores_16_surrogate.json": "f2c8f6a25c64cdd9dd3df2e29cf78471aa3adc71025e462facafe31586223541",
+    "limited_scores_64.sqlite": "be1bd38d1d00b9f22fdc394694f8cfa4397aa9ebfcf4958e77d8088ab33489c6",
+    "limited_scores_64_surrogate.json": "cf897f35731ea44938a98cdd2e14ffd7af9c5bb0bc639b72bd07b6fadc259c6c",
+    "reference.json": "ec79a614aef2c55364fa4451403791148af5ded36d42a24eeb43acf8e4a8adfe",
+    "results.json": "9e6ae93a742d9737a49451684189f14845ba82975475c8812e0af6a6adca4a9e",
+    "scores_128.sqlite": "d895c4a08aed04703b7c1edcf806aaceadbc2cb88f19e1db7279b96601281f51",
+    "scores_128_surrogate.json": "af76560376b79dc555321770664993648200a250ec0b5c8c21dba8b06c058b6f",
+    "scores_16.sqlite": "43062cc670191570774bda34a032706d839c2f4f697fe401f76d18d55b8c728f",
+    "scores_16_surrogate.json": "f2c8f6a25c64cdd9dd3df2e29cf78471aa3adc71025e462facafe31586223541",
+    "scores_64.sqlite": "ea1210cbee22b16af3bc8a569cac1b2d79fb5aaa41cecaf4e25355b9bb85b113",
+    "scores_64_surrogate.json": "973bc5fe10538daadb45afd158b3f9c6b327e4ab1869791730edc32d88925a43",
+    "victim_model.json": "4732dd9e81b6b780c8a9c7ac557dbba4ae9bb2110e9f8b31cbfa63d350d6a3c6"
+  }
+}
