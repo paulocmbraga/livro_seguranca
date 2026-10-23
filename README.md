@@ -1,5 +1,21 @@
 # Engenharia de Segurança para Sistemas de IA — materiais dos alunos
 
+## Entrega atual: revisão integral 1.1
+
+Consulte [ERRATAS_REVISAO_V02.md](ERRATAS_REVISAO_V02.md) para a variante
+corrigida do L15, oito testes de regressão e os ajustes conceituais do livro.
+Código, capturas e verificadores históricos permanecem preservados.
+
+A variante nova fecha explicitamente as conexões SQLite. A implementação
+histórica da Parte IV não foi substituída e conserva a limitação documentada
+abaixo. Os 85 exemplos Python do texto foram executados nesta revisão.
+
+---
+
+## Histórico preservado
+
+# Engenharia de Segurança para Sistemas de IA — materiais dos alunos
+
 ## Entrega atual: apêndices e edição integral
 
 Os 36 capítulos estão acompanhados de laboratórios e capturas. Consulte

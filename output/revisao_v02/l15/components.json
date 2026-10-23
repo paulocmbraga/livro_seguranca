@@ -1,0 +1,468 @@
+[
+  {
+    "id": "late_basic",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "cache": {
+        "total": 55,
+        "echo": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "standard"
+        }
+      },
+      "tool": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "audit": {
+        "id": "late_basic",
+        "input": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "standard"
+        },
+        "output": {
+          "total": 55,
+          "echo": {
+            "topic": "invoice",
+            "amount": 50,
+            "email": "canary-l15@example.test",
+            "customer_ref": "LOCAL_C17",
+            "note": "standard"
+          }
+        }
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  },
+  {
+    "id": "late_note",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "cache": {
+        "total": 55,
+        "echo": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "PRIVATE_NOTE_CANARY_L15"
+        }
+      },
+      "tool": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "audit": {
+        "id": "late_note",
+        "input": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "PRIVATE_NOTE_CANARY_L15"
+        },
+        "output": {
+          "total": 55,
+          "echo": {
+            "topic": "invoice",
+            "amount": 50,
+            "email": "canary-l15@example.test",
+            "customer_ref": "LOCAL_C17",
+            "note": "PRIVATE_NOTE_CANARY_L15"
+          }
+        }
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  },
+  {
+    "id": "redact_basic",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "cache": {
+        "total": 55,
+        "echo": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "[EMAIL]",
+          "customer_ref": "LOCAL_C17",
+          "note": "standard"
+        }
+      },
+      "tool": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "audit": {
+        "id": "redact_basic",
+        "input": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "standard"
+        },
+        "output": {
+          "total": 55,
+          "echo": {
+            "topic": "invoice",
+            "amount": 50,
+            "email": "[EMAIL]",
+            "customer_ref": "LOCAL_C17",
+            "note": "standard"
+          }
+        }
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  },
+  {
+    "id": "redact_note",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "cache": {
+        "total": 55,
+        "echo": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "[EMAIL]",
+          "customer_ref": "LOCAL_C17",
+          "note": "PRIVATE_NOTE_CANARY_L15"
+        }
+      },
+      "tool": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "[EMAIL]",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "audit": {
+        "id": "redact_note",
+        "input": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "PRIVATE_NOTE_CANARY_L15"
+        },
+        "output": {
+          "total": 55,
+          "echo": {
+            "topic": "invoice",
+            "amount": 50,
+            "email": "[EMAIL]",
+            "customer_ref": "LOCAL_C17",
+            "note": "PRIVATE_NOTE_CANARY_L15"
+          }
+        }
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  },
+  {
+    "id": "tokenize_basic",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "cache": {
+        "total": 55,
+        "echo": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "TOKEN_L15_CUSTOMER",
+          "customer_ref": "LOCAL_C17",
+          "note": "standard"
+        }
+      },
+      "tool": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "audit": {
+        "id": "tokenize_basic",
+        "input": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "standard"
+        },
+        "output": {
+          "total": 55,
+          "echo": {
+            "topic": "invoice",
+            "amount": 50,
+            "email": "TOKEN_L15_CUSTOMER",
+            "customer_ref": "LOCAL_C17",
+            "note": "standard"
+          }
+        }
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  },
+  {
+    "id": "tokenize_note",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "cache": {
+        "total": 55,
+        "echo": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "TOKEN_L15_CUSTOMER",
+          "customer_ref": "LOCAL_C17",
+          "note": "PRIVATE_NOTE_CANARY_L15"
+        }
+      },
+      "tool": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "TOKEN_L15_CUSTOMER",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "audit": {
+        "id": "tokenize_note",
+        "input": {
+          "topic": "invoice",
+          "amount": 50,
+          "email": "canary-l15@example.test",
+          "customer_ref": "LOCAL_C17",
+          "note": "PRIVATE_NOTE_CANARY_L15"
+        },
+        "output": {
+          "total": 55,
+          "echo": {
+            "topic": "invoice",
+            "amount": 50,
+            "email": "TOKEN_L15_CUSTOMER",
+            "customer_ref": "LOCAL_C17",
+            "note": "PRIVATE_NOTE_CANARY_L15"
+          }
+        }
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  },
+  {
+    "id": "minimize_basic",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "standard"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50
+      },
+      "cache": {
+        "total": 55
+      },
+      "tool": {
+        "customer_ref": "LOCAL_C17",
+        "total": 55
+      },
+      "audit": {
+        "id": "minimize_basic",
+        "profile": "minimize",
+        "status": "ok"
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  },
+  {
+    "id": "minimize_note",
+    "components": {
+      "context": {
+        "topic": "invoice",
+        "amount": 50,
+        "email": "canary-l15@example.test",
+        "customer_ref": "LOCAL_C17",
+        "note": "PRIVATE_NOTE_CANARY_L15"
+      },
+      "gateway": {
+        "topic": "invoice",
+        "amount": 50
+      },
+      "provider": {
+        "topic": "invoice",
+        "amount": 50
+      },
+      "cache": {
+        "total": 55
+      },
+      "tool": {
+        "customer_ref": "LOCAL_C17",
+        "total": 55
+      },
+      "audit": {
+        "id": "minimize_note",
+        "profile": "minimize",
+        "status": "ok"
+      },
+      "user": {
+        "total": 55
+      }
+    }
+  }
+]

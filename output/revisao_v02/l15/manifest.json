@@ -1,0 +1,19 @@
+{
+  "version": "L15-conexoes-1.1",
+  "utc": "2026-10-23T21:00:02.227407+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "apoio_revisao/__init__.py": "427ddf272d58b9a98b13d784b0942578d02069e9fe23638c031f33d8d07f078e",
+    "apoio_revisao/__main__.py": "c638068d6918b17891bfd61b58a57a3bad147b406459ff8489b6dc0be23c381c",
+    "apoio_revisao/common.py": "f3d65e998af9365518ac69f780bdc653c08707f668f7109e663a527a3140a383",
+    "apoio_revisao/privacidade.py": "2e436e965fcd5912231cf85aa1271616d01fed2434fac57ddee6d034a5e18aaf"
+  },
+  "artifacts_sha256": {
+    "components.json": "5f48ef4aff6be5b08fe0ca0b001d5584206ee49821e550a3a3c8dca81a343200",
+    "local.sqlite": "1760dfeb531b6c916b48f08ffbcc36c3be51b3961165effc9c668956462ef47f",
+    "provider.sqlite": "5bc69b22b725c36aee8858adf0a56d4ce728adedd03bcfcb7d9ffd85a2d8d165",
+    "provider_before_cleanup.json": "7f502a9f665a0be6279de93164b92e2e988af23557836b6e0ea1b6c86ede70f5",
+    "results.json": "cb76adc845f07ceeb0782b2d42e7d637d9d87c8925265b1aae05109ad4620728"
+  }
+}
