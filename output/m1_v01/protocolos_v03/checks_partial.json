@@ -1,0 +1,268 @@
+[
+  {
+    "name": "issuer_metadata_and_public_key",
+    "passed": true,
+    "observed": {
+      "issuer": "http://127.0.0.1:50664",
+      "kid": "m1-ephemeral"
+    }
+  },
+  {
+    "name": "issuer_invalid_client",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "mcp_missing_bearer",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "mcp_resource_discovery_challenge",
+    "passed": true,
+    "observed": "Bearer error=\"invalid_token\", error_description=\"Authentication required\", resource_metadata=\"http://127.0.0.1:50665/.well-known/oauth-protected-resource/mcp\""
+  },
+  {
+    "name": "mcp_resource_metadata",
+    "passed": true,
+    "observed": {
+      "resource": "http://127.0.0.1:50665/mcp",
+      "authorization_servers": [
+        "http://127.0.0.1:50664"
+      ],
+      "scopes_supported": [
+        "contracts:read"
+      ],
+      "bearer_methods_supported": [
+        "header"
+      ]
+    }
+  },
+  {
+    "name": "mcp_sdk_tools_list",
+    "passed": true,
+    "observed": {
+      "tools": [
+        "read_contract"
+      ],
+      "protocol_version": "2026-07-28"
+    }
+  },
+  {
+    "name": "mcp_sdk_own_resource",
+    "passed": true,
+    "observed": {
+      "allowed": true,
+      "resource": "alpha_contract",
+      "text": "CONTRATO_SINTETICO_alpha"
+    }
+  },
+  {
+    "name": "mcp_sdk_cross_tenant",
+    "passed": true,
+    "observed": {
+      "allowed": false,
+      "error": "resource_policy"
+    }
+  },
+  {
+    "name": "mcp_wire_client_own",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": true,\n  \"resource\": \"alpha_contract\",\n  \"text\": \"CONTRATO_SINTETICO_alpha\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete",
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "Contratos M1",
+            "version": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "mcp_wire_client_cross_tenant",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": false,\n  \"error\": \"resource_policy\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete",
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "Contratos M1",
+            "version": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "mcp_wrong_audience",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "mcp_expired",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "mcp_wrong_scope",
+    "passed": true,
+    "observed": 403
+  },
+  {
+    "name": "mcp_wrong_issuer",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "mcp_signature",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "a2a_card_bearer",
+    "passed": true,
+    "observed": {
+      "binding": "HTTP+JSON",
+      "version": "1.0"
+    }
+  },
+  {
+    "name": "a2a_sdk_artifact_principal_binding",
+    "passed": true,
+    "observed": {
+      "state": "TASK_STATE_COMPLETED",
+      "artifact": "ARTEFATO_SINTETICO_alpha"
+    }
+  },
+  {
+    "name": "a2a_sdk_get_task",
+    "passed": true,
+    "observed": "87b67a68-5daa-4aae-a9e1-ee9e1bcf1bfa"
+  },
+  {
+    "name": "a2a_sdk_cancel",
+    "passed": true,
+    "observed": "TASK_STATE_CANCELED"
+  },
+  {
+    "name": "a2a_read_other_task",
+    "passed": true,
+    "observed": {
+      "status": 404,
+      "body": {
+        "error": {
+          "code": 404,
+          "status": "NOT_FOUND",
+          "message": "Tarefa não disponível para esta identidade",
+          "details": [
+            {
+              "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+              "reason": "TASK_NOT_FOUND",
+              "domain": "a2a-protocol.org",
+              "metadata": {}
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "a2a_cancel_other_task",
+    "passed": true,
+    "observed": {
+      "status": 404,
+      "body": {
+        "error": {
+          "code": 404,
+          "status": "NOT_FOUND",
+          "message": "Tarefa não disponível para esta identidade",
+          "details": [
+            {
+              "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+              "reason": "TASK_NOT_FOUND",
+              "domain": "a2a-protocol.org",
+              "metadata": {}
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "a2a_reuse_other_context",
+    "passed": true,
+    "observed": {
+      "status": 404,
+      "body": {
+        "error": {
+          "code": 404,
+          "status": "NOT_FOUND",
+          "message": "Contexto não disponível para esta identidade",
+          "details": [
+            {
+              "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+              "reason": "TASK_NOT_FOUND",
+              "domain": "a2a-protocol.org",
+              "metadata": {}
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "a2a_missing",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "a2a_wrong_audience",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "a2a_expired",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "a2a_wrong_scope",
+    "passed": true,
+    "observed": 403
+  },
+  {
+    "name": "a2a_wrong_issuer",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "a2a_signature",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "name": "a2a_bearer_reuse_is_not_replay_protection",
+    "passed": true,
+    "observed": 200
+  }
+]

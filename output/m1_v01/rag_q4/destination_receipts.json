@@ -1,0 +1,290 @@
+[
+  {
+    "case": "dev_L01_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L01_C_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L02_A_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L02_B_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L02_C_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L02_D_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L03_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L03_B_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L03_C_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L03_D_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L05_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L05_C_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L06_A_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L06_B_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L06_C_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L06_D_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L07_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L07_B_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L07_C_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L07_D_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L08_A_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L08_B_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L08_C_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L08_D_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L09_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L09_C_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_L10_A_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L10_B_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L10_C_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_L10_D_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "portal_beta",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_H03_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_H04_A_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "collector",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_H04_B_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "collector",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_H07_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "dev_H08_A_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "collector",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "dev_H08_B_r1",
+    "subject_tenant": "beta",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "collector",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  }
+]

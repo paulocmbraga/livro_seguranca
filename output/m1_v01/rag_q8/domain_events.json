@@ -1,0 +1,1636 @@
+[
+  {
+    "case": "dev_L01_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L01_source"
+    ]
+  },
+  {
+    "case": "dev_L01_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L01_source"
+    ]
+  },
+  {
+    "case": "dev_L01_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L01_source"
+    ]
+  },
+  {
+    "case": "dev_L01_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L01_source"
+    ]
+  },
+  {
+    "case": "dev_L02_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L02_source"
+    ]
+  },
+  {
+    "case": "dev_L02_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L02_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L02_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L02_source"
+    ]
+  },
+  {
+    "case": "dev_L02_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L02_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L02_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L02_source"
+    ]
+  },
+  {
+    "case": "dev_L02_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L02_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L02_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L02_source"
+    ]
+  },
+  {
+    "case": "dev_L02_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L02_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L03_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L03_source"
+    ]
+  },
+  {
+    "case": "dev_L03_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L03_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L03_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L03_source"
+    ]
+  },
+  {
+    "case": "dev_L03_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L03_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L03_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L03_source"
+    ]
+  },
+  {
+    "case": "dev_L03_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L03_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L03_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L03_source"
+    ]
+  },
+  {
+    "case": "dev_L03_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L03_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L04_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L04_source"
+    ]
+  },
+  {
+    "case": "dev_L04_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L04_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L04_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L04_source"
+    ]
+  },
+  {
+    "case": "dev_L04_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L04_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L04_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L04_source"
+    ]
+  },
+  {
+    "case": "dev_L04_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L04_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L04_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L04_source"
+    ]
+  },
+  {
+    "case": "dev_L04_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L04_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L05_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L05_source"
+    ]
+  },
+  {
+    "case": "dev_L05_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L05_source"
+    ]
+  },
+  {
+    "case": "dev_L05_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L05_source"
+    ]
+  },
+  {
+    "case": "dev_L05_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L05_source"
+    ]
+  },
+  {
+    "case": "dev_L06_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L06_source"
+    ]
+  },
+  {
+    "case": "dev_L06_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L06_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L06_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L06_source"
+    ]
+  },
+  {
+    "case": "dev_L06_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L06_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L06_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L06_source"
+    ]
+  },
+  {
+    "case": "dev_L06_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L06_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L06_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L06_source"
+    ]
+  },
+  {
+    "case": "dev_L06_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L06_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L07_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L07_source"
+    ]
+  },
+  {
+    "case": "dev_L07_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L07_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L07_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L07_source"
+    ]
+  },
+  {
+    "case": "dev_L07_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L07_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L07_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L07_source"
+    ]
+  },
+  {
+    "case": "dev_L07_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L07_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L07_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L07_source"
+    ]
+  },
+  {
+    "case": "dev_L07_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "dev_L07_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L08_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L08_source"
+    ]
+  },
+  {
+    "case": "dev_L08_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L08_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L08_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L08_source"
+    ]
+  },
+  {
+    "case": "dev_L08_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L08_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L08_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L08_source"
+    ]
+  },
+  {
+    "case": "dev_L08_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L08_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L08_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L08_source"
+    ]
+  },
+  {
+    "case": "dev_L08_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L08_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L09_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L09_source"
+    ]
+  },
+  {
+    "case": "dev_L09_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L09_source"
+    ]
+  },
+  {
+    "case": "dev_L09_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L09_source"
+    ]
+  },
+  {
+    "case": "dev_L09_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L09_source"
+    ]
+  },
+  {
+    "case": "dev_L10_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_L10_source"
+    ]
+  },
+  {
+    "case": "dev_L10_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L10_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L10_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_L10_source"
+    ]
+  },
+  {
+    "case": "dev_L10_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L10_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L10_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_L10_source"
+    ]
+  },
+  {
+    "case": "dev_L10_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L10_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_L10_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_L10_source"
+    ]
+  },
+  {
+    "case": "dev_L10_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "dev_L10_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_H01_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H01_source"
+    ]
+  },
+  {
+    "case": "dev_H01_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H01_source"
+    ]
+  },
+  {
+    "case": "dev_H01_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H01_source"
+    ]
+  },
+  {
+    "case": "dev_H01_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H01_source"
+    ]
+  },
+  {
+    "case": "dev_H02_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H02_source"
+    ]
+  },
+  {
+    "case": "dev_H02_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H02_source"
+    ]
+  },
+  {
+    "case": "dev_H02_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H02_source"
+    ]
+  },
+  {
+    "case": "dev_H02_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H02_source"
+    ]
+  },
+  {
+    "case": "dev_H03_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H03_source"
+    ]
+  },
+  {
+    "case": "dev_H03_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H03_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_H03_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H03_source"
+    ]
+  },
+  {
+    "case": "dev_H03_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H03_source"
+    ]
+  },
+  {
+    "case": "dev_H03_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H03_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H03_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H03_source"
+    ]
+  },
+  {
+    "case": "dev_H04_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H04_source"
+    ]
+  },
+  {
+    "case": "dev_H04_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H04_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_H04_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H04_source"
+    ]
+  },
+  {
+    "case": "dev_H04_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H04_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_H04_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H04_source"
+    ]
+  },
+  {
+    "case": "dev_H04_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H04_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H04_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H04_source"
+    ]
+  },
+  {
+    "case": "dev_H04_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H04_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H05_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H05_source"
+    ]
+  },
+  {
+    "case": "dev_H05_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H05_source"
+    ]
+  },
+  {
+    "case": "dev_H05_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H05_source"
+    ]
+  },
+  {
+    "case": "dev_H05_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H05_source"
+    ]
+  },
+  {
+    "case": "dev_H06_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H06_source"
+    ]
+  },
+  {
+    "case": "dev_H06_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H06_source"
+    ]
+  },
+  {
+    "case": "dev_H06_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H06_source"
+    ]
+  },
+  {
+    "case": "dev_H06_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H06_source"
+    ]
+  },
+  {
+    "case": "dev_H07_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H07_source"
+    ]
+  },
+  {
+    "case": "dev_H07_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H07_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_H07_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H07_source"
+    ]
+  },
+  {
+    "case": "dev_H07_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H07_source"
+    ]
+  },
+  {
+    "case": "dev_H07_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H07_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H07_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H07_source"
+    ]
+  },
+  {
+    "case": "dev_H08_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H08_source"
+    ]
+  },
+  {
+    "case": "dev_H08_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H08_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_H08_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H08_source"
+    ]
+  },
+  {
+    "case": "dev_H08_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H08_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "dev_H08_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H08_source"
+    ]
+  },
+  {
+    "case": "dev_H08_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H08_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H08_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H08_source"
+    ]
+  },
+  {
+    "case": "dev_H08_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H08_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "dev_H09_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H09_source"
+    ]
+  },
+  {
+    "case": "dev_H09_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H09_source"
+    ]
+  },
+  {
+    "case": "dev_H09_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H09_source"
+    ]
+  },
+  {
+    "case": "dev_H09_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H09_source"
+    ]
+  },
+  {
+    "case": "dev_H10_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "dev_H10_source"
+    ]
+  },
+  {
+    "case": "dev_H10_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "dev_H10_source"
+    ]
+  },
+  {
+    "case": "dev_H10_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "dev_H10_source"
+    ]
+  },
+  {
+    "case": "dev_H10_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "dev_H10_source"
+    ]
+  }
+]

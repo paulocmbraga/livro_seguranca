@@ -1,0 +1,26 @@
+{
+  "version": "M1-1.0",
+  "created_at": "2026-10-23T00:03:39.522036+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/__init__.py": "f9a182cd8a860c5f95abd32a361bac493cf67773d44beda9d74e48251125b5f6",
+    "laboratorios/l09/__init__.py": "a6bd371112b9fa2fa49f17c983e522bb13bd7471eea72061c8e57c8034e7854b",
+    "laboratorios/l09/__main__.py": "23ddda102afb341724339d3cf51a0e6d7ddd452290630039856df3b22e0d889d",
+    "laboratorios/l09/campaign.py": "a7ff1d4d15faaa4aef59aaf434d09cfc6a540a6a7da7517ee951f747e0326df8",
+    "laboratorios/l09/core.py": "d86d85ead26f054c25516b64561cd04da9747abbee3878a3201e671abe178e6f",
+    "laboratorios/l09/fixtures.py": "cd3cfadcb17c6248bba4bfc9e0319942025e5a20d92f3b80d9ffe6c20edb6134",
+    "laboratorios/l09/llm.py": "4a4db238cb12c77633f8d4ef80b24e347abec97ebe20f189906af4899fe8410f",
+    "laboratorios/l09/services.py": "8c0f1a91b095c9cac17d3242b37cd83b620d7ce9523787df4f52ab0279c55d84",
+    "laboratorios/m1/__init__.py": "41ffa1d2183c736a883194357bb91d11640b02e03d741697688eb069cc87a8ca",
+    "laboratorios/m1/auth.py": "9cb1bbe1511150054b935768f6e3b1a33841c6a68678973bd28fcddc1d4ecd47",
+    "laboratorios/m1/common.py": "a42398ca6f917c3f0951d0260c42225400c176d8d659bed6d9f81ec9b2d4a5c8",
+    "laboratorios/m1/inference.py": "11b1188bf2d5192e535bfe8a7ec4e56ae350b4ded3ce0d68dea58cd560eb8f5b",
+    "laboratorios/m1/protocols.py": "4c5279beb0ea3f6ddce8b08bdc340307767d9612fa2a601bcbf727d5887c444d"
+  },
+  "artifacts_sha256": {
+    "checks_partial.json": "ba45efc10b6dc33e317728d8d7fefb99edcbebd645601b8b37c797aad73198de",
+    "results.json": "a57d5cdf1fa89aabfdbf32a4574171549194f61bc24a5a3054bc10be6a744ad1",
+    "server_events.json": "ca1310d6b4ae134cea6cb1ae21122f6cafa380ca2dae45a7010d573c418665d1"
+  }
+}

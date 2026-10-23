@@ -1,0 +1,37 @@
+{
+  "version": "M1-1.0",
+  "artifacts": [
+    {
+      "id": "llama_cpp_cpu",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cpu-x64.zip",
+      "filename": "llama-b11669-bin-win-cpu-x64.zip",
+      "sha256": "37b3efcf962847ca869745fd4ccf7f5e7e8dacfeff9fa3523b4ca8cdc66d632b",
+      "size": 19537886,
+      "release": "b11669",
+      "license": "MIT"
+    },
+    {
+      "id": "q4_k_m",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/9217f5db79a29953eb74d5343926648285ec7e67/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "filename": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+      "size": 491400032,
+      "model": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "revision": "9217f5db79a29953eb74d5343926648285ec7e67",
+      "license": "Apache-2.0",
+      "configuration": "Same model family and weights; different quantization."
+    },
+    {
+      "id": "q8_0",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/9217f5db79a29953eb74d5343926648285ec7e67/qwen2.5-0.5b-instruct-q8_0.gguf",
+      "filename": "qwen2.5-0.5b-instruct-q8_0.gguf",
+      "sha256": "ca59ca7f13d0e15a8cfa77bd17e65d24f6844b554a7b6c12e07a5f89ff76844e",
+      "size": 675710816,
+      "model": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "revision": "9217f5db79a29953eb74d5343926648285ec7e67",
+      "license": "Apache-2.0",
+      "configuration": "Same model family and weights; different quantization."
+    }
+  ],
+  "download_total_bytes": 1186648734
+}

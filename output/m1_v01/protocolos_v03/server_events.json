@@ -1,0 +1,196 @@
+{
+  "mcp": [
+    {
+      "operation": "authenticate",
+      "allowed": true,
+      "subject": "alpha"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": true,
+      "subject": "alpha"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": true,
+      "subject": "alpha"
+    },
+    {
+      "operation": "read_contract",
+      "subject": "alpha",
+      "resource": "alpha_contract",
+      "allowed": true
+    },
+    {
+      "operation": "authenticate",
+      "allowed": true,
+      "subject": "alpha"
+    },
+    {
+      "operation": "read_contract",
+      "subject": "alpha",
+      "resource": "beta_contract",
+      "allowed": false
+    },
+    {
+      "operation": "authenticate",
+      "allowed": true,
+      "subject": "alpha"
+    },
+    {
+      "operation": "read_contract",
+      "subject": "alpha",
+      "resource": "alpha_contract",
+      "allowed": true
+    },
+    {
+      "operation": "authenticate",
+      "allowed": true,
+      "subject": "alpha"
+    },
+    {
+      "operation": "read_contract",
+      "subject": "alpha",
+      "resource": "beta_contract",
+      "allowed": false
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false
+    },
+    {
+      "operation": "authenticate",
+      "allowed": true,
+      "subject": "alpha"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false
+    }
+  ],
+  "a2a": [
+    {
+      "operation": "created",
+      "task_id": "87b67a68-5daa-4aae-a9e1-ee9e1bcf1bfa",
+      "context_id": "cc9a8a47-ae1e-4ff4-8ed7-d82ddaae24c2",
+      "subject": "alpha",
+      "state": "TASK_STATE_COMPLETED"
+    },
+    {
+      "operation": "task_access",
+      "task_id": "87b67a68-5daa-4aae-a9e1-ee9e1bcf1bfa",
+      "subject": "alpha",
+      "allowed": true
+    },
+    {
+      "operation": "created",
+      "task_id": "23393a59-e997-48f9-aee4-35431725c4e4",
+      "context_id": "87785bca-1d2f-4c70-92da-b5834473c908",
+      "subject": "alpha",
+      "state": "TASK_STATE_WORKING"
+    },
+    {
+      "operation": "task_access",
+      "task_id": "23393a59-e997-48f9-aee4-35431725c4e4",
+      "subject": "alpha",
+      "allowed": true
+    },
+    {
+      "operation": "canceled",
+      "task_id": "23393a59-e997-48f9-aee4-35431725c4e4",
+      "subject": "alpha"
+    },
+    {
+      "operation": "task_access",
+      "task_id": "87b67a68-5daa-4aae-a9e1-ee9e1bcf1bfa",
+      "subject": "beta",
+      "allowed": false
+    },
+    {
+      "operation": "task_access",
+      "task_id": "87b67a68-5daa-4aae-a9e1-ee9e1bcf1bfa",
+      "subject": "beta",
+      "allowed": false
+    },
+    {
+      "operation": "context_access",
+      "subject": "beta",
+      "allowed": false
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false,
+      "reason": "invalid_token"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false,
+      "reason": "invalid_token"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false,
+      "reason": "invalid_token"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false,
+      "reason": "insufficient_scope"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false,
+      "reason": "invalid_token"
+    },
+    {
+      "operation": "authenticate",
+      "allowed": false,
+      "reason": "invalid_token"
+    },
+    {
+      "operation": "task_access",
+      "task_id": "87b67a68-5daa-4aae-a9e1-ee9e1bcf1bfa",
+      "subject": "alpha",
+      "allowed": true
+    }
+  ],
+  "issuer": [
+    {
+      "operation": "token",
+      "allowed": true,
+      "subject": "alpha",
+      "audience": "http://127.0.0.1:50665/mcp",
+      "scope": "contracts:read",
+      "token_sha256": "a619bb88fd545e208e6abf5f758d2bcb0791765929f581721ccb62e5783fc9a4"
+    },
+    {
+      "operation": "token",
+      "allowed": true,
+      "subject": "alpha",
+      "audience": "http://127.0.0.1:50666",
+      "scope": "tasks:operate",
+      "token_sha256": "c31336214cd3b46f452be20403ac2e8c53717fabfd6d451a612b0749ada67434"
+    },
+    {
+      "operation": "token",
+      "allowed": true,
+      "subject": "beta",
+      "audience": "http://127.0.0.1:50666",
+      "scope": "tasks:operate",
+      "token_sha256": "71a42946668cfe3551a3e4d6705b246dd96c2f90d9e07decddd7a4d1d8caa0f4"
+    },
+    {
+      "operation": "token",
+      "allowed": false,
+      "reason": "invalid_client"
+    }
+  ]
+}

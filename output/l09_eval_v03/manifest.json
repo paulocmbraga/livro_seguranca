@@ -1,0 +1,22 @@
+{
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "version": "L09-1.0",
+  "source_sha256": {
+    "laboratorios\\l09\\__init__.py": "a6bd371112b9fa2fa49f17c983e522bb13bd7471eea72061c8e57c8034e7854b",
+    "laboratorios\\l09\\__main__.py": "23ddda102afb341724339d3cf51a0e6d7ddd452290630039856df3b22e0d889d",
+    "laboratorios\\l09\\campaign.py": "a7ff1d4d15faaa4aef59aaf434d09cfc6a540a6a7da7517ee951f747e0326df8",
+    "laboratorios\\l09\\core.py": "d86d85ead26f054c25516b64561cd04da9747abbee3878a3201e671abe178e6f",
+    "laboratorios\\l09\\fixtures.py": "cd3cfadcb17c6248bba4bfc9e0319942025e5a20d92f3b80d9ffe6c20edb6134",
+    "laboratorios\\l09\\llm.py": "4a4db238cb12c77633f8d4ef80b24e347abec97ebe20f189906af4899fe8410f",
+    "laboratorios\\l09\\services.py": "8c0f1a91b095c9cac17d3242b37cd83b620d7ce9523787df4f52ab0279c55d84"
+  },
+  "artifacts_sha256": {
+    "corpus.json": "376340b7a32532401fd0b1bb11dbb45d673ed50b590333b83892fb5701efa839",
+    "destination.sqlite": "d9984b6580e208140a3fb3fb526e75244ffb65ffc0f517edd8b394473e55cb17",
+    "destination_receipts.json": "c0c60c9e7b01ff0230a2768b2350e89d152de72b93679dcca8978deb2b89ab81",
+    "domain.sqlite": "f6f7fca23bccb7f0ceeee120a497718d172515fdc5051bc3ec9bb56a1c513e81",
+    "domain_events.json": "8b9f8aaa2a0d9fee6fc19e6c34c65b195006e1c42cb0b910ca4a008b70f50be2",
+    "results.json": "a00071e94f450a964aa373d03f49e61a287b7ef3d2cc30ab51a2d237627ff258"
+  }
+}
