@@ -1,0 +1,30 @@
+[
+  [
+    "K1",
+    "alpha",
+    "alpha",
+    "portal_alpha",
+    "manualalpha prazo 12 dias. CANARY_ALPHA_35."
+  ],
+  [
+    "K2",
+    "beta",
+    "beta",
+    "portal_beta",
+    "manualbeta prazo 28 dias. CANARY_BETA_35."
+  ],
+  [
+    "K6",
+    "beta",
+    "beta",
+    "portal_beta",
+    "manualbeta prazo 28 dias. CANARY_BETA_35."
+  ],
+  [
+    "K7",
+    "alpha",
+    "alpha",
+    "portal_alpha",
+    "manualalpha prazo 12 dias. CANARY_ALPHA_35."
+  ]
+]

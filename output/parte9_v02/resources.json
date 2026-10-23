@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "lab": "L33",
+      "seconds": 1.3201304000103846,
+      "sampled_peak_tree_rss_mib": 66.57421875,
+      "samples": 12,
+      "returncode": 0
+    },
+    {
+      "lab": "L34",
+      "seconds": 41.61265139991883,
+      "sampled_peak_tree_rss_mib": 201.69921875,
+      "samples": 379,
+      "returncode": 0
+    },
+    {
+      "lab": "L35",
+      "seconds": 77.02528750000056,
+      "sampled_peak_tree_rss_mib": 725.13671875,
+      "samples": 675,
+      "returncode": 0
+    },
+    {
+      "lab": "L36",
+      "seconds": 115.84500309999567,
+      "sampled_peak_tree_rss_mib": 149.484375,
+      "samples": 1055,
+      "returncode": 0
+    }
+  ],
+  "sample_interval_seconds": 0.1,
+  "sequential_same_host": true,
+  "limits": "Soma RSS dos processos próprios vivos; pode contar páginas compartilhadas mais de uma vez e perder picos. Inclui imports e encerramento. Não inclui instalação/download nem RAM total do host. Treino sklearn/diffprivlib, inferência llama.cpp e Docker locais. RSS do daemon e dos contêineres não incluída. Sem API paga; instalação e download não incluídos."
+}

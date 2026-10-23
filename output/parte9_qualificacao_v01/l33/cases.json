@@ -1,0 +1,244 @@
+{
+  "restricted": {
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+    "owner": "papel fictício: responsável do laboratório",
+    "scope": "laboratory",
+    "claims": [
+      {
+        "id": "C1",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": true,
+        "status": "supported",
+        "warrant": "Recusa observada no ponto de efeito do caso didático.",
+        "rebuttal": "Não sustenta generalização para outro executor ou entrada.",
+        "evidence": [
+          {
+            "path": "evidence.json",
+            "sha256": "47d0d5cb2aaac066faed66d9bd6ff45f24f7fc6c4ffbb68edc324e6d29fe1514"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": false,
+        "status": "unknown",
+        "evidence": []
+      }
+    ],
+    "exceptions": [
+      {
+        "claim": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "owner": "papel fictício: mantenedor",
+        "scope": "laboratory",
+        "mitigation": "uso isolado; sem dados reais",
+        "expires": 120
+      }
+    ],
+    "review": {
+      "independent": false,
+      "reviewer": null,
+      "decision": "pending"
+    },
+    "valid_until": 150
+  },
+  "production": {
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+    "owner": "papel fictício: responsável do laboratório",
+    "scope": "production",
+    "claims": [
+      {
+        "id": "C1",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": true,
+        "status": "supported",
+        "warrant": "Recusa observada no ponto de efeito do caso didático.",
+        "rebuttal": "Não sustenta generalização para outro executor ou entrada.",
+        "evidence": [
+          {
+            "path": "evidence.json",
+            "sha256": "47d0d5cb2aaac066faed66d9bd6ff45f24f7fc6c4ffbb68edc324e6d29fe1514"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": false,
+        "status": "unknown",
+        "evidence": []
+      }
+    ],
+    "exceptions": [
+      {
+        "claim": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "owner": "papel fictício: mantenedor",
+        "scope": "laboratory",
+        "mitigation": "uso isolado; sem dados reais",
+        "expires": 120
+      }
+    ],
+    "review": {
+      "independent": false,
+      "reviewer": null,
+      "decision": "pending"
+    },
+    "valid_until": 150
+  },
+  "critical_gap": {
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+    "owner": "papel fictício: responsável do laboratório",
+    "scope": "laboratory",
+    "claims": [
+      {
+        "id": "C1",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": true,
+        "status": "supported",
+        "warrant": "Recusa observada no ponto de efeito do caso didático.",
+        "rebuttal": "Não sustenta generalização para outro executor ou entrada.",
+        "evidence": [
+          {
+            "path": "evidence.json",
+            "sha256": "47d0d5cb2aaac066faed66d9bd6ff45f24f7fc6c4ffbb68edc324e6d29fe1514"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": true,
+        "status": "unknown",
+        "evidence": []
+      }
+    ],
+    "exceptions": [
+      {
+        "claim": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "owner": "papel fictício: mantenedor",
+        "scope": "laboratory",
+        "mitigation": "uso isolado; sem dados reais",
+        "expires": 120
+      }
+    ],
+    "review": {
+      "independent": false,
+      "reviewer": null,
+      "decision": "pending"
+    },
+    "valid_until": 150
+  },
+  "expired_exception": {
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+    "owner": "papel fictício: responsável do laboratório",
+    "scope": "laboratory",
+    "claims": [
+      {
+        "id": "C1",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": true,
+        "status": "supported",
+        "warrant": "Recusa observada no ponto de efeito do caso didático.",
+        "rebuttal": "Não sustenta generalização para outro executor ou entrada.",
+        "evidence": [
+          {
+            "path": "evidence.json",
+            "sha256": "47d0d5cb2aaac066faed66d9bd6ff45f24f7fc6c4ffbb68edc324e6d29fe1514"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": false,
+        "status": "unknown",
+        "evidence": []
+      }
+    ],
+    "exceptions": [
+      {
+        "claim": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "owner": "papel fictício: mantenedor",
+        "scope": "laboratory",
+        "mitigation": "uso isolado; sem dados reais",
+        "expires": 120
+      }
+    ],
+    "review": {
+      "independent": false,
+      "reviewer": null,
+      "decision": "pending"
+    },
+    "valid_until": 150
+  },
+  "changed_candidate": {
+    "artifact": "another",
+    "owner": "papel fictício: responsável do laboratório",
+    "scope": "laboratory",
+    "claims": [
+      {
+        "id": "C1",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": true,
+        "status": "supported",
+        "warrant": "Recusa observada no ponto de efeito do caso didático.",
+        "rebuttal": "Não sustenta generalização para outro executor ou entrada.",
+        "evidence": [
+          {
+            "path": "evidence.json",
+            "sha256": "47d0d5cb2aaac066faed66d9bd6ff45f24f7fc6c4ffbb68edc324e6d29fe1514"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "critical": false,
+        "status": "unknown",
+        "evidence": []
+      }
+    ],
+    "exceptions": [
+      {
+        "claim": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "owner": "papel fictício: mantenedor",
+        "scope": "laboratory",
+        "mitigation": "uso isolado; sem dados reais",
+        "expires": 120
+      }
+    ],
+    "review": {
+      "independent": false,
+      "reviewer": null,
+      "decision": "pending"
+    },
+    "valid_until": 150
+  },
+  "empty": {
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+    "owner": "papel fictício: responsável do laboratório",
+    "scope": "laboratory",
+    "claims": [],
+    "exceptions": [
+      {
+        "claim": "C2",
+        "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691",
+        "owner": "papel fictício: mantenedor",
+        "scope": "laboratory",
+        "mitigation": "uso isolado; sem dados reais",
+        "expires": 120
+      }
+    ],
+    "review": {
+      "independent": false,
+      "reviewer": null,
+      "decision": "pending"
+    },
+    "valid_until": 150
+  }
+}

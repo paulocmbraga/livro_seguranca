@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "created",
+    "task_id": "82a8692b-74d7-4b12-9755-ab56b8bda001",
+    "context_id": "786082e9-8122-40a7-8fe1-e4aa8d4284f0",
+    "subject": "alpha",
+    "state": "TASK_STATE_COMPLETED"
+  },
+  {
+    "operation": "created",
+    "task_id": "e2d808c7-ac56-470a-b440-d0af1453c1b1",
+    "context_id": "ecb51108-73c5-4f3d-9822-3957d2b1cbac",
+    "subject": "alpha",
+    "state": "TASK_STATE_COMPLETED"
+  },
+  {
+    "operation": "created",
+    "task_id": "8b3cdd14-2612-4857-abe6-2d3f3d01bd91",
+    "context_id": "31787343-db10-4e0f-970e-b60905aaaa69",
+    "subject": "alpha",
+    "state": "TASK_STATE_COMPLETED"
+  },
+  {
+    "operation": "created",
+    "task_id": "c3281337-90f5-4408-8f0e-f881cf532d38",
+    "context_id": "44aa1b10-e47f-4401-91e7-535e40a4b03a",
+    "subject": "alpha",
+    "state": "TASK_STATE_COMPLETED"
+  },
+  {
+    "operation": "created",
+    "task_id": "4dc2ce5f-764c-4935-ac7e-7c82895f6c5d",
+    "context_id": "fc5b4759-3e19-4ea3-a016-6dd9c0bd33df",
+    "subject": "alpha",
+    "state": "TASK_STATE_COMPLETED"
+  },
+  {
+    "operation": "created",
+    "task_id": "8375d2dd-d213-4957-887e-89493a8b5193",
+    "context_id": "511351de-fd1a-4af1-8ef4-962b49867935",
+    "subject": "alpha",
+    "state": "TASK_STATE_COMPLETED"
+  },
+  {
+    "operation": "created",
+    "task_id": "bf024a76-8275-4e60-beee-58c67ff8e855",
+    "context_id": "b3f6c24c-231f-47b4-9d88-d731f7e3cd3a",
+    "subject": "alpha",
+    "state": "TASK_STATE_COMPLETED"
+  },
+  {
+    "operation": "created",
+    "task_id": "264b21fb-bedd-4170-bc76-4e83e811d634",
+    "context_id": "6159d6e3-fde6-4950-beae-e2d694588b60",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "264b21fb-bedd-4170-bc76-4e83e811d634",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "canceled",
+    "task_id": "264b21fb-bedd-4170-bc76-4e83e811d634",
+    "subject": "alpha"
+  },
+  {
+    "operation": "authenticate",
+    "allowed": false,
+    "reason": "invalid_token"
+  }
+]

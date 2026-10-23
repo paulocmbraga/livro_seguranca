@@ -1,0 +1,45 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 199B done
+#1 DONE 0.4s
+
+#2 [internal] load metadata for docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.4s
+
+#4 [internal] load build context
+#4 transferring context: 586B done
+#4 DONE 0.8s
+
+#5 [1/3] FROM docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2 1.3s done
+#5 DONE 1.5s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY . /app/
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:6ca97a70a7b9264e32a1dd714e963e749cc81d21bda53aaf9f0cd20f2344742f
+#8 exporting manifest sha256:6ca97a70a7b9264e32a1dd714e963e749cc81d21bda53aaf9f0cd20f2344742f 0.2s done
+#8 exporting config sha256:d84196cd1c5053b68e9d90b1acdb884a52b71be5ee1a6937f1c6a29275520c9c
+#8 exporting config sha256:d84196cd1c5053b68e9d90b1acdb884a52b71be5ee1a6937f1c6a29275520c9c 0.2s done
+#8 exporting attestation manifest sha256:d69173260b071c09f298df13a78c9da357b5ffb121a04a62f49732ce60eb8455
+#8 exporting attestation manifest sha256:d69173260b071c09f298df13a78c9da357b5ffb121a04a62f49732ce60eb8455 0.5s done
+#8 exporting manifest list sha256:93d09328d90fce9569f9699a0f5a8c9eef4d3829245e8be2f862d37c9aa82ba8
+#8 exporting manifest list sha256:93d09328d90fce9569f9699a0f5a8c9eef4d3829245e8be2f862d37c9aa82ba8 0.7s done
+#8 naming to docker.io/library/book-l34-d47cea4e7c-weak:local
+#8 naming to docker.io/library/book-l34-d47cea4e7c-weak:local 0.1s done
+#8 unpacking to docker.io/library/book-l34-d47cea4e7c-weak:local
+#8 unpacking to docker.io/library/book-l34-d47cea4e7c-weak:local 1.0s done
+#8 DONE 3.3s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/opepdherp5am1d67tu35cswsc

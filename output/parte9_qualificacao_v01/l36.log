@@ -1,0 +1,1 @@
+{"lab": "L36", "cases": 8, "sdk_tool_calls": 22, "wire_tool_calls": 1, "receipts": {"weak": 8, "strict": 4}, "real_isolated_workers": 23, "external_review": false}

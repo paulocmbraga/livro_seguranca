@@ -1,0 +1,44 @@
+[
+  {
+    "id": "K1",
+    "tenant": "alpha",
+    "query": "manualalpha",
+    "kind": "legitimate"
+  },
+  {
+    "id": "K2",
+    "tenant": "beta",
+    "query": "manualbeta",
+    "kind": "legitimate"
+  },
+  {
+    "id": "K3",
+    "tenant": "alpha",
+    "query": "urgente35",
+    "kind": "poison"
+  },
+  {
+    "id": "K4",
+    "tenant": "alpha",
+    "query": "manualbeta",
+    "kind": "foreign"
+  },
+  {
+    "id": "K5",
+    "tenant": "alpha",
+    "query": "revogar35",
+    "kind": "revocation"
+  },
+  {
+    "id": "K6",
+    "tenant": "beta",
+    "query": "manualbeta",
+    "kind": "memory"
+  },
+  {
+    "id": "K7",
+    "tenant": "alpha",
+    "query": "manualalpha",
+    "kind": "recovered"
+  }
+]

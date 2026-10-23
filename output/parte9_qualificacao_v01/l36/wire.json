@@ -1,0 +1,27 @@
+{
+  "direct": {
+    "status": 200,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 991,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"state\": \"task_binding\",\n  \"receipt\": null,\n  \"worker\": {\n    \"digest\": \"fc9c7025ef554ce9dc0eb4db33dc174ecbfeb5bb89dc1408e57f2d0e47789987\",\n    \"uid\": 10001,\n    \"root_write\": false,\n    \"network\": false\n  }\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete",
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "L36 operações",
+            "version": ""
+          }
+        }
+      }
+    }
+  },
+  "wrong_audience": 401,
+  "a2a_unauthenticated": 401
+}

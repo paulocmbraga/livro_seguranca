@@ -1,0 +1,12 @@
+{
+  "consultado_em": "2026-10-23",
+  "fontes": [
+    {"id":"R33.1","titulo":"NIST AI RMF 1.0","versao":"NIST AI 100-1, janeiro de 2023","url":"https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10","uso":"responsabilidade, contextualização e tolerância a risco; não certificação"},
+    {"id":"R33.2","titulo":"SSDF Community Profile for AI","versao":"NIST SP 800-218A, final, 26/07/2024","url":"https://csrc.nist.gov/pubs/sp/800/218/a/final","uso":"ciclo de desenvolvimento e aquisição; perfil complementar ao SSDF 1.1"},
+    {"id":"R34.1","titulo":"Diffprivlib models","versao":"0.6.6, documentação e pacote executado","url":"https://diffprivlib.readthedocs.io/en/latest/modules/models.html","uso":"regressão logística, norma e contador; seed didático público não é implantação privada"},
+    {"id":"R35.1","titulo":"SQLite FTS5","versao":"documentação contínua; SQLite do Python registrado por execução","url":"https://www.sqlite.org/fts5.html","uso":"busca lexical e manutenção de índice; ACL implementada pelo domínio"},
+    {"id":"R36.1","titulo":"MCP Authorization","versao":"protocolo 2026-07-28; SDK mcp 2.3.0 executado","url":"https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization","uso":"credenciais vinculadas ao recurso; perfil local não cobre OAuth de navegador"},
+    {"id":"R36.2","titulo":"A2A specification","versao":"protocolo 1.0; SDK a2a-sdk 1.2.3 executado","url":"https://a2a-protocol.org/latest/specification/","uso":"tarefas, artefatos e cancelamento; autorização da operação definida pelo recurso"}
+  ],
+  "nota":"Referências fundamentam os conceitos. Resultados numéricos são das novas capturas; documentação não é execução comprovada. Artefatos de inferência mantêm o lock M1."
+}

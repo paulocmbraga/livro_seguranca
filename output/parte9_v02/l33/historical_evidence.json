@@ -1,0 +1,17 @@
+[
+  {
+    "path": "output/parte7_v01/l28/results.json",
+    "sha256": "360dc86987cd1686c458fb6ceaa2807d736a267b872f9bc9b361954d01113176",
+    "reuse": "evidência histórica; candidato distinto"
+  },
+  {
+    "path": "output/parte8_v01/l30/report.json",
+    "sha256": "a5acd1f53dbfc77d1b6cef8dc0c0ca3034c844a4b8a464469bfccb6ccc76c606",
+    "reuse": "evidência histórica; candidato distinto"
+  },
+  {
+    "path": "output/parte8_v01/l32/report.json",
+    "sha256": "9e835dd36867237cc80378b19cdf07874f7a62d7beaeb4b266c1af215343c849",
+    "reuse": "evidência histórica; candidato distinto"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "not_started",
+  "reviewer": null,
+  "questions": [
+    "Tente uma rota não coberta.",
+    "Confronte recibos com o argumento.",
+    "Reproduza em ambiente novo."
+  ],
+  "acceptance": "Não atribuída ao autor nem a terceiro."
+}

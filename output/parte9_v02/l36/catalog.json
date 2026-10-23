@@ -1,0 +1,35 @@
+[
+  {
+    "name": "execute",
+    "description": "Executa proposta com autorização no recurso; campos não são autoridade.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "profile": {
+          "title": "Profile",
+          "type": "string"
+        },
+        "action": {
+          "additionalProperties": true,
+          "title": "Action",
+          "type": "object"
+        },
+        "ticket": {
+          "title": "Ticket",
+          "type": "string"
+        },
+        "lost_reply": {
+          "default": false,
+          "title": "Lost Reply",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "profile",
+        "action",
+        "ticket"
+      ],
+      "title": "executeArguments"
+    }
+  }
+]

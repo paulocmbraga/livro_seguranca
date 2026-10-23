@@ -1,5 +1,25 @@
 # Engenharia de Segurança para Sistemas de IA — materiais dos alunos
 
+## Entrega atual: Parte IX, capítulos 33–36
+
+Consulte [PARTE_IX.md](PARTE_IX.md): dossiê de segurança e casos integrados de ML,
+RAG e agentes MCP/A2A. Quatro laboratórios, 55 testes novos, treino e inferência
+reais, protocolos autenticados e workers Docker. Dados exclusivamente sintéticos.
+Referência final `output/parte9_v02`; repetição `output/parte9_qualificacao_v01`.
+
+Use o ambiente próprio descrito no roteiro. Preserve os modelos locais M1 e os
+ambientes das partes anteriores. Não há API paga ou publicação de serviços externos.
+Revisão independente e liberação de produção não estão concluídas.
+
+Manuscritos, PDFs, fontes, capas e material comercial permanecem privados em livro2.
+As entregas anteriores são conservadas abaixo e em seus guias originais.
+
+---
+
+## Histórico preservado
+
+# Engenharia de Segurança para Sistemas de IA — materiais dos alunos
+
 ## Entrega atual: Parte VIII, capítulos 29–32
 
 Consulte [PARTE_VIII.md](PARTE_VIII.md): campanha reproduzível, avaliação pareada,

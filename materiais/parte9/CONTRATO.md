@@ -1,0 +1,12 @@
+# Parte IX: contrato dos casos completos
+
+Versão 1.0, 23/10/2026. Os dados, identidades de negócio e aprovações são sintéticos. Não usar estes emissores, credenciais de demonstração ou seeds de privacidade em produção.
+
+- L33 exercita um dossiê com seis decisões, fixture didática e referências históricas verificadas. O único aceite automático é restrito à bancada; revisão independente e liberação de produção permanecem ausentes.
+- L34 integra treino sklearn/diffprivlib, dados com proveniência, papéis HTTP, envenenamento, perturbação branca, orçamento de consultas, adaptação não privada, build e serving Docker. O gerador e a reserva são conhecidos pelo autor; o treinador não recebe seus rótulos pelo serviço. DP com seed público é demonstração. A extração usa somente as consultas respondidas; não se afirma proteção absoluta contra extração ou pertencimento.
+- L35 integra SQLite FTS5, memória, revogação, inferência real e efeito HTTP. Duas quantizações Qwen2.5-0.5B-Instruct, Q4_K_M e Q8_0, reutilizam pesos/runtime M1 fixados. Sete casos autorais por perfil de defesa, duas defesas e duas quantizações: 28 gerações máximas; quatro propostas preparadas adicionais exercitam a fronteira. Citação vinculada não demonstra correção semântica. Destinos são caixas lógicas locais, sem transmissão externa.
+- L36 integra MCP 2026-07-28/SDK 2.3.0 e A2A 1.0/SDK 1.2.3, emissor local client_credentials, especialista preparado, aprovações vinculadas, recurso SQLite e worker Docker sem rede/montagem do host. O host, emissor e recurso são confiáveis. Há cliente HTTP alternativo do mesmo autor, sem revisão externa nem geração de LLM. A resposta perdida é falha de aplicação após commit, distinta de timeout real de rede.
+
+O núcleo executável requer Python 3.12, o lock desta pasta, Docker Linux ativo e a base por digest já usada na Parte VII. L35 também requer cache M1. Não há downloads automáticos de pesos. O comando run recusa sobrescrever uma captura; verify confere fontes/arquivos e reconcilia resultados, sem reexecutar treino, inferência ou contêineres.
+
+A implantação é exclusivamente local, com portas publicadas no loopback. Chaves privadas e tokens efêmeros não integram as capturas. Identificadores de tarefas, portas, duração e assinaturas podem variar. As fontes de partes anteriores e suas evidências permanecem intactas. As decisões aqui são dados de laboratório, não atos de aprovação do autor.

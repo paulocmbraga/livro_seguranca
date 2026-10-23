@@ -1,0 +1,528 @@
+[
+  {
+    "case": "legitimate",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "legitimate",
+      "task": "b2b19e48-ce16-4f3b-9e77-9c35e796d199",
+      "context": "6c1181d2-cb27-4246-a124-8c4c04a3e38d",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 1,
+      "worker": {
+        "digest": "477d47a7e0c4e087b1c78c4c2f519180431ade5a015abf6e96645fdf46a52cba",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "legitimate",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "legitimate",
+      "task": "b2b19e48-ce16-4f3b-9e77-9c35e796d199",
+      "context": "6c1181d2-cb27-4246-a124-8c4c04a3e38d",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 1,
+      "worker": {
+        "digest": "477d47a7e0c4e087b1c78c4c2f519180431ade5a015abf6e96645fdf46a52cba",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "hostile_replan",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "hostile_replan",
+      "task": "7ed30e4c-c5fe-4f14-bc5a-a77d9b5b8932",
+      "context": "cdee310d-d575-4612-a3e5-8eb580a1dc40",
+      "revision": "2",
+      "resource": "beta_contract",
+      "destination": "collector",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 2,
+      "worker": {
+        "digest": "3685bf933ad5e0a2d5465524300c9747b29117b1ff069da695a5dfb1a88ac6f0",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "hostile_replan",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "hostile_replan",
+      "task": "7ed30e4c-c5fe-4f14-bc5a-a77d9b5b8932",
+      "context": "cdee310d-d575-4612-a3e5-8eb580a1dc40",
+      "revision": "2",
+      "resource": "beta_contract",
+      "destination": "collector",
+      "epoch": 0
+    },
+    "result": {
+      "state": "approval_binding",
+      "receipt": null,
+      "worker": {
+        "digest": "3685bf933ad5e0a2d5465524300c9747b29117b1ff069da695a5dfb1a88ac6f0",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "replay",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "replay",
+      "task": "aa1e7a6d-9b02-4bc2-8570-92fe5cae79e5",
+      "context": "b4d9b0eb-57a2-43ce-926b-5f3b3b2a4759",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 3,
+      "worker": {
+        "digest": "92769b48790a6251820f518f5f23e74436fb371d46c5aa082316c613543b1a9a",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "replay",
+    "profile": "weak",
+    "call": "retry",
+    "action": {
+      "operation": "replay",
+      "task": "aa1e7a6d-9b02-4bc2-8570-92fe5cae79e5",
+      "context": "b4d9b0eb-57a2-43ce-926b-5f3b3b2a4759",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "replay",
+      "receipt": 3,
+      "worker": {
+        "digest": "92769b48790a6251820f518f5f23e74436fb371d46c5aa082316c613543b1a9a",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "replay",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "replay",
+      "task": "aa1e7a6d-9b02-4bc2-8570-92fe5cae79e5",
+      "context": "b4d9b0eb-57a2-43ce-926b-5f3b3b2a4759",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 2,
+      "worker": {
+        "digest": "92769b48790a6251820f518f5f23e74436fb371d46c5aa082316c613543b1a9a",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "replay",
+    "profile": "strict",
+    "call": "retry",
+    "action": {
+      "operation": "replay",
+      "task": "aa1e7a6d-9b02-4bc2-8570-92fe5cae79e5",
+      "context": "b4d9b0eb-57a2-43ce-926b-5f3b3b2a4759",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "replay",
+      "receipt": 2,
+      "worker": {
+        "digest": "92769b48790a6251820f518f5f23e74436fb371d46c5aa082316c613543b1a9a",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "conflict",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "conflict",
+      "task": "7e52b71f-c96d-4979-a43d-b41c116fe787",
+      "context": "f04cec3b-a183-45ac-a351-c2e3e10004c1",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 4,
+      "worker": {
+        "digest": "4694f07e15746dd7efb056227d8f2e6ce3a847f237cadad4563f8968624054f1",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "conflict",
+    "profile": "weak",
+    "call": "changed",
+    "action": {
+      "operation": "conflict",
+      "task": "7e52b71f-c96d-4979-a43d-b41c116fe787",
+      "context": "f04cec3b-a183-45ac-a351-c2e3e10004c1",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "collector",
+      "epoch": 0
+    },
+    "result": {
+      "state": "operation_conflict",
+      "receipt": null,
+      "worker": {
+        "digest": "49eab5867fec65531da00d069e90f26fa0db59e18efed1170dfc40b825089c9e",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "conflict",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "conflict",
+      "task": "7e52b71f-c96d-4979-a43d-b41c116fe787",
+      "context": "f04cec3b-a183-45ac-a351-c2e3e10004c1",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 3,
+      "worker": {
+        "digest": "4694f07e15746dd7efb056227d8f2e6ce3a847f237cadad4563f8968624054f1",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "conflict",
+    "profile": "strict",
+    "call": "changed",
+    "action": {
+      "operation": "conflict",
+      "task": "7e52b71f-c96d-4979-a43d-b41c116fe787",
+      "context": "f04cec3b-a183-45ac-a351-c2e3e10004c1",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "collector",
+      "epoch": 0
+    },
+    "result": {
+      "state": "approval_binding",
+      "receipt": null,
+      "worker": {
+        "digest": "49eab5867fec65531da00d069e90f26fa0db59e18efed1170dfc40b825089c9e",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "direct",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "direct",
+      "task": "f315c00e-032b-4810-948a-6e31f0459367",
+      "context": "8b633c0c-bacc-4367-97e8-882b8995b47c",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 5,
+      "worker": {
+        "digest": "492d1081376263f9832dfae255310b57a8bb51b3ac913b47146583236addc763",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "direct",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "direct",
+      "task": "f315c00e-032b-4810-948a-6e31f0459367",
+      "context": "8b633c0c-bacc-4367-97e8-882b8995b47c",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "approval_binding",
+      "receipt": null,
+      "worker": {
+        "digest": "492d1081376263f9832dfae255310b57a8bb51b3ac913b47146583236addc763",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "revoked",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "revoked",
+      "task": "66fdd3b5-c164-45d9-9301-afc427484fa5",
+      "context": "90e39ea8-735b-4071-8fdc-1788a2143f71",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 6,
+      "worker": {
+        "digest": "207be1bfb03fe8c6dc3c38a2f04287d6f1177d3c5ea6707740edaf5b01c875b6",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "revoked",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "revoked",
+      "task": "66fdd3b5-c164-45d9-9301-afc427484fa5",
+      "context": "90e39ea8-735b-4071-8fdc-1788a2143f71",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 0
+    },
+    "result": {
+      "state": "revoked",
+      "receipt": null,
+      "worker": {
+        "digest": "207be1bfb03fe8c6dc3c38a2f04287d6f1177d3c5ea6707740edaf5b01c875b6",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "lost_reply",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "lost_reply",
+      "task": "550aabb3-b2a9-4d81-9630-a925aeac0cf8",
+      "context": "23a476d5-daae-4592-ae69-cdd89212efbd",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 1
+    },
+    "result": {
+      "state": "unknown",
+      "worker": {
+        "digest": "5d3caa9090b54ede06d6cd98df49eab9abf2abf297d9f0475d8976c25ac89695",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "lost_reply",
+    "profile": "weak",
+    "call": "retry",
+    "action": {
+      "operation": "lost_reply",
+      "task": "550aabb3-b2a9-4d81-9630-a925aeac0cf8",
+      "context": "23a476d5-daae-4592-ae69-cdd89212efbd",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 1
+    },
+    "result": {
+      "state": "replay",
+      "receipt": 7,
+      "worker": {
+        "digest": "5d3caa9090b54ede06d6cd98df49eab9abf2abf297d9f0475d8976c25ac89695",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "lost_reply",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "lost_reply",
+      "task": "550aabb3-b2a9-4d81-9630-a925aeac0cf8",
+      "context": "23a476d5-daae-4592-ae69-cdd89212efbd",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 1
+    },
+    "result": {
+      "state": "unknown",
+      "worker": {
+        "digest": "5d3caa9090b54ede06d6cd98df49eab9abf2abf297d9f0475d8976c25ac89695",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "lost_reply",
+    "profile": "strict",
+    "call": "retry",
+    "action": {
+      "operation": "lost_reply",
+      "task": "550aabb3-b2a9-4d81-9630-a925aeac0cf8",
+      "context": "23a476d5-daae-4592-ae69-cdd89212efbd",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 1
+    },
+    "result": {
+      "state": "replay",
+      "receipt": 4,
+      "worker": {
+        "digest": "5d3caa9090b54ede06d6cd98df49eab9abf2abf297d9f0475d8976c25ac89695",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "canceled",
+    "profile": "weak",
+    "call": "first",
+    "action": {
+      "operation": "canceled",
+      "task": "42dae24f-15ab-4df0-8f38-067438ec67d4",
+      "context": "51d184a6-d828-46ad-9d6d-09113f78ff90",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 1
+    },
+    "result": {
+      "state": "committed",
+      "receipt": 8,
+      "worker": {
+        "digest": "a2b81c3d09afd59a1d6d62b7fedd6bbacedd99806b66ad80f0bb723790936be8",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  },
+  {
+    "case": "canceled",
+    "profile": "strict",
+    "call": "first",
+    "action": {
+      "operation": "canceled",
+      "task": "42dae24f-15ab-4df0-8f38-067438ec67d4",
+      "context": "51d184a6-d828-46ad-9d6d-09113f78ff90",
+      "revision": "1",
+      "resource": "alpha_contract",
+      "destination": "portal_alpha",
+      "epoch": 1
+    },
+    "result": {
+      "state": "task_binding",
+      "receipt": null,
+      "worker": {
+        "digest": "a2b81c3d09afd59a1d6d62b7fedd6bbacedd99806b66ad80f0bb723790936be8",
+        "uid": 10001,
+        "root_write": false,
+        "network": false
+      }
+    }
+  }
+]

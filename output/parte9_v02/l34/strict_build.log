@@ -1,0 +1,46 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 199B done
+#1 DONE 0.4s
+
+#2 [internal] load metadata for docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.3s
+
+#4 [internal] load build context
+#4 transferring context: 585B done
+#4 DONE 0.7s
+
+#5 [1/3] FROM docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2 0.9s done
+#5 DONE 1.1s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY . /app/
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:528cd9a27cff483bca47f431bcbbad47c743fb6a60c8dc4838998a7bfd640009
+#8 exporting manifest sha256:528cd9a27cff483bca47f431bcbbad47c743fb6a60c8dc4838998a7bfd640009 0.2s done
+#8 exporting config sha256:4ebcfa8799d796c032712ef2a8e03bd63d5987efeedfc37f7fa32483756c409e
+#8 exporting config sha256:4ebcfa8799d796c032712ef2a8e03bd63d5987efeedfc37f7fa32483756c409e 0.2s done
+#8 exporting attestation manifest sha256:4796ce67219f23f585679dd5ed7ccd3f8df609db107a21ca61e3ff085a98fa15
+#8 exporting attestation manifest sha256:4796ce67219f23f585679dd5ed7ccd3f8df609db107a21ca61e3ff085a98fa15 0.7s done
+#8 exporting manifest list sha256:86a4b5cccf4077fa574334288ac2d9bdb1a877a09f6204df7a8d38afc8b5c336
+#8 exporting manifest list sha256:86a4b5cccf4077fa574334288ac2d9bdb1a877a09f6204df7a8d38afc8b5c336 0.7s done
+#8 naming to docker.io/library/book-l34-28e91660f5-strict:local
+#8 naming to docker.io/library/book-l34-28e91660f5-strict:local 0.1s done
+#8 unpacking to docker.io/library/book-l34-28e91660f5-strict:local
+#8 unpacking to docker.io/library/book-l34-28e91660f5-strict:local 0.6s done
+#8 DONE 3.1s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/k2bg49mcjs55owwn1k9eao0ww

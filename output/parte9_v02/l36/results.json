@@ -1,0 +1,16 @@
+{
+  "mcp_protocol": "2026-07-28",
+  "a2a_protocol": "1.0",
+  "base": "python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2",
+  "approval": "fixture de decisão humana, sem aprovação de uma pessoa real",
+  "cases": 8,
+  "tool_calls": 23,
+  "real_llm": false,
+  "external_review": false,
+  "limits": [
+    "local client_credentials; no browser OAuth/TLS/federation",
+    "worker Docker isolated; authority and SQLite resource trusted on host",
+    "lost_reply is application fault returning unknown after commit, not a network timeout",
+    "reopen database after servers close; no full distributed restart"
+  ]
+}

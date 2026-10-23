@@ -1,0 +1,162 @@
+[
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "1a390448d955c4eea099627e899783c88ea8fd3a53d5acdb4bcb7b6b52f05993"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "e1f951331855e25f8e7e285b6ffc3975f11993236534768399163ff77d4503d2"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "ce5363e2049aff4672f9e1c7edc992db89e5b0f9fe7942803e93bca72c88a93f"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "8b4b3d1ca8c974260c867b5312e250274f75557199c69df971813bd09a2a89d8"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "320d66596943405a6d154634bc502d10434034c509c3d8fc1614d5d810b8700a"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "b9a91bdf0ba64fa9635e171cbf114affd373c287644cc687338d2b7b04701b91"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "ab496d71fbed04e4996b408fb59cc2cc1cf3a5fdc5fc4d3d773680a655916ae6"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "5553106e15e4d711cd79fff8e16904750730d2debb27ca6144a75c5b20c7cf1e"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "21b40b36ed7fe28f86f9e34374d45ab07bd552b8db24ba1cc65076c236a81cee"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "3143c1007b3c93c15f851abf9a42911243641d92e5829904c4a39d299856fe9d"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "d7d972a1286d622c3ccf1e8ffb19df895cdf33292b0d81d2934a7c16ca59291d"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "4085fd50122e59d1e57cb9e74adbe2fc9f55d5d8dfe30454dc02e86e068a347f"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "2046703553da9f2e46024970e3ef4ffc8aababdb278e28776da179f3ef84dc02"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "4a2e6b067c2400b4d410dd0540896c326ea9b78525f4350ddf17447f4b623777"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "ed10ed48389cc6cbb3478ddf82e60d60817531710267d3b5164592dc5741ba8b"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "b9b6319e63e99eccef62059205bc05595b9b124f1c44f923f49e20af1e76b363"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "95779f9d1c1c9591ea91e1a1969a59ee9411484b7febd3d04fd708cbf8a28658"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "26ce99b65fde32497bea3642ed9aaa9c16117a55aed3ba8fc0aae31d2e92bede"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51051/mcp",
+    "scope": "operations:execute",
+    "token_sha256": "f2151cb357fc24b1da69452e27992e9d0e6c697961d8190b820401485e5f3240"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:51052",
+    "scope": "tasks:operate",
+    "token_sha256": "be6f922373dc98701bd9742a9d79c280daaa2d53d4cbc747bdcd574b7bb94bca"
+  }
+]

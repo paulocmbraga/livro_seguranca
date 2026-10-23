@@ -1,0 +1,247 @@
+[
+  {
+    "case": "legitimate",
+    "task": {
+      "id": "b2b19e48-ce16-4f3b-9e77-9c35e796d199",
+      "contextId": "6c1181d2-cb27-4246-a124-8c4c04a3e38d",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      },
+      "artifacts": [
+        {
+          "artifactId": "b8ae276a08b64ba4b794ab2544488718",
+          "name": "proposal",
+          "parts": [
+            {
+              "text": "{\"resource\": \"alpha_contract\", \"destination\": \"portal_alpha\", \"revision\": \"1\"}"
+            }
+          ]
+        }
+      ],
+      "history": [
+        {
+          "messageId": "4425541e9fe24c5e9005ad080a28f430",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "legitimate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "hostile_replan",
+    "task": {
+      "id": "7ed30e4c-c5fe-4f14-bc5a-a77d9b5b8932",
+      "contextId": "cdee310d-d575-4612-a3e5-8eb580a1dc40",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      },
+      "artifacts": [
+        {
+          "artifactId": "6b689491892a453b800f2ce704c3f04e",
+          "name": "proposal",
+          "parts": [
+            {
+              "text": "{\"resource\": \"beta_contract\", \"destination\": \"collector\", \"revision\": \"2\"}"
+            }
+          ]
+        }
+      ],
+      "history": [
+        {
+          "messageId": "ca809f2aec5d4b6e85dbf603ba01d483",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "hostile"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "replay",
+    "task": {
+      "id": "aa1e7a6d-9b02-4bc2-8570-92fe5cae79e5",
+      "contextId": "b4d9b0eb-57a2-43ce-926b-5f3b3b2a4759",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      },
+      "artifacts": [
+        {
+          "artifactId": "e1a97491ef3547758f1c2e2bf066a07d",
+          "name": "proposal",
+          "parts": [
+            {
+              "text": "{\"resource\": \"alpha_contract\", \"destination\": \"portal_alpha\", \"revision\": \"1\"}"
+            }
+          ]
+        }
+      ],
+      "history": [
+        {
+          "messageId": "046a48d35fd84e979037b34edec15dae",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "legitimate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "conflict",
+    "task": {
+      "id": "7e52b71f-c96d-4979-a43d-b41c116fe787",
+      "contextId": "f04cec3b-a183-45ac-a351-c2e3e10004c1",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      },
+      "artifacts": [
+        {
+          "artifactId": "5fd40c42f9844a2e87a53ea9611a5fe9",
+          "name": "proposal",
+          "parts": [
+            {
+              "text": "{\"resource\": \"alpha_contract\", \"destination\": \"portal_alpha\", \"revision\": \"1\"}"
+            }
+          ]
+        }
+      ],
+      "history": [
+        {
+          "messageId": "ed0c31cd87c9446e86f154d66efd1bdd",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "legitimate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "direct",
+    "task": {
+      "id": "f315c00e-032b-4810-948a-6e31f0459367",
+      "contextId": "8b633c0c-bacc-4367-97e8-882b8995b47c",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      },
+      "artifacts": [
+        {
+          "artifactId": "f8e17ee4032e4c59841ff00291639ea4",
+          "name": "proposal",
+          "parts": [
+            {
+              "text": "{\"resource\": \"alpha_contract\", \"destination\": \"portal_alpha\", \"revision\": \"1\"}"
+            }
+          ]
+        }
+      ],
+      "history": [
+        {
+          "messageId": "f94c4709dcd24b398f1f1729e450b93f",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "legitimate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "revoked",
+    "task": {
+      "id": "66fdd3b5-c164-45d9-9301-afc427484fa5",
+      "contextId": "90e39ea8-735b-4071-8fdc-1788a2143f71",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      },
+      "artifacts": [
+        {
+          "artifactId": "a1e425da425c4249bcbe79fd20f3dccb",
+          "name": "proposal",
+          "parts": [
+            {
+              "text": "{\"resource\": \"alpha_contract\", \"destination\": \"portal_alpha\", \"revision\": \"1\"}"
+            }
+          ]
+        }
+      ],
+      "history": [
+        {
+          "messageId": "9309da1ce81944c4b83fd6c753e9544a",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "legitimate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "lost_reply",
+    "task": {
+      "id": "550aabb3-b2a9-4d81-9630-a925aeac0cf8",
+      "contextId": "23a476d5-daae-4592-ae69-cdd89212efbd",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      },
+      "artifacts": [
+        {
+          "artifactId": "54d42da739f94fd0ae132b45c92b2ab6",
+          "name": "proposal",
+          "parts": [
+            {
+              "text": "{\"resource\": \"alpha_contract\", \"destination\": \"portal_alpha\", \"revision\": \"1\"}"
+            }
+          ]
+        }
+      ],
+      "history": [
+        {
+          "messageId": "eebeaeae4a004ca2bf78007e52f5f75e",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "legitimate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "canceled",
+    "task": {
+      "id": "42dae24f-15ab-4df0-8f38-067438ec67d4",
+      "contextId": "51d184a6-d828-46ad-9d6d-09113f78ff90",
+      "status": {
+        "state": "TASK_STATE_WORKING"
+      },
+      "history": [
+        {
+          "messageId": "01dcda2530b74701aca71d6768f17284",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "esperar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

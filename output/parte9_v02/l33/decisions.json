@@ -1,0 +1,57 @@
+{
+  "restricted": {
+    "eligible": true,
+    "reasons": [],
+    "decision_kind": "regra didática; não é aceite humano",
+    "scope": "laboratory",
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691"
+  },
+  "production": {
+    "eligible": false,
+    "reasons": [
+      "C2:unsupported",
+      "independent_review_missing"
+    ],
+    "decision_kind": "regra didática; não é aceite humano",
+    "scope": "production",
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691"
+  },
+  "critical_gap": {
+    "eligible": false,
+    "reasons": [
+      "C2:unsupported"
+    ],
+    "decision_kind": "regra didática; não é aceite humano",
+    "scope": "laboratory",
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691"
+  },
+  "expired_exception": {
+    "eligible": false,
+    "reasons": [
+      "C2:unsupported"
+    ],
+    "decision_kind": "regra didática; não é aceite humano",
+    "scope": "laboratory",
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691"
+  },
+  "changed_candidate": {
+    "eligible": false,
+    "reasons": [
+      "C1:candidate_changed",
+      "C2:candidate_changed",
+      "C2:unsupported"
+    ],
+    "decision_kind": "regra didática; não é aceite humano",
+    "scope": "laboratory",
+    "artifact": "another"
+  },
+  "empty": {
+    "eligible": false,
+    "reasons": [
+      "claims_empty_or_duplicate"
+    ],
+    "decision_kind": "regra didática; não é aceite humano",
+    "scope": "laboratory",
+    "artifact": "7343387ec829798c89b69ae3d2a43c305262f57bcb54f9e6113e13b7446be691"
+  }
+}

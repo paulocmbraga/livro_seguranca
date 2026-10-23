@@ -1,0 +1,802 @@
+{
+  "profiles": {
+    "weak": {
+      "candidate": {
+        "bundle": "4e06470ef4ffaf65c930426a27de3cefcfa5046d43128a11285fb45dcb953c3d",
+        "image": "sha256:7d3293b1b0df097fee5bacadae8aab1b5166e652fd91fc80384ed24e84f6cf5a",
+        "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+        "config": "weak",
+        "privacy_lineage": "dp_only"
+      },
+      "evidence": {
+        "candidate": "885fda2f85c17f50ccc230ecdffcadddb3cc566b8731873ab144380781a6951a",
+        "checks": {
+          "utility": true,
+          "input_contract": true,
+          "identity": true,
+          "tenant_cache": false,
+          "quota": true,
+          "lineage": true
+        }
+      },
+      "gate": [
+        false,
+        "failed_property"
+      ],
+      "runtime": {
+        "image": "sha256:7d3293b1b0df097fee5bacadae8aab1b5166e652fd91fc80384ed24e84f6cf5a",
+        "config": {
+          "ReadonlyRootfs": true,
+          "CapDrop": [
+            "ALL"
+          ],
+          "SecurityOpt": [
+            "no-new-privileges"
+          ],
+          "Memory": 134217728,
+          "PidsLimit": 64,
+          "NetworkMode": "bridge"
+        },
+        "observations": [
+          {
+            "case": "anonymous",
+            "status": 401,
+            "body": {
+              "error": "identity"
+            },
+            "x": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "case": "invalid_features",
+            "status": 400,
+            "body": {
+              "error": "features"
+            },
+            "x": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          {
+            "case": "alpha",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.7582305714257991,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 1,
+              "cached": false
+            },
+            "x": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "case": "beta_same_input",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.7582305714257991,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 1,
+              "cached": true
+            },
+            "x": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "case": "extract_0",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.02705315696755889,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 2,
+              "cached": false
+            },
+            "x": [
+              -0.5801734835471446,
+              -0.006808415906532916,
+              -0.7836480152596135,
+              0.3663495508082708,
+              0.19610555966318555,
+              -0.6330670632573088
+            ]
+          },
+          {
+            "case": "extract_1",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.8846312104163322,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 3,
+              "cached": false
+            },
+            "x": [
+              0.9400753971718456,
+              0.09468742925250995,
+              -0.7646032615730791,
+              -0.8065598832097651,
+              -0.7274885354252258,
+              0.3327766719458487
+            ]
+          },
+          {
+            "case": "extract_2",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.021605922693144302,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 4,
+              "cached": false
+            },
+            "x": [
+              -0.81030089693558,
+              0.23282453352760712,
+              0.7091176869302518,
+              0.18224514997339947,
+              0.26432369252632104,
+              -0.36363081173110445
+            ]
+          },
+          {
+            "case": "extract_3",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.8485850740271408,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 5,
+              "cached": false
+            },
+            "x": [
+              0.3431123991286398,
+              -0.15323128212526593,
+              0.8245119766880642,
+              0.49469448696302365,
+              -0.6761911897154151,
+              -0.6339127301517848
+            ]
+          },
+          {
+            "case": "extract_4",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.9918219985334913,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 6,
+              "cached": false
+            },
+            "x": [
+              0.41625534234770045,
+              -0.024679121257020764,
+              -0.8714260606388853,
+              -0.0672565502109983,
+              0.9146155253041817,
+              -0.8347512463011033
+            ]
+          },
+          {
+            "case": "extract_5",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.08241275356987277,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 7,
+              "cached": false
+            },
+            "x": [
+              -0.06270254018752275,
+              -0.33109679006615345,
+              -0.4669108801110642,
+              -0.39132215314629004,
+              -0.8394000991122295,
+              0.5944888347736064
+            ]
+          },
+          {
+            "case": "extract_6",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.9918192880925705,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 8,
+              "cached": false
+            },
+            "x": [
+              0.3399574512208281,
+              0.22758585677774223,
+              0.8485674477571885,
+              -0.7862013132631351,
+              0.7230324919342854,
+              0.04680650209437509
+            ]
+          },
+          {
+            "case": "extract_7",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.17719284779560085,
+              0.6599854464592458,
+              0.2087333154582467,
+              0.6786460284434186,
+              0.6009654238792843,
+              0.42596133743568143
+            ]
+          },
+          {
+            "case": "extract_8",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.47088589046342966,
+              0.4321150590438718,
+              0.6232083520780256,
+              -0.5336025880124,
+              -0.9515103689031865,
+              0.7638111383810327
+            ]
+          },
+          {
+            "case": "extract_9",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.9792031404103505,
+              -0.8800347347337538,
+              -0.11432513569484448,
+              -0.8527451124977456,
+              0.14100146503709765,
+              0.11569020069150882
+            ]
+          },
+          {
+            "case": "extract_10",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.3753283562175369,
+              0.7021896922775748,
+              0.9478058268427516,
+              0.8421412032731983,
+              0.9699425421241361,
+              0.8417546029289005
+            ]
+          },
+          {
+            "case": "extract_11",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              0.4757286565417327,
+              -0.13868934942990818,
+              -0.29973695631178576,
+              0.6325230684426562,
+              0.2501928661811288,
+              -0.4012788561051346
+            ]
+          }
+        ],
+        "receipts": [
+          {
+            "tenant": "alpha",
+            "score": 0.7582305714257991,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 1
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.02705315696755889,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 2
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.8846312104163322,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 3
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.021605922693144302,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 4
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.8485850740271408,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 5
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.9918219985334913,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 6
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.08241275356987277,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 7
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.9918192880925705,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 8
+          }
+        ],
+        "user": "10001:10001"
+      },
+      "extraction": {
+        "queries": 12,
+        "answered": 7,
+        "surrogate_fidelity_n": 120,
+        "surrogate_fidelity": 0.85
+      }
+    },
+    "strict": {
+      "candidate": {
+        "bundle": "39669f3113a5ee2acd74ad65fa104b47e05954b727251a6a85522e98e08f5ba5",
+        "image": "sha256:86a4b5cccf4077fa574334288ac2d9bdb1a877a09f6204df7a8d38afc8b5c336",
+        "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+        "config": "strict",
+        "privacy_lineage": "dp_only"
+      },
+      "evidence": {
+        "candidate": "5140963382287b8fbb0d56ae224ff482882ebeeaae2f5c48713027940959251c",
+        "checks": {
+          "utility": true,
+          "input_contract": true,
+          "identity": true,
+          "tenant_cache": true,
+          "quota": true,
+          "lineage": true
+        }
+      },
+      "gate": [
+        true,
+        "eligible_laboratory"
+      ],
+      "runtime": {
+        "image": "sha256:86a4b5cccf4077fa574334288ac2d9bdb1a877a09f6204df7a8d38afc8b5c336",
+        "config": {
+          "ReadonlyRootfs": true,
+          "CapDrop": [
+            "ALL"
+          ],
+          "SecurityOpt": [
+            "no-new-privileges"
+          ],
+          "Memory": 134217728,
+          "PidsLimit": 64,
+          "NetworkMode": "bridge"
+        },
+        "observations": [
+          {
+            "case": "anonymous",
+            "status": 401,
+            "body": {
+              "error": "identity"
+            },
+            "x": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "case": "invalid_features",
+            "status": 400,
+            "body": {
+              "error": "features"
+            },
+            "x": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          {
+            "case": "alpha",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.7582305714257991,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 1,
+              "cached": false
+            },
+            "x": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "case": "beta_same_input",
+            "status": 200,
+            "body": {
+              "tenant": "beta",
+              "score": 0.7582305714257991,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_BETA",
+              "receipt": 2,
+              "cached": false
+            },
+            "x": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "case": "extract_0",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.02705315696755889,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 3,
+              "cached": false
+            },
+            "x": [
+              -0.5801734835471446,
+              -0.006808415906532916,
+              -0.7836480152596135,
+              0.3663495508082708,
+              0.19610555966318555,
+              -0.6330670632573088
+            ]
+          },
+          {
+            "case": "extract_1",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.8846312104163322,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 4,
+              "cached": false
+            },
+            "x": [
+              0.9400753971718456,
+              0.09468742925250995,
+              -0.7646032615730791,
+              -0.8065598832097651,
+              -0.7274885354252258,
+              0.3327766719458487
+            ]
+          },
+          {
+            "case": "extract_2",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.021605922693144302,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 5,
+              "cached": false
+            },
+            "x": [
+              -0.81030089693558,
+              0.23282453352760712,
+              0.7091176869302518,
+              0.18224514997339947,
+              0.26432369252632104,
+              -0.36363081173110445
+            ]
+          },
+          {
+            "case": "extract_3",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.8485850740271408,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 6,
+              "cached": false
+            },
+            "x": [
+              0.3431123991286398,
+              -0.15323128212526593,
+              0.8245119766880642,
+              0.49469448696302365,
+              -0.6761911897154151,
+              -0.6339127301517848
+            ]
+          },
+          {
+            "case": "extract_4",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.9918219985334913,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 7,
+              "cached": false
+            },
+            "x": [
+              0.41625534234770045,
+              -0.024679121257020764,
+              -0.8714260606388853,
+              -0.0672565502109983,
+              0.9146155253041817,
+              -0.8347512463011033
+            ]
+          },
+          {
+            "case": "extract_5",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.08241275356987277,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 8,
+              "cached": false
+            },
+            "x": [
+              -0.06270254018752275,
+              -0.33109679006615345,
+              -0.4669108801110642,
+              -0.39132215314629004,
+              -0.8394000991122295,
+              0.5944888347736064
+            ]
+          },
+          {
+            "case": "extract_6",
+            "status": 200,
+            "body": {
+              "tenant": "alpha",
+              "score": 0.9918192880925705,
+              "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+              "marker": "SYNTHETIC_FEATURE_ALPHA",
+              "receipt": 9,
+              "cached": false
+            },
+            "x": [
+              0.3399574512208281,
+              0.22758585677774223,
+              0.8485674477571885,
+              -0.7862013132631351,
+              0.7230324919342854,
+              0.04680650209437509
+            ]
+          },
+          {
+            "case": "extract_7",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.17719284779560085,
+              0.6599854464592458,
+              0.2087333154582467,
+              0.6786460284434186,
+              0.6009654238792843,
+              0.42596133743568143
+            ]
+          },
+          {
+            "case": "extract_8",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.47088589046342966,
+              0.4321150590438718,
+              0.6232083520780256,
+              -0.5336025880124,
+              -0.9515103689031865,
+              0.7638111383810327
+            ]
+          },
+          {
+            "case": "extract_9",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.9792031404103505,
+              -0.8800347347337538,
+              -0.11432513569484448,
+              -0.8527451124977456,
+              0.14100146503709765,
+              0.11569020069150882
+            ]
+          },
+          {
+            "case": "extract_10",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              -0.3753283562175369,
+              0.7021896922775748,
+              0.9478058268427516,
+              0.8421412032731983,
+              0.9699425421241361,
+              0.8417546029289005
+            ]
+          },
+          {
+            "case": "extract_11",
+            "status": 429,
+            "body": {
+              "error": "quota"
+            },
+            "x": [
+              0.4757286565417327,
+              -0.13868934942990818,
+              -0.29973695631178576,
+              0.6325230684426562,
+              0.2501928661811288,
+              -0.4012788561051346
+            ]
+          }
+        ],
+        "receipts": [
+          {
+            "tenant": "alpha",
+            "score": 0.7582305714257991,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 1
+          },
+          {
+            "tenant": "beta",
+            "score": 0.7582305714257991,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_BETA",
+            "receipt": 2
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.02705315696755889,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 3
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.8846312104163322,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 4
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.021605922693144302,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 5
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.8485850740271408,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 6
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.9918219985334913,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 7
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.08241275356987277,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 8
+          },
+          {
+            "tenant": "alpha",
+            "score": 0.9918192880925705,
+            "model": "877c1692ebbd4e11c168072594defd4ab68ae7622d4012917c6983ec5f5a839f",
+            "marker": "SYNTHETIC_FEATURE_ALPHA",
+            "receipt": 9
+          }
+        ],
+        "user": "10001:10001"
+      },
+      "extraction": {
+        "queries": 12,
+        "answered": 7,
+        "surrogate_fidelity_n": 120,
+        "surrogate_fidelity": 0.85
+      }
+    }
+  },
+  "stale_evidence": [
+    false,
+    "candidate_binding"
+  ],
+  "base": "python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2",
+  "docker_version": "29.8.2",
+  "campaign": "same-host synthetic; labels withheld from trainer API, author knows generator",
+  "production_release": false,
+  "independent_review": "pending"
+}
