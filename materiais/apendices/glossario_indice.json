@@ -1,0 +1,529 @@
+{
+  "scope": "definições e capítulos de entrada; não lista todas as ocorrências",
+  "terms": [
+    {
+      "term": "Ablação",
+      "definition": "Comparação que remove ou altera um fator para investigar sua contribuição, sob condições controladas.",
+      "chapters": [
+        13,
+        30
+      ]
+    },
+    {
+      "term": "Acurácia",
+      "definition": "Concordância com referências da tarefa; difere de fidelidade a outro modelo.",
+      "chapters": [
+        23,
+        24
+      ]
+    },
+    {
+      "term": "Agente",
+      "definition": "Componente que organiza decisões e ações sob um contrato de execução; não recebe autoridade por gerar texto.",
+      "chapters": [
+        17,
+        18,
+        36
+      ]
+    },
+    {
+      "term": "Alegação",
+      "definition": "Afirmação delimitada sobre uma propriedade, vinculada a candidato, contexto e evidência.",
+      "chapters": [
+        33
+      ]
+    },
+    {
+      "term": "Aprovação",
+      "definition": "Decisão autorizada para uma ação e escopo identificados, sujeita a validade e revogação.",
+      "chapters": [
+        17,
+        36
+      ]
+    },
+    {
+      "term": "Artefato",
+      "definition": "Objeto identificado usado ou produzido na execução, como modelo, política, dataset ou relatório.",
+      "chapters": [
+        7,
+        28
+      ]
+    },
+    {
+      "term": "Ataque adaptativo",
+      "definition": "Ataque ajustado em resposta ao sistema ou à defesa; seu protocolo deve registrar essa adaptação.",
+      "chapters": [
+        29,
+        30
+      ]
+    },
+    {
+      "term": "Auditoria",
+      "definition": "Exame de registros e estados sob escopo declarado; sua indisponibilidade não prova ausência de efeito.",
+      "chapters": [
+        31,
+        32
+      ]
+    },
+    {
+      "term": "Audiência",
+      "definition": "Destinatário esperado de uma credencial; restringe onde ela pode ser apresentada validamente.",
+      "chapters": [
+        5,
+        19
+      ]
+    },
+    {
+      "term": "Autenticação",
+      "definition": "Verificação de uma apresentação de identidade segundo um mecanismo e condições definidos.",
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "term": "Autorização",
+      "definition": "Decisão sobre uma ação em um recurso sob a política pertinente ao instante de uso.",
+      "chapters": [
+        6,
+        18
+      ]
+    },
+    {
+      "term": "Backdoor",
+      "definition": "Comportamento implantado para ser ativado por uma condição ou gatilho específico.",
+      "chapters": [
+        22
+      ]
+    },
+    {
+      "term": "Baseline",
+      "definition": "Variante de referência para comparação; sua utilidade depende da pergunta e do controle de diferenças.",
+      "chapters": [
+        4,
+        30
+      ]
+    },
+    {
+      "term": "Cache",
+      "definition": "Armazenamento de resultados cuja chave e validade precisam respeitar identidade, política e origem.",
+      "chapters": [
+        10,
+        27,
+        35
+      ]
+    },
+    {
+      "term": "Cadeia de confiança",
+      "definition": "Relações de origem, identidade e validação das quais uma conclusão depende.",
+      "chapters": [
+        7,
+        33
+      ]
+    },
+    {
+      "term": "Campanha",
+      "definition": "Conjunto planejado de casos, orçamento, critérios de observação e regras de encerramento.",
+      "chapters": [
+        29,
+        30
+      ]
+    },
+    {
+      "term": "Candidato",
+      "definition": "Configuração específica submetida a avaliação, incluindo dependências que influenciam o comportamento.",
+      "chapters": [
+        28,
+        33
+      ]
+    },
+    {
+      "term": "Capacidade",
+      "definition": "Autoridade delimitada para agir em determinado escopo; não deve ampliar-se na delegação.",
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "term": "Caso",
+      "definition": "Unidade de situação ou hipótese ensaiada, distinta de suas tentativas de execução.",
+      "chapters": [
+        4,
+        29
+      ]
+    },
+    {
+      "term": "Compensação",
+      "definition": "Novo efeito destinado a reparar consequências; não apaga necessariamente o efeito original.",
+      "chapters": [
+        32,
+        36
+      ]
+    },
+    {
+      "term": "Condição de corrida",
+      "definition": "Dependência entre resultado e intercalação de operações concorrentes.",
+      "chapters": [
+        6,
+        17,
+        36
+      ]
+    },
+    {
+      "term": "Contexto recuperado",
+      "definition": "Material trazido pela busca para apoiar a resposta; seu conteúdo não concede autoridade.",
+      "chapters": [
+        9,
+        10
+      ]
+    },
+    {
+      "term": "Contraprova",
+      "definition": "Caso construído para revelar a violação de uma propriedade ou a ausência de um controle.",
+      "chapters": [
+        4,
+        30
+      ]
+    },
+    {
+      "term": "Controle legítimo",
+      "definition": "Caso permitido que verifica se a defesa preserva a função autorizada.",
+      "chapters": [
+        4,
+        30
+      ]
+    },
+    {
+      "term": "Credencial",
+      "definition": "Material apresentado para sustentar uma identidade ou capacidade, com validade e escopo próprios.",
+      "chapters": [
+        5,
+        19
+      ]
+    },
+    {
+      "term": "Delegação",
+      "definition": "Transferência limitada de tarefa ou capacidade, mantendo responsabilidade e restrições explícitas.",
+      "chapters": [
+        18,
+        20
+      ]
+    },
+    {
+      "term": "Denominador",
+      "definition": "Universo de unidades ao qual uma proporção se refere; deve permanecer identificável.",
+      "chapters": [
+        30
+      ]
+    },
+    {
+      "term": "Desconhecido",
+      "definition": "Estado em que a observação não permite confirmar nem excluir a consequência relevante.",
+      "chapters": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "term": "DP",
+      "definition": "Privacidade diferencial: garantia de um mecanismo sob definição, parâmetros e pressupostos explícitos.",
+      "chapters": [
+        25,
+        26
+      ]
+    },
+    {
+      "term": "Efeito",
+      "definition": "Mudança observável no recurso relevante, distinta de uma proposta ou mensagem de sucesso.",
+      "chapters": [
+        14,
+        17,
+        36
+      ]
+    },
+    {
+      "term": "Envenenamento",
+      "definition": "Alteração adversarial de dados ou componentes de aprendizado para modificar comportamento.",
+      "chapters": [
+        21,
+        22
+      ]
+    },
+    {
+      "term": "Evasão",
+      "definition": "Tentativa de produzir comportamento indevido na inferência mediante entradas adversariais.",
+      "chapters": [
+        23
+      ]
+    },
+    {
+      "term": "Evidência",
+      "definition": "Observação ou artefato que sustenta uma alegação sob limites e vínculos identificados.",
+      "chapters": [
+        31,
+        33
+      ]
+    },
+    {
+      "term": "Extração",
+      "definition": "Obtenção de informação sobre o modelo ou reprodução de sua função por interação com a interface.",
+      "chapters": [
+        24
+      ]
+    },
+    {
+      "term": "Fallback",
+      "definition": "Resposta ou percurso alternativo acionado por uma política, cuja ativação deve permanecer observável.",
+      "chapters": [
+        13,
+        35
+      ]
+    },
+    {
+      "term": "Família de ataque",
+      "definition": "Agrupamento por mecanismo ou fronteira, distinto de paráfrases de um mesmo caso.",
+      "chapters": [
+        29,
+        30
+      ]
+    },
+    {
+      "term": "Fidelidade",
+      "definition": "Concordância de um substituto com o comportamento de um alvo no conjunto avaliado.",
+      "chapters": [
+        24
+      ]
+    },
+    {
+      "term": "Fronteira de confiança",
+      "definition": "Ponto em que dados, identidade ou autoridade mudam de domínio de responsabilidade.",
+      "chapters": [
+        2,
+        6
+      ]
+    },
+    {
+      "term": "Guardrail",
+      "definition": "Controle aplicado em uma fronteira definida; não substitui autorização e observação do efeito.",
+      "chapters": [
+        13
+      ]
+    },
+    {
+      "term": "Hash",
+      "definition": "Resumo determinístico usado para comparar identidade de bytes; não prova origem nem verdade do conteúdo.",
+      "chapters": [
+        7,
+        31
+      ]
+    },
+    {
+      "term": "Idempotência",
+      "definition": "Contrato que impede novos efeitos ao repetir a mesma operação válida, com identidade estável.",
+      "chapters": [
+        17,
+        36
+      ]
+    },
+    {
+      "term": "Injeção indireta",
+      "definition": "Instrução adversarial inserida em conteúdo que o sistema obtém de outra fonte.",
+      "chapters": [
+        9,
+        11
+      ]
+    },
+    {
+      "term": "Isolamento",
+      "definition": "Restrição de alcance de execução, dados e recursos, dependente da configuração efetiva.",
+      "chapters": [
+        8
+      ]
+    },
+    {
+      "term": "Ledger",
+      "definition": "Registro de operações e consequências usado para vinculação e reconciliação.",
+      "chapters": [
+        17,
+        31,
+        36
+      ]
+    },
+    {
+      "term": "Linhagem",
+      "definition": "Relação entre artefatos e suas origens ou transformações, necessária para localizar propagação.",
+      "chapters": [
+        10,
+        12,
+        21
+      ]
+    },
+    {
+      "term": "Manifesto",
+      "definition": "Inventário que identifica arquivos e propriedades esperadas; não demonstra sozinho completude semântica.",
+      "chapters": [
+        7,
+        28,
+        31
+      ]
+    },
+    {
+      "term": "Memória",
+      "definition": "Persistência de conteúdo que pode influenciar decisões futuras e exige validade e origem próprias.",
+      "chapters": [
+        12,
+        35
+      ]
+    },
+    {
+      "term": "MCP",
+      "definition": "Protocolo de interação com recursos e ferramentas; transporte e autorização precisam ser qualificados.",
+      "chapters": [
+        19,
+        36
+      ]
+    },
+    {
+      "term": "Multitenancy",
+      "definition": "Compartilhamento de infraestrutura com isolamento de identidade, dados e efeitos entre domínios.",
+      "chapters": [
+        6,
+        27
+      ]
+    },
+    {
+      "term": "Oráculo",
+      "definition": "Procedimento de observação ou julgamento usado para decidir o resultado de um caso.",
+      "chapters": [
+        4,
+        30
+      ]
+    },
+    {
+      "term": "Pertencimento",
+      "definition": "Hipótese sobre a presença de um registro em um conjunto de treinamento, avaliada sob um protocolo.",
+      "chapters": [
+        25
+      ]
+    },
+    {
+      "term": "Proveniência",
+      "definition": "Informação de origem e transformação de um artefato, com evidência proporcional à confiança atribuída.",
+      "chapters": [
+        7,
+        21
+      ]
+    },
+    {
+      "term": "Quantização",
+      "definition": "Representação de pesos com precisão reduzida, compondo a identidade do candidato de inferência.",
+      "chapters": [
+        4,
+        35
+      ]
+    },
+    {
+      "term": "RAG",
+      "definition": "Geração apoiada por recuperação; segurança envolve ingestão, busca, contexto, memória e entrega.",
+      "chapters": [
+        9,
+        10,
+        35
+      ]
+    },
+    {
+      "term": "Recibo",
+      "definition": "Confirmação vinculada à operação e à ação, emitida pela autoridade que observa o efeito.",
+      "chapters": [
+        17,
+        36
+      ]
+    },
+    {
+      "term": "Reconciliação",
+      "definition": "Comparação de planos, tentativas e observações do recurso para resolver estados de operação.",
+      "chapters": [
+        32,
+        36
+      ]
+    },
+    {
+      "term": "Red teaming",
+      "definition": "Avaliação adversarial orientada por escopo, regras, evidência e limites de execução.",
+      "chapters": [
+        29
+      ]
+    },
+    {
+      "term": "Reserva",
+      "definition": "Conjunto separado de dados ou casos para avaliação sem ajuste posterior pelo resultado observado.",
+      "chapters": [
+        4,
+        30
+      ]
+    },
+    {
+      "term": "Revogação",
+      "definition": "Retirada de autoridade cuja efetividade precisa ser conferida nas fronteiras de uso e nos derivados.",
+      "chapters": [
+        6,
+        12,
+        17
+      ]
+    },
+    {
+      "term": "Risco residual",
+      "definition": "Risco que permanece após os controles considerados, submetido a decisão contextual e responsável.",
+      "chapters": [
+        33
+      ]
+    },
+    {
+      "term": "Serving",
+      "definition": "Camada que expõe inferência e incorpora políticas, limites, identidade e observabilidade.",
+      "chapters": [
+        27,
+        34
+      ]
+    },
+    {
+      "term": "Tentativa",
+      "definition": "Uma execução ou transmissão ligada a uma operação; várias tentativas podem compartilhar um efeito.",
+      "chapters": [
+        17,
+        36
+      ]
+    },
+    {
+      "term": "TOCTOU",
+      "definition": "Diferença entre a condição verificada e a condição no momento do uso, explorável entre as duas etapas.",
+      "chapters": [
+        6,
+        17
+      ]
+    },
+    {
+      "term": "Utilidade",
+      "definition": "Capacidade de atender ao uso legítimo medido; não se resume à taxa de recusas de ataques.",
+      "chapters": [
+        30
+      ]
+    },
+    {
+      "term": "Vínculo de ação",
+      "definition": "Associação verificável entre autorização, argumentos, operação e consequência.",
+      "chapters": [
+        17,
+        36
+      ]
+    },
+    {
+      "term": "A2A",
+      "definition": "Protocolo para interação entre agentes; tarefa, contexto e artefato não concedem autorização de negócio.",
+      "chapters": [
+        20,
+        36
+      ]
+    }
+  ]
+}

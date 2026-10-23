@@ -1,5 +1,21 @@
 # Engenharia de Segurança para Sistemas de IA — materiais dos alunos
 
+## Entrega atual: apêndices e edição integral
+
+Os 36 capítulos estão acompanhados de laboratórios e capturas. Consulte
+[APENDICES.md](APENDICES.md) para os novos utilitários, 40 testes e modelos
+de evidência, operação e evolução. As entregas anteriores seguem preservadas.
+
+O livro integral e suas 516 soluções editoriais permanecem privados em livro2.
+Os testes de software e os exercícios do livro são contagens distintas.
+Reprodução independente e liberação de produção continuam pendentes.
+
+---
+
+## Histórico preservado
+
+# Engenharia de Segurança para Sistemas de IA — materiais dos alunos
+
 ## Entrega atual: Parte IX, capítulos 33–36
 
 Consulte [PARTE_IX.md](PARTE_IX.md): dossiê de segurança e casos integrados de ML,

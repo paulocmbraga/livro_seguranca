@@ -1,0 +1,14 @@
+{
+  "schema": "runbook-didatico-1.0",
+  "trigger": null,
+  "scope": null,
+  "authorized_role": null,
+  "preserve": [],
+  "containment": [],
+  "reconciliation": [],
+  "stop_conditions": [],
+  "return_countertests": [],
+  "legitimate_controls": [],
+  "return_authority": null,
+  "status": "incomplete_template"
+}

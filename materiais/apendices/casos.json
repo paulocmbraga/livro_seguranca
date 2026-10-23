@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {"case": "a1", "family": "document", "legitimate": false, "effect": "unauthorized"},
+    {"case": "a2", "family": "document", "legitimate": false, "effect": "absent"},
+    {"case": "a3", "family": "memory", "legitimate": false, "effect": "unknown"},
+    {"case": "a4", "family": "memory", "legitimate": false, "effect": "absent"},
+    {"case": "u1", "family": "legitimate", "legitimate": true, "effect": "authorized"},
+    {"case": "u2", "family": "legitimate", "legitimate": true, "effect": "unknown"}
+  ],
+  "plans": [
+    {"operation": "op1", "action_digest": "synthetic-action-1"},
+    {"operation": "op2", "action_digest": "synthetic-action-2"},
+    {"operation": "op3", "action_digest": "synthetic-action-3"}
+  ],
+  "receipts": [
+    {"receipt": "r1", "operation": "op1", "action_digest": "synthetic-action-1"},
+    {"receipt": "r1", "operation": "op1", "action_digest": "synthetic-action-1"}
+  ],
+  "audits": [{"operation": "op2", "state": "unavailable"}, {"operation": "op3", "state": "complete_absent"}],
+  "before": {"model": "m1", "prompt": "p1", "index": "i1", "response": "r1", "delivery": "d1"},
+  "after": {"model": "m1", "prompt": "p2", "index": "i1", "response": "r1", "delivery": "d1"},
+  "dependencies": {"model": [], "prompt": [], "index": [], "response": ["model", "prompt", "index"], "delivery": ["response"]},
+  "references": [
+    {"project": "OWASP LLM Top 10", "edition": "2025", "locator": "LLM01", "consulted": "2026-10-23", "kind": "list"},
+    {"project": "OWASP LLM Top 10", "edition": "2026", "locator": "LLM01", "consulted": "2026-10-23", "kind": "list"}
+  ]
+}

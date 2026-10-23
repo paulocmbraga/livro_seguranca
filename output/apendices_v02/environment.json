@@ -1,0 +1,9 @@
+{
+  "python": "3.12.0",
+  "system": "Windows",
+  "sqlite": "3.42.0",
+  "network_calls": 0,
+  "llm_generations": 0,
+  "new_docker_runs": 0,
+  "evidence": "Local prepared records; historical lab captures are not reexecuted."
+}

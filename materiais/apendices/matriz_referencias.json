@@ -1,0 +1,120 @@
+{
+  "kind": "matriz autoral de relações temáticas",
+  "formal_conformance": false,
+  "rows": [
+    {
+      "question": "Conteúdo recuperado e autoridade",
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        35
+      ],
+      "references": [
+        "C1",
+        "C2",
+        "C5",
+        "C11"
+      ],
+      "boundary": "busca, memória, apresentação e entrega",
+      "evidence": "L35; weak/strict; registros de contexto e recibos",
+      "limitation": "Não demonstra resistência universal nem conformidade integral.",
+      "normative_requirement": null
+    },
+    {
+      "question": "Identidade e ação",
+      "chapters": [
+        5,
+        6,
+        17,
+        18,
+        19,
+        20,
+        36
+      ],
+      "references": [
+        "C3",
+        "C7",
+        "C12",
+        "C13"
+      ],
+      "boundary": "credencial, aprovação, ferramenta e recurso",
+      "evidence": "L36; audiência, revogação, repetição e ledger",
+      "limitation": "Não demonstra federação externa ou toda a especificação.",
+      "normative_requirement": null
+    },
+    {
+      "question": "Treinamento e robustez",
+      "chapters": [
+        21,
+        22,
+        23,
+        34
+      ],
+      "references": [
+        "C4",
+        "C8",
+        "C11"
+      ],
+      "boundary": "dados, aprendizado e inferência",
+      "evidence": "L34 e capturas das Partes VI/VII",
+      "limitation": "Resultados locais dependem de dados, ataques e candidatos.",
+      "normative_requirement": null
+    },
+    {
+      "question": "Extração e privacidade",
+      "chapters": [
+        15,
+        24,
+        25,
+        34
+      ],
+      "references": [
+        "C5",
+        "C8"
+      ],
+      "boundary": "interface de consulta e artefato",
+      "evidence": "L24/L25/L34; métricas e pressupostos próprios",
+      "limitation": "Não transfere automaticamente garantias entre modelos.",
+      "normative_requirement": null
+    },
+    {
+      "question": "Mudança de artefatos",
+      "chapters": [
+        7,
+        8,
+        26,
+        27,
+        28
+      ],
+      "references": [
+        "C7",
+        "C10"
+      ],
+      "boundary": "origem, adaptação, runtime e liberação",
+      "evidence": "Manifests e contraprovas dos respectivos laboratórios",
+      "limitation": "Hash não certifica origem, licença ou segurança.",
+      "normative_requirement": null
+    },
+    {
+      "question": "Garantia e operação",
+      "chapters": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "references": [
+        "C6",
+        "C9"
+      ],
+      "boundary": "campanha, observação e decisão",
+      "evidence": "Capturas, limites e dossiê do candidato",
+      "limitation": "Não equivale a certificação ou aprovação de produção.",
+      "normative_requirement": null
+    }
+  ]
+}

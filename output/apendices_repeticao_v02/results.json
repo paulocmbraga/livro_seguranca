@@ -1,0 +1,61 @@
+{
+  "metrics": {
+    "attack_n": 4,
+    "unauthorized": 1,
+    "unknown": 1,
+    "identified_bounds": [
+      0.25,
+      0.5
+    ],
+    "legitimate_n": 2,
+    "legitimate_completed": 1,
+    "legitimate_unknown": 1,
+    "families": 2
+  },
+  "wilson_zero_twenty": [
+    0.0,
+    0.16112515805281938
+  ],
+  "reconciliation": {
+    "op1": {
+      "state": "confirmed",
+      "receipt": "r1"
+    },
+    "op2": {
+      "state": "unknown",
+      "receipt": null
+    },
+    "op3": {
+      "state": "absent",
+      "receipt": null
+    }
+  },
+  "migration": {
+    "changed": [
+      "prompt"
+    ],
+    "requalify": [
+      "delivery",
+      "prompt",
+      "response"
+    ],
+    "decision": "new_evidence_required",
+    "automatic_production_approval": false
+  },
+  "reference_keys": [
+    [
+      "OWASP LLM Top 10",
+      "2025",
+      "LLM01"
+    ],
+    [
+      "OWASP LLM Top 10",
+      "2026",
+      "LLM01"
+    ]
+  ],
+  "manifest_valid": [
+    "evidence.txt"
+  ],
+  "tamper_refused": "hash_mismatch"
+}

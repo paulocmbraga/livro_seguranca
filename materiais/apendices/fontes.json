@@ -1,0 +1,145 @@
+{
+  "consulted": "2026-10-23",
+  "records": [
+    {
+      "id": "C1",
+      "project": "OWASP LLM Top 10",
+      "edition": "2025",
+      "kind": "list",
+      "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-v2025.pdf",
+      "consulted": "2026-10-23",
+      "scope": "Referência histórica; não substituída retroativamente pela edição seguinte.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C2",
+      "project": "OWASP GenAI LLM Top 10",
+      "edition": "2026",
+      "kind": "list",
+      "url": "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+      "consulted": "2026-10-23",
+      "scope": "Página oficial da edição, datada de 3 de agosto de 2026; consulta documental, sem campanha nova de cobertura.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C3",
+      "project": "OWASP Top 10 for Agentic Applications",
+      "edition": "2026",
+      "kind": "list",
+      "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+      "consulted": "2026-10-23",
+      "scope": "Página de 9 de dezembro de 2025; edição e data de publicação são campos diferentes.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C4",
+      "project": "OWASP Machine Learning Security Top Ten",
+      "edition": "draft consultado em 2026-10-23",
+      "kind": "list",
+      "url": "https://owasp.org/projects/machine-learning-security-top-ten?tab=main",
+      "consulted": "2026-10-23",
+      "scope": "Página identifica material em elaboração; não tratado como padrão final.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C5",
+      "project": "OWASP AI Exchange",
+      "edition": "documento vivo",
+      "kind": "guide",
+      "url": "https://owasp.org/projects/ai-exchange",
+      "consulted": "2026-10-23",
+      "scope": "Orientação de engenharia; não possui nesta referência uma release congelada.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C6",
+      "project": "OWASP AI Testing Guide",
+      "edition": "v1",
+      "kind": "guide",
+      "url": "https://owasp.org/projects/ai-testing-guide",
+      "consulted": "2026-10-23",
+      "scope": "A página do projeto identifica v1; o uso editorial não demonstra execução de todos os testes.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C7",
+      "project": "OWASP ASVS",
+      "edition": "5.0.0",
+      "kind": "standard",
+      "url": "https://asvs.owasp.org/",
+      "consulted": "2026-10-23",
+      "scope": "Padrão de verificação; citar não equivale a avaliar todos os requisitos.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C8",
+      "project": "NIST AI 100-2",
+      "edition": "E2025",
+      "kind": "taxonomy",
+      "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+      "consulted": "2026-10-23",
+      "scope": "Taxonomia de aprendizado de máquina adversarial; página mantém notas de correção do documento.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C9",
+      "project": "NIST AI RMF",
+      "edition": "1.0",
+      "kind": "guide",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10",
+      "consulted": "2026-10-23",
+      "scope": "NIST AI 100-1, publicado em 26 de janeiro de 2023; gestão de risco voluntária e contextual.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C10",
+      "project": "NIST SP 800-218A",
+      "edition": "final, julho de 2024",
+      "kind": "guide",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/a/final",
+      "consulted": "2026-10-23",
+      "scope": "Perfil de práticas de desenvolvimento seguro para IA; complementa o SSDF.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C11",
+      "project": "MITRE ATLAS",
+      "edition": "conteúdo v2026.09",
+      "kind": "catalog",
+      "url": "https://github.com/mitre-atlas/atlas-data/releases/tag/v2026.09",
+      "consulted": "2026-10-23",
+      "scope": "Release selecionada no catálogo oficial; conteúdo e formato são versionados separadamente. Dataset completo não foi reexecutado nem auditado nesta composição.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C12",
+      "project": "Model Context Protocol",
+      "edition": "2026-07-28",
+      "kind": "protocol",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization",
+      "consulted": "2026-10-23",
+      "scope": "Escopo de autorização HTTP; ensaios locais não demonstram toda a conformidade da implementação.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C13",
+      "project": "Agent2Agent Protocol",
+      "edition": "especificação 1.0.0; protocolo 1.0",
+      "kind": "protocol",
+      "url": "https://a2a-protocol.org/latest/specification/",
+      "consulted": "2026-10-23",
+      "scope": "Página latest consultada na data registrada; pacote Python 1.2.3 é identidade distinta.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    },
+    {
+      "id": "C14",
+      "project": "NIST/SEMATECH e-Handbook",
+      "edition": "seção 7.2.4.1",
+      "kind": "guide",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+      "consulted": "2026-10-23",
+      "scope": "Intervalos para proporções e método de Wilson; pressupostos estatísticos permanecem parte da interpretação.",
+      "checked": "página oficial consultada; não implica auditoria de todo o projeto"
+    }
+  ]
+}

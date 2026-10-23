@@ -1,0 +1,27 @@
+{
+  "version": "Apendices-1.0",
+  "utc": "2026-10-23T19:49:40.185015+00:00",
+  "sources": {
+    "apoio_apendices/__init__.py": "3521d2ec9fcc7c32b452795a1be8b3998659bca5f250659afdee79ceecf78c5d",
+    "apoio_apendices/__main__.py": "7a83ea16f387f78ee22228e3cfbd065b9e64e09186788e679e239774bec09d58",
+    "apoio_apendices/core.py": "0f56daaa594f12e16b55452a36f36649a09d1789c292ee07f578f3a9b449f1dc",
+    "materiais/apendices/casos.json": "83cd4b49dd2931a2edb8b8993fb5dbad797b962525087beb410da1e5e4139a57",
+    "materiais/apendices/dossie_modelo.json": "9541750d5df2b55008027f5785fa6c372c1e96b497ff9a7c8581f5b95210dec6",
+    "materiais/apendices/fontes.json": "4952eded386829374ed960f4fa3281d5999a86d1a78ac9bf50dacd1e7b1f0a73",
+    "materiais/apendices/glossario_indice.json": "bde51ba7a0f5c0a457721eec271d9a89557d8014d452637884b4a982eecb3523",
+    "materiais/apendices/matriz_referencias.json": "db4bd376e19fa362d9fb6926e1dd43a56e877e878764113f96447b17d70342f3",
+    "materiais/apendices/runbook_modelo.json": "c73713988d4e669f015d6bcf3126dc20306d5daaf16c23475d58c9104714f424"
+  },
+  "files": [
+    {
+      "path": "environment.json",
+      "sha256": "3a7c8572049e7a96c298a0fa00ff612f8d7195dcfd7a70e8ddff8031687d3841",
+      "bytes": 224
+    },
+    {
+      "path": "results.json",
+      "sha256": "fb08475c3becf306fb503fec0f2dfa681c07c952da03efeb0599ecec7504cae5",
+      "bytes": 999
+    }
+  ]
+}

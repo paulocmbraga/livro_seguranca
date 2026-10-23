@@ -1,0 +1,17 @@
+{
+  "schema": "dossie-didatico-1.0",
+  "candidate": null,
+  "authorized_use": "laboratório local com registros sintéticos",
+  "claims": [],
+  "evidence": [],
+  "unknowns": [],
+  "countertests": [],
+  "legitimate_controls": [],
+  "residual_risks": [],
+  "decision": "pending",
+  "decision_owner": null,
+  "independent_reproduction": "pending",
+  "production_approval": false,
+  "reopen_on_changes": [],
+  "review_deadline": null
+}
