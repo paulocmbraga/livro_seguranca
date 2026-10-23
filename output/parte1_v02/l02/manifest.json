@@ -1,0 +1,34 @@
+{
+  "version": "parte1-1.0",
+  "lab": "L02",
+  "created_utc": "2026-10-23T00:41:23.347431+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "sources": {
+    "laboratorios/l09/__init__.py": "a6bd371112b9fa2fa49f17c983e522bb13bd7471eea72061c8e57c8034e7854b",
+    "laboratorios/l09/__main__.py": "23ddda102afb341724339d3cf51a0e6d7ddd452290630039856df3b22e0d889d",
+    "laboratorios/l09/campaign.py": "a7ff1d4d15faaa4aef59aaf434d09cfc6a540a6a7da7517ee951f747e0326df8",
+    "laboratorios/l09/core.py": "d86d85ead26f054c25516b64561cd04da9747abbee3878a3201e671abe178e6f",
+    "laboratorios/l09/fixtures.py": "cd3cfadcb17c6248bba4bfc9e0319942025e5a20d92f3b80d9ffe6c20edb6134",
+    "laboratorios/l09/llm.py": "4a4db238cb12c77633f8d4ef80b24e347abec97ebe20f189906af4899fe8410f",
+    "laboratorios/l09/services.py": "8c0f1a91b095c9cac17d3242b37cd83b620d7ce9523787df4f52ab0279c55d84",
+    "laboratorios/parte1/__init__.py": "01629c6a7f42e1ea9aa74ad289bc1c87d0c11507b081da83d955c22d4bacb9fb",
+    "laboratorios/parte1/__main__.py": "9b492362e7906ad8beb80f78119577d7bcf4013e6ed66d4137cc6f0a9d5a67f3",
+    "laboratorios/parte1/architecture.py": "5687b3f8991c474310734bff7aab0dad3768ab398327c8744279b1e97cf8e36c",
+    "laboratorios/parte1/common.py": "61dfb76b03e9f7771f50289c0bca7c7fefad37008d500be88a0e579bfbd55f37",
+    "laboratorios/parte1/controls.py": "a322873438d102bae5f92cc4c9abae4aa07723f434949c87dd958330cba81d5f",
+    "laboratorios/parte1/evidence.py": "96baf8522814f483016beb6db2154daebd008f1e037a3abdd6a74b41798fff56",
+    "laboratorios/parte1/observatory.py": "37d0ac4777572d881972f03516216373eafd00c7eb083aa6d1392d5485a0d2ba",
+    "laboratorios/parte1/requirements.py": "5c3a115a7a61ea45eb7dd290ac2cda6973d37dbf63e3b189f72daa02ce65d15b",
+    "materiais/parte1/arquiteturas.json": "3435e73b31e66b4ffdece1681fbd2e9bcf922bac60342c5ce13f826ab44facca",
+    "materiais/parte1/casos_l04.json": "a5c9db82f72b84cbdb94c07b53da1d3607b6223ae22c86b34f4ed2614bc4f4f1",
+    "materiais/parte1/controles.json": "2200ada07502a74bf7fd951fdfd8ddf91ac451acc3f1757667b92e89908288fe",
+    "materiais/parte1/inventario.json": "a96c26bb53f58f4a7e0cbac7ad67fc2cb9275ae5fad93a314c8dbd731d94de62",
+    "materiais/parte1/referencias.lock.json": "afa8d84a54daa0e8266672ff8f3fc713e6bd6a2c5c96fc8f22d8a88b076456ad"
+  },
+  "files": {
+    "architectures.json": "3435e73b31e66b4ffdece1681fbd2e9bcf922bac60342c5ce13f826ab44facca",
+    "results.json": "a1737a4422385a34db2c0499ca60087b666e89b7473a18340c4e0fdb6de01d27"
+  },
+  "limits": "Hash local não autentica o autor; execução no mesmo computador."
+}

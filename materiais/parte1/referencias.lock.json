@@ -1,0 +1,92 @@
+{
+  "consulted": "2026-10-22",
+  "references": [
+    {
+      "id": "OWASP-LLM01",
+      "kind": "lista de riscos",
+      "edition": "2025",
+      "identifier": "LLM01:2025",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "OWASP-LLM06",
+      "kind": "lista de riscos",
+      "edition": "2025",
+      "identifier": "LLM06:2025",
+      "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "ASVS-8.2.2",
+      "kind": "norma aberta de verificação",
+      "edition": "5.0.0",
+      "identifier": "v5.0.0-8.2.2",
+      "url": "https://github.com/OWASP/ASVS/tree/v5.0.0_release",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "ASVS-8.3.1",
+      "kind": "norma aberta de verificação",
+      "edition": "5.0.0",
+      "identifier": "v5.0.0-8.3.1",
+      "url": "https://github.com/OWASP/ASVS/tree/v5.0.0_release",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "ATLAS-INDIRECT",
+      "kind": "base de táticas e técnicas",
+      "edition": "5.6.0; dist/ATLAS.yaml; commit 3259f388d19cbcca11bacf12a0ef97f4198f711b",
+      "identifier": "AML.T0051.001",
+      "url": "https://atlas.mitre.org/techniques/AML.T0051.001",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "NIST-TAX",
+      "kind": "taxonomia e terminologia",
+      "edition": "AI 100-2 E2025; página registra errata",
+      "identifier": "AI 100-2 E2025",
+      "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "NIST-SSDF-AI",
+      "kind": "perfil de desenvolvimento seguro",
+      "edition": "SP 800-218A; final 2024",
+      "identifier": "SP 800-218A",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/a/final",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "NIST-RMF",
+      "kind": "framework de gestão de riscos",
+      "edition": "AI RMF 1.0; 2023",
+      "identifier": "AI 100-1",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    }
+  ],
+  "source_digests": [
+    {
+      "id": "ASVS-5.0.0",
+      "url": "https://raw.githubusercontent.com/OWASP/ASVS/v5.0.0_release/5.0/docs_en/OWASP_Application_Security_Verification_Standard_5.0.0_en.json",
+      "sha256": "bcdbec214d70abcfad9284a31d4f9e5134305831d628aad3aa85d7e26626cb35",
+      "bytes": 149407
+    },
+    {
+      "id": "ATLAS-5.6.0",
+      "url": "https://raw.githubusercontent.com/mitre-atlas/atlas-data/3259f388d19cbcca11bacf12a0ef97f4198f711b/dist/ATLAS.yaml",
+      "sha256": "c9c23971d0db07e2782423d795a20e78d5c2c9bcdc78fc67e24530657daaec41",
+      "bytes": 452399
+    }
+  ],
+  "note": "ATLAS usa snapshot escolhido, não afirma que dist/ATLAS.yaml é a versão mais nova do repositório."
+}

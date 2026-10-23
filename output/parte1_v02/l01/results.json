@@ -1,0 +1,97 @@
+{
+  "scope": "observações sintéticas preparadas; nenhum serviço M/A implementado aqui",
+  "assets": 9,
+  "requirements": 6,
+  "observations": [
+    {
+      "id": "R01_positive",
+      "requirement": "R01",
+      "outcome": "satisfied"
+    },
+    {
+      "id": "R01_counterexample",
+      "requirement": "R01",
+      "outcome": "violated"
+    },
+    {
+      "id": "R01_missing",
+      "requirement": "R01",
+      "outcome": "unknown"
+    },
+    {
+      "id": "R02_positive",
+      "requirement": "R02",
+      "outcome": "satisfied"
+    },
+    {
+      "id": "R02_counterexample",
+      "requirement": "R02",
+      "outcome": "violated"
+    },
+    {
+      "id": "R02_missing",
+      "requirement": "R02",
+      "outcome": "unknown"
+    },
+    {
+      "id": "R03_positive",
+      "requirement": "R03",
+      "outcome": "satisfied"
+    },
+    {
+      "id": "R03_counterexample",
+      "requirement": "R03",
+      "outcome": "violated"
+    },
+    {
+      "id": "R03_missing",
+      "requirement": "R03",
+      "outcome": "unknown"
+    },
+    {
+      "id": "R04_positive",
+      "requirement": "R04",
+      "outcome": "satisfied"
+    },
+    {
+      "id": "R04_counterexample",
+      "requirement": "R04",
+      "outcome": "violated"
+    },
+    {
+      "id": "R04_missing",
+      "requirement": "R04",
+      "outcome": "unknown"
+    },
+    {
+      "id": "R05_positive",
+      "requirement": "R05",
+      "outcome": "satisfied"
+    },
+    {
+      "id": "R05_counterexample",
+      "requirement": "R05",
+      "outcome": "violated"
+    },
+    {
+      "id": "R05_missing",
+      "requirement": "R05",
+      "outcome": "unknown"
+    },
+    {
+      "id": "R06_positive",
+      "requirement": "R06",
+      "outcome": "satisfied"
+    },
+    {
+      "id": "R06_counterexample",
+      "requirement": "R06",
+      "outcome": "violated"
+    },
+    {
+      "id": "R06_missing",
+      "requirement": "R06",
+      "outcome": "unknown"
+    }
+  ]
+}

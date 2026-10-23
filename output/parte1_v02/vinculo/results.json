@@ -1,0 +1,13 @@
+{
+  "mapping_rows": 8,
+  "unique_controls": 4,
+  "evidenced_controls": [
+    "C01",
+    "C02",
+    "C03"
+  ],
+  "planned_controls": [
+    "C04"
+  ],
+  "claim": "rastreabilidade documental; não certificação nem verificação dos testes externos"
+}

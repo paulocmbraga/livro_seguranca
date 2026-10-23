@@ -1,0 +1,82 @@
+[
+  {
+    "id": "benign_A",
+    "status": 200,
+    "body": {
+      "received": true
+    },
+    "client_claim": "completed"
+  },
+  {
+    "id": "benign_C",
+    "status": 200,
+    "body": {
+      "received": true
+    },
+    "client_claim": "completed"
+  },
+  {
+    "id": "cross_A",
+    "status": 200,
+    "body": {
+      "received": true
+    },
+    "client_claim": "completed"
+  },
+  {
+    "id": "cross_C",
+    "status": 403,
+    "body": {
+      "error": "policy_denied"
+    },
+    "client_claim": "blocked"
+  },
+  {
+    "id": "egress_A",
+    "status": 200,
+    "body": {
+      "received": true
+    },
+    "client_claim": "completed"
+  },
+  {
+    "id": "egress_C",
+    "status": 403,
+    "body": {
+      "error": "policy_denied"
+    },
+    "client_claim": "blocked"
+  },
+  {
+    "id": "missing_C",
+    "status": 404,
+    "body": {
+      "error": "resource"
+    },
+    "client_claim": "error"
+  },
+  {
+    "id": "false_log_A",
+    "status": 200,
+    "body": {
+      "received": true
+    },
+    "client_claim": "blocked"
+  },
+  {
+    "id": "beta_benign_C",
+    "status": 200,
+    "body": {
+      "received": true
+    },
+    "client_claim": "completed"
+  },
+  {
+    "id": "beta_cross_C",
+    "status": 403,
+    "body": {
+      "error": "policy_denied"
+    },
+    "client_claim": "blocked"
+  }
+]

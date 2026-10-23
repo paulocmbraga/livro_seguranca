@@ -1,0 +1,93 @@
+[
+  {
+    "id": "client_only",
+    "guard": "client_guard",
+    "paths": [
+      [
+        "document",
+        "planner",
+        "client_guard",
+        "domain",
+        "destination"
+      ],
+      [
+        "alternate",
+        "domain",
+        "destination"
+      ]
+    ],
+    "bypass": [
+      [
+        "alternate",
+        "domain",
+        "destination"
+      ]
+    ],
+    "mediates_all_modeled_paths": false,
+    "os_principals": [
+      "laboratorio_local"
+    ],
+    "claim": "propriedade do grafo declarado, não prova de implantação"
+  },
+  {
+    "id": "domain_mediation",
+    "guard": "domain_guard",
+    "paths": [
+      [
+        "document",
+        "planner",
+        "client_guard",
+        "domain_guard",
+        "domain",
+        "destination"
+      ],
+      [
+        "alternate",
+        "domain_guard",
+        "domain",
+        "destination"
+      ]
+    ],
+    "bypass": [],
+    "mediates_all_modeled_paths": true,
+    "os_principals": [
+      "laboratorio_local"
+    ],
+    "claim": "propriedade do grafo declarado, não prova de implantação"
+  },
+  {
+    "id": "new_debug_route",
+    "guard": "domain_guard",
+    "paths": [
+      [
+        "document",
+        "planner",
+        "client_guard",
+        "domain_guard",
+        "domain",
+        "destination"
+      ],
+      [
+        "alternate",
+        "destination"
+      ],
+      [
+        "alternate",
+        "domain_guard",
+        "domain",
+        "destination"
+      ]
+    ],
+    "bypass": [
+      [
+        "alternate",
+        "destination"
+      ]
+    ],
+    "mediates_all_modeled_paths": false,
+    "os_principals": [
+      "laboratorio_local"
+    ],
+    "claim": "propriedade do grafo declarado, não prova de implantação"
+  }
+]

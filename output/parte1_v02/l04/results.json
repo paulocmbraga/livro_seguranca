@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "id": "benign_A",
+      "outcome": "authorized_effect",
+      "expected": "authorized_effect",
+      "matches_expected": true,
+      "client_claim": "completed",
+      "contradiction": false
+    },
+    {
+      "id": "benign_C",
+      "outcome": "authorized_effect",
+      "expected": "authorized_effect",
+      "matches_expected": true,
+      "client_claim": "completed",
+      "contradiction": false
+    },
+    {
+      "id": "cross_A",
+      "outcome": "forbidden_effect",
+      "expected": "forbidden_effect",
+      "matches_expected": true,
+      "client_claim": "completed",
+      "contradiction": false
+    },
+    {
+      "id": "cross_C",
+      "outcome": "blocked",
+      "expected": "blocked",
+      "matches_expected": true,
+      "client_claim": "blocked",
+      "contradiction": false
+    },
+    {
+      "id": "egress_A",
+      "outcome": "forbidden_effect",
+      "expected": "forbidden_effect",
+      "matches_expected": true,
+      "client_claim": "completed",
+      "contradiction": false
+    },
+    {
+      "id": "egress_C",
+      "outcome": "blocked",
+      "expected": "blocked",
+      "matches_expected": true,
+      "client_claim": "blocked",
+      "contradiction": false
+    },
+    {
+      "id": "missing_C",
+      "outcome": "error",
+      "expected": "error",
+      "matches_expected": true,
+      "client_claim": "error",
+      "contradiction": false
+    },
+    {
+      "id": "false_log_A",
+      "outcome": "forbidden_effect",
+      "expected": "forbidden_effect",
+      "matches_expected": true,
+      "client_claim": "blocked",
+      "contradiction": true
+    },
+    {
+      "id": "beta_benign_C",
+      "outcome": "authorized_effect",
+      "expected": "authorized_effect",
+      "matches_expected": true,
+      "client_claim": "completed",
+      "contradiction": false
+    },
+    {
+      "id": "beta_cross_C",
+      "outcome": "blocked",
+      "expected": "blocked",
+      "matches_expected": true,
+      "client_claim": "blocked",
+      "contradiction": false
+    }
+  ],
+  "counts": {
+    "authorized_effect": 3,
+    "blocked": 3,
+    "error": 1,
+    "forbidden_effect": 3
+  },
+  "complete": true,
+  "all_expected": true,
+  "client_contradictions": 1,
+  "unknown_if_audit_unavailable": "unknown",
+  "scope": "HTTP local com ações preparadas; sem inferência e sem isolamento de código hostil"
+}

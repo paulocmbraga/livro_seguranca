@@ -1,0 +1,201 @@
+{
+  "version": "L03-1.0",
+  "references": [
+    {
+      "id": "OWASP-LLM01",
+      "kind": "lista de riscos",
+      "edition": "2025",
+      "identifier": "LLM01:2025",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "OWASP-LLM06",
+      "kind": "lista de riscos",
+      "edition": "2025",
+      "identifier": "LLM06:2025",
+      "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "ASVS-8.2.2",
+      "kind": "norma aberta de verificação",
+      "edition": "5.0.0",
+      "identifier": "v5.0.0-8.2.2",
+      "url": "https://github.com/OWASP/ASVS/tree/v5.0.0_release",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "ASVS-8.3.1",
+      "kind": "norma aberta de verificação",
+      "edition": "5.0.0",
+      "identifier": "v5.0.0-8.3.1",
+      "url": "https://github.com/OWASP/ASVS/tree/v5.0.0_release",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "ATLAS-INDIRECT",
+      "kind": "base de táticas e técnicas",
+      "edition": "5.6.0; dist/ATLAS.yaml; commit 3259f388d19cbcca11bacf12a0ef97f4198f711b",
+      "identifier": "AML.T0051.001",
+      "url": "https://atlas.mitre.org/techniques/AML.T0051.001",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "NIST-TAX",
+      "kind": "taxonomia e terminologia",
+      "edition": "AI 100-2 E2025; página registra errata",
+      "identifier": "AI 100-2 E2025",
+      "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "NIST-SSDF-AI",
+      "kind": "perfil de desenvolvimento seguro",
+      "edition": "SP 800-218A; final 2024",
+      "identifier": "SP 800-218A",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/a/final",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    },
+    {
+      "id": "NIST-RMF",
+      "kind": "framework de gestão de riscos",
+      "edition": "AI RMF 1.0; 2023",
+      "identifier": "AI 100-1",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1",
+      "consulted": "2026-10-22",
+      "mapping_author": "Mapeamento didático do autor; não equivalência oficial entre referências."
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "owner": "domínio documental",
+      "enforcement": "serviço /read e /deliver",
+      "mechanism": "tenant_do_principal",
+      "test": "T01",
+      "counterproof": "ação alega beta sob credencial alpha",
+      "residual": "principal ou catálogo comprometido"
+    },
+    {
+      "id": "C02",
+      "owner": "integração",
+      "enforcement": "serviço /deliver",
+      "mechanism": "destino_autorizado",
+      "test": "T02",
+      "counterproof": "contrato próprio enviado ao collector",
+      "residual": "DNS e infraestrutura não ensaiados"
+    },
+    {
+      "id": "C03",
+      "owner": "operação",
+      "enforcement": "verificador após execução",
+      "mechanism": "recibo_independente",
+      "test": "T03",
+      "counterproof": "cliente afirma bloqueio após entrega",
+      "residual": "mesmo usuário pode adulterar arquivos; detecção posterior não desfaz vazamento"
+    },
+    {
+      "id": "C04",
+      "owner": "plataforma",
+      "enforcement": "fronteira de processo e rede planejada",
+      "mechanism": "sandbox_do_executor",
+      "test": "T04",
+      "counterproof": "processo tenta ler arquivo do host",
+      "residual": "isolamento ainda não implementado nesta parte"
+    }
+  ],
+  "tests": [
+    {
+      "id": "T01",
+      "state": "passed",
+      "evidence": {
+        "capture": "output/parte1_v02/l04",
+        "manifest_sha256": "8ab9f1910f7defaf220c72b563464afd4453176dedfc79f9ab38206ba4bdca2c",
+        "result_sha256": "a025729fc72b5e023dbfea88cbf63caced1c8fbf65b904b0e432d38a1efea173",
+        "cases": [
+          "cross_A",
+          "cross_C",
+          "beta_cross_C",
+          "beta_benign_C"
+        ],
+        "scope": "L04 local; C01 exercita /deliver, não todas as operações do domínio"
+      }
+    },
+    {
+      "id": "T02",
+      "state": "passed",
+      "evidence": {
+        "capture": "output/parte1_v02/l04",
+        "manifest_sha256": "8ab9f1910f7defaf220c72b563464afd4453176dedfc79f9ab38206ba4bdca2c",
+        "result_sha256": "a025729fc72b5e023dbfea88cbf63caced1c8fbf65b904b0e432d38a1efea173",
+        "cases": [
+          "egress_A",
+          "egress_C",
+          "benign_C"
+        ],
+        "scope": "L04 local; C01 exercita /deliver, não todas as operações do domínio"
+      }
+    },
+    {
+      "id": "T03",
+      "state": "passed",
+      "evidence": {
+        "capture": "output/parte1_v02/l04",
+        "manifest_sha256": "8ab9f1910f7defaf220c72b563464afd4453176dedfc79f9ab38206ba4bdca2c",
+        "result_sha256": "a025729fc72b5e023dbfea88cbf63caced1c8fbf65b904b0e432d38a1efea173",
+        "cases": [
+          "false_log_A"
+        ],
+        "scope": "L04 local; C01 exercita /deliver, não todas as operações do domínio"
+      }
+    },
+    {
+      "id": "T04",
+      "state": "planned",
+      "evidence": null
+    }
+  ],
+  "mapping": [
+    {
+      "control": "C01",
+      "reference": "OWASP-LLM06"
+    },
+    {
+      "control": "C01",
+      "reference": "ASVS-8.2.2"
+    },
+    {
+      "control": "C01",
+      "reference": "ASVS-8.3.1"
+    },
+    {
+      "control": "C02",
+      "reference": "OWASP-LLM01"
+    },
+    {
+      "control": "C02",
+      "reference": "OWASP-LLM06"
+    },
+    {
+      "control": "C02",
+      "reference": "ATLAS-INDIRECT"
+    },
+    {
+      "control": "C03",
+      "reference": "NIST-SSDF-AI"
+    },
+    {
+      "control": "C04",
+      "reference": "NIST-TAX"
+    }
+  ],
+  "interpretation": "O dossiê precede o L04. Execuções posteriores não alteram retroativamente o estado planejado."
+}

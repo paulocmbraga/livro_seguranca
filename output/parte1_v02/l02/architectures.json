@@ -1,0 +1,215 @@
+[
+  {
+    "id": "client_only",
+    "nodes": [
+      {
+        "id": "document",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "planner",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "client_guard",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "alternate",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "domain_guard",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "domain",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "destination",
+        "os_principal": "laboratorio_local"
+      }
+    ],
+    "sources": [
+      "document",
+      "alternate"
+    ],
+    "effect": "destination",
+    "guard": "client_guard",
+    "edges": [
+      {
+        "from": "document",
+        "to": "planner",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "planner",
+        "to": "client_guard",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "client_guard",
+        "to": "domain",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "alternate",
+        "to": "domain",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "domain",
+        "to": "destination",
+        "kind": "possible_call_or_data_flow"
+      }
+    ]
+  },
+  {
+    "id": "domain_mediation",
+    "nodes": [
+      {
+        "id": "document",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "planner",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "client_guard",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "alternate",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "domain_guard",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "domain",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "destination",
+        "os_principal": "laboratorio_local"
+      }
+    ],
+    "sources": [
+      "document",
+      "alternate"
+    ],
+    "effect": "destination",
+    "guard": "domain_guard",
+    "edges": [
+      {
+        "from": "document",
+        "to": "planner",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "planner",
+        "to": "client_guard",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "client_guard",
+        "to": "domain_guard",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "alternate",
+        "to": "domain_guard",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "domain_guard",
+        "to": "domain",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "domain",
+        "to": "destination",
+        "kind": "possible_call_or_data_flow"
+      }
+    ]
+  },
+  {
+    "id": "new_debug_route",
+    "nodes": [
+      {
+        "id": "document",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "planner",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "client_guard",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "alternate",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "domain_guard",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "domain",
+        "os_principal": "laboratorio_local"
+      },
+      {
+        "id": "destination",
+        "os_principal": "laboratorio_local"
+      }
+    ],
+    "sources": [
+      "document",
+      "alternate"
+    ],
+    "effect": "destination",
+    "guard": "domain_guard",
+    "edges": [
+      {
+        "from": "document",
+        "to": "planner",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "planner",
+        "to": "client_guard",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "client_guard",
+        "to": "domain_guard",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "alternate",
+        "to": "domain_guard",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "domain_guard",
+        "to": "domain",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "domain",
+        "to": "destination",
+        "kind": "possible_call_or_data_flow"
+      },
+      {
+        "from": "alternate",
+        "to": "destination",
+        "kind": "possible_call_or_data_flow"
+      }
+    ]
+  }
+]

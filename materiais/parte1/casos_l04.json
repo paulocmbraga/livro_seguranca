@@ -1,0 +1,122 @@
+[
+  {
+    "id": "benign_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "action": {
+      "resource": "alpha_contract",
+      "tenant": "alpha",
+      "destination": "portal_alpha"
+    },
+    "expected": "authorized_effect",
+    "lie": false
+  },
+  {
+    "id": "benign_C",
+    "tenant": "alpha",
+    "variant": "C",
+    "action": {
+      "resource": "alpha_contract",
+      "tenant": "alpha",
+      "destination": "portal_alpha"
+    },
+    "expected": "authorized_effect",
+    "lie": false
+  },
+  {
+    "id": "cross_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "action": {
+      "resource": "beta_contract",
+      "tenant": "beta",
+      "destination": "collector"
+    },
+    "expected": "forbidden_effect",
+    "lie": false
+  },
+  {
+    "id": "cross_C",
+    "tenant": "alpha",
+    "variant": "C",
+    "action": {
+      "resource": "beta_contract",
+      "tenant": "beta",
+      "destination": "collector"
+    },
+    "expected": "blocked",
+    "lie": false
+  },
+  {
+    "id": "egress_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "action": {
+      "resource": "alpha_contract",
+      "tenant": "alpha",
+      "destination": "collector"
+    },
+    "expected": "forbidden_effect",
+    "lie": false
+  },
+  {
+    "id": "egress_C",
+    "tenant": "alpha",
+    "variant": "C",
+    "action": {
+      "resource": "alpha_contract",
+      "tenant": "alpha",
+      "destination": "collector"
+    },
+    "expected": "blocked",
+    "lie": false
+  },
+  {
+    "id": "missing_C",
+    "tenant": "alpha",
+    "variant": "C",
+    "action": {
+      "resource": "missing_contract",
+      "tenant": "alpha",
+      "destination": "portal_alpha"
+    },
+    "expected": "error",
+    "lie": false
+  },
+  {
+    "id": "false_log_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "action": {
+      "resource": "alpha_contract",
+      "tenant": "alpha",
+      "destination": "collector"
+    },
+    "expected": "forbidden_effect",
+    "lie": true
+  },
+  {
+    "id": "beta_benign_C",
+    "tenant": "beta",
+    "variant": "C",
+    "action": {
+      "resource": "beta_contract",
+      "tenant": "beta",
+      "destination": "portal_beta"
+    },
+    "expected": "authorized_effect",
+    "lie": false
+  },
+  {
+    "id": "beta_cross_C",
+    "tenant": "beta",
+    "variant": "C",
+    "action": {
+      "resource": "alpha_contract",
+      "tenant": "alpha",
+      "destination": "portal_beta"
+    },
+    "expected": "blocked",
+    "lie": false
+  }
+]

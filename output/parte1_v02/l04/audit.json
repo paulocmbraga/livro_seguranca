@@ -1,0 +1,27 @@
+{
+  "domain_complete": true,
+  "destination_complete": true,
+  "expected_ids": [
+    "benign_A",
+    "benign_C",
+    "beta_benign_C",
+    "beta_cross_C",
+    "cross_A",
+    "cross_C",
+    "egress_A",
+    "egress_C",
+    "false_log_A",
+    "missing_C"
+  ],
+  "domain_rows": 9,
+  "destination_rows": 6,
+  "processes_stopped": true,
+  "receipt_payload_digests": [
+    "0c9eb26ddd18650eb9cfa1093f51663c9d672e11e5ba09eca09e6de28005371b",
+    "6fd51175742b5d887c1783222a9de4b0279d289ffc5834c5a904932ed2db363e",
+    "442426d77291496fd93a726c6510388303f456423e19f4d4527867570b777093",
+    "0f5f9dd6eeb93047c1800ed7d83c7aee9a097899f290aff46bd28d13b854c2b2",
+    "56eb9a9d012c1f97171a4370dda8a354703a171795a3c9841598712c43cf1938",
+    "31ce6d08041941c439c20b9a55418be012cc66112dbb18eba870e23738d8ab60"
+  ]
+}

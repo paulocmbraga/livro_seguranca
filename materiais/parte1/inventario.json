@@ -1,0 +1,174 @@
+{
+  "version": "L01-1.0",
+  "assets": [
+    {
+      "id": "M-model",
+      "system": "M",
+      "name": "Artefato aprovado",
+      "owner": "equipe de plataforma"
+    },
+    {
+      "id": "M-budget",
+      "system": "M",
+      "name": "Orçamento por requisição",
+      "owner": "operação de inferência"
+    },
+    {
+      "id": "M-dataset",
+      "system": "M",
+      "name": "Conjunto de avaliação",
+      "owner": "responsável pelos dados"
+    },
+    {
+      "id": "R-contract",
+      "system": "R",
+      "name": "Contrato sintético por organização",
+      "owner": "dono do domínio"
+    },
+    {
+      "id": "R-egress",
+      "system": "R",
+      "name": "Destino da transferência",
+      "owner": "dono da integração"
+    },
+    {
+      "id": "R-index",
+      "system": "R",
+      "name": "Índice e proveniência",
+      "owner": "curadoria da base"
+    },
+    {
+      "id": "A-approval",
+      "system": "A",
+      "name": "Decisão humana vinculada à ação",
+      "owner": "dono do fluxo"
+    },
+    {
+      "id": "A-effect",
+      "system": "A",
+      "name": "Efeito e chave de repetição",
+      "owner": "dono do executor"
+    },
+    {
+      "id": "A-audit",
+      "system": "A",
+      "name": "Recibos de execução",
+      "owner": "operação e auditoria"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "R01",
+      "asset": "M-model",
+      "adversary": "operador com escrita no armazenamento",
+      "operation": "carregar modelo",
+      "owner": "equipe de plataforma",
+      "oracle": "comparar digest autorizado e carregado",
+      "precondition": "registro de aprovação protegido",
+      "positive": {
+        "approved_digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "loaded_digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "counterexample": {
+        "approved_digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "loaded_digest": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "missing": {}
+    },
+    {
+      "id": "R02",
+      "asset": "M-budget",
+      "adversary": "cliente com entrada de custo elevado",
+      "operation": "inferir",
+      "owner": "operação de inferência",
+      "oracle": "contador independente de unidades consumidas",
+      "precondition": "unidade e janela definidas por requisição",
+      "positive": {
+        "used": 100,
+        "limit": 100
+      },
+      "counterexample": {
+        "used": 101,
+        "limit": 100
+      },
+      "missing": {}
+    },
+    {
+      "id": "R03",
+      "asset": "R-contract",
+      "adversary": "usuário alpha que alega tenant beta",
+      "operation": "ler contrato privado",
+      "owner": "dono do domínio",
+      "oracle": "recurso entregue e principal autenticado",
+      "precondition": "principal vem da credencial e catálogo é confiável",
+      "positive": {
+        "principal_tenant": "alpha",
+        "resource_tenant": "alpha",
+        "public": false
+      },
+      "counterexample": {
+        "principal_tenant": "alpha",
+        "resource_tenant": "beta",
+        "public": false
+      },
+      "missing": {}
+    },
+    {
+      "id": "R04",
+      "asset": "R-egress",
+      "adversary": "editor de documento recuperável",
+      "operation": "transferir contrato",
+      "owner": "dono da integração",
+      "oracle": "recibo do destino lógico",
+      "precondition": "destinos lógicos resolvidos por configuração confiável",
+      "positive": {
+        "principal_tenant": "alpha",
+        "destination": "portal_alpha"
+      },
+      "counterexample": {
+        "principal_tenant": "alpha",
+        "destination": "collector"
+      },
+      "missing": {}
+    },
+    {
+      "id": "R05",
+      "asset": "A-approval",
+      "adversary": "intermediário que modifica a ação após aprovação",
+      "operation": "executar ação",
+      "owner": "dono do fluxo",
+      "oracle": "digest da ação aprovada e da executada",
+      "precondition": "serialização canônica e aprovador autêntico",
+      "positive": {
+        "approved_action_digest": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "executed_action_digest": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "counterexample": {
+        "approved_action_digest": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "executed_action_digest": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+      },
+      "missing": {}
+    },
+    {
+      "id": "R06",
+      "asset": "A-effect",
+      "adversary": "cliente que repete pedido após timeout",
+      "operation": "aplicar efeito para mesma chave",
+      "owner": "dono do executor",
+      "oracle": "eventos do destino agrupados por chave",
+      "precondition": "mesmo escopo de chave e janela observada completa",
+      "positive": {
+        "effect_ids": [
+          "effect-1"
+        ]
+      },
+      "counterexample": {
+        "effect_ids": [
+          "effect-1",
+          "effect-2"
+        ]
+      },
+      "missing": {}
+    }
+  ]
+}

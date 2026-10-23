@@ -1,0 +1,107 @@
+[
+  {
+    "case": "benign_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "benign_C",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "cross_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "cross_C",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "egress_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "egress_C",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "false_log_A",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "beta_benign_C",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "beta_cross_C",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "portal_beta"
+  }
+]
