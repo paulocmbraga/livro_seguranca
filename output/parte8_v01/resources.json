@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "lab": "L29",
+      "seconds": 0.9971974999643862,
+      "sampled_peak_tree_rss_mib": 36.91796875,
+      "samples": 9,
+      "returncode": 0
+    },
+    {
+      "lab": "L30",
+      "seconds": 9.317530700005591,
+      "sampled_peak_tree_rss_mib": 40.59375,
+      "samples": 85,
+      "returncode": 0
+    },
+    {
+      "lab": "L31",
+      "seconds": 1.1200802999082953,
+      "sampled_peak_tree_rss_mib": 41.26171875,
+      "samples": 10,
+      "returncode": 0
+    },
+    {
+      "lab": "L32",
+      "seconds": 1.7838586999569088,
+      "sampled_peak_tree_rss_mib": 52.1015625,
+      "samples": 16,
+      "returncode": 0
+    }
+  ],
+  "sample_interval_seconds": 0.1,
+  "sequential_same_host": true,
+  "limits": "Soma RSS dos processos próprios vivos; pode contar páginas compartilhadas mais de uma vez e perder picos. Inclui imports e encerramento. Não inclui instalação/download nem RAM total do host. HTTP, SQLite e subprocesso locais. Sem modelo treinado nem Docker nesta parte. Sem API paga ou LLM pré-treinado; instalação e download não incluídos."
+}

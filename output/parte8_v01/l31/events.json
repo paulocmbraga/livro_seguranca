@@ -1,0 +1,171 @@
+[
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 1,
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "utc": "2026-10-23T15:48:06.496823+00:00",
+      "mono_ns": 757002968000000,
+      "decision": "deny",
+      "request_id": "r0",
+      "kind": "decision"
+    },
+    "signature": "562151565c4ce7929e2248f3bdbe107910ddb050d997a714515b75cbf72cbee04f42e18a8a884e0b1e52793015f3400e0dc50ec2cf55268696faa29012cb7207"
+  },
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 2,
+      "previous": "811235d3c25e2ceb45a2c381e75885c256c8a19f977959579182728980802586",
+      "utc": "2026-10-23T15:48:06.510591+00:00",
+      "mono_ns": 757002968000000,
+      "decision": "allow",
+      "request_id": "r1",
+      "kind": "decision"
+    },
+    "signature": "ced0fe4bd9d2aa5e2f489b6f3186381473d98c0bb6e3da96f793fff3ee8e23121068bbec96c0c5522a1e78d4281e521d1d538d8fc7586397b24258249e712c0a"
+  },
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 3,
+      "previous": "86c6fabdf866c0e07c5d1d28f41b3b4648341a3de6e6f0bc38f3e7940574046d",
+      "utc": "2026-10-23T15:48:06.524776+00:00",
+      "mono_ns": 757002984000000,
+      "decision": "allow",
+      "request_id": "r2",
+      "kind": "decision"
+    },
+    "signature": "4bcf271094446c2c2c1dbd6b3415d1564b75e6196318b71b12d9c79d5a569564adaa729b2c50f269724c42652f55108c55f334a50cc5758ca9c0c6c45783d502"
+  },
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 4,
+      "previous": "05d278609a1d011bf24d0577705910dd82a12232902126ddbed93e46ae08dad4",
+      "utc": "2026-10-23T15:48:06.538319+00:00",
+      "mono_ns": 757003000000000,
+      "decision": "allow",
+      "request_id": "r3",
+      "kind": "decision"
+    },
+    "signature": "99ada5182530daeadb9177e6e045a6ea7a61ad807bbbec3076bffc24c5bd4c008ae2a0239c8cb05c0ae7a79a43f733ac211f1b1d41566c9d9b92b84eb90cb002"
+  },
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 5,
+      "previous": "59280484b79efe2930a120f194c0b67f0b4003a45929cf4e0f43e210310b41f5",
+      "utc": "2026-10-23T15:48:06.554379+00:00",
+      "mono_ns": 757003015000000,
+      "decision": "allow",
+      "request_id": "r4",
+      "kind": "decision"
+    },
+    "signature": "49ea866ece278648ecfc66dab8f9ed16a40d20d3b92a242324a7e721df0600919505017aa771e9fc254f25cdc1bdf5246d5926aa9635193060963fd27c6fd502"
+  },
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 6,
+      "previous": "74eeef053ae546cc8a1735719c08cd89ed898378e187faf85cd1664f38733115",
+      "utc": "2026-10-23T15:48:06.566409+00:00",
+      "mono_ns": 757003031000000,
+      "decision": "allow",
+      "request_id": "r5",
+      "kind": "decision"
+    },
+    "signature": "9519d60fdfb57bdacda23ffd0cd5d275ed607421b1f70ff73dc2609ab0b4fbedaf0196c04935ad59b7bf05ed868cd270adb77a3f00fd271010224418ef4a1502"
+  },
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 7,
+      "previous": "a5da1cbb648d1659ef4b9c3539176b2f51439fa93c3bbbad1d2a3c600ca3bf3a",
+      "utc": "2026-10-23T15:48:06.568419+00:00",
+      "mono_ns": 757003031000000,
+      "decision": "deny",
+      "request_id": "r6",
+      "kind": "decision"
+    },
+    "signature": "e8531b788b5b3d4cb9d6ce7f1ad205b430f2192d5df054e023b506798e1222f10f2bdcb211b1dbaaf7c4f57089626fa552db1bd3695f04cf76b60a95217ffd0c"
+  },
+  {
+    "body": {
+      "producer": "controller",
+      "seq": 8,
+      "previous": "8e928009ef2f93f76d023ce90cc4f0a61e690d07b256f00f2ed9fc16ea98fdd7",
+      "utc": "2026-10-23T15:48:06.569421+00:00",
+      "mono_ns": 757003031000000,
+      "decision": "deny",
+      "request_id": "r7",
+      "kind": "decision"
+    },
+    "signature": "cef5c074974dbfd9ac30ac4e22fa16b06f291f504ba100686bb65632713c2f081599b40c91abe27c74838cc5649dc3a2f68ad92f9da052c54634fa05b5ac1002"
+  },
+  {
+    "body": {
+      "producer": "destination",
+      "seq": 1,
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "utc": "2026-10-23T15:48:06.595940+00:00",
+      "mono_ns": 757003062000000,
+      "decision": "committed",
+      "request_id": "r1",
+      "kind": "effect"
+    },
+    "signature": "b597177595eccff90f8ec1ea253c0c2aa0ce6856bec00d9a2c0daea5b02776d850caaa1f3296a571a53309e7ae9a07d1ef83c67b6823f0d622f04a3e29563403"
+  },
+  {
+    "body": {
+      "producer": "destination",
+      "seq": 2,
+      "previous": "6fb8b138532f2f5ba68595d8b33a4bf15773dc06a9b5e333f38bbe26beb44682",
+      "utc": "2026-10-23T15:48:06.596717+00:00",
+      "mono_ns": 757003062000000,
+      "decision": "committed",
+      "request_id": "r2",
+      "kind": "effect"
+    },
+    "signature": "3034a7764ccbf3dceddd227be55d19d14940ed47db48b1e07722cde71354ec98504669d3cea94984f6d8787cf87947b65856d1ce4192b28f7564f759bcc3c305"
+  },
+  {
+    "body": {
+      "producer": "destination",
+      "seq": 3,
+      "previous": "cdfccc9e668f398413b409da0f5ff54c010d44c53434ec78fee9523250d449ae",
+      "utc": "2026-10-23T15:48:06.596717+00:00",
+      "mono_ns": 757003062000000,
+      "decision": "committed",
+      "request_id": "r3",
+      "kind": "effect"
+    },
+    "signature": "6acdff0b222d798a71f496f74a773caf858d3f032e1c3b7512a582c6fec9cc5255ad9ec4c93f2e5d18cad9d2331db1718c2813afc98ae24d262dfcf31e300a0d"
+  },
+  {
+    "body": {
+      "producer": "destination",
+      "seq": 4,
+      "previous": "842dde5a88b9129999580032e7b13b2923c2248ca27b9a542df50c5dbd05020d",
+      "utc": "2026-10-23T15:48:06.596717+00:00",
+      "mono_ns": 757003062000000,
+      "decision": "committed",
+      "request_id": "r4",
+      "kind": "effect"
+    },
+    "signature": "35ba44aa7f5504583eea0e10b10709ad2e58686a2da87856277fe6d4607b79c702f8ea60635ca4eba4277efe544aae6d270ea3290619b26a78ccf9ed2a2ea400"
+  },
+  {
+    "body": {
+      "producer": "destination",
+      "seq": 5,
+      "previous": "496cbd3f6cb0214a0e3e3610c56ac373f932bcbf46e3408cf3e7eaf4f1df1dc8",
+      "utc": "2026-10-23T15:48:06.596717+00:00",
+      "mono_ns": 757003062000000,
+      "decision": "committed",
+      "request_id": "r5",
+      "kind": "effect"
+    },
+    "signature": "ffc0af567308ad704f234f39f2e40fb38c99f30f4f25aa91ef6a0447c3eec8da8657d23bd07fb1dd748b57b10b0056d14e49791af4eaff2dac4e5c7c040ab80d"
+  }
+]

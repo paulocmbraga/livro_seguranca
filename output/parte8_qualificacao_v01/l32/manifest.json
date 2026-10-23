@@ -1,0 +1,31 @@
+{
+  "version": "ParteVIII-1.0",
+  "utc": "2026-10-23T15:48:21.656833+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "cryptography": "50.0.2",
+    "psutil": "7.2.2"
+  },
+  "sqlite": "3.42.0",
+  "source_sha256": {
+    "laboratorios/parte8/__init__.py": "608f5cf7483bb8c194eb2b2fcd39b907ea329a2b51037cbb0171cc6b0021edc4",
+    "laboratorios/parte8/__main__.py": "b23b8e06b4db06dab246ed5dc7a9938d971b96a30513323aec039a0b200d2afa",
+    "laboratorios/parte8/campaign.py": "524ebb92a536beee3b0bedf3202689b2ae164f1a8eb110b8201989c55fb71226",
+    "laboratorios/parte8/common.py": "1aab85ebec0fc78fe348a6d2ba48ecf310712427d1e43901a0a46da5a254dbc8",
+    "laboratorios/parte8/evaluation.py": "452692784973cbbdd2d30ffad58999bf7c7779c07b2a58f282611faece778fd8",
+    "laboratorios/parte8/incident.py": "c6054a010fc0b70e8d82503ffe70ea26e3c5a9ecfaef6693058b0cdc29aae8c9",
+    "laboratorios/parte8/runtime.py": "b8c024400f2deebb96bd21856f203bfd8df27a622d8cf97f90e2a0ae591b868c",
+    "laboratorios/parte8/telemetry.py": "adf3c47061094b3387ada03dbeefd2a706e2f2d96fc19240a9d5abcac32c3736",
+    "materiais/parte8/CONTRATO.md": "57be98a58a9cef72892138d7adb5c04b73497e26404ba1dfc08d917288235c4c",
+    "materiais/parte8/fontes.json": "9f9fdd2207b1dbb036caeeb3e4d9eab37a2b9d41b9649a0a2e4bfcdfac7e0308",
+    "materiais/parte8/requirements.lock.txt": "6879a4cdf1d7cb0a9bca2522720d1dca549d90b4fc62c5adc204fd00538c7632"
+  },
+  "artifacts_sha256": {
+    "evidence.sqlite": "010750478177d0561bc98c71722c4fb3ab87f700051dbc4f04141b5b149c078d",
+    "incident.sqlite": "61f458dd479fa916706b893e787db5a428bd1bb65d85878f38ebd4e80407e6a4",
+    "report.json": "9f8ef96663a709d1281626b0c7e9c5e38d77e184e40f7c8a879bcd6bcfb3a194",
+    "restored.sqlite": "010750478177d0561bc98c71722c4fb3ab87f700051dbc4f04141b5b149c078d",
+    "timeline.json": "9e5e092e422c5dcaff66676110dc33079454259e1f7b8d46f591c8e4d4f9c50e"
+  }
+}

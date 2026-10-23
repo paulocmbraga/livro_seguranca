@@ -1,0 +1,53 @@
+{
+  "consulted": "2026-10-23",
+  "sources": [
+    {
+      "title": "NIST AI 100-2 E2025",
+      "version": "2025-03; PDF corrigido 2025-04-01; errata indicada 2025-06-03",
+      "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+      "scope": "Taxonomia e capacidade do adversário; não certificado da bancada"
+    },
+    {
+      "title": "OWASP GenAI Red Teaming Guide",
+      "version": "2025-01-22",
+      "url": "https://genai.owasp.org/resource/genai-red-teaming-guide/",
+      "scope": "Guia de planejamento; não ferramenta executada"
+    },
+    {
+      "title": "OWASP GenAI Red Teaming Manual",
+      "version": "1.0; 2026-10-20",
+      "url": "https://genai.owasp.org/resource/genai-red-teaming-manual-version-1-0/",
+      "scope": "Página oficial e descrição consultadas; não se alega execução de uma metodologia certificada"
+    },
+    {
+      "title": "NIST SP 800-61 Rev.3",
+      "version": "final 2025-04-03",
+      "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "scope": "Referência de resposta integrada à gestão de risco; substitui Rev.2"
+    },
+    {
+      "title": "OpenTelemetry Handling sensitive data",
+      "version": "documentação contínua consultada 2026-10-23",
+      "url": "https://opentelemetry.io/docs/security/handling-sensitive-data/",
+      "scope": "Minimização; nenhum Collector foi instalado"
+    },
+    {
+      "title": "OWASP Logging Cheat Sheet",
+      "version": "documentação contínua consultada 2026-10-23",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+      "scope": "Eventos e proteção da trilha; não certificação"
+    },
+    {
+      "title": "Python sqlite3",
+      "version": "documentação 3.12.15; runtime local 3.12.0/SQLite 3.42.0",
+      "url": "https://docs.python.org/3.12/library/sqlite3.html",
+      "scope": "Transações e Connection.backup; conferir runtime efetivo"
+    },
+    {
+      "title": "cryptography Ed25519",
+      "version": "documentação latest 51.0.0-dev1 consultada; execução 50.0.2",
+      "url": "https://cryptography.io/en/latest/hazmat/primitives/asymmetric/ed25519/",
+      "scope": "API de assinatura testada localmente; não usar latest como lock"
+    }
+  ]
+}

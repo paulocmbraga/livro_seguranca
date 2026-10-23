@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bound-benign-0",
+    "actor": "alpha",
+    "owner": "alpha",
+    "destination": "internal",
+    "payload_hash": "0fdaefccb00f5ef923e654e8a2c1e81df6da833d1072667868b8c5c3fa33f1e7",
+    "payload": "SYNTHETIC_ALPHA_RECORD"
+  },
+  {
+    "id": "bound-benign-1",
+    "actor": "alpha",
+    "owner": "alpha",
+    "destination": "internal",
+    "payload_hash": "0fdaefccb00f5ef923e654e8a2c1e81df6da833d1072667868b8c5c3fa33f1e7",
+    "payload": "SYNTHETIC_ALPHA_RECORD"
+  },
+  {
+    "id": "bound-benign-2",
+    "actor": "alpha",
+    "owner": "alpha",
+    "destination": "internal",
+    "payload_hash": "0fdaefccb00f5ef923e654e8a2c1e81df6da833d1072667868b8c5c3fa33f1e7",
+    "payload": "SYNTHETIC_ALPHA_RECORD"
+  }
+]

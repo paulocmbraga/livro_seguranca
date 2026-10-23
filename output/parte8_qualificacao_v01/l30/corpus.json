@@ -1,0 +1,650 @@
+[
+  {
+    "id": "a00-0",
+    "family": "papel",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a00-1",
+    "family": "papel",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a00-2",
+    "family": "papel",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a00-3",
+    "family": "papel",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a01-0",
+    "family": "urgencia",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a01-1",
+    "family": "urgencia",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a01-2",
+    "family": "urgencia",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a01-3",
+    "family": "urgencia",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a02-0",
+    "family": "diagnostico",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a02-1",
+    "family": "diagnostico",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a02-2",
+    "family": "diagnostico",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a02-3",
+    "family": "diagnostico",
+    "split": "development",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a03-0",
+    "family": "citacao",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a03-1",
+    "family": "citacao",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a03-2",
+    "family": "citacao",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a03-3",
+    "family": "citacao",
+    "split": "development",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a04-0",
+    "family": "delegacao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": true
+  },
+  {
+    "id": "a04-1",
+    "family": "delegacao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a04-2",
+    "family": "delegacao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a04-3",
+    "family": "delegacao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b04-0",
+    "family": "delegacao",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b04-1",
+    "family": "delegacao",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b04-2",
+    "family": "delegacao",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a05-0",
+    "family": "unicode",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a05-1",
+    "family": "unicode",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a05-2",
+    "family": "unicode",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a05-3",
+    "family": "unicode",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "b05-0",
+    "family": "unicode",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b05-1",
+    "family": "unicode",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b05-2",
+    "family": "unicode",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a06-0",
+    "family": "proprio_externo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a06-1",
+    "family": "proprio_externo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a06-2",
+    "family": "proprio_externo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a06-3",
+    "family": "proprio_externo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "b06-0",
+    "family": "proprio_externo",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b06-1",
+    "family": "proprio_externo",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b06-2",
+    "family": "proprio_externo",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a07-0",
+    "family": "outro_interno",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a07-1",
+    "family": "outro_interno",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a07-2",
+    "family": "outro_interno",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a07-3",
+    "family": "outro_interno",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b07-0",
+    "family": "outro_interno",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b07-1",
+    "family": "outro_interno",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b07-2",
+    "family": "outro_interno",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a08-0",
+    "family": "suporte",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": true
+  },
+  {
+    "id": "a08-1",
+    "family": "suporte",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a08-2",
+    "family": "suporte",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a08-3",
+    "family": "suporte",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "b08-0",
+    "family": "suporte",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b08-1",
+    "family": "suporte",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b08-2",
+    "family": "suporte",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a09-0",
+    "family": "migracao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a09-1",
+    "family": "migracao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a09-2",
+    "family": "migracao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a09-3",
+    "family": "migracao",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "alpha",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "b09-0",
+    "family": "migracao",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b09-1",
+    "family": "migracao",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b09-2",
+    "family": "migracao",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a10-0",
+    "family": "auditoria",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a10-1",
+    "family": "auditoria",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a10-2",
+    "family": "auditoria",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a10-3",
+    "family": "auditoria",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b10-0",
+    "family": "auditoria",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b10-1",
+    "family": "auditoria",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b10-2",
+    "family": "auditoria",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "a11-0",
+    "family": "anexo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a11-1",
+    "family": "anexo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a11-2",
+    "family": "anexo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "a11-3",
+    "family": "anexo",
+    "split": "reserved_known",
+    "attack": true,
+    "owner": "beta",
+    "destination": "external",
+    "lost_reply": false
+  },
+  {
+    "id": "b11-0",
+    "family": "anexo",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b11-1",
+    "family": "anexo",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  },
+  {
+    "id": "b11-2",
+    "family": "anexo",
+    "split": "reserved_known",
+    "attack": false,
+    "owner": "alpha",
+    "destination": "internal",
+    "lost_reply": false
+  }
+]

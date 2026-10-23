@@ -1,0 +1,39 @@
+{
+  "version": "ParteVIII-1.0",
+  "utc": "2026-10-23T15:48:18.732707+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "cryptography": "50.0.2",
+    "psutil": "7.2.2"
+  },
+  "sqlite": "3.42.0",
+  "source_sha256": {
+    "laboratorios/parte8/__init__.py": "608f5cf7483bb8c194eb2b2fcd39b907ea329a2b51037cbb0171cc6b0021edc4",
+    "laboratorios/parte8/__main__.py": "b23b8e06b4db06dab246ed5dc7a9938d971b96a30513323aec039a0b200d2afa",
+    "laboratorios/parte8/campaign.py": "524ebb92a536beee3b0bedf3202689b2ae164f1a8eb110b8201989c55fb71226",
+    "laboratorios/parte8/common.py": "1aab85ebec0fc78fe348a6d2ba48ecf310712427d1e43901a0a46da5a254dbc8",
+    "laboratorios/parte8/evaluation.py": "452692784973cbbdd2d30ffad58999bf7c7779c07b2a58f282611faece778fd8",
+    "laboratorios/parte8/incident.py": "c6054a010fc0b70e8d82503ffe70ea26e3c5a9ecfaef6693058b0cdc29aae8c9",
+    "laboratorios/parte8/runtime.py": "b8c024400f2deebb96bd21856f203bfd8df27a622d8cf97f90e2a0ae591b868c",
+    "laboratorios/parte8/telemetry.py": "adf3c47061094b3387ada03dbeefd2a706e2f2d96fc19240a9d5abcac32c3736",
+    "materiais/parte8/CONTRATO.md": "57be98a58a9cef72892138d7adb5c04b73497e26404ba1dfc08d917288235c4c",
+    "materiais/parte8/fontes.json": "9f9fdd2207b1dbb036caeeb3e4d9eab37a2b9d41b9649a0a2e4bfcdfac7e0308",
+    "materiais/parte8/requirements.lock.txt": "6879a4cdf1d7cb0a9bca2522720d1dca549d90b4fc62c5adc204fd00538c7632"
+  },
+  "artifacts_sha256": {
+    "attempts.json": "84c313d81f7fd5846f4f46486d6a8a295268d656115e36bc4d7438d57220f590",
+    "bound.sqlite": "a2c8c6b657250c014dfac91e0e5c32ee3ef8819a081da3231120d46647b1e0bc",
+    "bound_receipts.json": "962ef313ef82e5a7e7ea96bd567492a71f362239f976c9077f8f2744acc827bc",
+    "corpus.json": "e031139c2010197e356c1a5e0e4b70e0c6a5cbb69ae0af46294c5e9c5d053f84",
+    "filter.sqlite": "be16deb857b65098335521f27920cefbc69dfc77e49fcd245dcea1ce41bbf81e",
+    "filter_receipts.json": "7d682fa4433bc977492f51c1bd141f75bae0b84fc4fb2a4ba8f6557bb1282000",
+    "label_review.json": "9bb9cb580db8ec049c8ba5326c8c916ff909062d2312f2bb105e5002818696b6",
+    "no_destination.sqlite": "96f4553a68aa4bf7953e5de29eb8e940cce7e1a1f5d73858bb1c4912e94eebcd",
+    "no_destination_receipts.json": "d4961e7a4b153381c1ee28bbbc38f6b0ff7c37e6fbfae27de0bd81abd20b9a43",
+    "no_owner.sqlite": "38acf42db8a0e225a63e13139e5b9901b90bd8b6c034393ff9bf115141add0ff",
+    "no_owner_receipts.json": "cee9a3df5b93a67180f733a094d620501a4d7c29d773dd75d1c1eddbcc0046e9",
+    "plan.json": "9e67a8a5deddcac350e596e3704c02f2a5bbacc35b6d0559c0472216f5b2e0f3",
+    "report.json": "a5acd1f53dbfc77d1b6cef8dc0c0ca3034c844a4b8a464469bfccb6ccc76c606"
+  }
+}

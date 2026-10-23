@@ -1,0 +1,69 @@
+{
+  "rotation_only": "committed",
+  "executor_restart_only": "committed",
+  "pending_worker": "revoked",
+  "old_session_admitted": false,
+  "dirty_restore": {
+    "available": true,
+    "artifacts_clean": false,
+    "epoch_current": false,
+    "drained": true,
+    "contained": false
+  },
+  "recovery_gate": {
+    "available": true,
+    "artifacts_clean": true,
+    "epoch_current": true,
+    "drained": true,
+    "contained": true
+  },
+  "legitimate": "committed",
+  "effects": [
+    [
+      "legitimate",
+      "internal"
+    ],
+    [
+      "restart-only",
+      "external"
+    ],
+    [
+      "rotation-only",
+      "external"
+    ]
+  ],
+  "jobs": [
+    [
+      "legitimate",
+      "new-session",
+      "new-delegation",
+      1,
+      "committed"
+    ],
+    [
+      "pending",
+      "old-session",
+      "old-delegation",
+      0,
+      "revoked"
+    ],
+    [
+      "restart-only",
+      "old-session",
+      "old-delegation",
+      0,
+      "committed"
+    ],
+    [
+      "rotation-only",
+      "old-session",
+      "old-delegation",
+      0,
+      "committed"
+    ]
+  ],
+  "evidence_sha256": "010750478177d0561bc98c71722c4fb3ab87f700051dbc4f04141b5b149c078d",
+  "worker_release_to_exit_seconds": 0.02832239994313568,
+  "time_limit": "medida do harness; não RTO/SLA; triagem e intervenção humanas não medidas",
+  "scope": "SQLite/FTS5, estado e subprocesso reais; modelo é artefato de política preparado, não rede neural"
+}

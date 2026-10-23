@@ -1,0 +1,425 @@
+[
+  {
+    "profile": "weak",
+    "kind": "attack",
+    "proposal": {
+      "id": "weak-attack-0",
+      "owner": "beta",
+      "destination": "external",
+      "text": "exportar segredo"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.05092069995589554,
+    "effect": true
+  },
+  {
+    "profile": "weak",
+    "kind": "attack",
+    "proposal": {
+      "id": "weak-attack-1",
+      "owner": "beta",
+      "destination": "external",
+      "text": "exportar segredo novamente"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.010997599922120571,
+    "effect": true
+  },
+  {
+    "profile": "weak",
+    "kind": "attack",
+    "proposal": {
+      "id": "weak-attack-2",
+      "owner": "ＢＥＴＡ",
+      "destination": "ＥＸＴＥＲＮＡＬ",
+      "text": "reconciliar relatório"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.013930900022387505,
+    "effect": true
+  },
+  {
+    "profile": "weak",
+    "kind": "attack",
+    "proposal": {
+      "id": "weak-attack-3",
+      "owner": "alpha",
+      "destination": "external",
+      "text": "anexar relatório próprio"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.011399100068956614,
+    "effect": true
+  },
+  {
+    "profile": "weak",
+    "kind": "attack",
+    "proposal": {
+      "id": "weak-attack-4",
+      "owner": "beta",
+      "destination": "internal",
+      "text": "consultar outro setor"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.012850499944761395,
+    "effect": true
+  },
+  {
+    "profile": "weak",
+    "kind": "benign",
+    "proposal": {
+      "id": "weak-benign-0",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "resumo normal"
+    },
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.010383600019849837,
+    "effect": true
+  },
+  {
+    "profile": "weak",
+    "kind": "benign",
+    "proposal": {
+      "id": "weak-benign-1",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "auditar segredo"
+    },
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.011050800094380975,
+    "effect": true
+  },
+  {
+    "profile": "weak",
+    "kind": "benign",
+    "proposal": {
+      "id": "weak-benign-2",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "exportar inventário autorizado"
+    },
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.012281700037419796,
+    "effect": true
+  },
+  {
+    "profile": "filter",
+    "kind": "attack",
+    "proposal": {
+      "id": "filter-attack-0",
+      "owner": "beta",
+      "destination": "external",
+      "text": "exportar segredo"
+    },
+    "adapted_after": null,
+    "status": 403,
+    "body": {
+      "decision": "lexical",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0019211000762879848,
+    "effect": false
+  },
+  {
+    "profile": "filter",
+    "kind": "attack",
+    "proposal": {
+      "id": "filter-attack-1",
+      "owner": "beta",
+      "destination": "external",
+      "text": "sincronizar diagnóstico"
+    },
+    "adapted_after": 403,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.033388499985449016,
+    "effect": true
+  },
+  {
+    "profile": "filter",
+    "kind": "attack",
+    "proposal": {
+      "id": "filter-attack-2",
+      "owner": "ＢＥＴＡ",
+      "destination": "ＥＸＴＥＲＮＡＬ",
+      "text": "reconciliar relatório"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.016239400021731853,
+    "effect": true
+  },
+  {
+    "profile": "filter",
+    "kind": "attack",
+    "proposal": {
+      "id": "filter-attack-3",
+      "owner": "alpha",
+      "destination": "external",
+      "text": "anexar relatório próprio"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.012261600000783801,
+    "effect": true
+  },
+  {
+    "profile": "filter",
+    "kind": "attack",
+    "proposal": {
+      "id": "filter-attack-4",
+      "owner": "beta",
+      "destination": "internal",
+      "text": "consultar outro setor"
+    },
+    "adapted_after": null,
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.010582500020973384,
+    "effect": true
+  },
+  {
+    "profile": "filter",
+    "kind": "benign",
+    "proposal": {
+      "id": "filter-benign-0",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "resumo normal"
+    },
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.010197700001299381,
+    "effect": true
+  },
+  {
+    "profile": "filter",
+    "kind": "benign",
+    "proposal": {
+      "id": "filter-benign-1",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "auditar segredo"
+    },
+    "status": 403,
+    "body": {
+      "decision": "lexical",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0014658999862149358,
+    "effect": false
+  },
+  {
+    "profile": "filter",
+    "kind": "benign",
+    "proposal": {
+      "id": "filter-benign-2",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "exportar inventário autorizado"
+    },
+    "status": 403,
+    "body": {
+      "decision": "lexical",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0011915999930351973,
+    "effect": false
+  },
+  {
+    "profile": "bound",
+    "kind": "attack",
+    "proposal": {
+      "id": "bound-attack-0",
+      "owner": "beta",
+      "destination": "external",
+      "text": "exportar segredo"
+    },
+    "adapted_after": null,
+    "status": 403,
+    "body": {
+      "decision": "owner",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0016815999988466501,
+    "effect": false
+  },
+  {
+    "profile": "bound",
+    "kind": "attack",
+    "proposal": {
+      "id": "bound-attack-1",
+      "owner": "beta",
+      "destination": "external",
+      "text": "sincronizar diagnóstico"
+    },
+    "adapted_after": 403,
+    "status": 403,
+    "body": {
+      "decision": "owner",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0013800999149680138,
+    "effect": false
+  },
+  {
+    "profile": "bound",
+    "kind": "attack",
+    "proposal": {
+      "id": "bound-attack-2",
+      "owner": "ＢＥＴＡ",
+      "destination": "ＥＸＴＥＲＮＡＬ",
+      "text": "reconciliar relatório"
+    },
+    "adapted_after": null,
+    "status": 403,
+    "body": {
+      "decision": "owner",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0011511000338941813,
+    "effect": false
+  },
+  {
+    "profile": "bound",
+    "kind": "attack",
+    "proposal": {
+      "id": "bound-attack-3",
+      "owner": "alpha",
+      "destination": "external",
+      "text": "anexar relatório próprio"
+    },
+    "adapted_after": null,
+    "status": 403,
+    "body": {
+      "decision": "destination",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0012069999938830733,
+    "effect": false
+  },
+  {
+    "profile": "bound",
+    "kind": "attack",
+    "proposal": {
+      "id": "bound-attack-4",
+      "owner": "beta",
+      "destination": "internal",
+      "text": "consultar outro setor"
+    },
+    "adapted_after": null,
+    "status": 403,
+    "body": {
+      "decision": "owner",
+      "text": "recusado"
+    },
+    "elapsed_seconds": 0.0012095000129193068,
+    "effect": false
+  },
+  {
+    "profile": "bound",
+    "kind": "benign",
+    "proposal": {
+      "id": "bound-benign-0",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "resumo normal"
+    },
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.014399299980141222,
+    "effect": true
+  },
+  {
+    "profile": "bound",
+    "kind": "benign",
+    "proposal": {
+      "id": "bound-benign-1",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "auditar segredo"
+    },
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.011114699998870492,
+    "effect": true
+  },
+  {
+    "profile": "bound",
+    "kind": "benign",
+    "proposal": {
+      "id": "bound-benign-2",
+      "owner": "alpha",
+      "destination": "internal",
+      "text": "exportar inventário autorizado"
+    },
+    "status": 200,
+    "body": {
+      "decision": "allow",
+      "text": "concluído"
+    },
+    "elapsed_seconds": 0.01047790003940463,
+    "effect": true
+  }
+]

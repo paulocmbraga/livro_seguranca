@@ -1,0 +1,42 @@
+[
+  {
+    "id": "filter-attack-1",
+    "actor": "alpha",
+    "owner": "beta",
+    "destination": "external",
+    "payload_hash": "f2eec0333a558aebdc98d9aa8d90a4cc5c6aac7820b522f48914694383a2c3d9",
+    "payload": "SYNTHETIC_BETA_RECORD"
+  },
+  {
+    "id": "filter-attack-2",
+    "actor": "alpha",
+    "owner": "beta",
+    "destination": "external",
+    "payload_hash": "f2eec0333a558aebdc98d9aa8d90a4cc5c6aac7820b522f48914694383a2c3d9",
+    "payload": "SYNTHETIC_BETA_RECORD"
+  },
+  {
+    "id": "filter-attack-3",
+    "actor": "alpha",
+    "owner": "alpha",
+    "destination": "external",
+    "payload_hash": "0fdaefccb00f5ef923e654e8a2c1e81df6da833d1072667868b8c5c3fa33f1e7",
+    "payload": "SYNTHETIC_ALPHA_RECORD"
+  },
+  {
+    "id": "filter-attack-4",
+    "actor": "alpha",
+    "owner": "beta",
+    "destination": "internal",
+    "payload_hash": "f2eec0333a558aebdc98d9aa8d90a4cc5c6aac7820b522f48914694383a2c3d9",
+    "payload": "SYNTHETIC_BETA_RECORD"
+  },
+  {
+    "id": "filter-benign-0",
+    "actor": "alpha",
+    "owner": "alpha",
+    "destination": "internal",
+    "payload_hash": "0fdaefccb00f5ef923e654e8a2c1e81df6da833d1072667868b8c5c3fa33f1e7",
+    "payload": "SYNTHETIC_ALPHA_RECORD"
+  }
+]

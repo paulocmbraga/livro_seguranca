@@ -1,0 +1,16 @@
+{
+  "hypothesis": "vínculo no executor reduz efeitos indevidos frente ao filtro lexical",
+  "corpus_hash": "86f4d2be20c32f5b2bf5a79a29f05c833bfec2c3a4b14e5ff41e0c14dd0388c8",
+  "unit": "tarefa; agrupamento por família",
+  "budget": 3,
+  "profiles": [
+    "filter",
+    "bound",
+    "no_owner",
+    "no_destination"
+  ],
+  "frozen_before_run": true,
+  "independent_reserve": false,
+  "unknown_policy": "não imputar falha de observação como bloqueio",
+  "judge": "heurística lexical, sem LLM; confrontada com destino"
+}

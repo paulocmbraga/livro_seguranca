@@ -1,3 +1,21 @@
+# Engenharia de Segurança para Sistemas de IA — materiais dos alunos
+
+## Entrega atual: Parte VIII, capítulos 29–32
+
+Consulte [PARTE_VIII.md](PARTE_VIII.md): campanha reproduzível, avaliação pareada,
+telemetria assinada e recuperação com revogação em voo. Quatro laboratórios, 51 novos
+testes de componente e integração, duas execuções completas no mesmo host.
+O pacote cumulativo é validado antes do envio. Propostas preparadas, dados sintéticos,
+HTTP/SQLite/Ed25519/subprocessos reais; sem LLM ou API paga nesta parte.
+
+Materiais das Partes I–VII e seus guias são preservados. Manuscritos, PDFs, fontes,
+capas e arquivos de publicação comercial ficam no projeto editorial privado.
+Reprodução por outro operador e revisão do autor permanecem pendentes.
+
+---
+
+## Histórico de entregas preservado
+
 # Engenharia de Segurança para Sistemas de IA
 
 Materiais dos alunos. Autor: **Paulo Cesar Braga**.

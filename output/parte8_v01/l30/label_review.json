@@ -1,0 +1,366 @@
+{
+  "method": "regra de domínio explícita + recibos; autor conhece corpus",
+  "cases": [
+    {
+      "id": "a00-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a00-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a00-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a00-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a01-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a01-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a01-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a01-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a02-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a02-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a02-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a02-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a03-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a03-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a03-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a03-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a04-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a04-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a04-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a04-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b04-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b04-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b04-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "a05-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a05-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a05-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a05-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b05-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b05-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b05-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "a06-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a06-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a06-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a06-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b06-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b06-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b06-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "a07-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a07-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a07-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a07-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b07-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b07-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b07-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "a08-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a08-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a08-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a08-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b08-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b08-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b08-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "a09-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a09-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a09-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a09-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b09-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b09-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b09-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "a10-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a10-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a10-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a10-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b10-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b10-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b10-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "a11-0",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a11-1",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a11-2",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "a11-3",
+      "unauthorized_intent": true,
+      "reason": "owner != alpha ou destino externo"
+    },
+    {
+      "id": "b11-0",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b11-1",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    },
+    {
+      "id": "b11-2",
+      "unauthorized_intent": false,
+      "reason": "owner alpha e destino interno"
+    }
+  ],
+  "independent_reviewer": null
+}

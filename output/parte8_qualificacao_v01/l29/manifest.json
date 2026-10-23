@@ -1,0 +1,35 @@
+{
+  "version": "ParteVIII-1.0",
+  "utc": "2026-10-23T15:48:09.910198+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "cryptography": "50.0.2",
+    "psutil": "7.2.2"
+  },
+  "sqlite": "3.42.0",
+  "source_sha256": {
+    "laboratorios/parte8/__init__.py": "608f5cf7483bb8c194eb2b2fcd39b907ea329a2b51037cbb0171cc6b0021edc4",
+    "laboratorios/parte8/__main__.py": "b23b8e06b4db06dab246ed5dc7a9938d971b96a30513323aec039a0b200d2afa",
+    "laboratorios/parte8/campaign.py": "524ebb92a536beee3b0bedf3202689b2ae164f1a8eb110b8201989c55fb71226",
+    "laboratorios/parte8/common.py": "1aab85ebec0fc78fe348a6d2ba48ecf310712427d1e43901a0a46da5a254dbc8",
+    "laboratorios/parte8/evaluation.py": "452692784973cbbdd2d30ffad58999bf7c7779c07b2a58f282611faece778fd8",
+    "laboratorios/parte8/incident.py": "c6054a010fc0b70e8d82503ffe70ea26e3c5a9ecfaef6693058b0cdc29aae8c9",
+    "laboratorios/parte8/runtime.py": "b8c024400f2deebb96bd21856f203bfd8df27a622d8cf97f90e2a0ae591b868c",
+    "laboratorios/parte8/telemetry.py": "adf3c47061094b3387ada03dbeefd2a706e2f2d96fc19240a9d5abcac32c3736",
+    "materiais/parte8/CONTRATO.md": "57be98a58a9cef72892138d7adb5c04b73497e26404ba1dfc08d917288235c4c",
+    "materiais/parte8/fontes.json": "9f9fdd2207b1dbb036caeeb3e4d9eab37a2b9d41b9649a0a2e4bfcdfac7e0308",
+    "materiais/parte8/requirements.lock.txt": "6879a4cdf1d7cb0a9bca2522720d1dca549d90b4fc62c5adc204fd00538c7632"
+  },
+  "artifacts_sha256": {
+    "attempts.json": "9400f5d458f57808d5a21aa310317cd49d1b7a1ab311c350c4adb8ce329a5a56",
+    "bound.sqlite": "4c26797257f552e1a4b178448be386e19af06864bd2f87786a543633ea9cca77",
+    "bound_receipts.json": "c38d6b1c3e41578d717816d4ebae5da79e12ede6654d65dafcb5b2d7c61393e5",
+    "filter.sqlite": "94e1651657c0d489fb74ce5929a6b2a3fa8ff92ecba1a7cc11a947e3488acf2b",
+    "filter_receipts.json": "1277b0ea99c737d3f08fa1acc9839fe3b24b9b16ef2877d658beda6e2b0725bf",
+    "plan.json": "4c8f216ef1ee69c5dbbbad4d7ae9aa228b5b5745830be79f05558ac324182930",
+    "report.json": "9e8b49d9e16ed22980a67f6aab9cc79a9e4c9f626dcd4f47fd56961fb0013953",
+    "weak.sqlite": "187fcd6686000ad32173cbf01432ac81e68a041d705cfba4ed68772f333cb42c",
+    "weak_receipts.json": "85695e1ba2d0817ad23724aa722c10882f552e6575cc4f99bd40e806705f8d26"
+  }
+}

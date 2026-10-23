@@ -1,0 +1,10 @@
+{
+  "capability": "editar somente proposta de documento preparado",
+  "actor": "alpha",
+  "targets": "127.0.0.1 e SQLite próprios",
+  "max_attack_calls_per_profile": 5,
+  "max_control_calls_per_profile": 3,
+  "stop_rule": "todos os cinco candidatos; adaptação léxica após recusa",
+  "generation": "deterministic prepared proposal, no LLM",
+  "independent_reproduction": false
+}

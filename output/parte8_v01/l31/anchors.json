@@ -1,0 +1,18 @@
+{
+  "controller": {
+    "body": {
+      "producer": "controller",
+      "count": 8,
+      "head": "8cb5f6aaeff321c78f85f2112a67ad04f5f44aeab2c4c6c37f1a322097a9d80c"
+    },
+    "signature": "83c650bbed3b372a34c1b225f7dd5ec576c747f571dab816ad13c0d2e6c419a47eb9865966d80c9ddcd64d81d2467996be1458436b40d2958b0d08ee489b8b04"
+  },
+  "destination": {
+    "body": {
+      "producer": "destination",
+      "count": 5,
+      "head": "d88e674a671b5f09a2c762c853764e7c89105d5d2740a2ad93476973dee81445"
+    },
+    "signature": "8d7495cccfaee08e111725e5761094d70c7affe5b0aa815887ea440d8fe5507a483879cd3a816838b59345a00913e0a5bde98c75498aaba183d3427e4984c808"
+  }
+}
