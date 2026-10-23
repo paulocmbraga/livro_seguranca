@@ -1,0 +1,35 @@
+{
+  "version": "parte2-1.0",
+  "lab": "L06",
+  "created_utc": "2026-10-23T01:18:32.207624+00:00",
+  "runtime": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "PyJWT": "2.15.1",
+    "cryptography": "50.0.2"
+  },
+  "sources": {
+    "laboratorios/parte2/__init__.py": "ad272022a1cde88002f5857728c85ceeab9e0e0c0e051a100cab91fef1b3102f",
+    "laboratorios/parte2/__main__.py": "c89cc707f69be9b98d6eee4c5adb05e61f311b1c4516926b244a00e9e3d3b332",
+    "laboratorios/parte2/access_labs.py": "942f17f209bb3b732b705ad86a6b2bc58f40e6c44e87e3d87e337a5dfae19afc",
+    "laboratorios/parte2/common.py": "54c9a24ebc04c14a37c737a1df5330e46bc8a3e3966e8acf8dd18a57ed61dcb7",
+    "laboratorios/parte2/identity.py": "d8e82b9f1456dded7f36fc64abe66bac89285b1bd6993be2748369292baa7b5e",
+    "laboratorios/parte2/isolation.py": "5e5778755156f87812897efe1e949dd6a4a1eeabf1369c3056a17773df3f0254",
+    "laboratorios/parte2/service.py": "052c64283af21c036ad46176bbcbf5690d086179d144f29c15c518d86d724026",
+    "laboratorios/parte2/supply.py": "f7eec013bd4fc4d9decda04e80cab7cf25e38aa7a6c5a13d3236868baa05ce36",
+    "materiais/parte2/escopo.json": "0db65200e482ca44bac9a8c3bba0649cb0de412dad4a4b7de6a54e9706311c75",
+    "materiais/parte2/referencias.lock.json": "d935a7c720b0a74e0e8e2e595634be1587c504548ef8fa3b92cbcc7d8080b193",
+    "materiais/parte2/requirements.lock.txt": "cf138d7199ae569462d3ecbf4ae82fcb42cfb36aec58211b1a41a6d394889351",
+    "materiais/parte2/runtime/Dockerfile": "5e03a9fb2eb5b9bd7f5bb04ccbac795a9989d10041a0ddac96453b5762cedf64",
+    "materiais/parte2/runtime/private.txt": "f0de04671c82f2f8e9e76b76d2cabc09f77cdd3fd74e9c4cc08febfa5de9eb57",
+    "materiais/parte2/runtime/probe.py": "263dd4b5b0046ce08479b86aee9984f57d43e21bc9626699f508329f4cb54549",
+    "materiais/parte2/runtime/public.txt": "019ad42aa3497a6480d7ef7a11650591d4cb5e176257f7943c966af78b1e783a",
+    "materiais/parte2/runtime/receiver.py": "ee97fd22e34a0dfdd170e26e8053c756919b8536652998f52c609c0ec3f84197"
+  },
+  "files": {
+    "events.json": "65811ce7dd03bfee65a18b02589bacba68a89dc52f76c5c3069330df8bb7b8ff",
+    "reads.json": "114d2a5fc36baabe02da89eb5eeff970d57ec5e7e9134e06922ed9de0fe9552d",
+    "responses.json": "19b664e3b27208c2a41b4b3ac234f00f4e975dc92134b8aaf435cbf184d85a58",
+    "results.json": "9d21012290f09a3ac5210c18b101f52af7fe0b258ae4904984bac266cc80a7a8"
+  }
+}

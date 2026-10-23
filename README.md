@@ -2,31 +2,29 @@
 
 Material dos alunos. Autor: **Paulo Cesar Braga**.
 
-Esta entrega acrescenta os laboratórios da **Parte I, capítulos 1 a 4**, à preparação L00, ao piloto L09 de RAG adversarial e aos ensaios M1 de inferência e protocolos. O projeto integral tem 36 capítulos; a publicação destes materiais não significa que o restante esteja concluído.
+Esta entrega acrescenta a **Parte II, capítulos 5 a 8**, preservando a Parte I, o piloto L09 e a preparação L00/M1. O projeto editorial tem 36 capítulos; estes materiais não indicam que todo o livro esteja concluído.
 
-## Começar pela Parte I
+Leia o [guia da Parte II](PARTE_II.md), o [guia da Parte I](PARTE_I.md) e o [guia L00/L09/M1](COMECE_AQUI.md).
 
-Leia o [guia da Parte I](PARTE_I.md). L01–L04 usam apenas a biblioteca padrão do Python 3.12, dados sintéticos e, no L04, HTTP em loopback. Não precisam de modelos, SDKs ou APIs pagas.
+| Laboratório novo | Integração e evidência |
+|---|---|
+| L05 | RS256/PyJWT no recurso HTTP: 16 chamadas, 5 leituras; audiência, validade, rotação e revogação |
+| L06 | Matriz e cache HTTP: 66 chamadas, 42 leituras; perfis vulneráveis e completo |
+| L07 | Ed25519 e processo emissor: 10 cenários, 2 carregamentos e 8 recusas anteriores ao uso |
+| L08 | Docker Linux: 14 sondas diretas, ensaios de OOM e prazo, recibo no destino e limpeza |
 
-| Laboratório | Objetivo | Evidência local |
-| --- | --- | --- |
-| L01 | Inventário e requisitos refutáveis | 9 ativos, 6 requisitos, 18 observações |
-| L02 | Caminhos e mediação obrigatória | 3 grafos; desvios antes e depois da mudança |
-| L03 | Referências e controles sem dupla contagem | 8 associações, 4 mecanismos |
-| L04 | Conferência de efeitos no destino | 10 casos HTTP; narrativa falsa detectada |
+Os resultados incluem falhas deliberadas nas variantes vulneráveis. Não são taxas gerais de segurança. As ações são preparadas e os dados são sintéticos; não há inferência de LLM na Parte II. L05–L07 usam Python 3.12 com dependências fixadas. L08 exige Docker Linux e uma imagem base fixada por digest.
 
-Os casos L04 produziram três efeitos autorizados, três efeitos proibidos na variante vulnerável, três bloqueios e um erro por recurso inexistente. Os resultados esperados incluem falhas deliberadas. O vínculo final registra C01–C03 com evidência local e C04 ainda planejado. Isso não é uma porcentagem de segurança.
+A suíte nova tem **43 testes**; a regressão preserva 49 testes L09, 15 M1 e 46 da Parte I, totalizando **153 testes locais** no pacote exportado. O ensaio real do L08 é executado separadamente; seus oito testes de evidência não repetem o kernel. As capturas finais novas ficam em `output/parte2_v01`.
 
-Há 46 testes novos da Parte I. Os 49 testes do piloto e os 15 testes M1 são preservados. As capturas finais novas estão em `output/parte1_v02`. A revisão inicial de desenvolvimento não integra o pacote público.
+## Materiais históricos
 
-## Materiais anteriores preservados
+L01–L04 conservam seus contratos e as capturas `output/parte1_v02`. O piloto L09 e M1 conservam versões, inferência e ensaios de protocolos documentados no guia anterior. Não atribua esses resultados à execução nova. Os arquivos existentes permanecem byte a byte, exceto este README e o manifesto geral, cujas versões ficam no histórico Git.
 
-O [guia L00/L09/M1](COMECE_AQUI.md) mantém os comandos e limites das extensões. As capturas históricas incluem 40 gerações reais com duas quantizações de Qwen2.5-0.5B-Instruct, 160 trajetórias com inferência e 29 verificações do perfil local de MCP/A2A. Essas execuções não são novos resultados da Parte I. As campanhas Q4/Q8 também registram 22/24 erros por recursos inexistentes, separados dos bloqueios.
+## Escopo público e limites
 
-## Alcance e organização
+Aqui ficam código, testes, guias, materiais sintéticos, locks e capturas selecionadas. Manuscritos, PDFs editoriais, EPUBs, capas, fontes, arquivos KDP, executáveis e pesos de modelos não fazem parte do pacote.
 
-Manuscritos, PDFs editoriais, EPUBs, fontes, capas, registros KDP, pesos e executáveis não integram este repositório. Aqui ficam código, testes, materiais sintéticos, locks, guias e capturas selecionadas. O manifesto de pacote identifica os arquivos desta entrega; o Git preserva as versões anteriores dos guias e manifestos.
+L05 não é um provedor OAuth/OIDC; L06 não qualifica consistência distribuída; L07 não implementa TUF/SLSA nem isola o emissor contra o usuário do host; L08 não testa escape de kernel/hipervisor ou daemon rootless. A reprodução é local e autoral. Revisão técnica independente continua pendente para a consolidação editorial.
 
-O L01 avalia observações preparadas. O L02 verifica o grafo declarado. O L03 valida rastreabilidade. O L04 mede comportamento de aplicação com ações preparadas, sem inferência. Processos separados sob o mesmo usuário não demonstram isolamento contra código hostil. A reprodução é local e autoral, sem certificação, teste cego independente ou garantia de produção.
-
-Use pastas novas e preserve os manifestos originais. Alteração de código, configuração, dependência ou modelo exige evidência própria; não recalcule hashes antigos para esconder divergências.
+Use diretórios novos para suas execuções. `verify` confere captura; `run` produz nova execução. Não recalcule hashes de capturas antigas para esconder mudanças. O manifesto geral identifica a composição desta entrega, sem substituir uma raiz externa de autenticidade.

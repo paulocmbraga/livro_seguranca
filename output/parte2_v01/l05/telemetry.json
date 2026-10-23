@@ -1,0 +1,23 @@
+{
+  "marker": "CANARIO_PUBLICO_NAO_E_SEGREDO_5d79",
+  "vulnerable": {
+    "case": "telemetry",
+    "status": 200,
+    "reason": "ok",
+    "headers": {
+      "Authorization": "Bearer CANARIO_PUBLICO_NAO_E_SEGREDO_5d79"
+    },
+    "prompt": "Resuma; credencial=CANARIO_PUBLICO_NAO_E_SEGREDO_5d79",
+    "nested": {
+      "token": "CANARIO_PUBLICO_NAO_E_SEGREDO_5d79"
+    }
+  },
+  "defended": {
+    "case": "telemetry",
+    "status": 200,
+    "reason": "ok"
+  },
+  "raw_hits": 3,
+  "safe_hits": 0,
+  "limit": "Allowlist não é detector universal de segredos em texto livre."
+}

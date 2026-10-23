@@ -1,0 +1,80 @@
+{
+  "consulted": "2026-10-22 America/Sao_Paulo",
+  "sources": [
+    {
+      "id": "jwt",
+      "edition": "RFC 8725",
+      "url": "https://www.rfc-editor.org/rfc/rfc8725.html",
+      "final_url": "https://www.rfc-editor.org/rfc/rfc8725.html",
+      "sha256": "7f93df8a106c14e2c9394bd3fc12a488266477c89a1fe2f9182cf0bdb02d7ce0",
+      "bytes": 89311
+    },
+    {
+      "id": "oauth",
+      "edition": "RFC 9700",
+      "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+      "final_url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+      "sha256": "c00e2234fcd79581bc29669c60d693afaa42f67d9205bddee848f757ae975419",
+      "bytes": 261599
+    },
+    {
+      "id": "oidc",
+      "edition": "Core 1.0 errata set 2",
+      "url": "https://openid.net/specs/openid-connect-core-1_0.html",
+      "final_url": "https://openid.net/specs/openid-connect-core-1_0.html",
+      "sha256": "4d016752a645e8a3c259baa4173b5a90cb6c82898ce868fc8444adde262a5aed",
+      "bytes": 437508
+    },
+    {
+      "id": "pyjwt",
+      "edition": "2.15.1 executada",
+      "url": "https://pyjwt.readthedocs.io/en/stable/usage.html",
+      "download_error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "crypto",
+      "edition": "50.0.2 executada",
+      "url": "https://cryptography.io/en/50.0.2/hazmat/primitives/asymmetric/ed25519/",
+      "download_error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "authz",
+      "edition": "Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+      "download_error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "slsa",
+      "edition": "1.2 Approved",
+      "url": "https://slsa.dev/spec/v1.2/",
+      "final_url": "https://slsa.dev/spec/v1.2/",
+      "sha256": "46edf628a901c268261cf8b72a1b478926ae9b2db050fa21194c914e7417e3ae",
+      "bytes": 22988
+    },
+    {
+      "id": "tuf",
+      "edition": "1.0.37",
+      "url": "https://theupdateframework.github.io/specification/latest/",
+      "final_url": "https://theupdateframework.github.io/specification/latest/",
+      "sha256": "f20fda0dda7128f3b9cc1f12f3d90301b0f6e163576ba285bfe485d1671e8def",
+      "bytes": 248698
+    },
+    {
+      "id": "docker_run",
+      "edition": "documentação corrente",
+      "url": "https://docs.docker.com/engine/containers/run/",
+      "final_url": "https://docs.docker.com/engine/containers/run/",
+      "sha256": "5ee1bb972fc1bcbbc2f5c0da0ee2d5979b1984549832a5e6bf01485cc301866f",
+      "bytes": 730156
+    },
+    {
+      "id": "docker_limits",
+      "edition": "documentação corrente",
+      "url": "https://docs.docker.com/engine/containers/resource_constraints/",
+      "final_url": "https://docs.docker.com/engine/containers/resource_constraints/",
+      "sha256": "1ed5277722ff1ac0574614160b44aee37c0e009d52bb0aec28bba0520943f0af",
+      "bytes": 546791
+    }
+  ],
+  "limitation": "Referências consultadas por navegação em fontes oficiais. Hash somente onde o download HTTP foi aceito. Ausência de hash não é validação binária."
+}

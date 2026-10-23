@@ -1,0 +1,680 @@
+[
+  {
+    "case": "rbac_cache_weak:ana:a1:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:a1:read",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "role_only"
+    },
+    "elapsed_ms": 2.548
+  },
+  {
+    "case": "rbac_cache_weak:ana:a1:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:a1:export",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 14.065
+  },
+  {
+    "case": "rbac_cache_weak:ana:a1:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:a1:debug",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 16.805
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:b1:read",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": false,
+      "reason": "role_only"
+    },
+    "elapsed_ms": 17.277
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:b1:export",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.016
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:b1:debug",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 12.867
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:a2:read",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": false,
+      "reason": "role_only"
+    },
+    "elapsed_ms": 2.083
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:a2:export",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.985
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:ana:a2:debug",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.921
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:a1:read",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.03
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:a1:export",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 8.693
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:a1:debug",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.953
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:b1:read",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.892
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:b1:export",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 12.027
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:b1:debug",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 18.038
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:a2:read",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.965
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:a2:export",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.13
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:bia:a2:debug",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.882
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:a1:read",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.795
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:a1:export",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.022
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:a1:debug",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.898
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:b1:read",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.305
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:b1:export",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.024
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:b1:debug",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.789
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:read",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:a2:read",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.126
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:export",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:a2:export",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 11.48
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:debug",
+    "status": 200,
+    "body": {
+      "case": "rbac_cache_weak:auditor:a2:debug",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.148
+  },
+  {
+    "case": "strict:ana:a1:read",
+    "status": 200,
+    "body": {
+      "case": "strict:ana:a1:read",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.531
+  },
+  {
+    "case": "strict:ana:a1:export",
+    "status": 200,
+    "body": {
+      "case": "strict:ana:a1:export",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.953
+  },
+  {
+    "case": "strict:ana:a1:debug",
+    "status": 200,
+    "body": {
+      "case": "strict:ana:a1:debug",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.372
+  },
+  {
+    "case": "strict:ana:b1:read",
+    "status": 403,
+    "body": {
+      "case": "strict:ana:b1:read",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.772
+  },
+  {
+    "case": "strict:ana:b1:export",
+    "status": 403,
+    "body": {
+      "case": "strict:ana:b1:export",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.643
+  },
+  {
+    "case": "strict:ana:b1:debug",
+    "status": 403,
+    "body": {
+      "case": "strict:ana:b1:debug",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.856
+  },
+  {
+    "case": "strict:ana:a2:read",
+    "status": 403,
+    "body": {
+      "case": "strict:ana:a2:read",
+      "reason": "relation"
+    },
+    "elapsed_ms": 2.385
+  },
+  {
+    "case": "strict:ana:a2:export",
+    "status": 403,
+    "body": {
+      "case": "strict:ana:a2:export",
+      "reason": "relation"
+    },
+    "elapsed_ms": 24.695
+  },
+  {
+    "case": "strict:ana:a2:debug",
+    "status": 403,
+    "body": {
+      "case": "strict:ana:a2:debug",
+      "reason": "relation"
+    },
+    "elapsed_ms": 2.128
+  },
+  {
+    "case": "strict:bia:a1:read",
+    "status": 403,
+    "body": {
+      "case": "strict:bia:a1:read",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.132
+  },
+  {
+    "case": "strict:bia:a1:export",
+    "status": 403,
+    "body": {
+      "case": "strict:bia:a1:export",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.006
+  },
+  {
+    "case": "strict:bia:a1:debug",
+    "status": 403,
+    "body": {
+      "case": "strict:bia:a1:debug",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.059
+  },
+  {
+    "case": "strict:bia:b1:read",
+    "status": 200,
+    "body": {
+      "case": "strict:bia:b1:read",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 11.73
+  },
+  {
+    "case": "strict:bia:b1:export",
+    "status": 200,
+    "body": {
+      "case": "strict:bia:b1:export",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.047
+  },
+  {
+    "case": "strict:bia:b1:debug",
+    "status": 200,
+    "body": {
+      "case": "strict:bia:b1:debug",
+      "text": "CONTRATO_BETA_945",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 13.297
+  },
+  {
+    "case": "strict:bia:a2:read",
+    "status": 403,
+    "body": {
+      "case": "strict:bia:a2:read",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 1.857
+  },
+  {
+    "case": "strict:bia:a2:export",
+    "status": 403,
+    "body": {
+      "case": "strict:bia:a2:export",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.108
+  },
+  {
+    "case": "strict:bia:a2:debug",
+    "status": 403,
+    "body": {
+      "case": "strict:bia:a2:debug",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.242
+  },
+  {
+    "case": "strict:auditor:a1:read",
+    "status": 200,
+    "body": {
+      "case": "strict:auditor:a1:read",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.341
+  },
+  {
+    "case": "strict:auditor:a1:export",
+    "status": 403,
+    "body": {
+      "case": "strict:auditor:a1:export",
+      "reason": "operation"
+    },
+    "elapsed_ms": 2.413
+  },
+  {
+    "case": "strict:auditor:a1:debug",
+    "status": 403,
+    "body": {
+      "case": "strict:auditor:a1:debug",
+      "reason": "operation"
+    },
+    "elapsed_ms": 10.235
+  },
+  {
+    "case": "strict:auditor:b1:read",
+    "status": 403,
+    "body": {
+      "case": "strict:auditor:b1:read",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 11.368
+  },
+  {
+    "case": "strict:auditor:b1:export",
+    "status": 403,
+    "body": {
+      "case": "strict:auditor:b1:export",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 15.599
+  },
+  {
+    "case": "strict:auditor:b1:debug",
+    "status": 403,
+    "body": {
+      "case": "strict:auditor:b1:debug",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 2.057
+  },
+  {
+    "case": "strict:auditor:a2:read",
+    "status": 200,
+    "body": {
+      "case": "strict:auditor:a2:read",
+      "text": "RESTRITO_ALPHA_333",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.256
+  },
+  {
+    "case": "strict:auditor:a2:export",
+    "status": 403,
+    "body": {
+      "case": "strict:auditor:a2:export",
+      "reason": "operation"
+    },
+    "elapsed_ms": 2.382
+  },
+  {
+    "case": "strict:auditor:a2:debug",
+    "status": 403,
+    "body": {
+      "case": "strict:auditor:a2:debug",
+      "reason": "operation"
+    },
+    "elapsed_ms": 2.11
+  },
+  {
+    "case": "cache:cache_weak:prime",
+    "status": 200,
+    "body": {
+      "case": "cache:cache_weak:prime",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.115
+  },
+  {
+    "case": "cache:cache_weak:other_identity",
+    "status": 200,
+    "body": {
+      "case": "cache:cache_weak:other_identity",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 1.917
+  },
+  {
+    "case": "cache:cache_weak:revoked",
+    "status": 200,
+    "body": {
+      "case": "cache:cache_weak:revoked",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 24.15
+  },
+  {
+    "case": "cache:cache_weak:unavailable",
+    "status": 200,
+    "body": {
+      "case": "cache:cache_weak:unavailable",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 13.281
+  },
+  {
+    "case": "cache:cache_weak:regranted",
+    "status": 200,
+    "body": {
+      "case": "cache:cache_weak:regranted",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "cache_before_policy"
+    },
+    "elapsed_ms": 2.074
+  },
+  {
+    "case": "cache:cache_weak:missing",
+    "status": 404,
+    "body": {
+      "case": "cache:cache_weak:missing",
+      "reason": "resource"
+    },
+    "elapsed_ms": 2.423
+  },
+  {
+    "case": "cache:strict:prime",
+    "status": 200,
+    "body": {
+      "case": "cache:strict:prime",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.183
+  },
+  {
+    "case": "cache:strict:other_identity",
+    "status": 403,
+    "body": {
+      "case": "cache:strict:other_identity",
+      "reason": "tenant"
+    },
+    "elapsed_ms": 1.991
+  },
+  {
+    "case": "cache:strict:revoked",
+    "status": 403,
+    "body": {
+      "case": "cache:strict:revoked",
+      "reason": "relation"
+    },
+    "elapsed_ms": 1.958
+  },
+  {
+    "case": "cache:strict:unavailable",
+    "status": 503,
+    "body": {
+      "case": "cache:strict:unavailable",
+      "reason": "policy_unavailable"
+    },
+    "elapsed_ms": 18.281
+  },
+  {
+    "case": "cache:strict:regranted",
+    "status": 200,
+    "body": {
+      "case": "cache:strict:regranted",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.034
+  },
+  {
+    "case": "cache:strict:missing",
+    "status": 404,
+    "body": {
+      "case": "cache:strict:missing",
+      "reason": "resource"
+    },
+    "elapsed_ms": 2.328
+  }
+]

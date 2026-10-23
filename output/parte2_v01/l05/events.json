@@ -1,0 +1,114 @@
+[
+  {
+    "case": "valid",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "wrong_aud",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "wrong_issuer",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "expired",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "future",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "subject_tenant",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "missing_scope",
+    "status": 403,
+    "reason": "scope",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "wrong_use",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "unknown_key",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "broken_signature",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "overlap_old",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "overlap_new",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "retired_old",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "revoked_new",
+    "status": 401,
+    "reason": "credential",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "fresh_after_revoke",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "wrong_aud_weak",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  }
+]

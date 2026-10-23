@@ -1,0 +1,51 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 381B 0.0s done
+#1 DONE 0.4s
+
+#2 [internal] load metadata for docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#2 DONE 0.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.4s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2
+#5 resolve docker.io/library/python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2 done
+#5 DONE -1.6s
+
+#4 [internal] load build context
+#4 transferring context: 120B done
+#4 DONE 0.4s
+
+#6 [2/4] WORKDIR /lab
+#6 CACHED
+
+#7 [3/4] COPY probe.py receiver.py public.txt private.txt /lab/
+#7 CACHED
+
+#8 [4/4] RUN chmod 555 /lab /lab/probe.py /lab/receiver.py && chmod 444 /lab/public.txt && chmod 600 /lab/private.txt
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:ee6de60e9788e4db8b372007a41b45ca44a90a45efca442f151409a25f17bf27
+#9 exporting manifest sha256:ee6de60e9788e4db8b372007a41b45ca44a90a45efca442f151409a25f17bf27 0.2s done
+#9 exporting config sha256:46caec214fc4cf2a9fddc7d7b2e49acfadd05e6d0ffab9e08c12571c55cfbe9c
+#9 exporting config sha256:46caec214fc4cf2a9fddc7d7b2e49acfadd05e6d0ffab9e08c12571c55cfbe9c 0.2s done
+#9 exporting attestation manifest sha256:6d08122e522eced980222ada929fbd688be342bdebc6967ade022144b6662969
+#9 exporting attestation manifest sha256:6d08122e522eced980222ada929fbd688be342bdebc6967ade022144b6662969 0.6s done
+#9 exporting manifest list sha256:06b7f4636da78469a722ecde46bdd38f7e00d84931ab7b658a54e3297da5ea85
+#9 exporting manifest list sha256:06b7f4636da78469a722ecde46bdd38f7e00d84931ab7b658a54e3297da5ea85 0.5s done
+#9 naming to docker.io/library/livro-l08-173b04ff33:local
+#9 naming to docker.io/library/livro-l08-173b04ff33:local 0.1s done
+#9 unpacking to docker.io/library/livro-l08-173b04ff33:local
+#9 unpacking to docker.io/library/livro-l08-173b04ff33:local 1.9s done
+#9 DONE 4.2s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/ihu0dl9zokpx5hqrr03s36tnu

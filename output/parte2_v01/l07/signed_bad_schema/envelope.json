@@ -1,0 +1,11 @@
+{
+  "signed": {
+    "name": "model.json",
+    "role": "classifier-config",
+    "version": 2,
+    "expires": 1792721912,
+    "sha256": "fb52ee229e3fdc0cdc6aab6e0981b80a34930bff83fc20ae6726f19218cfcfdb",
+    "length": 52
+  },
+  "signature": "hm2XjvFzUuEA7bWfUb/DtgDh770iGhF9O+WiOO7aIxRD70cJDhwrpMEkkQrT3DaiNseFqZ8yvSKKipcnvcY0Bw=="
+}

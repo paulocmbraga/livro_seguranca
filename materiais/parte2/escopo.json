@@ -1,0 +1,11 @@
+{
+  "version": "ParteII-1.0",
+  "author": "Paulo Cesar Braga",
+  "data": "sintéticos; canários públicos sem credenciais operacionais",
+  "L05": {"boundary": "HTTP loopback / recurso protegido / RS256 PyJWT", "adversary": "reutiliza token, altera proposta; fixtures negativas assinadas pelo emissor de teste", "not_claimed": "IdP OAuth/OIDC, TLS, DPoP, mTLS, distribuição de revogação ou inferência"},
+  "L06": {"boundary": "serviço HTTP com autorização por objeto/operação e lock de estado", "adversary": "chama três rotas diretamente e reutiliza cache", "not_claimed": "transações distribuídas, banco de produção, exportação a terceiro ou inferência"},
+  "L07": {"boundary": "biblioteca Ed25519 e verificador antes do parser JSON", "adversary": "controla distribuição; não controla bootstrap nem emissor", "not_claimed": "implementação TUF/SLSA, isolamento de usuário, persistência antirollback ou modelo treinado"},
+  "L08": {"boundary": "UID, filesystem, namespace de rede e cgroup Linux via Docker", "adversary": "código sintético controlado chama syscalls e socket diretamente", "not_claimed": "escape de kernel, hipervisor, runtime rootless ou qualificação de código arbitrário"},
+  "evaluation": "casos autorais conhecidos, não holdout adversarial independente",
+  "independent_reproduction": false
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "case": "valid",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "overlap_old",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "overlap_new",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "fresh_after_revoke",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "wrong_aud_weak",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  }
+]

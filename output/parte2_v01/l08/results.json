@@ -1,0 +1,460 @@
+{
+  "engine": {
+    "Platform": {
+      "Name": "Docker Desktop 4.94.0 (241994)"
+    },
+    "Version": "29.8.2",
+    "ApiVersion": "1.56",
+    "MinAPIVersion": "1.40",
+    "Os": "linux",
+    "Arch": "amd64",
+    "Components": [
+      {
+        "Name": "Engine",
+        "Version": "29.8.2",
+        "Details": {
+          "ApiVersion": "1.56",
+          "Arch": "amd64",
+          "BuildTime": "Wed Sep 30 19:32:25 2026",
+          "Experimental": "false",
+          "GitCommit": "8af9fe3",
+          "GoVersion": "go1.26.8",
+          "KernelVersion": "6.6.87.2-microsoft-standard-WSL2",
+          "MinAPIVersion": "1.40",
+          "Module": "github.com/moby/moby/v2",
+          "ModuleVersion": "v2.0.0+unknown",
+          "Os": "linux"
+        }
+      },
+      {
+        "Name": "containerd",
+        "Version": "v2.3.6",
+        "Details": {
+          "GitCommit": "ee2735368117d2eb259779949d5e75cdafec9761"
+        }
+      },
+      {
+        "Name": "runc",
+        "Version": "1.5.1",
+        "Details": {
+          "GitCommit": "v1.5.1-0-g8f2685a4"
+        }
+      },
+      {
+        "Name": "docker-init",
+        "Version": "0.19.0",
+        "Details": {
+          "GitCommit": "de40ad0"
+        }
+      }
+    ],
+    "GitCommit": "8af9fe3",
+    "GoVersion": "go1.26.8",
+    "KernelVersion": "6.6.87.2-microsoft-standard-WSL2",
+    "BuildTime": "2026-09-30T19:32:25.000000000+00:00"
+  },
+  "base_image": "python@sha256:4766d8b510c428e595d74b9cc5bbb2fae8e26316fffb4adc89908d79aacd58a2",
+  "profiles": {
+    "permissive": {
+      "stdout": "{\"uid\": 0, \"gid\": 0, \"records\": [{\"case\": \"public_read\", \"outcome\": \"allowed\", \"result\": \"TAREFA_LEGITIMA_L08_421\"}, {\"case\": \"private_read\", \"outcome\": \"allowed\", \"result\": \"MARCADOR_PRIVADO_SINTETICO_L08_692\"}, {\"case\": \"root_write\", \"outcome\": \"allowed\", \"result\": 9}, {\"case\": \"tmp_small\", \"outcome\": \"allowed\", \"result\": 2}, {\"case\": \"tmp_quota\", \"outcome\": \"allowed\", \"result\": 12}, {\"case\": \"direct_network\", \"outcome\": \"allowed\", \"result\": \"receiver_200\"}, {\"case\": \"pids\", \"outcome\": \"allowed\", \"created\": 24}], \"peak_rss_kib\": 17612, \"cpu_seconds\": 0.268435, \"elapsed_seconds\": 0.15871446899836883, \"children_remaining\": 0, \"cgroup\": {\"memory.max\": \"134217728\", \"pids.max\": \"64\", \"cpu.max\": \"50000 100000\", \"memory.peak\": \"29962240\"}}\n",
+      "stderr": "",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-23T01:18:53.112371381Z",
+        "FinishedAt": "2026-10-23T01:18:54.556855013Z"
+      },
+      "host_config": {
+        "ReadonlyRootfs": false,
+        "NetworkMode": "livro-l08-173b04ff33-net",
+        "Memory": 134217728,
+        "MemorySwap": 134217728,
+        "NanoCpus": 500000000,
+        "PidsLimit": 64,
+        "CapDrop": [
+          "ALL"
+        ],
+        "SecurityOpt": [
+          "no-new-privileges"
+        ],
+        "Tmpfs": {
+          "/tmp": "rw,noexec,nosuid,size=32m"
+        }
+      },
+      "user": "0:0",
+      "mounts": [],
+      "elapsed_seconds": 2.984000000054948,
+      "timeout": false,
+      "probe": {
+        "uid": 0,
+        "gid": 0,
+        "records": [
+          {
+            "case": "public_read",
+            "outcome": "allowed",
+            "result": "TAREFA_LEGITIMA_L08_421"
+          },
+          {
+            "case": "private_read",
+            "outcome": "allowed",
+            "result": "MARCADOR_PRIVADO_SINTETICO_L08_692"
+          },
+          {
+            "case": "root_write",
+            "outcome": "allowed",
+            "result": 9
+          },
+          {
+            "case": "tmp_small",
+            "outcome": "allowed",
+            "result": 2
+          },
+          {
+            "case": "tmp_quota",
+            "outcome": "allowed",
+            "result": 12
+          },
+          {
+            "case": "direct_network",
+            "outcome": "allowed",
+            "result": "receiver_200"
+          },
+          {
+            "case": "pids",
+            "outcome": "allowed",
+            "created": 24
+          }
+        ],
+        "peak_rss_kib": 17612,
+        "cpu_seconds": 0.268435,
+        "elapsed_seconds": 0.15871446899836883,
+        "children_remaining": 0,
+        "cgroup": {
+          "memory.max": "134217728",
+          "pids.max": "64",
+          "cpu.max": "50000 100000",
+          "memory.peak": "29962240"
+        }
+      }
+    },
+    "restricted": {
+      "stdout": "{\"uid\": 10001, \"gid\": 10001, \"records\": [{\"case\": \"public_read\", \"outcome\": \"allowed\", \"result\": \"TAREFA_LEGITIMA_L08_421\"}, {\"case\": \"private_read\", \"outcome\": \"denied\", \"errno\": 13, \"error\": \"PermissionError\"}, {\"case\": \"root_write\", \"outcome\": \"denied\", \"errno\": 30, \"error\": \"OSError\"}, {\"case\": \"tmp_small\", \"outcome\": \"allowed\", \"result\": 2}, {\"case\": \"tmp_quota\", \"outcome\": \"denied\", \"errno\": 28, \"error\": \"OSError\"}, {\"case\": \"direct_network\", \"outcome\": \"denied\", \"errno\": 101, \"error\": \"OSError\"}, {\"case\": \"pids\", \"outcome\": \"denied\", \"errno\": 11, \"created\": 15}], \"peak_rss_kib\": 17668, \"cpu_seconds\": 0.27100799999999997, \"elapsed_seconds\": 0.034419996954966336, \"children_remaining\": 0, \"cgroup\": {\"memory.max\": \"134217728\", \"pids.max\": \"16\", \"cpu.max\": \"50000 100000\", \"memory.peak\": \"24182784\"}}\n",
+      "stderr": "",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-23T01:18:57.925250865Z",
+        "FinishedAt": "2026-10-23T01:18:59.066160442Z"
+      },
+      "host_config": {
+        "ReadonlyRootfs": true,
+        "NetworkMode": "none",
+        "Memory": 134217728,
+        "MemorySwap": 134217728,
+        "NanoCpus": 500000000,
+        "PidsLimit": 16,
+        "CapDrop": [
+          "ALL"
+        ],
+        "SecurityOpt": [
+          "no-new-privileges"
+        ],
+        "Tmpfs": {
+          "/tmp": "rw,noexec,nosuid,size=8m"
+        }
+      },
+      "user": "10001:10001",
+      "mounts": [],
+      "elapsed_seconds": 2.577999999979511,
+      "timeout": false,
+      "probe": {
+        "uid": 10001,
+        "gid": 10001,
+        "records": [
+          {
+            "case": "public_read",
+            "outcome": "allowed",
+            "result": "TAREFA_LEGITIMA_L08_421"
+          },
+          {
+            "case": "private_read",
+            "outcome": "denied",
+            "errno": 13,
+            "error": "PermissionError"
+          },
+          {
+            "case": "root_write",
+            "outcome": "denied",
+            "errno": 30,
+            "error": "OSError"
+          },
+          {
+            "case": "tmp_small",
+            "outcome": "allowed",
+            "result": 2
+          },
+          {
+            "case": "tmp_quota",
+            "outcome": "denied",
+            "errno": 28,
+            "error": "OSError"
+          },
+          {
+            "case": "direct_network",
+            "outcome": "denied",
+            "errno": 101,
+            "error": "OSError"
+          },
+          {
+            "case": "pids",
+            "outcome": "denied",
+            "errno": 11,
+            "created": 15
+          }
+        ],
+        "peak_rss_kib": 17668,
+        "cpu_seconds": 0.27100799999999997,
+        "elapsed_seconds": 0.034419996954966336,
+        "children_remaining": 0,
+        "cgroup": {
+          "memory.max": "134217728",
+          "pids.max": "16",
+          "cpu.max": "50000 100000",
+          "memory.peak": "24182784"
+        }
+      }
+    }
+  },
+  "extra": {
+    "memory": {
+      "stdout": "",
+      "stderr": "",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": true,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 137,
+        "Error": "",
+        "StartedAt": "2026-10-23T01:19:02.650555433Z",
+        "FinishedAt": "2026-10-23T01:19:03.789253522Z"
+      },
+      "host_config": {
+        "ReadonlyRootfs": true,
+        "NetworkMode": "none",
+        "Memory": 67108864,
+        "MemorySwap": 67108864,
+        "NanoCpus": 500000000,
+        "PidsLimit": 16,
+        "CapDrop": [
+          "ALL"
+        ],
+        "SecurityOpt": [
+          "no-new-privileges"
+        ],
+        "Tmpfs": {
+          "/tmp": "rw,noexec,nosuid,size=8m"
+        }
+      },
+      "user": "10001:10001",
+      "mounts": [],
+      "elapsed_seconds": 3.10999999998603,
+      "timeout": false
+    },
+    "watchdog": {
+      "stdout": "",
+      "stderr": "",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 137,
+        "Error": "",
+        "StartedAt": "2026-10-23T01:19:04.987334339Z",
+        "FinishedAt": "2026-10-23T01:19:06.892890391Z"
+      },
+      "host_config": {
+        "ReadonlyRootfs": true,
+        "NetworkMode": "none",
+        "Memory": 134217728,
+        "MemorySwap": 134217728,
+        "NanoCpus": 500000000,
+        "PidsLimit": 16,
+        "CapDrop": [
+          "ALL"
+        ],
+        "SecurityOpt": [
+          "no-new-privileges"
+        ],
+        "Tmpfs": {
+          "/tmp": "rw,noexec,nosuid,size=8m"
+        }
+      },
+      "user": "10001:10001",
+      "mounts": [],
+      "elapsed_seconds": 3.8429999999934807,
+      "timeout": true
+    }
+  },
+  "commands": [
+    [
+      "create",
+      "--name",
+      "livro-l08-173b04ff33-permissive",
+      "--network",
+      "livro-l08-173b04ff33-net",
+      "--memory",
+      "128m",
+      "--memory-swap",
+      "128m",
+      "--cpus",
+      ".5",
+      "--pids-limit",
+      "64",
+      "--cap-drop",
+      "ALL",
+      "--security-opt",
+      "no-new-privileges",
+      "--user",
+      "0:0",
+      "--tmpfs",
+      "/tmp:rw,noexec,nosuid,size=32m",
+      "-e",
+      "RECEIVER=172.29.0.2",
+      "-e",
+      "PROFILE=permissive",
+      "livro-l08-173b04ff33:local",
+      "python",
+      "/lab/probe.py"
+    ],
+    [
+      "create",
+      "--name",
+      "livro-l08-173b04ff33-restricted",
+      "--network",
+      "none",
+      "--memory",
+      "128m",
+      "--memory-swap",
+      "128m",
+      "--cpus",
+      ".5",
+      "--pids-limit",
+      "16",
+      "--cap-drop",
+      "ALL",
+      "--security-opt",
+      "no-new-privileges",
+      "--user",
+      "10001:10001",
+      "--tmpfs",
+      "/tmp:rw,noexec,nosuid,size=8m",
+      "-e",
+      "RECEIVER=172.29.0.2",
+      "-e",
+      "PROFILE=restricted",
+      "--read-only",
+      "livro-l08-173b04ff33:local",
+      "python",
+      "/lab/probe.py"
+    ],
+    [
+      "create",
+      "--name",
+      "livro-l08-173b04ff33-memory",
+      "--network",
+      "none",
+      "--memory",
+      "64m",
+      "--memory-swap",
+      "64m",
+      "--cpus",
+      ".5",
+      "--pids-limit",
+      "16",
+      "--cap-drop",
+      "ALL",
+      "--security-opt",
+      "no-new-privileges",
+      "--user",
+      "10001:10001",
+      "--tmpfs",
+      "/tmp:rw,noexec,nosuid,size=8m",
+      "-e",
+      "RECEIVER=172.29.0.2",
+      "-e",
+      "PROFILE=memory",
+      "--read-only",
+      "livro-l08-173b04ff33:local",
+      "python",
+      "/lab/probe.py",
+      "memory"
+    ],
+    [
+      "create",
+      "--name",
+      "livro-l08-173b04ff33-watchdog",
+      "--network",
+      "none",
+      "--memory",
+      "128m",
+      "--memory-swap",
+      "128m",
+      "--cpus",
+      ".5",
+      "--pids-limit",
+      "16",
+      "--cap-drop",
+      "ALL",
+      "--security-opt",
+      "no-new-privileges",
+      "--user",
+      "10001:10001",
+      "--tmpfs",
+      "/tmp:rw,noexec,nosuid,size=8m",
+      "-e",
+      "RECEIVER=172.29.0.2",
+      "-e",
+      "PROFILE=watchdog",
+      "--read-only",
+      "livro-l08-173b04ff33:local",
+      "python",
+      "/lab/probe.py",
+      "spin"
+    ]
+  ],
+  "image_id": "sha256:06b7f4636da78469a722ecde46bdd38f7e00d84931ab7b658a54e3297da5ea85",
+  "receiver_receipts": [
+    {
+      "path": "/hit/permissive",
+      "received": true
+    }
+  ],
+  "cleanup": {
+    "containers_remaining": [],
+    "network_remaining": [],
+    "image_remaining": []
+  },
+  "elapsed_seconds": 44.125
+}

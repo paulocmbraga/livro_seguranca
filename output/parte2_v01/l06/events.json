@@ -1,0 +1,464 @@
+[
+  {
+    "case": "rbac_cache_weak:ana:a1:read",
+    "status": 200,
+    "reason": "role_only",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:ana:a1:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:ana:a1:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:read",
+    "status": 200,
+    "reason": "role_only",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:read",
+    "status": 200,
+    "reason": "role_only",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:read",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:read",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:read",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:read",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:read",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:read",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:export",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:debug",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:ana:a1:read",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:ana:a1:export",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:ana:a1:debug",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:ana:b1:read",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:ana:b1:export",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:ana:b1:debug",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:ana:a2:read",
+    "status": 403,
+    "reason": "relation",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:ana:a2:export",
+    "status": 403,
+    "reason": "relation",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:ana:a2:debug",
+    "status": 403,
+    "reason": "relation",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:bia:a1:read",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:bia:a1:export",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:bia:a1:debug",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:bia:b1:read",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:bia:b1:export",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:bia:b1:debug",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:bia:a2:read",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:bia:a2:export",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:bia:a2:debug",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:auditor:a1:read",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:auditor:a1:export",
+    "status": 403,
+    "reason": "operation",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:auditor:a1:debug",
+    "status": 403,
+    "reason": "operation",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:auditor:b1:read",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:auditor:b1:export",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:auditor:b1:debug",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "strict:auditor:a2:read",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "strict:auditor:a2:export",
+    "status": 403,
+    "reason": "operation",
+    "epoch": 1,
+    "route": "/export"
+  },
+  {
+    "case": "strict:auditor:a2:debug",
+    "status": 403,
+    "reason": "operation",
+    "epoch": 1,
+    "route": "/debug"
+  },
+  {
+    "case": "cache:cache_weak:prime",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "cache:cache_weak:other_identity",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "cache:cache_weak:revoked",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 2,
+    "route": "/read"
+  },
+  {
+    "case": "cache:cache_weak:unavailable",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 2,
+    "route": "/read"
+  },
+  {
+    "case": "cache:cache_weak:regranted",
+    "status": 200,
+    "reason": "cache_before_policy",
+    "epoch": 3,
+    "route": "/read"
+  },
+  {
+    "case": "cache:cache_weak:missing",
+    "status": 404,
+    "reason": "resource",
+    "epoch": 3,
+    "route": "/read"
+  },
+  {
+    "case": "cache:strict:prime",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "cache:strict:other_identity",
+    "status": 403,
+    "reason": "tenant",
+    "epoch": 1,
+    "route": "/read"
+  },
+  {
+    "case": "cache:strict:revoked",
+    "status": 403,
+    "reason": "relation",
+    "epoch": 2,
+    "route": "/read"
+  },
+  {
+    "case": "cache:strict:unavailable",
+    "status": 503,
+    "reason": "policy_unavailable",
+    "epoch": 2,
+    "route": "/read"
+  },
+  {
+    "case": "cache:strict:regranted",
+    "status": 200,
+    "reason": "policy",
+    "epoch": 3,
+    "route": "/read"
+  },
+  {
+    "case": "cache:strict:missing",
+    "status": 404,
+    "reason": "resource",
+    "epoch": 3,
+    "route": "/read"
+  }
+]

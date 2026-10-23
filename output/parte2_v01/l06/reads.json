@@ -1,0 +1,422 @@
+[
+  {
+    "case": "rbac_cache_weak:ana:a1:read",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "rbac_cache_weak:ana:a1:export",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/export",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:ana:a1:debug",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/debug",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:read",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/read",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": false
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:export",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/export",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:ana:b1:debug",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/debug",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:read",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": false
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:export",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/export",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:ana:a2:debug",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/debug",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:read",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:export",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/export",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:a1:debug",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/debug",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:read",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/read",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:export",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/export",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:b1:debug",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/debug",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:read",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:export",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/export",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:bia:a2:debug",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/debug",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:read",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:export",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/export",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a1:debug",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/debug",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:read",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/read",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:export",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/export",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:b1:debug",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/debug",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:read",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:export",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/export",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "rbac_cache_weak:auditor:a2:debug",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/debug",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": true
+  },
+  {
+    "case": "strict:ana:a1:read",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "strict:ana:a1:export",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/export",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "strict:ana:a1:debug",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/debug",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "strict:bia:b1:read",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/read",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": false
+  },
+  {
+    "case": "strict:bia:b1:export",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/export",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": false
+  },
+  {
+    "case": "strict:bia:b1:debug",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "b1",
+    "resource_tenant": "beta",
+    "route": "/debug",
+    "text": "CONTRATO_BETA_945",
+    "cache_hit": false
+  },
+  {
+    "case": "strict:auditor:a1:read",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "strict:auditor:a2:read",
+    "sub": "auditor",
+    "tenant": "alpha",
+    "resource": "a2",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "RESTRITO_ALPHA_333",
+    "cache_hit": false
+  },
+  {
+    "case": "cache:cache_weak:prime",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "cache:cache_weak:other_identity",
+    "sub": "bia",
+    "tenant": "beta",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "cache:cache_weak:revoked",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "cache:cache_weak:unavailable",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "cache:cache_weak:regranted",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": true
+  },
+  {
+    "case": "cache:strict:prime",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  },
+  {
+    "case": "cache:strict:regranted",
+    "sub": "ana",
+    "tenant": "alpha",
+    "resource": "a1",
+    "resource_tenant": "alpha",
+    "route": "/read",
+    "text": "CONTRATO_ALPHA_720",
+    "cache_hit": false
+  }
+]

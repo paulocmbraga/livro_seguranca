@@ -1,0 +1,13 @@
+{
+  "requests": 66,
+  "domain_events": 66,
+  "reads": 42,
+  "statuses": {
+    "200": 42,
+    "403": 21,
+    "404": 2,
+    "503": 1
+  },
+  "complete": true,
+  "limits": "Captura local do autor; logs no mesmo processo; sem inferência de LLM."
+}

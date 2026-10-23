@@ -1,0 +1,156 @@
+[
+  {
+    "case": "valid",
+    "status": 200,
+    "body": {
+      "case": "valid",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.36
+  },
+  {
+    "case": "wrong_aud",
+    "status": 401,
+    "body": {
+      "case": "wrong_aud",
+      "reason": "credential"
+    },
+    "elapsed_ms": 2.414
+  },
+  {
+    "case": "wrong_issuer",
+    "status": 401,
+    "body": {
+      "case": "wrong_issuer",
+      "reason": "credential"
+    },
+    "elapsed_ms": 2.385
+  },
+  {
+    "case": "expired",
+    "status": 401,
+    "body": {
+      "case": "expired",
+      "reason": "credential"
+    },
+    "elapsed_ms": 20.414
+  },
+  {
+    "case": "future",
+    "status": 401,
+    "body": {
+      "case": "future",
+      "reason": "credential"
+    },
+    "elapsed_ms": 2.252
+  },
+  {
+    "case": "subject_tenant",
+    "status": 401,
+    "body": {
+      "case": "subject_tenant",
+      "reason": "credential"
+    },
+    "elapsed_ms": 15.683
+  },
+  {
+    "case": "missing_scope",
+    "status": 403,
+    "body": {
+      "case": "missing_scope",
+      "reason": "scope"
+    },
+    "elapsed_ms": 6.007
+  },
+  {
+    "case": "wrong_use",
+    "status": 401,
+    "body": {
+      "case": "wrong_use",
+      "reason": "credential"
+    },
+    "elapsed_ms": 4.621
+  },
+  {
+    "case": "unknown_key",
+    "status": 401,
+    "body": {
+      "case": "unknown_key",
+      "reason": "credential"
+    },
+    "elapsed_ms": 1.765
+  },
+  {
+    "case": "broken_signature",
+    "status": 401,
+    "body": {
+      "case": "broken_signature",
+      "reason": "credential"
+    },
+    "elapsed_ms": 30.896
+  },
+  {
+    "case": "overlap_old",
+    "status": 200,
+    "body": {
+      "case": "overlap_old",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "policy"
+    },
+    "elapsed_ms": 15.147
+  },
+  {
+    "case": "overlap_new",
+    "status": 200,
+    "body": {
+      "case": "overlap_new",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.169
+  },
+  {
+    "case": "retired_old",
+    "status": 401,
+    "body": {
+      "case": "retired_old",
+      "reason": "credential"
+    },
+    "elapsed_ms": 11.44
+  },
+  {
+    "case": "revoked_new",
+    "status": 401,
+    "body": {
+      "case": "revoked_new",
+      "reason": "credential"
+    },
+    "elapsed_ms": 23.062
+  },
+  {
+    "case": "fresh_after_revoke",
+    "status": 200,
+    "body": {
+      "case": "fresh_after_revoke",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": true,
+      "reason": "policy"
+    },
+    "elapsed_ms": 12.766
+  },
+  {
+    "case": "wrong_aud_weak",
+    "status": 200,
+    "body": {
+      "case": "wrong_aud_weak",
+      "text": "CONTRATO_ALPHA_720",
+      "cache_hit": false,
+      "reason": "policy"
+    },
+    "elapsed_ms": 2.033
+  }
+]

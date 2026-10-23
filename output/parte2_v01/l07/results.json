@@ -1,0 +1,58 @@
+[
+  {
+    "case": "approved_v2",
+    "outcome": "loaded",
+    "load_receipt": {
+      "artifact_sha256": "2e5d3949f1278ff84d2bcd000b740ecde6b91fcb52ba7fb609c90b7bc5ed1587",
+      "threshold": 0.8
+    }
+  },
+  {
+    "case": "replace_only",
+    "outcome": "digest",
+    "load_receipt": null
+  },
+  {
+    "case": "replace_with_hash",
+    "outcome": "signature",
+    "load_receipt": null
+  },
+  {
+    "case": "self_signed",
+    "outcome": "signature",
+    "load_receipt": null
+  },
+  {
+    "case": "old_approved",
+    "outcome": "version",
+    "load_receipt": null
+  },
+  {
+    "case": "expired",
+    "outcome": "expired",
+    "load_receipt": null
+  },
+  {
+    "case": "wrong_role",
+    "outcome": "role",
+    "load_receipt": null
+  },
+  {
+    "case": "oversized",
+    "outcome": "size",
+    "load_receipt": null
+  },
+  {
+    "case": "signed_bad_schema",
+    "outcome": "schema",
+    "load_receipt": null
+  },
+  {
+    "case": "return_authorized_v3",
+    "outcome": "loaded",
+    "load_receipt": {
+      "artifact_sha256": "2e5d3949f1278ff84d2bcd000b740ecde6b91fcb52ba7fb609c90b7bc5ed1587",
+      "threshold": 0.8
+    }
+  }
+]

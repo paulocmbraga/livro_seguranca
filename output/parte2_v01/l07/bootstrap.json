@@ -1,0 +1,10 @@
+{
+  "public_key": "7/Cx51yZIlPfLY4JPacHqTNwF14hyBtIHrHpxKq1PGY=",
+  "fingerprint": "cd896ea74476a24401a7ba4c7c21f2dca5f876d3c6723ec6e78d5e8ed00d71da",
+  "minimum_version": 2,
+  "evaluated_at": 1792718312,
+  "signer_pid": 5952,
+  "verifier_pid": 2528,
+  "trusted_channel": "pipe do processo emissor; fora da pasta adversarial",
+  "limit": "Separação de processo, não isolamento contra administrador ou mesmo usuário."
+}
