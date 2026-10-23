@@ -1,0 +1,207 @@
+{
+  "lab": "L18",
+  "issuance": [
+    {
+      "case": "attenuated",
+      "status": 200,
+      "token_present": true
+    },
+    {
+      "case": "second_hop",
+      "status": 200,
+      "token_present": true
+    },
+    {
+      "case": "scope_escalation",
+      "status": 403,
+      "token_present": false
+    },
+    {
+      "case": "foreign_resource",
+      "status": 403,
+      "token_present": false
+    },
+    {
+      "case": "foreign_audience",
+      "status": 403,
+      "token_present": false
+    },
+    {
+      "case": "wrong_actor",
+      "status": 403,
+      "token_present": false
+    },
+    {
+      "case": "depth_exhausted",
+      "status": 403,
+      "token_present": false
+    }
+  ],
+  "rows": [
+    {
+      "case": "legitimate",
+      "profile": "weak",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed"
+      }
+    },
+    {
+      "case": "legitimate",
+      "profile": "strict",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed"
+      }
+    },
+    {
+      "case": "write",
+      "profile": "weak",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed"
+      }
+    },
+    {
+      "case": "write",
+      "profile": "strict",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "capability"
+      }
+    },
+    {
+      "case": "foreign_read",
+      "profile": "weak",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed"
+      }
+    },
+    {
+      "case": "foreign_read",
+      "profile": "strict",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "capability"
+      }
+    },
+    {
+      "case": "grandchild",
+      "profile": "weak",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed"
+      }
+    },
+    {
+      "case": "grandchild",
+      "profile": "strict",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed"
+      }
+    },
+    {
+      "case": "wrong_audience",
+      "profile": "weak",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "wrong_audience",
+      "profile": "strict",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "expired",
+      "profile": "weak",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "expired",
+      "profile": "strict",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "signature",
+      "profile": "weak",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "signature",
+      "profile": "strict",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "revoked_child",
+      "profile": "weak",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "revoked_child",
+      "profile": "strict",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "revoked_grandchild",
+      "profile": "weak",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    },
+    {
+      "case": "revoked_grandchild",
+      "profile": "strict",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "credential"
+      }
+    }
+  ],
+  "issuer": "http://127.0.0.1:59586",
+  "contract": "custom capability delegation; not RFC8693 implementation",
+  "revocation": "live local chain introspection before operation; no distributed atomicity"
+}

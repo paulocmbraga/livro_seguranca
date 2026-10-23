@@ -1,0 +1,446 @@
+[
+  {
+    "case": "weak_challenge",
+    "passed": true,
+    "observed": "Bearer error=\"invalid_token\", error_description=\"Authentication required\", resource_metadata=\"http://127.0.0.1:59975/.well-known/oauth-protected-resource/mcp\""
+  },
+  {
+    "case": "weak_resource_discovery",
+    "passed": true,
+    "observed": {
+      "resource": "http://127.0.0.1:59975/mcp",
+      "authorization_servers": [
+        "http://127.0.0.1:59974"
+      ],
+      "scopes_supported": [
+        "contracts:read"
+      ],
+      "bearer_methods_supported": [
+        "header"
+      ]
+    }
+  },
+  {
+    "case": "weak_issued_and_verified",
+    "passed": true,
+    "observed": {
+      "aud": "http://127.0.0.1:59975/mcp",
+      "scope": "contracts:read"
+    }
+  },
+  {
+    "case": "weak_modern_version",
+    "passed": true,
+    "observed": "2026-07-28"
+  },
+  {
+    "case": "weak_catalog_consistent",
+    "passed": true,
+    "observed": "38717e2da31797db89bf9f1ece6e158046727c3378c9c5fbf69feb81bef69cf1"
+  },
+  {
+    "case": "weak_sdk_legitimate",
+    "passed": true,
+    "observed": {
+      "allowed": true,
+      "reason": "allowed",
+      "text": "CONTRATO_SINTETICO_alpha"
+    }
+  },
+  {
+    "case": "weak_sdk_foreign",
+    "passed": true,
+    "observed": {
+      "allowed": false,
+      "reason": "resource_policy",
+      "text": null
+    }
+  },
+  {
+    "case": "weak_change_observed",
+    "passed": true,
+    "observed": {
+      "old": "38717e2da31797db89bf9f1ece6e158046727c3378c9c5fbf69feb81bef69cf1",
+      "new": "d950df10c059fdbbbe73064e0d07e033cfb5c8350059ad0223cd1dfe27f75827"
+    }
+  },
+  {
+    "case": "weak_stale_catalog",
+    "passed": true,
+    "observed": {
+      "allowed": true,
+      "reason": "allowed",
+      "text": "CONTRATO_SINTETICO_alpha"
+    }
+  },
+  {
+    "case": "weak_renewed_legitimate",
+    "passed": true,
+    "observed": {
+      "allowed": true,
+      "reason": "allowed",
+      "text": "CONTRATO_SINTETICO_alpha"
+    }
+  },
+  {
+    "case": "weak_hostile_description_no_authority",
+    "passed": true,
+    "observed": {
+      "allowed": false,
+      "reason": "resource_policy",
+      "text": null
+    }
+  },
+  {
+    "case": "weak_legacy_initialize",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 10,
+      "result": {
+        "capabilities": {
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": false,
+            "subscribe": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "protocolVersion": "2025-11-25",
+        "serverInfo": {
+          "name": "L19 ferramentas",
+          "version": ""
+        }
+      }
+    }
+  },
+  {
+    "case": "weak_legacy_initialized",
+    "passed": true,
+    "observed": 202
+  },
+  {
+    "case": "weak_legacy_call",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 11,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": true,\n  \"reason\": \"allowed\",\n  \"text\": \"CONTRATO_SINTETICO_alpha\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "case": "weak_wire_foreign",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 12,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": false,\n  \"reason\": \"resource_policy\",\n  \"text\": null\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete",
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "L19 ferramentas",
+            "version": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "weak_unknown_version",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 13,
+      "error": {
+        "code": -32022,
+        "message": "Unsupported protocol version",
+        "data": {
+          "supported": [
+            "2026-07-28"
+          ],
+          "requested": "1900-01-01"
+        }
+      }
+    }
+  },
+  {
+    "case": "weak_invalid_audience",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "weak_invalid_expiry",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "weak_invalid_scope",
+    "passed": true,
+    "observed": 403
+  },
+  {
+    "case": "weak_invalid_signature",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "weak_session_not_credential",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "strict_challenge",
+    "passed": true,
+    "observed": "Bearer error=\"invalid_token\", error_description=\"Authentication required\", resource_metadata=\"http://127.0.0.1:59980/.well-known/oauth-protected-resource/mcp\""
+  },
+  {
+    "case": "strict_resource_discovery",
+    "passed": true,
+    "observed": {
+      "resource": "http://127.0.0.1:59980/mcp",
+      "authorization_servers": [
+        "http://127.0.0.1:59974"
+      ],
+      "scopes_supported": [
+        "contracts:read"
+      ],
+      "bearer_methods_supported": [
+        "header"
+      ]
+    }
+  },
+  {
+    "case": "strict_issued_and_verified",
+    "passed": true,
+    "observed": {
+      "aud": "http://127.0.0.1:59980/mcp",
+      "scope": "contracts:read"
+    }
+  },
+  {
+    "case": "strict_modern_version",
+    "passed": true,
+    "observed": "2026-07-28"
+  },
+  {
+    "case": "strict_catalog_consistent",
+    "passed": true,
+    "observed": "38717e2da31797db89bf9f1ece6e158046727c3378c9c5fbf69feb81bef69cf1"
+  },
+  {
+    "case": "strict_sdk_legitimate",
+    "passed": true,
+    "observed": {
+      "allowed": true,
+      "reason": "allowed",
+      "text": "CONTRATO_SINTETICO_alpha"
+    }
+  },
+  {
+    "case": "strict_sdk_foreign",
+    "passed": true,
+    "observed": {
+      "allowed": false,
+      "reason": "resource_policy",
+      "text": null
+    }
+  },
+  {
+    "case": "strict_change_observed",
+    "passed": true,
+    "observed": {
+      "old": "38717e2da31797db89bf9f1ece6e158046727c3378c9c5fbf69feb81bef69cf1",
+      "new": "d950df10c059fdbbbe73064e0d07e033cfb5c8350059ad0223cd1dfe27f75827"
+    }
+  },
+  {
+    "case": "strict_stale_catalog",
+    "passed": true,
+    "observed": {
+      "allowed": false,
+      "reason": "catalog_changed",
+      "text": null
+    }
+  },
+  {
+    "case": "strict_renewed_legitimate",
+    "passed": true,
+    "observed": {
+      "allowed": true,
+      "reason": "allowed",
+      "text": "CONTRATO_SINTETICO_alpha"
+    }
+  },
+  {
+    "case": "strict_hostile_description_no_authority",
+    "passed": true,
+    "observed": {
+      "allowed": false,
+      "reason": "resource_policy",
+      "text": null
+    }
+  },
+  {
+    "case": "strict_legacy_initialize",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 14,
+      "result": {
+        "capabilities": {
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": false,
+            "subscribe": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "protocolVersion": "2025-11-25",
+        "serverInfo": {
+          "name": "L19 ferramentas",
+          "version": ""
+        }
+      }
+    }
+  },
+  {
+    "case": "strict_legacy_initialized",
+    "passed": true,
+    "observed": 202
+  },
+  {
+    "case": "strict_legacy_call",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 15,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": true,\n  \"reason\": \"allowed\",\n  \"text\": \"CONTRATO_SINTETICO_alpha\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "case": "strict_wire_foreign",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 16,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": false,\n  \"reason\": \"resource_policy\",\n  \"text\": null\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete",
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "L19 ferramentas",
+            "version": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "strict_unknown_version",
+    "passed": true,
+    "observed": {
+      "jsonrpc": "2.0",
+      "id": 17,
+      "error": {
+        "code": -32022,
+        "message": "Unsupported protocol version",
+        "data": {
+          "supported": [
+            "2026-07-28"
+          ],
+          "requested": "1900-01-01"
+        }
+      }
+    }
+  },
+  {
+    "case": "strict_invalid_audience",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "strict_invalid_expiry",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "strict_invalid_scope",
+    "passed": true,
+    "observed": 403
+  },
+  {
+    "case": "strict_invalid_signature",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "strict_session_not_credential",
+    "passed": true,
+    "observed": 401
+  },
+  {
+    "case": "stdio_legacy",
+    "passed": true,
+    "observed": "2025-11-25"
+  },
+  {
+    "case": "stdio_own",
+    "passed": true,
+    "observed": {
+      "allowed": true,
+      "text": "STDIO_alpha"
+    }
+  },
+  {
+    "case": "stdio_foreign",
+    "passed": true,
+    "observed": {
+      "allowed": false,
+      "text": null
+    }
+  },
+  {
+    "case": "stdio_catalog",
+    "passed": true,
+    "observed": [
+      "read_contract"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:59975/mcp",
+    "scope": "contracts:read",
+    "token_sha256": "a5a23c3de02b5b9cd11354ffb78215dd831ca5e11d7644d2356de40e84b92532"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:59980/mcp",
+    "scope": "contracts:read",
+    "token_sha256": "a341100464ce00f2d7861a5f111d586879447a59b81f62dc4d6892d9fc434a01"
+  }
+]

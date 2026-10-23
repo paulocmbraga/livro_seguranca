@@ -1,0 +1,18 @@
+[
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "alpha",
+    "audience": "http://127.0.0.1:59997",
+    "scope": "tasks:operate",
+    "token_sha256": "c7f872ff79d15faf28f6e3f121afb802bf8bccc58cfe936bc1e7b4d4d41a0e44"
+  },
+  {
+    "operation": "token",
+    "allowed": true,
+    "subject": "beta",
+    "audience": "http://127.0.0.1:59997",
+    "scope": "tasks:operate",
+    "token_sha256": "ece961cb5b285154689a8604bd64cbbb7099d5783e4f5aa36b3fe48ef80a53ae"
+  }
+]

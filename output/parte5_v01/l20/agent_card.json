@@ -1,0 +1,47 @@
+{
+  "name": "Especialista L20",
+  "description": "Resultados sintéticos e callbacks locais",
+  "supportedInterfaces": [
+    {
+      "url": "http://127.0.0.1:59637",
+      "protocolBinding": "HTTP+JSON",
+      "protocolVersion": "1.0"
+    }
+  ],
+  "version": "1.0",
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": true
+  },
+  "securitySchemes": {
+    "bearer": {
+      "httpAuthSecurityScheme": {
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "securityRequirements": [
+    {
+      "schemes": {
+        "bearer": {}
+      }
+    }
+  ],
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "contract",
+      "name": "Contrato",
+      "description": "Artefato sintético",
+      "tags": [
+        "lab"
+      ]
+    }
+  ]
+}

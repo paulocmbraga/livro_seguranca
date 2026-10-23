@@ -1,0 +1,77 @@
+{
+  "root": {
+    "iss": "http://127.0.0.1:59948",
+    "sub": "user_alpha",
+    "tenant": "alpha",
+    "act": "broker",
+    "aud": "broker",
+    "scope": [
+      "read"
+    ],
+    "resources": [
+      "alpha_contract"
+    ],
+    "targets": [
+      "domain"
+    ],
+    "actors": [
+      "reader",
+      "analyzer"
+    ],
+    "depth": 2,
+    "iat": 1792730304,
+    "exp": 1792730424,
+    "jti": "c922fe39ebc341b18dcb5defa8f65197",
+    "parent": null
+  },
+  "child": {
+    "iss": "http://127.0.0.1:59948",
+    "sub": "user_alpha",
+    "tenant": "alpha",
+    "act": "reader",
+    "aud": "domain",
+    "scope": [
+      "read"
+    ],
+    "resources": [
+      "alpha_contract"
+    ],
+    "targets": [
+      "domain"
+    ],
+    "actors": [
+      "reader",
+      "analyzer"
+    ],
+    "depth": 1,
+    "iat": 1792730304,
+    "exp": 1792730364,
+    "jti": "7f08fecbce474dab918a429345ffb063",
+    "parent": "c922fe39ebc341b18dcb5defa8f65197"
+  },
+  "grandchild": {
+    "iss": "http://127.0.0.1:59948",
+    "sub": "user_alpha",
+    "tenant": "alpha",
+    "act": "analyzer",
+    "aud": "domain",
+    "scope": [
+      "read"
+    ],
+    "resources": [
+      "alpha_contract"
+    ],
+    "targets": [
+      "domain"
+    ],
+    "actors": [
+      "reader",
+      "analyzer"
+    ],
+    "depth": 0,
+    "iat": 1792730304,
+    "exp": 1792730364,
+    "jti": "ba8b1420db8140e1a852795bb6fa817d",
+    "parent": "7f08fecbce474dab918a429345ffb063"
+  }
+}

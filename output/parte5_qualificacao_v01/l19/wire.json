@@ -1,0 +1,190 @@
+[
+  {
+    "profile": "weak",
+    "method": "initialize",
+    "protocol": "2025-11-25",
+    "status": 200,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 10,
+      "result": {
+        "capabilities": {
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": false,
+            "subscribe": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "protocolVersion": "2025-11-25",
+        "serverInfo": {
+          "name": "L19 ferramentas",
+          "version": ""
+        }
+      }
+    }
+  },
+  {
+    "profile": "weak",
+    "method": "tools/call",
+    "protocol": "2025-11-25",
+    "status": 200,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 11,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": true,\n  \"reason\": \"allowed\",\n  \"text\": \"CONTRATO_SINTETICO_alpha\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "profile": "weak",
+    "method": "tools/call",
+    "protocol": "2026-07-28",
+    "status": 200,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 12,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": false,\n  \"reason\": \"resource_policy\",\n  \"text\": null\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete",
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "L19 ferramentas",
+            "version": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "profile": "weak",
+    "method": "tools/list",
+    "protocol": "1900-01-01",
+    "status": 400,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 13,
+      "error": {
+        "code": -32022,
+        "message": "Unsupported protocol version",
+        "data": {
+          "supported": [
+            "2026-07-28"
+          ],
+          "requested": "1900-01-01"
+        }
+      }
+    }
+  },
+  {
+    "profile": "strict",
+    "method": "initialize",
+    "protocol": "2025-11-25",
+    "status": 200,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 14,
+      "result": {
+        "capabilities": {
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": false,
+            "subscribe": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "protocolVersion": "2025-11-25",
+        "serverInfo": {
+          "name": "L19 ferramentas",
+          "version": ""
+        }
+      }
+    }
+  },
+  {
+    "profile": "strict",
+    "method": "tools/call",
+    "protocol": "2025-11-25",
+    "status": 200,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 15,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": true,\n  \"reason\": \"allowed\",\n  \"text\": \"CONTRATO_SINTETICO_alpha\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "profile": "strict",
+    "method": "tools/call",
+    "protocol": "2026-07-28",
+    "status": 200,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 16,
+      "result": {
+        "content": [
+          {
+            "text": "{\n  \"allowed\": false,\n  \"reason\": \"resource_policy\",\n  \"text\": null\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete",
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "L19 ferramentas",
+            "version": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "profile": "strict",
+    "method": "tools/list",
+    "protocol": "1900-01-01",
+    "status": 400,
+    "body": {
+      "jsonrpc": "2.0",
+      "id": 17,
+      "error": {
+        "code": -32022,
+        "message": "Unsupported protocol version",
+        "data": {
+          "supported": [
+            "2026-07-28"
+          ],
+          "requested": "1900-01-01"
+        }
+      }
+    }
+  }
+]

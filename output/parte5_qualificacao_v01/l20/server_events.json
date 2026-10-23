@@ -1,0 +1,183 @@
+[
+  {
+    "operation": "created",
+    "task_id": "f508cb6c-74e7-4d7f-95f4-36bb0d8cd01b",
+    "context_id": "a31ae526-ac52-47c4-aa79-1bd5885d0562",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "f508cb6c-74e7-4d7f-95f4-36bb0d8cd01b",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "task_access",
+    "task_id": "f508cb6c-74e7-4d7f-95f4-36bb0d8cd01b",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "f9b72842-99d1-49b4-ac6d-5e68c400aa3f",
+    "context_id": "155c2958-d842-406a-9324-4d0b7c1148d9",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "f9b72842-99d1-49b4-ac6d-5e68c400aa3f",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "task_access",
+    "task_id": "f9b72842-99d1-49b4-ac6d-5e68c400aa3f",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "afe31ad4-339d-4024-acd1-8d039b1a50ea",
+    "context_id": "f9222c9b-77ae-4811-8c86-51b5d058ef36",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "afe31ad4-339d-4024-acd1-8d039b1a50ea",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "task_access",
+    "task_id": "afe31ad4-339d-4024-acd1-8d039b1a50ea",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "a79ca330-8658-4bd7-ad08-00d23ae47b52",
+    "context_id": "c9817529-d7f0-44db-95f2-fe41aefe88fe",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "a79ca330-8658-4bd7-ad08-00d23ae47b52",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "task_access",
+    "task_id": "a79ca330-8658-4bd7-ad08-00d23ae47b52",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "10448ed7-7332-40ab-89ed-e02447909cac",
+    "context_id": "ccfc19a3-fd68-415a-9887-91660fc3aa67",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "10448ed7-7332-40ab-89ed-e02447909cac",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "task_access",
+    "task_id": "10448ed7-7332-40ab-89ed-e02447909cac",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "7833d393-df22-4399-a11b-19948c4696e3",
+    "context_id": "310a0242-df9b-478a-b883-4f6f82e3dfd0",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "7833d393-df22-4399-a11b-19948c4696e3",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "task_access",
+    "task_id": "7833d393-df22-4399-a11b-19948c4696e3",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "89309833-0b82-4ee6-ba5f-b8213e97bc4a",
+    "context_id": "b9f2047f-3d72-4682-9b69-d4fbb59555f7",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "89309833-0b82-4ee6-ba5f-b8213e97bc4a",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "task_access",
+    "task_id": "89309833-0b82-4ee6-ba5f-b8213e97bc4a",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "cd3a2351-aecf-4ad5-b034-c8efba7c977f",
+    "context_id": "33380b85-34ed-4776-b82e-14cad3f4ac19",
+    "subject": "beta",
+    "state": "TASK_STATE_WORKING"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "f508cb6c-74e7-4d7f-95f4-36bb0d8cd01b",
+    "subject": "beta",
+    "allowed": false
+  },
+  {
+    "operation": "task_access",
+    "task_id": "f508cb6c-74e7-4d7f-95f4-36bb0d8cd01b",
+    "subject": "beta",
+    "allowed": false
+  },
+  {
+    "operation": "context_access",
+    "subject": "beta",
+    "allowed": false
+  },
+  {
+    "operation": "task_access",
+    "task_id": "7833d393-df22-4399-a11b-19948c4696e3",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "canceled",
+    "task_id": "7833d393-df22-4399-a11b-19948c4696e3",
+    "subject": "alpha"
+  },
+  {
+    "operation": "task_access",
+    "task_id": "f508cb6c-74e7-4d7f-95f4-36bb0d8cd01b",
+    "subject": "alpha",
+    "allowed": true
+  },
+  {
+    "operation": "created",
+    "task_id": "90221db7-7551-4111-8201-884b9a6c9ebd",
+    "context_id": "d5d5260f-52db-4657-b08e-57e3d5ba9f2a",
+    "subject": "alpha",
+    "state": "TASK_STATE_WORKING"
+  }
+]

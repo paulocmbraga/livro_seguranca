@@ -1,0 +1,72 @@
+{
+  "consulted": "2026-10-23",
+  "sources": [
+    {
+      "id": "R17.1",
+      "title": "OWASP Transaction Authorization",
+      "version": "documento vivo",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html"
+    },
+    {
+      "id": "R18.1",
+      "title": "OAuth 2.0 Token Exchange",
+      "version": "RFC 8693; referência, contrato L18 próprio",
+      "url": "https://www.rfc-editor.org/info/rfc8693/"
+    },
+    {
+      "id": "R18.2",
+      "title": "OAuth 2.0 Token Introspection",
+      "version": "RFC 7662; referência, perfil L18 não integral",
+      "url": "https://www.rfc-editor.org/rfc/rfc7662.html"
+    },
+    {
+      "id": "R18.3",
+      "title": "Resource Indicators",
+      "version": "RFC 8707",
+      "url": "https://www.rfc-editor.org/info/rfc8707/"
+    },
+    {
+      "id": "R19.1",
+      "title": "MCP versioning",
+      "version": "2026-07-28",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning"
+    },
+    {
+      "id": "R19.2",
+      "title": "MCP lifecycle",
+      "version": "2025-11-25",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle"
+    },
+    {
+      "id": "R19.3",
+      "title": "MCP authorization",
+      "version": "2026-07-28",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization"
+    },
+    {
+      "id": "R19.4",
+      "title": "MCP tools",
+      "version": "2026-07-28",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+    },
+    {
+      "id": "R19.5",
+      "title": "Python MCP SDK",
+      "version": "2.3.0 executado",
+      "url": "https://github.com/modelcontextprotocol/python-sdk"
+    },
+    {
+      "id": "R20.1",
+      "title": "A2A specification",
+      "version": "1.0",
+      "url": "https://a2a-protocol.org/v1.0.0/specification/"
+    },
+    {
+      "id": "R20.2",
+      "title": "A2A Python SDK",
+      "version": "1.2.3 executado",
+      "url": "https://github.com/a2aproject/a2a-python"
+    }
+  ],
+  "limits": "Versões executadas não são declaração de latest. Fontes normativas não certificam bancada ou implementação completa. Sem transcrição extensa."
+}

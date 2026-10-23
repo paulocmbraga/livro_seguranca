@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "date": "2026-10-23",
+  "labs": [
+    "L17",
+    "L18",
+    "L19",
+    "L20"
+  ],
+  "inputs": "Dados sintéticos, planos e propostas preparados; sem geração de LLM.",
+  "transports": "HTTP loopback e subprocesso MCP stdio; sem TLS ou infraestrutura pública.",
+  "identity": "Chaves efêmeras e segredos locais; nenhum token utilizável ou chave privada na captura.",
+  "independent_reproduction": false,
+  "protocols": {
+    "mcp_modern": "2026-07-28",
+    "mcp_legacy": "2025-11-25",
+    "a2a": "1.0"
+  },
+  "sdks": {
+    "mcp": "2.3.0",
+    "a2a-sdk": "1.2.3"
+  }
+}

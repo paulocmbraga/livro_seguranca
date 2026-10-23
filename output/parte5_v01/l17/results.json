@@ -1,0 +1,585 @@
+{
+  "lab": "L17",
+  "rows": [
+    {
+      "profile": "weak",
+      "case": "legitimate",
+      "action": {
+        "operation": "legitimate",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 1
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "resource",
+      "action": {
+        "operation": "resource",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_annex",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 2
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "destination",
+      "action": {
+        "operation": "destination",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_backup",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 3
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "body",
+      "action": {
+        "operation": "body",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "CONTEUDO_TROCADO"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 4
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "replan",
+      "action": {
+        "operation": "replan",
+        "plan": "plan_alpha",
+        "revision": "2",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 5
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "resource_changed",
+      "action": {
+        "operation": "resource_changed",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 6
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "policy_changed",
+      "action": {
+        "operation": "policy_changed",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 7
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "expired",
+      "action": {
+        "operation": "expired",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_identity_or_expiry",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "wrong_actor",
+      "action": {
+        "operation": "wrong_actor",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "beta",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_identity_or_expiry",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "missing",
+      "action": {
+        "operation": "missing",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_identity_or_expiry",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "commit_failure",
+      "action": {
+        "operation": "commit_failure",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 503,
+      "response": {
+        "error": "response_failed_after_commit"
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "retry",
+      "action": {
+        "operation": "commit_failure",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 9
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "conflicting_retry",
+      "action": {
+        "operation": "commit_failure",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "OUTRA_ACAO_MESMO_ID"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 10
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "compensate_0",
+      "receipt": 9,
+      "status": 200,
+      "response": {
+        "compensated": true
+      }
+    },
+    {
+      "profile": "weak",
+      "case": "compensate_1",
+      "receipt": 9,
+      "status": 200,
+      "response": {
+        "compensated": true
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "legitimate",
+      "action": {
+        "operation": "legitimate",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "allowed",
+        "receipt": 1
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "resource",
+      "action": {
+        "operation": "resource",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_annex",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_binding",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "destination",
+      "action": {
+        "operation": "destination",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_backup",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_binding",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "body",
+      "action": {
+        "operation": "body",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "CONTEUDO_TROCADO"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_binding",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "replan",
+      "action": {
+        "operation": "replan",
+        "plan": "plan_alpha",
+        "revision": "2",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_binding",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "resource_changed",
+      "action": {
+        "operation": "resource_changed",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "state_changed",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "policy_changed",
+      "action": {
+        "operation": "policy_changed",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "state_changed",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "expired",
+      "action": {
+        "operation": "expired",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_identity_or_expiry",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "wrong_actor",
+      "action": {
+        "operation": "wrong_actor",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "beta",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_identity_or_expiry",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "missing",
+      "action": {
+        "operation": "missing",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "approval_identity_or_expiry",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "commit_failure",
+      "action": {
+        "operation": "commit_failure",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 503,
+      "response": {
+        "error": "response_failed_after_commit"
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "retry",
+      "action": {
+        "operation": "commit_failure",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "AVISO_SINTETICO_ALPHA"
+      },
+      "actor": "alpha",
+      "status": 200,
+      "response": {
+        "allowed": true,
+        "reason": "replayed",
+        "receipt": 2
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "conflicting_retry",
+      "action": {
+        "operation": "commit_failure",
+        "plan": "plan_alpha",
+        "revision": "1",
+        "resource": "alpha_contract",
+        "resource_version": "1",
+        "destination": "portal_alpha",
+        "policy_version": "1",
+        "body": "OUTRA_ACAO_MESMO_ID"
+      },
+      "actor": "alpha",
+      "status": 403,
+      "response": {
+        "allowed": false,
+        "reason": "idempotency_conflict",
+        "receipt": null
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "compensate_0",
+      "receipt": 2,
+      "status": 200,
+      "response": {
+        "compensated": true
+      }
+    },
+    {
+      "profile": "strict",
+      "case": "compensate_1",
+      "receipt": 2,
+      "status": 200,
+      "response": {
+        "compensated": true
+      }
+    }
+  ],
+  "reviewer_is_fixture": true,
+  "fault": "HTTP 503 after committed receipt; not process crash"
+}

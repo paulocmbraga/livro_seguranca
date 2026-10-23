@@ -1,0 +1,278 @@
+[
+  {
+    "case": "card_version",
+    "passed": true,
+    "observed": {
+      "streaming": true,
+      "pushNotifications": true
+    }
+  },
+  {
+    "case": "config_legitimate_weak",
+    "passed": true,
+    "observed": {
+      "task": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+      "url": "http://127.0.0.1:59638/weak"
+    }
+  },
+  {
+    "case": "config_legitimate_strict",
+    "passed": true,
+    "observed": {
+      "task": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+      "url": "http://127.0.0.1:59638/strict"
+    }
+  },
+  {
+    "case": "config_wrong_task_weak",
+    "passed": true,
+    "observed": {
+      "task": "5edd92c7-333f-4ef4-b714-c1436c5d8163",
+      "url": "http://127.0.0.1:59638/weak"
+    }
+  },
+  {
+    "case": "config_wrong_task_strict",
+    "passed": true,
+    "observed": {
+      "task": "5edd92c7-333f-4ef4-b714-c1436c5d8163",
+      "url": "http://127.0.0.1:59638/strict"
+    }
+  },
+  {
+    "case": "config_wrong_context_weak",
+    "passed": true,
+    "observed": {
+      "task": "fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+      "url": "http://127.0.0.1:59638/weak"
+    }
+  },
+  {
+    "case": "config_wrong_context_strict",
+    "passed": true,
+    "observed": {
+      "task": "fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+      "url": "http://127.0.0.1:59638/strict"
+    }
+  },
+  {
+    "case": "config_wrong_tenant_weak",
+    "passed": true,
+    "observed": {
+      "task": "a8d69259-9c11-4134-aaff-d9f04eef9004",
+      "url": "http://127.0.0.1:59638/weak"
+    }
+  },
+  {
+    "case": "config_wrong_tenant_strict",
+    "passed": true,
+    "observed": {
+      "task": "a8d69259-9c11-4134-aaff-d9f04eef9004",
+      "url": "http://127.0.0.1:59638/strict"
+    }
+  },
+  {
+    "case": "config_wrong_artifact_weak",
+    "passed": true,
+    "observed": {
+      "task": "0a82e288-5710-42a2-a88b-e98572463a97",
+      "url": "http://127.0.0.1:59638/weak"
+    }
+  },
+  {
+    "case": "config_wrong_artifact_strict",
+    "passed": true,
+    "observed": {
+      "task": "0a82e288-5710-42a2-a88b-e98572463a97",
+      "url": "http://127.0.0.1:59638/strict"
+    }
+  },
+  {
+    "case": "config_late_weak",
+    "passed": true,
+    "observed": {
+      "task": "766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+      "url": "http://127.0.0.1:59638/weak"
+    }
+  },
+  {
+    "case": "config_late_strict",
+    "passed": true,
+    "observed": {
+      "task": "766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+      "url": "http://127.0.0.1:59638/strict"
+    }
+  },
+  {
+    "case": "config_source_unknown_weak",
+    "passed": true,
+    "observed": {
+      "task": "09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+      "url": "http://127.0.0.1:59638/weak"
+    }
+  },
+  {
+    "case": "config_source_unknown_strict",
+    "passed": true,
+    "observed": {
+      "task": "09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+      "url": "http://127.0.0.1:59638/strict"
+    }
+  },
+  {
+    "case": "wire_beta_created",
+    "passed": true,
+    "observed": {
+      "task": "e960a4bd-e70b-4431-af82-4410ed1867f6",
+      "context": "bfae2a83-204b-41ea-9ee0-93253e6eddcc"
+    }
+  },
+  {
+    "case": "cross_read",
+    "passed": true,
+    "observed": {
+      "status": 404,
+      "body": {
+        "error": {
+          "code": 404,
+          "status": "NOT_FOUND",
+          "message": "Tarefa não disponível para esta identidade",
+          "details": [
+            {
+              "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+              "reason": "TASK_NOT_FOUND",
+              "domain": "a2a-protocol.org",
+              "metadata": {}
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "case": "cross_cancel",
+    "passed": true,
+    "observed": {
+      "status": 404,
+      "body": {
+        "error": {
+          "code": 404,
+          "status": "NOT_FOUND",
+          "message": "Tarefa não disponível para esta identidade",
+          "details": [
+            {
+              "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+              "reason": "TASK_NOT_FOUND",
+              "domain": "a2a-protocol.org",
+              "metadata": {}
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "case": "cross_context",
+    "passed": true,
+    "observed": {
+      "status": 404,
+      "body": {
+        "error": {
+          "code": 404,
+          "status": "NOT_FOUND",
+          "message": "Contexto não disponível para esta identidade",
+          "details": [
+            {
+              "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+              "reason": "TASK_NOT_FOUND",
+              "domain": "a2a-protocol.org",
+              "metadata": {}
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "case": "cancel",
+    "passed": true,
+    "observed": "TASK_STATE_CANCELED"
+  },
+  {
+    "case": "unapproved_callback",
+    "passed": true,
+    "observed": 400
+  },
+  {
+    "case": "sse_three_events",
+    "passed": true,
+    "observed": [
+      {
+        "task": {
+          "id": "1128121a-17de-4dab-977d-7183b7cd01ec",
+          "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+          "status": {
+            "state": "TASK_STATE_WORKING"
+          },
+          "history": [
+            {
+              "messageId": "3925659c62a149939f0ced14dbd3445d",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "artifactUpdate": {
+          "taskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+          "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+          "artifact": {
+            "artifactId": "result-1128121a-17de-4dab-977d-7183b7cd01ec",
+            "name": "contrato",
+            "parts": [
+              {
+                "text": "RESULTADO_SINTETICO_alpha"
+              }
+            ],
+            "metadata": {
+              "tenant": "alpha",
+              "sourceTaskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+              "resource": "alpha_contract"
+            }
+          },
+          "lastChunk": true
+        }
+      },
+      {
+        "statusUpdate": {
+          "taskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+          "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "sse_terminal",
+    "passed": true,
+    "observed": {
+      "statusUpdate": {
+        "taskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+        "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+        "status": {
+          "state": "TASK_STATE_COMPLETED"
+        }
+      }
+    }
+  }
+]

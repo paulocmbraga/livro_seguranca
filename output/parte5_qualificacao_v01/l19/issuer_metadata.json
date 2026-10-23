@@ -1,0 +1,14 @@
+{
+  "issuer": "http://127.0.0.1:59974",
+  "token_endpoint": "http://127.0.0.1:59974/token",
+  "jwks_uri": "http://127.0.0.1:59974/jwks",
+  "grant_types_supported": [
+    "client_credentials"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "scopes_supported": [
+    "contracts:read"
+  ]
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "task": {
+      "id": "90221db7-7551-4111-8201-884b9a6c9ebd",
+      "contextId": "d5d5260f-52db-4657-b08e-57e3d5ba9f2a",
+      "status": {
+        "state": "TASK_STATE_WORKING"
+      },
+      "history": [
+        {
+          "messageId": "fc7e8ea7dbd84c97865ed20ce0bcd002",
+          "role": "ROLE_USER",
+          "parts": [
+            {
+              "text": "esperar"
+            }
+          ],
+          "metadata": {
+            "tenant": "beta"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "artifactUpdate": {
+      "taskId": "90221db7-7551-4111-8201-884b9a6c9ebd",
+      "contextId": "d5d5260f-52db-4657-b08e-57e3d5ba9f2a",
+      "artifact": {
+        "artifactId": "result-90221db7-7551-4111-8201-884b9a6c9ebd",
+        "name": "contrato",
+        "parts": [
+          {
+            "text": "RESULTADO_SINTETICO_alpha"
+          }
+        ],
+        "metadata": {
+          "tenant": "alpha",
+          "sourceTaskId": "90221db7-7551-4111-8201-884b9a6c9ebd",
+          "resource": "alpha_contract"
+        }
+      },
+      "lastChunk": true
+    }
+  },
+  {
+    "statusUpdate": {
+      "taskId": "90221db7-7551-4111-8201-884b9a6c9ebd",
+      "contextId": "d5d5260f-52db-4657-b08e-57e3d5ba9f2a",
+      "status": {
+        "state": "TASK_STATE_COMPLETED"
+      }
+    }
+  }
+]

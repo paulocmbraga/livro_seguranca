@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "lab": "L17",
+      "seconds": 4.007472899975255,
+      "sampled_peak_tree_rss_mib": 87.16015625,
+      "samples": 37,
+      "returncode": 0
+    },
+    {
+      "lab": "L18",
+      "seconds": 9.048817300004885,
+      "sampled_peak_tree_rss_mib": 94.04296875,
+      "samples": 84,
+      "returncode": 0
+    },
+    {
+      "lab": "L19",
+      "seconds": 5.2864310999866575,
+      "sampled_peak_tree_rss_mib": 166.31640625,
+      "samples": 49,
+      "returncode": 0
+    },
+    {
+      "lab": "L20",
+      "seconds": 6.898268999997526,
+      "sampled_peak_tree_rss_mib": 94.69140625,
+      "samples": 64,
+      "returncode": 0
+    }
+  ],
+  "sample_interval_seconds": 0.1,
+  "sequential_same_host": true,
+  "limits": "Soma RSS dos processos próprios vivos; pode contar páginas compartilhadas mais de uma vez e perder picos. Inclui imports e encerramento. Não inclui instalação/download nem RAM total do host. Sem API paga ou inferência LLM; instalação e download não incluídos."
+}

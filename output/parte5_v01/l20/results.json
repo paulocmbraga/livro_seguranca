@@ -1,0 +1,821 @@
+{
+  "lab": "L20",
+  "checks": [
+    {
+      "case": "card_version",
+      "passed": true,
+      "observed": {
+        "streaming": true,
+        "pushNotifications": true
+      }
+    },
+    {
+      "case": "config_legitimate_weak",
+      "passed": true,
+      "observed": {
+        "task": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+        "url": "http://127.0.0.1:59638/weak"
+      }
+    },
+    {
+      "case": "config_legitimate_strict",
+      "passed": true,
+      "observed": {
+        "task": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+        "url": "http://127.0.0.1:59638/strict"
+      }
+    },
+    {
+      "case": "config_wrong_task_weak",
+      "passed": true,
+      "observed": {
+        "task": "5edd92c7-333f-4ef4-b714-c1436c5d8163",
+        "url": "http://127.0.0.1:59638/weak"
+      }
+    },
+    {
+      "case": "config_wrong_task_strict",
+      "passed": true,
+      "observed": {
+        "task": "5edd92c7-333f-4ef4-b714-c1436c5d8163",
+        "url": "http://127.0.0.1:59638/strict"
+      }
+    },
+    {
+      "case": "config_wrong_context_weak",
+      "passed": true,
+      "observed": {
+        "task": "fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+        "url": "http://127.0.0.1:59638/weak"
+      }
+    },
+    {
+      "case": "config_wrong_context_strict",
+      "passed": true,
+      "observed": {
+        "task": "fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+        "url": "http://127.0.0.1:59638/strict"
+      }
+    },
+    {
+      "case": "config_wrong_tenant_weak",
+      "passed": true,
+      "observed": {
+        "task": "a8d69259-9c11-4134-aaff-d9f04eef9004",
+        "url": "http://127.0.0.1:59638/weak"
+      }
+    },
+    {
+      "case": "config_wrong_tenant_strict",
+      "passed": true,
+      "observed": {
+        "task": "a8d69259-9c11-4134-aaff-d9f04eef9004",
+        "url": "http://127.0.0.1:59638/strict"
+      }
+    },
+    {
+      "case": "config_wrong_artifact_weak",
+      "passed": true,
+      "observed": {
+        "task": "0a82e288-5710-42a2-a88b-e98572463a97",
+        "url": "http://127.0.0.1:59638/weak"
+      }
+    },
+    {
+      "case": "config_wrong_artifact_strict",
+      "passed": true,
+      "observed": {
+        "task": "0a82e288-5710-42a2-a88b-e98572463a97",
+        "url": "http://127.0.0.1:59638/strict"
+      }
+    },
+    {
+      "case": "config_late_weak",
+      "passed": true,
+      "observed": {
+        "task": "766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+        "url": "http://127.0.0.1:59638/weak"
+      }
+    },
+    {
+      "case": "config_late_strict",
+      "passed": true,
+      "observed": {
+        "task": "766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+        "url": "http://127.0.0.1:59638/strict"
+      }
+    },
+    {
+      "case": "config_source_unknown_weak",
+      "passed": true,
+      "observed": {
+        "task": "09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+        "url": "http://127.0.0.1:59638/weak"
+      }
+    },
+    {
+      "case": "config_source_unknown_strict",
+      "passed": true,
+      "observed": {
+        "task": "09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+        "url": "http://127.0.0.1:59638/strict"
+      }
+    },
+    {
+      "case": "wire_beta_created",
+      "passed": true,
+      "observed": {
+        "task": "e960a4bd-e70b-4431-af82-4410ed1867f6",
+        "context": "bfae2a83-204b-41ea-9ee0-93253e6eddcc"
+      }
+    },
+    {
+      "case": "cross_read",
+      "passed": true,
+      "observed": {
+        "status": 404,
+        "body": {
+          "error": {
+            "code": 404,
+            "status": "NOT_FOUND",
+            "message": "Tarefa não disponível para esta identidade",
+            "details": [
+              {
+                "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+                "reason": "TASK_NOT_FOUND",
+                "domain": "a2a-protocol.org",
+                "metadata": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "cross_cancel",
+      "passed": true,
+      "observed": {
+        "status": 404,
+        "body": {
+          "error": {
+            "code": 404,
+            "status": "NOT_FOUND",
+            "message": "Tarefa não disponível para esta identidade",
+            "details": [
+              {
+                "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+                "reason": "TASK_NOT_FOUND",
+                "domain": "a2a-protocol.org",
+                "metadata": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "cross_context",
+      "passed": true,
+      "observed": {
+        "status": 404,
+        "body": {
+          "error": {
+            "code": 404,
+            "status": "NOT_FOUND",
+            "message": "Contexto não disponível para esta identidade",
+            "details": [
+              {
+                "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+                "reason": "TASK_NOT_FOUND",
+                "domain": "a2a-protocol.org",
+                "metadata": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "cancel",
+      "passed": true,
+      "observed": "TASK_STATE_CANCELED"
+    },
+    {
+      "case": "unapproved_callback",
+      "passed": true,
+      "observed": 400
+    },
+    {
+      "case": "sse_three_events",
+      "passed": true,
+      "observed": [
+        {
+          "task": {
+            "id": "1128121a-17de-4dab-977d-7183b7cd01ec",
+            "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+            "status": {
+              "state": "TASK_STATE_WORKING"
+            },
+            "history": [
+              {
+                "messageId": "3925659c62a149939f0ced14dbd3445d",
+                "role": "ROLE_USER",
+                "parts": [
+                  {
+                    "text": "esperar"
+                  }
+                ],
+                "metadata": {
+                  "tenant": "beta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "artifactUpdate": {
+            "taskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+            "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+            "artifact": {
+              "artifactId": "result-1128121a-17de-4dab-977d-7183b7cd01ec",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+                "resource": "alpha_contract"
+              }
+            },
+            "lastChunk": true
+          }
+        },
+        {
+          "statusUpdate": {
+            "taskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+            "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+            "status": {
+              "state": "TASK_STATE_COMPLETED"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "sse_terminal",
+      "passed": true,
+      "observed": {
+        "statusUpdate": {
+          "taskId": "1128121a-17de-4dab-977d-7183b7cd01ec",
+          "contextId": "6289cf33-cfc9-4afd-ae1d-2ae2c5e0220d",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          }
+        }
+      }
+    }
+  ],
+  "callbacks": [
+    {
+      "case": "legitimate",
+      "expected_task": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+      "payload": {
+        "task": {
+          "id": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+          "contextId": "0f9ffb9b-b31f-4d20-821f-13beda66bb2c",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-b02b7080-7390-49b6-ab16-d796e7de92d6",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "a8fb0ec846e14f288899ab50039a0a56",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        }
+      ]
+    },
+    {
+      "case": "duplicate",
+      "expected_task": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+      "payload": {
+        "task": {
+          "id": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+          "contextId": "0f9ffb9b-b31f-4d20-821f-13beda66bb2c",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-b02b7080-7390-49b6-ab16-d796e7de92d6",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "a8fb0ec846e14f288899ab50039a0a56",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 200,
+          "body": {
+            "reason": "duplicate"
+          }
+        }
+      ]
+    },
+    {
+      "case": "conflict",
+      "expected_task": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+      "payload": {
+        "task": {
+          "id": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+          "contextId": "0f9ffb9b-b31f-4d20-821f-13beda66bb2c",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-b02b7080-7390-49b6-ab16-d796e7de92d6",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "CONTEUDO_TROCADO"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "b02b7080-7390-49b6-ab16-d796e7de92d6",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "a8fb0ec846e14f288899ab50039a0a56",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 409,
+          "body": {
+            "reason": "conflict"
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_task",
+      "expected_task": "5edd92c7-333f-4ef4-b714-c1436c5d8163",
+      "payload": {
+        "task": {
+          "id": "e960a4bd-e70b-4431-af82-4410ed1867f6",
+          "contextId": "bfae2a83-204b-41ea-9ee0-93253e6eddcc",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-e960a4bd-e70b-4431-af82-4410ed1867f6",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_beta"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta",
+                "sourceTaskId": "e960a4bd-e70b-4431-af82-4410ed1867f6",
+                "resource": "beta_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "6b40e179a6c6454098b16e00e95bc3ad",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 403,
+          "body": {
+            "reason": "binding"
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_context",
+      "expected_task": "fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+      "payload": {
+        "task": {
+          "id": "fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+          "contextId": "bfae2a83-204b-41ea-9ee0-93253e6eddcc",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "fd2f352b-1469-4d9a-bcff-6ef6834e1a08",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "02a432c893184accb7c159dfce3abc6d",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 403,
+          "body": {
+            "reason": "binding"
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_tenant",
+      "expected_task": "a8d69259-9c11-4134-aaff-d9f04eef9004",
+      "payload": {
+        "task": {
+          "id": "a8d69259-9c11-4134-aaff-d9f04eef9004",
+          "contextId": "f49008eb-37c9-480f-96fe-c5ad1025588d",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-a8d69259-9c11-4134-aaff-d9f04eef9004",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta",
+                "sourceTaskId": "a8d69259-9c11-4134-aaff-d9f04eef9004",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "08b394ced34d4da284552844ea465c33",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 403,
+          "body": {
+            "reason": "binding"
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_artifact",
+      "expected_task": "0a82e288-5710-42a2-a88b-e98572463a97",
+      "payload": {
+        "task": {
+          "id": "0a82e288-5710-42a2-a88b-e98572463a97",
+          "contextId": "c652ec0e-cbcc-400a-86ce-de33023831b3",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-0a82e288-5710-42a2-a88b-e98572463a97",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "e960a4bd-e70b-4431-af82-4410ed1867f6",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "bf19e8090f9140399fa074f99163c6e5",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 403,
+          "body": {
+            "reason": "binding"
+          }
+        }
+      ]
+    },
+    {
+      "case": "late",
+      "expected_task": "766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+      "payload": {
+        "task": {
+          "id": "766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+          "contextId": "d1b815c2-547d-4348-8f70-0a2d43d83480",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "766a5fc0-13d9-4c53-9ef0-3b7821d877e9",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "4d2cc2cf25bf4137b85d0cd5e5c2c714",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 200,
+          "body": {
+            "reason": "consumed"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 409,
+          "body": {
+            "reason": "terminal_local_state"
+          }
+        }
+      ]
+    },
+    {
+      "case": "source_unknown",
+      "expected_task": "09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+      "payload": {
+        "task": {
+          "id": "09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+          "contextId": "9a3f070b-e865-4272-83f0-c912387eafe4",
+          "status": {
+            "state": "TASK_STATE_COMPLETED"
+          },
+          "artifacts": [
+            {
+              "artifactId": "result-09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+              "name": "contrato",
+              "parts": [
+                {
+                  "text": "RESULTADO_SINTETICO_alpha"
+                }
+              ],
+              "metadata": {
+                "tenant": "alpha",
+                "sourceTaskId": "09bd4c21-e058-4e96-9dcb-46e0e7db3a9b",
+                "resource": "alpha_contract"
+              }
+            }
+          ],
+          "history": [
+            {
+              "messageId": "ee7e0db2ae924e3a892c8b3218de30cd",
+              "role": "ROLE_USER",
+              "parts": [
+                {
+                  "text": "esperar"
+                }
+              ],
+              "metadata": {
+                "tenant": "beta"
+              }
+            }
+          ]
+        }
+      },
+      "outcomes": [
+        {
+          "profile": "weak",
+          "status": 401,
+          "body": {
+            "reason": "source"
+          }
+        },
+        {
+          "profile": "strict",
+          "status": 401,
+          "body": {
+            "reason": "source"
+          }
+        }
+      ]
+    }
+  ],
+  "sdk": "1.2.3",
+  "protocol": "1.0",
+  "transport": "HTTP+JSON and SSE",
+  "independent_client": "httpx; same author",
+  "limits": [
+    "no LLM",
+    "loopback without TLS",
+    "persisted audit, no process restart qualification",
+    "task-specific local callback credentials, no external federation"
+  ]
+}

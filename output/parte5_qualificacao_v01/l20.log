@@ -1,0 +1,5 @@
+Request error: Code=N/A, Message='Tarefa não disponível para esta identidade'
+Request error: Code=N/A, Message='Tarefa não disponível para esta identidade'
+Request error: Code=N/A, Message='Contexto não disponível para esta identidade'
+Request error: Code=N/A, Message='Callback fora dos destinos locais aprovados'
+{"lab": "L20", "protocol_checks": 23, "tasks": 9, "sse_events": 3, "callbacks": 18, "consumptions": {"weak": 8, "strict": 1}, "passed": true}

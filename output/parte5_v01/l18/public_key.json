@@ -1,0 +1,8 @@
+{
+  "kty": "RSA",
+  "key_ops": [
+    "verify"
+  ],
+  "n": "qDKHLCouHh4xk2Lbti-u1idv7BYV9wA0yFXRPeNLFNpezBMwSHgaPnqtNeT14P-Y_aDrgDh9Fap6RvYVlNfx-F-9sxC8jW8VuIBqbVAN0FWHomJDmniJQnLbAs2LhNJ-g6J9AUAtWvrvgriZDFRKLHZ8NqBhtIAdueHq7FTTjmDn2gN_n5gfWXy6wciDrEWubbTskCw-9VZMTThsPkGAbfIEKbtUZES0ChukT3STRklggohGSsVQjFB4zmY7Xa5xTblDGFW3WaIKg1O5ig4SFrszyDou0P2pUb0JJlAUc6p01VhnylOVSqHltc2f4n_Hc_AheRRkRFf1DflP12tyAQ",
+  "e": "AQAB"
+}

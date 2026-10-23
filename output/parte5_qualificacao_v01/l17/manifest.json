@@ -1,0 +1,30 @@
+{
+  "version": "ParteV-1.0",
+  "utc": "2026-10-23T04:38:21.930048+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/m1/__init__.py": "41ffa1d2183c736a883194357bb91d11640b02e03d741697688eb069cc87a8ca",
+    "laboratorios/m1/auth.py": "9cb1bbe1511150054b935768f6e3b1a33841c6a68678973bd28fcddc1d4ecd47",
+    "laboratorios/m1/common.py": "a42398ca6f917c3f0951d0260c42225400c176d8d659bed6d9f81ec9b2d4a5c8",
+    "laboratorios/m1/inference.py": "11b1188bf2d5192e535bfe8a7ec4e56ae350b4ded3ce0d68dea58cd560eb8f5b",
+    "laboratorios/m1/protocols.py": "4c5279beb0ea3f6ddce8b08bdc340307767d9612fa2a601bcbf727d5887c444d",
+    "laboratorios/m1/verify.py": "38c55d2600ab8e41e52f31bcbd11880580ac920e397fc644a9bd2a2e57ee246e",
+    "laboratorios/parte5/__init__.py": "0e798335f9827cde1e9019bb58d22ad216557cbd63daa4316494fdc9957e9e13",
+    "laboratorios/parte5/__main__.py": "5c30cbb9f36b55fce6a656e393305516c76ccfa58cf68ecf0c19bca20a1bf43f",
+    "laboratorios/parte5/a2a_lab.py": "f9905f51887f20284a0ebb633dc24d7dee60e43a6fd5e0bf70d909ddc08d1ad3",
+    "laboratorios/parte5/actions.py": "4b8605fe7ee41b21641aed6e74b162b9d22d6e4643cf679d8bc2d82dc59fe3af",
+    "laboratorios/parte5/common.py": "5862b73ea86c5bdfe7ece07dc4282e651a1e2ac2f3e78035f301cd9e9628b43a",
+    "laboratorios/parte5/delegation.py": "23cb3c2fcb6f6d39edd75881d8048bafe5a6381603d4c2ac05acd2f14df192ef",
+    "laboratorios/parte5/mcp_lab.py": "05c07b963bda89f43b1de7e311312e4442e8556afa263eba4b75bc82bd05b5e7",
+    "laboratorios/parte5/stdio_worker.py": "fcfbe9c8252568a75fb0f33139907e9a01b62dd8f261eb790c9db4c938db6d05",
+    "materiais/parte5/escopo.json": "e416b93967a217b2d88da071ca198ffc409ef6219381271301959218b6cbc1bf",
+    "materiais/parte5/referencias.lock.json": "c7fd3c6f249e4fd53991c2f458e3259015e221d0ee6010193e55cba9e2923e82",
+    "materiais/parte5/requirements.lock.txt": "aa1a02de29c256efc7ea8b85b911a563834f4f9862b6c51646951fb34a54f8bd"
+  },
+  "artifacts_sha256": {
+    "results.json": "2e39ead33b4396aa183425a26962e8b1af9157381f753c6e9d7fc414939fe134",
+    "strict.sqlite": "74bf2bb2d2afa1aeeab1541239c5d55655004054ead3dbd386460cdf3599bc3a",
+    "weak.sqlite": "6acce2afa9f201f715c7580f8b465c93a6f80f33b867df613c607ae172601cba"
+  }
+}

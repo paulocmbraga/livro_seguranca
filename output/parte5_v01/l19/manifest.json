@@ -1,0 +1,37 @@
+{
+  "version": "ParteV-1.0",
+  "utc": "2026-10-23T04:37:49.750440+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/m1/__init__.py": "41ffa1d2183c736a883194357bb91d11640b02e03d741697688eb069cc87a8ca",
+    "laboratorios/m1/auth.py": "9cb1bbe1511150054b935768f6e3b1a33841c6a68678973bd28fcddc1d4ecd47",
+    "laboratorios/m1/common.py": "a42398ca6f917c3f0951d0260c42225400c176d8d659bed6d9f81ec9b2d4a5c8",
+    "laboratorios/m1/inference.py": "11b1188bf2d5192e535bfe8a7ec4e56ae350b4ded3ce0d68dea58cd560eb8f5b",
+    "laboratorios/m1/protocols.py": "4c5279beb0ea3f6ddce8b08bdc340307767d9612fa2a601bcbf727d5887c444d",
+    "laboratorios/m1/verify.py": "38c55d2600ab8e41e52f31bcbd11880580ac920e397fc644a9bd2a2e57ee246e",
+    "laboratorios/parte5/__init__.py": "0e798335f9827cde1e9019bb58d22ad216557cbd63daa4316494fdc9957e9e13",
+    "laboratorios/parte5/__main__.py": "5c30cbb9f36b55fce6a656e393305516c76ccfa58cf68ecf0c19bca20a1bf43f",
+    "laboratorios/parte5/a2a_lab.py": "f9905f51887f20284a0ebb633dc24d7dee60e43a6fd5e0bf70d909ddc08d1ad3",
+    "laboratorios/parte5/actions.py": "4b8605fe7ee41b21641aed6e74b162b9d22d6e4643cf679d8bc2d82dc59fe3af",
+    "laboratorios/parte5/common.py": "5862b73ea86c5bdfe7ece07dc4282e651a1e2ac2f3e78035f301cd9e9628b43a",
+    "laboratorios/parte5/delegation.py": "23cb3c2fcb6f6d39edd75881d8048bafe5a6381603d4c2ac05acd2f14df192ef",
+    "laboratorios/parte5/mcp_lab.py": "05c07b963bda89f43b1de7e311312e4442e8556afa263eba4b75bc82bd05b5e7",
+    "laboratorios/parte5/stdio_worker.py": "fcfbe9c8252568a75fb0f33139907e9a01b62dd8f261eb790c9db4c938db6d05",
+    "materiais/parte5/escopo.json": "e416b93967a217b2d88da071ca198ffc409ef6219381271301959218b6cbc1bf",
+    "materiais/parte5/referencias.lock.json": "c7fd3c6f249e4fd53991c2f458e3259015e221d0ee6010193e55cba9e2923e82",
+    "materiais/parte5/requirements.lock.txt": "aa1a02de29c256efc7ea8b85b911a563834f4f9862b6c51646951fb34a54f8bd"
+  },
+  "artifacts_sha256": {
+    "checks_partial.json": "a776fba9638daff25962318b70e7eb9f042acbc25f9e9c885282163014408b79",
+    "issuer_events.json": "3eee015fe434c56b890e03e9fde5d53408eb49b518a4c56c6e6fffc9bb3049f5",
+    "issuer_metadata.json": "fa34b682dbdb104c92c715a8b4ab33e06b8eadfaf24ba531090bafb2871f0507",
+    "jwks.json": "962e0afce9f556c4f0c8e7e513c630242ebc212a9b28cfe82ea467acfe4bcb3d",
+    "results.json": "087d84277452c8d764428a1ca5aaf4c2ee664628b1e751bf9aac0d0a60276828",
+    "strict.sqlite": "797f15237a9ac537cea022b907d512e26522600f32bcc6c0df6da9fe4559aa33",
+    "strict_catalogs.json": "78a8b675d711a1e208613f5c249e387ee066d0b8ab28a85613cbf604f9e3e3ae",
+    "weak.sqlite": "0f66a8af3dc341f71937e7c5bcf650e553dd9f7a899620dc05a7cd86b8a5cb8a",
+    "weak_catalogs.json": "78a8b675d711a1e208613f5c249e387ee066d0b8ab28a85613cbf604f9e3e3ae",
+    "wire.json": "16cdfc56d282a22465d59f382c19dabd390a0c35d8a567d5c823fe8c9a98a8e3"
+  }
+}
