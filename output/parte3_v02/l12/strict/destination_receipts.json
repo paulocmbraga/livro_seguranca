@@ -1,0 +1,10 @@
+[
+  {
+    "case": "strict_s2",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "portal_alpha",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  }
+]

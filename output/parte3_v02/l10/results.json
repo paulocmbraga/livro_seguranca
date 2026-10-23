@@ -1,0 +1,197 @@
+{
+  "lab": "L10",
+  "versions": {
+    "faiss-cpu": "1.15.1",
+    "numpy": "2.5.4"
+  },
+  "sqlite": "3.42.0",
+  "dimensions": 128,
+  "embedding": "hashed_term_frequency_l2",
+  "elapsed_seconds": 0.329,
+  "cases": [
+    {
+      "case": "fts_weak",
+      "backend": "fts",
+      "status": "delivered",
+      "ids": [
+        2
+      ],
+      "context": "reembolso MARCADOR_BETA"
+    },
+    {
+      "case": "fts_postfilter",
+      "backend": "fts",
+      "status": "delivered",
+      "ids": [],
+      "context": ""
+    },
+    {
+      "case": "fts_strict",
+      "backend": "fts",
+      "status": "delivered",
+      "ids": [
+        1
+      ],
+      "context": "reembolso prazo comprovante procedimento MARCADOR_ALPHA"
+    },
+    {
+      "case": "fts_cache_cross",
+      "backend": "fts",
+      "status": "delivered",
+      "ids": [
+        2
+      ],
+      "context": "reembolso MARCADOR_BETA"
+    },
+    {
+      "case": "fts_revoked_delivery",
+      "backend": "fts",
+      "status": "stale_or_denied",
+      "ids": [],
+      "context": ""
+    },
+    {
+      "case": "fts_stale_weak",
+      "backend": "fts",
+      "status": "delivered",
+      "ids": [
+        1
+      ],
+      "context": "reembolso prazo comprovante procedimento MARCADOR_ALPHA"
+    },
+    {
+      "case": "fts_revoked_search",
+      "backend": "fts",
+      "status": "delivered",
+      "ids": [],
+      "context": ""
+    },
+    {
+      "case": "fts_purge",
+      "backend": "fts",
+      "before": {
+        "indexed": [
+          1,
+          2
+        ],
+        "cache_entries": 5
+      },
+      "after": {
+        "indexed": [
+          2
+        ],
+        "cache_entries": 0,
+        "faiss_ntotal_after_reload": 1,
+        "fts_old_hits": 0
+      }
+    },
+    {
+      "case": "fts_poisoned_authorized",
+      "backend": "fts",
+      "status": "delivered",
+      "ids": [
+        3
+      ],
+      "context": "reembolso prazo comprovante procedimento reembolso prazo comprovante procedimento INSTRUCAO_HOSTIL"
+    },
+    {
+      "case": "fts_ingest_cross",
+      "backend": "fts",
+      "status": "denied"
+    },
+    {
+      "case": "faiss_weak",
+      "backend": "faiss",
+      "status": "delivered",
+      "ids": [
+        2
+      ],
+      "context": "reembolso MARCADOR_BETA"
+    },
+    {
+      "case": "faiss_postfilter",
+      "backend": "faiss",
+      "status": "delivered",
+      "ids": [],
+      "context": ""
+    },
+    {
+      "case": "faiss_strict",
+      "backend": "faiss",
+      "status": "delivered",
+      "ids": [
+        1
+      ],
+      "context": "reembolso prazo comprovante procedimento MARCADOR_ALPHA"
+    },
+    {
+      "case": "faiss_cache_cross",
+      "backend": "faiss",
+      "status": "delivered",
+      "ids": [
+        2
+      ],
+      "context": "reembolso MARCADOR_BETA"
+    },
+    {
+      "case": "faiss_revoked_delivery",
+      "backend": "faiss",
+      "status": "stale_or_denied",
+      "ids": [],
+      "context": ""
+    },
+    {
+      "case": "faiss_stale_weak",
+      "backend": "faiss",
+      "status": "delivered",
+      "ids": [
+        1
+      ],
+      "context": "reembolso prazo comprovante procedimento MARCADOR_ALPHA"
+    },
+    {
+      "case": "faiss_revoked_search",
+      "backend": "faiss",
+      "status": "delivered",
+      "ids": [],
+      "context": ""
+    },
+    {
+      "case": "faiss_purge",
+      "backend": "faiss",
+      "before": {
+        "indexed": [
+          1,
+          2
+        ],
+        "cache_entries": 5
+      },
+      "after": {
+        "indexed": [
+          2
+        ],
+        "cache_entries": 0,
+        "faiss_ntotal_after_reload": 1,
+        "fts_old_hits": 0
+      }
+    },
+    {
+      "case": "faiss_poisoned_authorized",
+      "backend": "faiss",
+      "status": "delivered",
+      "ids": [
+        3
+      ],
+      "context": "reembolso prazo comprovante procedimento reembolso prazo comprovante procedimento INSTRUCAO_HOSTIL"
+    },
+    {
+      "case": "faiss_ingest_cross",
+      "backend": "faiss",
+      "status": "denied"
+    }
+  ],
+  "limits": [
+    "Exact exhaustive vector index; not neural embeddings or ANN.",
+    "Deletion covers active origin/index/cache, not audit/backups or prior contexts."
+  ]
+}

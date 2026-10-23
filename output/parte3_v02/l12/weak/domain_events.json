@@ -1,0 +1,26 @@
+[
+  {
+    "case": "weak_s2",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "weak_fact",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  }
+]

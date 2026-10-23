@@ -1,0 +1,32 @@
+{
+  "version": "ParteIII-1.0",
+  "created_utc": "2026-10-23T02:08:05.472368+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/parte3/__init__.py": "6b3bb72a48fe08d909b694f03f3751d991ac4844edc01c560def9c03d7668012",
+    "laboratorios/parte3/__main__.py": "35b6b057f22dbe1ff9600663c2b03bde02d77989aecebc7c1c61405a46aadcb5",
+    "laboratorios/parte3/common.py": "d3c1689c3058c2ea2cb577f3431ec6c4f74b514f3ed77dc7d450933a28c05a1a",
+    "laboratorios/parte3/memory.py": "dd97c2e1a98dea0168a69f45f3011f8c2f7192229a048f1bf071bc7927df123b",
+    "laboratorios/parte3/rag.py": "29eeb60e9cf036753cae663bade9a55850901eebf2b925cbec3441b7127ccfa4",
+    "laboratorios/parte3/retrieval.py": "63c22a4deebae34f610a75bbd256329c19c5a839cd688ebde55d81e8d76bd8d8",
+    "laboratorios/parte3/runtime.py": "494d34c149d48d579fc0780e34f1c6d1113da6592f99818baacbe866364f2e4a",
+    "laboratorios/parte3/transforms.py": "5e9f6452975d97c3d96b2c5aa129eff0bf28d06d3fd1f3d99d4dbfaa25ef745a",
+    "materiais/parte3/escopo.json": "424351cecb4c4bae344c1f517d9d110fe7094c20c9fb36de281fe5665c4facdd",
+    "materiais/parte3/ocr/Dockerfile": "1d03b5271e4b722fae8222cee94d9a7266a7faa5f9a70c8ce95ed0c357dcc38a",
+    "materiais/parte3/ocr.lock.json": "6a8bfe6bffbda36ed56c16e70fb38694e7edaba1936ff7e57c7897170c8718d3",
+    "materiais/parte3/rag_reserva.json": "c81f19fac9ea67f5152b0fde6837870d4075c04b19224182d644567cc3713503",
+    "materiais/parte3/referencias.lock.json": "de138a309f1b5b78d99359ac91d0159a2091fa2bc40a3fc235a8a5b2f681197d",
+    "materiais/parte3/requirements.lock.txt": "bebc425cf50f0251beeb96901ed5151f49dbf82f250255127ba94a0c4b62fc7f",
+    "materiais/parte3/transformacoes.json": "e9a290209590f0e08be3c7aeed292d02d119f403965c7ad4b1a56be1bf97309f"
+  },
+  "artifacts_sha256": {
+    "faiss/chunks.json": "a664a3cd0a7428753a3fa0b54ca0d5a1e002327ff1bd73cd1af60e7ab04d757b",
+    "faiss/origin.sqlite": "519f110d5239a656b0a1d8a1d00d0cbed15dddf238c5f3f8b743261fdead0892",
+    "faiss/vectors.faiss": "4fcb76a5c0af4d895c770f0807e9ae96a424a685c433b93f73192d0ff88977f9",
+    "fts/chunks.json": "a664a3cd0a7428753a3fa0b54ca0d5a1e002327ff1bd73cd1af60e7ab04d757b",
+    "fts/origin.sqlite": "3865aa0921b81e3a54f398f310ad252e41c101c0390de38fd8d88f276a2ff862",
+    "fts/vectors.faiss": "4fcb76a5c0af4d895c770f0807e9ae96a424a685c433b93f73192d0ff88977f9",
+    "results.json": "9ff258295bb0485624970ac3e080634aeb2cdc54416ca3f09e4610f5f51cf8fb"
+  }
+}

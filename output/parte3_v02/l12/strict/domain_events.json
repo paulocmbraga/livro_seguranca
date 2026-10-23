@@ -1,0 +1,25 @@
+[
+  {
+    "case": "strict_s2",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "strict_fact",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  }
+]

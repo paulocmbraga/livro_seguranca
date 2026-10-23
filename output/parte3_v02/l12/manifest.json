@@ -1,0 +1,36 @@
+{
+  "version": "ParteIII-1.0",
+  "created_utc": "2026-10-23T02:08:08.269382+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/parte3/__init__.py": "6b3bb72a48fe08d909b694f03f3751d991ac4844edc01c560def9c03d7668012",
+    "laboratorios/parte3/__main__.py": "35b6b057f22dbe1ff9600663c2b03bde02d77989aecebc7c1c61405a46aadcb5",
+    "laboratorios/parte3/common.py": "d3c1689c3058c2ea2cb577f3431ec6c4f74b514f3ed77dc7d450933a28c05a1a",
+    "laboratorios/parte3/memory.py": "dd97c2e1a98dea0168a69f45f3011f8c2f7192229a048f1bf071bc7927df123b",
+    "laboratorios/parte3/rag.py": "29eeb60e9cf036753cae663bade9a55850901eebf2b925cbec3441b7127ccfa4",
+    "laboratorios/parte3/retrieval.py": "63c22a4deebae34f610a75bbd256329c19c5a839cd688ebde55d81e8d76bd8d8",
+    "laboratorios/parte3/runtime.py": "494d34c149d48d579fc0780e34f1c6d1113da6592f99818baacbe866364f2e4a",
+    "laboratorios/parte3/transforms.py": "5e9f6452975d97c3d96b2c5aa129eff0bf28d06d3fd1f3d99d4dbfaa25ef745a",
+    "materiais/parte3/escopo.json": "424351cecb4c4bae344c1f517d9d110fe7094c20c9fb36de281fe5665c4facdd",
+    "materiais/parte3/ocr/Dockerfile": "1d03b5271e4b722fae8222cee94d9a7266a7faa5f9a70c8ce95ed0c357dcc38a",
+    "materiais/parte3/ocr.lock.json": "6a8bfe6bffbda36ed56c16e70fb38694e7edaba1936ff7e57c7897170c8718d3",
+    "materiais/parte3/rag_reserva.json": "c81f19fac9ea67f5152b0fde6837870d4075c04b19224182d644567cc3713503",
+    "materiais/parte3/referencias.lock.json": "de138a309f1b5b78d99359ac91d0159a2091fa2bc40a3fc235a8a5b2f681197d",
+    "materiais/parte3/requirements.lock.txt": "bebc425cf50f0251beeb96901ed5151f49dbf82f250255127ba94a0c4b62fc7f",
+    "materiais/parte3/transformacoes.json": "e9a290209590f0e08be3c7aeed292d02d119f403965c7ad4b1a56be1bf97309f"
+  },
+  "artifacts_sha256": {
+    "results.json": "c93a228d8af4ab4062da0e10dfb56fb1ac8fb371fbffc56b9dbbc0f69da1845e",
+    "strict/destination_receipts.json": "24101f081b8f24f7c593d668e7f0ec43296e15b683d0adfa19f6d88b99a25c90",
+    "strict/domain_events.json": "57584ecb8d8c77711f1a1580e6cf7ff029372430cd92e1576fb42d58617fef39",
+    "strict/effects/destination.sqlite": "bbf3d6f6ee3c0806b56922533a6d0344a3cc649eeaffcf18852d3ef2166736c5",
+    "strict/effects/domain.sqlite": "43a976c7510859aa9ffff4bef0a21d69b8735420bd3142a90fd88f13e7c79c33",
+    "strict/memory.sqlite": "76ba6d325ba5efc723cc02cf79b1dd556dfa03f8da368a796deabc0aa79146fc",
+    "weak/destination_receipts.json": "6d66325b478448be40f1aad40f72d31762fc85c51ab82ed9cfd18aabacf714e4",
+    "weak/domain_events.json": "86986c0d36ef7491547c29544b417ca44bcaaf1b2f757d98f48fc1dc65b4e8fd",
+    "weak/effects/destination.sqlite": "d7c318526a0acc8dac0fc66baad25a37ac2324a51137f6d9913339ee9e8b8301",
+    "weak/effects/domain.sqlite": "fdaa2f6ef6cb883a9b6d0f9edb45224eb1d305a9488aa377854489e5fcce4026",
+    "weak/memory.sqlite": "0305fa5f91b4c230741e5c2e1a832075cbdd9c2162f292145739479561773e01"
+  }
+}

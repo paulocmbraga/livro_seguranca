@@ -1,0 +1,40 @@
+{
+  "consulted_local_date": "2026-10-22",
+  "sources": [
+    {
+      "name": "OWASP RAG Security",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/RAG_Security_Cheat_Sheet.html",
+      "scope": "documento vivo"
+    },
+    {
+      "name": "OWASP Prompt Injection",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+      "scope": "documento vivo"
+    },
+    {
+      "name": "FAISS Getting started",
+      "url": "https://github.com/facebookresearch/faiss/wiki/Getting-started",
+      "scope": "API IndexFlat/IP; runtime 1.15.1"
+    },
+    {
+      "name": "SQLite FTS5",
+      "url": "https://www.sqlite.org/fts5.html",
+      "scope": "backend nativo; versao na captura"
+    },
+    {
+      "name": "SQLite VACUUM",
+      "url": "https://www.sqlite.org/lang_vacuum.html",
+      "scope": "limites da copia e arquivo ativo"
+    },
+    {
+      "name": "Tesseract CLI",
+      "url": "https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html",
+      "scope": "runtime 5.3.0; idioma eng"
+    },
+    {
+      "name": "Qwen2.5 0.5B GGUF",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "scope": "pesos M1 congelados; Q4/Q8"
+    }
+  ]
+}

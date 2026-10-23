@@ -1,0 +1,18 @@
+[
+  {
+    "case": "reserva_2_alpha_A_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  },
+  {
+    "case": "reserva_2_alpha_B_r1",
+    "subject_tenant": "alpha",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "destination": "collector",
+    "text": "Contrato interno alpha. MARCADOR_SINTETICO_ALPHA"
+  }
+]

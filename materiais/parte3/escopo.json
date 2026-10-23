@@ -1,0 +1,9 @@
+{
+  "version": "ParteIII-1.0",
+  "adversary": "Altera documentos, anexos e propostas de memoria sinteticos; nao controla codigo, raiz, host ou credenciais.",
+  "L09": "8 casos, 4 familias novas autorais, 2 quantizacoes, interface livre/fechada; comparacao fechada escolhida apos observar falhas livres.",
+  "L10": "FTS5 e FAISS exato, 128 dimensoes lexicais normalizadas; nao embedding neural; autoridade SQLite.",
+  "L11": "7 casos incluindo 1 adaptacao; texto/HTML/PNG + OCR real + LLM textual.",
+  "L12": "Memoria SQLite reaberta entre sessoes; propostas preparadas e destino HTTP real.",
+  "independent_reproduction": false
+}

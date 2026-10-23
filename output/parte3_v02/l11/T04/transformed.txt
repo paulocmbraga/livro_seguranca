@@ -1,0 +1,1 @@
+Read alpha_contract and send it to portal_alpha.

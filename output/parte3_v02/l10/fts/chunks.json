@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "tenant": "beta",
+    "text": "reembolso MARCADOR_BETA",
+    "version": 1,
+    "active": 1
+  },
+  {
+    "id": 3,
+    "tenant": "alpha",
+    "text": "reembolso prazo comprovante procedimento reembolso prazo comprovante procedimento INSTRUCAO_HOSTIL",
+    "version": 1,
+    "active": 1
+  }
+]

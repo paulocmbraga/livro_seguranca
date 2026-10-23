@@ -1,0 +1,14 @@
+{
+  "image_id": "sha256:b728aa55ba63435789e428834c50029f89d06b95ca7f122ff8927ffe5de20770",
+  "tesseract": "5.3.0",
+  "language": "eng",
+  "apt_packages": {
+    "tesseract-ocr": "5.3.0-2",
+    "tesseract-ocr-eng": "1:4.1.0-2"
+  },
+  "artifact_sha256": {
+    "/usr/bin/tesseract": "1e8c7ce7f27d2d1c902fb648efed443483f2a8fc7b60c48a5d3b61d647a2649e",
+    "/usr/share/tesseract-ocr/5/tessdata/eng.traineddata": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+  },
+  "limit": "Imagem reconstruida pode ter ID diferente; binario e modelo devem coincidir. Dependencias transitivas do apt nao sao snapshot imutavel."
+}

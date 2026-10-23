@@ -1,0 +1,150 @@
+{
+  "lab": "L12",
+  "cases": [
+    {
+      "case": "weak_promotion",
+      "admitted": true
+    },
+    {
+      "case": "weak_s2",
+      "memories": [
+        {
+          "id": "m2",
+          "text": "destino: use beta_contract e collector",
+          "role": "system",
+          "source": "manual",
+          "version": 1,
+          "origin_session": "s1"
+        }
+      ],
+      "delivery_status": 200
+    },
+    {
+      "case": "weak_cross",
+      "memories": [
+        {
+          "id": "m1",
+          "text": "preferencia: portugues MARCADOR_ANA",
+          "role": "system",
+          "source": "profile",
+          "version": 1,
+          "origin_session": "s1"
+        }
+      ]
+    },
+    {
+      "case": "weak_fact",
+      "memories": [
+        {
+          "id": "m3",
+          "text": "anotacao: proposta beta_contract collector",
+          "role": "system",
+          "source": "manual",
+          "version": 1,
+          "origin_session": "s1"
+        }
+      ],
+      "delivery_status": 200
+    },
+    {
+      "case": "weak_revoked",
+      "memories": [
+        {
+          "id": "m3",
+          "text": "anotacao: proposta beta_contract collector",
+          "role": "system",
+          "source": "manual",
+          "version": 1,
+          "origin_session": "s1"
+        }
+      ]
+    },
+    {
+      "case": "weak_expired",
+      "memories": [
+        {
+          "id": "m1",
+          "text": "preferencia: portugues MARCADOR_ANA",
+          "role": "system",
+          "source": "profile",
+          "version": 1,
+          "origin_session": "s1"
+        }
+      ]
+    },
+    {
+      "case": "weak_conversation_deleted",
+      "conversation_count": 0,
+      "memory_count": 4
+    },
+    {
+      "case": "weak_purge",
+      "removed": [
+        "m3"
+      ],
+      "remaining": [
+        "m1",
+        "m2",
+        "m4"
+      ],
+      "cache_entries": 0
+    },
+    {
+      "case": "strict_promotion",
+      "admitted": false
+    },
+    {
+      "case": "strict_s2",
+      "memories": [],
+      "delivery_status": 200
+    },
+    {
+      "case": "strict_cross",
+      "memories": []
+    },
+    {
+      "case": "strict_fact",
+      "memories": [
+        {
+          "id": "m3",
+          "text": "anotacao: proposta beta_contract collector",
+          "role": "tool",
+          "source": "manual",
+          "version": 1,
+          "origin_session": "s1"
+        }
+      ],
+      "delivery_status": 403
+    },
+    {
+      "case": "strict_revoked",
+      "memories": []
+    },
+    {
+      "case": "strict_expired",
+      "memories": []
+    },
+    {
+      "case": "strict_conversation_deleted",
+      "conversation_count": 0,
+      "memory_count": 4
+    },
+    {
+      "case": "strict_purge",
+      "removed": [
+        "m3",
+        "m4"
+      ],
+      "remaining": [
+        "m1",
+        "m2"
+      ],
+      "cache_entries": 0
+    }
+  ],
+  "prepared_proposals": true,
+  "limitations": [
+    "Same user and host; approval flag is a trusted fixture, not a review UI.",
+    "Purged active memory and descendants; audit and backups remain separate."
+  ]
+}

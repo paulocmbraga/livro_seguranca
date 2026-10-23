@@ -1,30 +1,22 @@
 # Engenharia de Segurança para Sistemas de IA
 
-Material dos alunos. Autor: **Paulo Cesar Braga**.
+Materiais dos alunos. Autor: **Paulo Cesar Braga**.
 
-Esta entrega acrescenta a **Parte II, capítulos 5 a 8**, preservando a Parte I, o piloto L09 e a preparação L00/M1. O projeto editorial tem 36 capítulos; estes materiais não indicam que todo o livro esteja concluído.
+Esta entrega integra o piloto à **Parte III, capítulos 9 a 12**, preservando todos os materiais anteriores. O projeto tem 36 capítulos; os capítulos 1–12 estão redigidos, e o restante permanece em desenvolvimento.
 
-Leia o [guia da Parte II](PARTE_II.md), o [guia da Parte I](PARTE_I.md) e o [guia L00/L09/M1](COMECE_AQUI.md).
+Comece pelo [guia da Parte III](PARTE_III.md). Os guias [Parte II](PARTE_II.md), [Parte I](PARTE_I.md) e [L00/M1](COMECE_AQUI.md) continuam disponíveis.
 
-| Laboratório novo | Integração e evidência |
+| Laboratório | Evidência da entrega |
 |---|---|
-| L05 | RS256/PyJWT no recurso HTTP: 16 chamadas, 5 leituras; audiência, validade, rotação e revogação |
-| L06 | Matriz e cache HTTP: 66 chamadas, 42 leituras; perfis vulneráveis e completo |
-| L07 | Ed25519 e processo emissor: 10 cenários, 2 carregamentos e 8 recusas anteriores ao uso |
-| L08 | Docker Linux: 14 sondas diretas, ensaios de OOM e prazo, recibo no destino e limpeza |
+| L09 ampliado | 8 casos novos; 32 gerações em Q4/Q8 e interfaces livre/enumerada; 128 trajetórias reais e 32 preparadas |
+| L10 | SQLite FTS5 e FAISS reais; 20 observações, 10 exposições reconciliadas; cache, revogação e limpeza |
+| L11 | Texto/HTML/PNG, Tesseract e LLM textual; 7 gerações, uma adaptação, 13 recibos em 14 decisões |
+| L12 | SQLite persistente entre sessões; 16 etapas, 3 recibos HTTP; promoção, escopo, expiração e derivados |
 
-Os resultados incluem falhas deliberadas nas variantes vulneráveis. Não são taxas gerais de segurança. As ações são preparadas e os dados são sintéticos; não há inferência de LLM na Parte II. L05–L07 usam Python 3.12 com dependências fixadas. L08 exige Docker Linux e uma imagem base fixada por digest.
+A suíte nova tem 34 testes. O pacote cumulativo é validado com as 153 regressões anteriores, totalizando 187 testes. Os testes não repetem automaticamente inferência ou OCR: as campanhas reais são executadas separadamente, com respostas e versões preservadas em `output/parte3_v02`.
 
-A suíte nova tem **43 testes**; a regressão preserva 49 testes L09, 15 M1 e 46 da Parte I, totalizando **153 testes locais** no pacote exportado. O ensaio real do L08 é executado separadamente; seus oito testes de evidência não repetem o kernel. As capturas finais novas ficam em `output/parte2_v01`.
+Os resultados incluem falhas deliberadas e erros de integração. O modelo pequeno propõe recursos inexistentes na interface livre; esses erros não são bloqueios defensivos. A comparação enumerada foi escolhida após observar tais falhas e é exploratória sobre casos conhecidos. Q4/Q8 são quantizações da mesma família. O L11 usa OCR seguido de modelo textual, sem visão multimodal nativa. L10 usa vetores lexicais normalizados, sem embeddings neurais. L12 usa propostas preparadas.
 
-## Materiais históricos
+Aqui ficam apenas código, testes, guias, materiais sintéticos, locks e capturas selecionadas. Livro, PDF, EPUB, capas, fontes, arquivos KDP, executáveis e pesos permanecem fora deste repositório. Os 148 arquivos históricos além do README e manifesto geral permanecem byte a byte; esses dois arquivos versionados conservam sua história no Git.
 
-L01–L04 conservam seus contratos e as capturas `output/parte1_v02`. O piloto L09 e M1 conservam versões, inferência e ensaios de protocolos documentados no guia anterior. Não atribua esses resultados à execução nova. Os arquivos existentes permanecem byte a byte, exceto este README e o manifesto geral, cujas versões ficam no histórico Git.
-
-## Escopo público e limites
-
-Aqui ficam código, testes, guias, materiais sintéticos, locks e capturas selecionadas. Manuscritos, PDFs editoriais, EPUBs, capas, fontes, arquivos KDP, executáveis e pesos de modelos não fazem parte do pacote.
-
-L05 não é um provedor OAuth/OIDC; L06 não qualifica consistência distribuída; L07 não implementa TUF/SLSA nem isola o emissor contra o usuário do host; L08 não testa escape de kernel/hipervisor ou daemon rootless. A reprodução é local e autoral. Revisão técnica independente continua pendente para a consolidação editorial.
-
-Use diretórios novos para suas execuções. `verify` confere captura; `run` produz nova execução. Não recalcule hashes de capturas antigas para esconder mudanças. O manifesto geral identifica a composição desta entrega, sem substituir uma raiz externa de autenticidade.
+Use diretórios novos ao executar. `run` produz uma captura; `verify` confere evidência existente. Não recalcule hashes de arquivos históricos para ocultar alterações. A validação é local e autoral; a reprodução independente continua pendente.

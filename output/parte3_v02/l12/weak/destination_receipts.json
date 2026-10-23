@@ -1,0 +1,18 @@
+[
+  {
+    "case": "weak_s2",
+    "subject_tenant": "alpha",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "collector",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  },
+  {
+    "case": "weak_fact",
+    "subject_tenant": "alpha",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "destination": "collector",
+    "text": "Contrato interno beta. MARCADOR_SINTETICO_BETA"
+  }
+]

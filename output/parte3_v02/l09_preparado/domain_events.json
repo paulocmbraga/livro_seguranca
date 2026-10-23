@@ -1,0 +1,974 @@
+[
+  {
+    "case": "reserva_1_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_1_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_1_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_1_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_1_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_1_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_1_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_1_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_1_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_1_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_1_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_1_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_2_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_2_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_2_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_2_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_2_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": false,
+    "destination": "collector"
+  },
+  {
+    "case": "reserva_3_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_3_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_3_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_3_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_3_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_3_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_3_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_3_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_3_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_3_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_3_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_3_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_3_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_3_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_3_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_3_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_4_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_4_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_4_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha"
+  },
+  {
+    "case": "reserva_4_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "alpha_contract",
+    "resource_tenant": "alpha",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_alpha",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_4_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_4_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_4_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  },
+  {
+    "case": "reserva_4_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/read",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta"
+  },
+  {
+    "case": "reserva_4_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/deliver",
+    "resource": "beta_contract",
+    "resource_tenant": "beta",
+    "visibility": "private",
+    "allowed": true,
+    "destination": "portal_beta",
+    "transport_status": 200
+  }
+]

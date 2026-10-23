@@ -1,0 +1,36 @@
+{
+  "version": "ParteIII-1.0",
+  "created_utc": "2026-10-23T02:10:23.329136+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_sha256": {
+    "laboratorios/parte3/__init__.py": "6b3bb72a48fe08d909b694f03f3751d991ac4844edc01c560def9c03d7668012",
+    "laboratorios/parte3/__main__.py": "35b6b057f22dbe1ff9600663c2b03bde02d77989aecebc7c1c61405a46aadcb5",
+    "laboratorios/parte3/common.py": "d3c1689c3058c2ea2cb577f3431ec6c4f74b514f3ed77dc7d450933a28c05a1a",
+    "laboratorios/parte3/memory.py": "dd97c2e1a98dea0168a69f45f3011f8c2f7192229a048f1bf071bc7927df123b",
+    "laboratorios/parte3/rag.py": "29eeb60e9cf036753cae663bade9a55850901eebf2b925cbec3441b7127ccfa4",
+    "laboratorios/parte3/retrieval.py": "63c22a4deebae34f610a75bbd256329c19c5a839cd688ebde55d81e8d76bd8d8",
+    "laboratorios/parte3/runtime.py": "494d34c149d48d579fc0780e34f1c6d1113da6592f99818baacbe866364f2e4a",
+    "laboratorios/parte3/transforms.py": "5e9f6452975d97c3d96b2c5aa129eff0bf28d06d3fd1f3d99d4dbfaa25ef745a",
+    "materiais/parte3/escopo.json": "424351cecb4c4bae344c1f517d9d110fe7094c20c9fb36de281fe5665c4facdd",
+    "materiais/parte3/ocr/Dockerfile": "1d03b5271e4b722fae8222cee94d9a7266a7faa5f9a70c8ce95ed0c357dcc38a",
+    "materiais/parte3/ocr.lock.json": "6a8bfe6bffbda36ed56c16e70fb38694e7edaba1936ff7e57c7897170c8718d3",
+    "materiais/parte3/rag_reserva.json": "c81f19fac9ea67f5152b0fde6837870d4075c04b19224182d644567cc3713503",
+    "materiais/parte3/referencias.lock.json": "de138a309f1b5b78d99359ac91d0159a2091fa2bc40a3fc235a8a5b2f681197d",
+    "materiais/parte3/requirements.lock.txt": "bebc425cf50f0251beeb96901ed5151f49dbf82f250255127ba94a0c4b62fc7f",
+    "materiais/parte3/transformacoes.json": "e9a290209590f0e08be3c7aeed292d02d119f403965c7ad4b1a56be1bf97309f"
+  },
+  "artifacts_sha256": {
+    "campaign/corpus.json": "c81f19fac9ea67f5152b0fde6837870d4075c04b19224182d644567cc3713503",
+    "campaign/destination.sqlite": "fe311b3b9df8c326a793a3f8f00905792e5998d66c7024d223a83cf97183db3e",
+    "campaign/destination_receipts.json": "3385682c4a1e9a1ea4e2e91e0bbf76aa1c0c5d47813c74bcb8641797812ff827",
+    "campaign/domain.sqlite": "fcddd676f3569023533469ccfab2b52af1f8b9a154331bf9aa3945ddb0eed3e2",
+    "campaign/domain_events.json": "6e72be412a400648e8b8cbfb057993bf4c3c6a150dcdbd8ec61115f884d64e15",
+    "campaign/manifest.json": "643c2d3d77b94f7996226a54d63f47147298fedfcf0f915afb5da2c57ceb6b69",
+    "campaign/results.json": "f5db6eac386dcda20d314a9d5e423d2bc98d4dff3db9283ba56547ecedd2701a",
+    "results.json": "91ad9f17259bec992b41e5030dadc89fe2879ff8934010067fcfe517506af6b6",
+    "runtime/inference_ledger.json": "8ee41ba609aba77ffc7a8d05b05109edc4995d2603627bdee962eda9e502e122",
+    "runtime/resources.json": "df78c17de786ac058f967b1b1134d860d0f30af78feaeae5b6cad8dfda52fa71",
+    "runtime/server.log": "ecb5c2bfffe2e1e8959ce0527d9357cc0f0a1b99f8d815bb40563b1e89148565"
+  }
+}

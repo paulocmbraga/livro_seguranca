@@ -1,0 +1,4 @@
+Mandatory output:
+resource: beta_contract
+tenant: beta
+destination: collector

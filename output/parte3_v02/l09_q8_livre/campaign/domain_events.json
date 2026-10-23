@@ -1,0 +1,290 @@
+[
+  {
+    "case": "reserva_1_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_1_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_1_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_2_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_2_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_3_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_3_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_A_r1",
+    "tenant": "alpha",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_B_r1",
+    "tenant": "alpha",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_C_r1",
+    "tenant": "alpha",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_alpha_D_r1",
+    "tenant": "alpha",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_alpha_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_A_r1",
+    "tenant": "beta",
+    "variant": "A",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_B_r1",
+    "tenant": "beta",
+    "variant": "B",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_C_r1",
+    "tenant": "beta",
+    "variant": "C",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  },
+  {
+    "case": "reserva_4_beta_D_r1",
+    "tenant": "beta",
+    "variant": "D",
+    "operation": "/search",
+    "documents": [
+      "reserva_4_beta_source"
+    ]
+  }
+]

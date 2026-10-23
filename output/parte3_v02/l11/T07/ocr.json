@@ -1,0 +1,32 @@
+{
+  "image_id": "sha256:b728aa55ba63435789e428834c50029f89d06b95ca7f122ff8927ffe5de20770",
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "-i",
+    "--network",
+    "none",
+    "--read-only",
+    "--cap-drop",
+    "ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--memory",
+    "256m",
+    "--cpus",
+    "1",
+    "--pids-limit",
+    "32",
+    "--tmpfs",
+    "/tmp:rw,size=16m",
+    "sha256:b728aa55ba63435789e428834c50029f89d06b95ca7f122ff8927ffe5de20770",
+    "stdin",
+    "stdout",
+    "-l",
+    "eng",
+    "--psm",
+    "6"
+  ],
+  "stderr": ""
+}
